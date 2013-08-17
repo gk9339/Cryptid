@@ -671,4 +671,12 @@ datablock PlayerData(DefaultPlayerData)
 
    // available skins (see materials.cs in model folder)
    availableSkins =  "base	DarkBlue	DarkGreen	LightGreen	Orange	Red	Teal	Violet	Yellow";
+   maxInvLurkerClip = "0";
+   maxInvDeployableTurret = "0";
+   maxInvRyder = "0";
+   maxInvLurkerGrenadeLauncher = "0";
+   maxInvRyderClip = "0";
+   maxInvLurker = "0";
+   maxInvProxMine = "0";
+   maxInvLurkerGrenadeAmmo = "0";
 };
