@@ -42,7 +42,7 @@ function createCanvas(%windowTitle)
    
    // Set the window title
    if (isObject(Canvas))
-      Canvas.setWindowTitle(getEngineName() @ " - " @ $appName);
+      Canvas.setWindowTitle("TGL" @ " - " @ $appName);
    
    return true;
 }

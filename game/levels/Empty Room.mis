@@ -412,6 +412,22 @@ new SimGroup(MissionGroup) {
       canSave = "1";
       canSaveDynamicFields = "1";
    };
+   new TSStatic() {
+      shapeName = "art/shapes/dummyfrontdoor.dae";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      allowPlayerStep = "1";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "-5.66364 37.8076 7.89923";
+      rotation = "1 0 0 0";
+      scale = "0.765008 0.765008 0.947608";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
 };
 //--- OBJECT WRITE END ---
 
