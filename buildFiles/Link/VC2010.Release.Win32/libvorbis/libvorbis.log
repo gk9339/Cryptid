@@ -1,0 +1,56 @@
+﻿Build started 18/08/2013 6:45:01 PM.
+     1>Project "C:\Users\kottlerg\Desktop\Cryptid\Torque3D\My Projects\Cryptid\buildFiles\VisualStudio 2010\projects\libvorbis.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I../../../../../Engine/lib/libvorbis/lib /I../../../../../Engine/lib/libvorbis/include /I../../../../../Engine/lib/libogg/include /Zi /nologo /W3 /WX- /Ox /Ob2 /Oy- /D UNICODE /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /GF /Gm- /MT /GS- /Gy /fp:precise /Zc:wchar_t- /Zc:forScope /GR /Fo"../../Link/VC2010.Release.Win32/libvorbis/" /Fd"../../../../../Engine/lib//compiled/Release.Win32/libvorbis.pdb" /Gd /TC /wd4244 /wd4305 /wd4530 /wd4355 /analyze- /errorReport:prompt /MP ..\..\..\..\..\Engine\lib\libvorbis\lib\analysis.c ..\..\..\..\..\Engine\lib\libvorbis\lib\bitrate.c ..\..\..\..\..\Engine\lib\libvorbis\lib\block.c ..\..\..\..\..\Engine\lib\libvorbis\lib\codebook.c ..\..\..\..\..\Engine\lib\libvorbis\lib\envelope.c ..\..\..\..\..\Engine\lib\libvorbis\lib\floor0.c ..\..\..\..\..\Engine\lib\libvorbis\lib\floor1.c ..\..\..\..\..\Engine\lib\libvorbis\lib\info.c ..\..\..\..\..\Engine\lib\libvorbis\lib\lookup.c ..\..\..\..\..\Engine\lib\libvorbis\lib\lpc.c ..\..\..\..\..\Engine\lib\libvorbis\lib\lsp.c ..\..\..\..\..\Engine\lib\libvorbis\lib\mapping0.c ..\..\..\..\..\Engine\lib\libvorbis\lib\mdct.c ..\..\..\..\..\Engine\lib\libvorbis\lib\psy.c ..\..\..\..\..\Engine\lib\libvorbis\lib\registry.c ..\..\..\..\..\Engine\lib\libvorbis\lib\res0.c ..\..\..\..\..\Engine\lib\libvorbis\lib\sharedbook.c ..\..\..\..\..\Engine\lib\libvorbis\lib\smallft.c ..\..\..\..\..\Engine\lib\libvorbis\lib\synthesis.c ..\..\..\..\..\Engine\lib\libvorbis\lib\vorbisenc.c ..\..\..\..\..\Engine\lib\libvorbis\lib\vorbisfile.c ..\..\..\..\..\Engine\lib\libvorbis\lib\window.c
+         analysis.c
+         bitrate.c
+         block.c
+         codebook.c
+     1>..\..\..\..\..\Engine\lib\libvorbis\lib\codebook.c(453): warning C4101: 'j' : unreferenced local variable
+         envelope.c
+         floor0.c
+         floor1.c
+         info.c
+         lookup.c
+         lpc.c
+         lsp.c
+         mapping0.c
+         mdct.c
+         psy.c
+         registry.c
+         res0.c
+         sharedbook.c
+         smallft.c
+         synthesis.c
+         vorbisenc.c
+         vorbisfile.c
+         window.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"../../../../../Engine/lib//compiled/Release.Win32//libvorbis.lib" /NOLOGO ../../Link/VC2010.Release.Win32/libvorbis/analysis.obj
+         ../../Link/VC2010.Release.Win32/libvorbis/bitrate.obj
+         ../../Link/VC2010.Release.Win32/libvorbis/block.obj
+         ../../Link/VC2010.Release.Win32/libvorbis/codebook.obj
+         ../../Link/VC2010.Release.Win32/libvorbis/envelope.obj
+         ../../Link/VC2010.Release.Win32/libvorbis/floor0.obj
+         ../../Link/VC2010.Release.Win32/libvorbis/floor1.obj
+         ../../Link/VC2010.Release.Win32/libvorbis/info.obj
+         ../../Link/VC2010.Release.Win32/libvorbis/lookup.obj
+         ../../Link/VC2010.Release.Win32/libvorbis/lpc.obj
+         ../../Link/VC2010.Release.Win32/libvorbis/lsp.obj
+         ../../Link/VC2010.Release.Win32/libvorbis/mapping0.obj
+         ../../Link/VC2010.Release.Win32/libvorbis/mdct.obj
+         ../../Link/VC2010.Release.Win32/libvorbis/psy.obj
+         ../../Link/VC2010.Release.Win32/libvorbis/registry.obj
+         ../../Link/VC2010.Release.Win32/libvorbis/res0.obj
+         ../../Link/VC2010.Release.Win32/libvorbis/sharedbook.obj
+         ../../Link/VC2010.Release.Win32/libvorbis/smallft.obj
+         ../../Link/VC2010.Release.Win32/libvorbis/synthesis.obj
+         ../../Link/VC2010.Release.Win32/libvorbis/vorbisenc.obj
+         ../../Link/VC2010.Release.Win32/libvorbis/vorbisfile.obj
+         ../../Link/VC2010.Release.Win32/libvorbis/window.obj
+         libvorbis.vcxproj -> C:\Users\kottlerg\Desktop\Cryptid\Torque3D\My Projects\Cryptid\buildFiles\VisualStudio 2010\projects\../../../../../Engine/lib//compiled/Release.Win32/libvorbis.lib
+     1>Done Building Project "C:\Users\kottlerg\Desktop\Cryptid\Torque3D\My Projects\Cryptid\buildFiles\VisualStudio 2010\projects\libvorbis.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.24

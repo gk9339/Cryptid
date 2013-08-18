@@ -1,0 +1,53 @@
+﻿Build started 18/08/2013 6:44:51 PM.
+     1>Project "C:\Users\kottlerg\Desktop\Cryptid\Torque3D\My Projects\Cryptid\buildFiles\VisualStudio 2010\projects\zlib.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I../../../../../Engine/lib/zlib /Zi /nologo /W3 /WX- /Ox /Ob2 /Oy- /D UNICODE /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /GF /Gm- /MT /GS- /Gy /fp:precise /Zc:wchar_t- /Zc:forScope /GR /Fo"../../Link/VC2010.Release.Win32/zlib/" /Fd"../../../../../Engine/lib//compiled/Release.Win32/zlib.pdb" /Gd /TC /wd4244 /wd4305 /wd4530 /wd4355 /analyze- /errorReport:prompt /MP ..\..\..\..\..\Engine\lib\zlib\adler32.c ..\..\..\..\..\Engine\lib\zlib\compress.c ..\..\..\..\..\Engine\lib\zlib\crc32.c ..\..\..\..\..\Engine\lib\zlib\deflate.c ..\..\..\..\..\Engine\lib\zlib\gzclose.c ..\..\..\..\..\Engine\lib\zlib\gzlib.c ..\..\..\..\..\Engine\lib\zlib\gzread.c ..\..\..\..\..\Engine\lib\zlib\gzwrite.c ..\..\..\..\..\Engine\lib\zlib\infback.c ..\..\..\..\..\Engine\lib\zlib\inffast.c ..\..\..\..\..\Engine\lib\zlib\inflate.c ..\..\..\..\..\Engine\lib\zlib\inftrees.c ..\..\..\..\..\Engine\lib\zlib\trees.c ..\..\..\..\..\Engine\lib\zlib\uncompr.c ..\..\..\..\..\Engine\lib\zlib\zutil.c
+         adler32.c
+         compress.c
+         crc32.c
+         deflate.c
+         gzclose.c
+         gzlib.c
+         gzread.c
+         gzwrite.c
+     1>..\..\..\..\..\Engine\lib\zlib\gzread.c(30): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _read. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\io.h(316) : see declaration of 'read'
+     1>..\..\..\..\..\Engine\lib\zlib\gzlib.c(239): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _open. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\io.h(315) : see declaration of 'open'
+     1>..\..\..\..\..\Engine\lib\zlib\gzread.c(586): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\io.h(305) : see declaration of 'close'
+         infback.c
+         inffast.c
+         inflate.c
+         inftrees.c
+         trees.c
+         uncompr.c
+     1>..\..\..\..\..\Engine\lib\zlib\gzwrite.c(84): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _write. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\io.h(321) : see declaration of 'write'
+     1>..\..\..\..\..\Engine\lib\zlib\gzwrite.c(102): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _write. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\io.h(321) : see declaration of 'write'
+         zutil.c
+     1>..\..\..\..\..\Engine\lib\zlib\gzwrite.c(561): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\io.h(305) : see declaration of 'close'
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"../../../../../Engine/lib//compiled/Release.Win32//zlib.lib" /NOLOGO ../../Link/VC2010.Release.Win32/zlib/adler32.obj
+         ../../Link/VC2010.Release.Win32/zlib/compress.obj
+         ../../Link/VC2010.Release.Win32/zlib/crc32.obj
+         ../../Link/VC2010.Release.Win32/zlib/deflate.obj
+         ../../Link/VC2010.Release.Win32/zlib/gzclose.obj
+         ../../Link/VC2010.Release.Win32/zlib/gzlib.obj
+         ../../Link/VC2010.Release.Win32/zlib/gzread.obj
+         ../../Link/VC2010.Release.Win32/zlib/gzwrite.obj
+         ../../Link/VC2010.Release.Win32/zlib/infback.obj
+         ../../Link/VC2010.Release.Win32/zlib/inffast.obj
+         ../../Link/VC2010.Release.Win32/zlib/inflate.obj
+         ../../Link/VC2010.Release.Win32/zlib/inftrees.obj
+         ../../Link/VC2010.Release.Win32/zlib/trees.obj
+         ../../Link/VC2010.Release.Win32/zlib/uncompr.obj
+         ../../Link/VC2010.Release.Win32/zlib/zutil.obj
+         zlib.vcxproj -> C:\Users\kottlerg\Desktop\Cryptid\Torque3D\My Projects\Cryptid\buildFiles\VisualStudio 2010\projects\../../../../../Engine/lib//compiled/Release.Win32/zlib.lib
+     1>Done Building Project "C:\Users\kottlerg\Desktop\Cryptid\Torque3D\My Projects\Cryptid\buildFiles\VisualStudio 2010\projects\zlib.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.70

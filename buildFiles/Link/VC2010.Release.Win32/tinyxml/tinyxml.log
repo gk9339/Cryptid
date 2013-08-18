@@ -1,0 +1,19 @@
+﻿Build started 18/08/2013 6:44:22 PM.
+     1>Project "C:\Users\kottlerg\Desktop\Cryptid\Torque3D\My Projects\Cryptid\buildFiles\VisualStudio 2010\projects\tinyxml.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I../../../../../Engine/lib/tinyxml /Zi /nologo /W3 /WX- /Ox /Ob2 /Oy- /D UNICODE /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /GF /Gm- /MT /GS- /Gy /fp:precise /Zc:wchar_t- /Zc:forScope /GR /Fo"../../Link/VC2010.Release.Win32/tinyxml/" /Fd"../../../../../Engine/lib//compiled/Release.Win32/tinyxml.pdb" /Gd /TP /wd4244 /wd4305 /wd4530 /wd4355 /analyze- /errorReport:prompt /MP ..\..\..\..\..\Engine\lib\tinyxml\tinystr.cpp ..\..\..\..\..\Engine\lib\tinyxml\tinyxml.cpp ..\..\..\..\..\Engine\lib\tinyxml\tinyxmlerror.cpp ..\..\..\..\..\Engine\lib\tinyxml\tinyxmlparser.cpp
+         tinystr.cpp
+         tinyxml.cpp
+         tinyxmlerror.cpp
+         tinyxmlparser.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"../../../../../Engine/lib//compiled/Release.Win32//tinyxml.lib" /NOLOGO ../../Link/VC2010.Release.Win32/tinyxml/tinystr.obj
+         ../../Link/VC2010.Release.Win32/tinyxml/tinyxml.obj
+         ../../Link/VC2010.Release.Win32/tinyxml/tinyxmlerror.obj
+         ../../Link/VC2010.Release.Win32/tinyxml/tinyxmlparser.obj
+         tinyxml.vcxproj -> C:\Users\kottlerg\Desktop\Cryptid\Torque3D\My Projects\Cryptid\buildFiles\VisualStudio 2010\projects\../../../../../Engine/lib//compiled/Release.Win32/tinyxml.lib
+     1>Done Building Project "C:\Users\kottlerg\Desktop\Cryptid\Torque3D\My Projects\Cryptid\buildFiles\VisualStudio 2010\projects\tinyxml.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.89

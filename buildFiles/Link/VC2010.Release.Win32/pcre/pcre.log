@@ -1,0 +1,58 @@
+﻿Build started 18/08/2013 6:44:22 PM.
+     1>Project "C:\Users\kottlerg\Desktop\Cryptid\Torque3D\My Projects\Cryptid\buildFiles\VisualStudio 2010\projects\pcre.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I../../../../../Engine/lib/pcre /Zi /nologo /W3 /WX- /Ox /Ob2 /Oy- /D PCRE_STATIC /D HAVE_CONFIG_H /D UNICODE /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /GF /Gm- /MT /GS- /Gy /fp:precise /Zc:wchar_t- /Zc:forScope /GR /Fo"../../Link/VC2010.Release.Win32/pcre/" /Fd"../../../../../Engine/lib//compiled/Release.Win32/pcre.pdb" /Gd /TP /wd4244 /wd4305 /wd4530 /wd4355 /analyze- /errorReport:prompt /MP ..\..\..\..\..\Engine\lib\pcre\pcrecpp.cc ..\..\..\..\..\Engine\lib\pcre\pcre_scanner.cc ..\..\..\..\..\Engine\lib\pcre\pcre_stringpiece.cc
+         pcrecpp.cc
+         pcre_scanner.cc
+         pcre_stringpiece.cc
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I../../../../../Engine/lib/pcre /Zi /nologo /W3 /WX- /Ox /Ob2 /Oy- /D PCRE_STATIC /D HAVE_CONFIG_H /D UNICODE /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /GF /Gm- /MT /GS- /Gy /fp:precise /Zc:wchar_t- /Zc:forScope /GR /Fo"../../Link/VC2010.Release.Win32/pcre/" /Fd"../../../../../Engine/lib//compiled/Release.Win32/pcre.pdb" /Gd /TC /wd4244 /wd4305 /wd4530 /wd4355 /analyze- /errorReport:prompt /MP ..\..\..\..\..\Engine\lib\pcre\pcre_chartables.c ..\..\..\..\..\Engine\lib\pcre\pcre_compile.c ..\..\..\..\..\Engine\lib\pcre\pcre_config.c ..\..\..\..\..\Engine\lib\pcre\pcre_dfa_exec.c ..\..\..\..\..\Engine\lib\pcre\pcre_exec.c ..\..\..\..\..\Engine\lib\pcre\pcre_fullinfo.c ..\..\..\..\..\Engine\lib\pcre\pcre_get.c ..\..\..\..\..\Engine\lib\pcre\pcre_globals.c ..\..\..\..\..\Engine\lib\pcre\pcre_info.c ..\..\..\..\..\Engine\lib\pcre\pcre_maketables.c ..\..\..\..\..\Engine\lib\pcre\pcre_newline.c ..\..\..\..\..\Engine\lib\pcre\pcre_ord2utf8.c ..\..\..\..\..\Engine\lib\pcre\pcre_refcount.c ..\..\..\..\..\Engine\lib\pcre\pcre_study.c ..\..\..\..\..\Engine\lib\pcre\pcre_tables.c ..\..\..\..\..\Engine\lib\pcre\pcre_try_flipped.c ..\..\..\..\..\Engine\lib\pcre\pcre_ucp_searchfuncs.c ..\..\..\..\..\Engine\lib\pcre\pcre_valid_utf8.c ..\..\..\..\..\Engine\lib\pcre\pcre_version.c ..\..\..\..\..\Engine\lib\pcre\pcre_xclass.c
+         pcre_chartables.c
+         pcre_compile.c
+         pcre_config.c
+         pcre_dfa_exec.c
+         pcre_exec.c
+         pcre_fullinfo.c
+         pcre_get.c
+         pcre_globals.c
+         pcre_info.c
+         pcre_maketables.c
+         pcre_newline.c
+         pcre_ord2utf8.c
+         pcre_refcount.c
+         pcre_study.c
+         pcre_tables.c
+         pcre_try_flipped.c
+         pcre_ucp_searchfuncs.c
+         pcre_valid_utf8.c
+         pcre_version.c
+         pcre_xclass.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"../../../../../Engine/lib//compiled/Release.Win32//pcre.lib" /NOLOGO ../../Link/VC2010.Release.Win32/pcre/pcrecpp.obj
+         ../../Link/VC2010.Release.Win32/pcre/pcre_chartables.obj
+         ../../Link/VC2010.Release.Win32/pcre/pcre_compile.obj
+         ../../Link/VC2010.Release.Win32/pcre/pcre_config.obj
+         ../../Link/VC2010.Release.Win32/pcre/pcre_dfa_exec.obj
+         ../../Link/VC2010.Release.Win32/pcre/pcre_exec.obj
+         ../../Link/VC2010.Release.Win32/pcre/pcre_fullinfo.obj
+         ../../Link/VC2010.Release.Win32/pcre/pcre_get.obj
+         ../../Link/VC2010.Release.Win32/pcre/pcre_globals.obj
+         ../../Link/VC2010.Release.Win32/pcre/pcre_info.obj
+         ../../Link/VC2010.Release.Win32/pcre/pcre_maketables.obj
+         ../../Link/VC2010.Release.Win32/pcre/pcre_newline.obj
+         ../../Link/VC2010.Release.Win32/pcre/pcre_ord2utf8.obj
+         ../../Link/VC2010.Release.Win32/pcre/pcre_refcount.obj
+         ../../Link/VC2010.Release.Win32/pcre/pcre_scanner.obj
+         ../../Link/VC2010.Release.Win32/pcre/pcre_stringpiece.obj
+         ../../Link/VC2010.Release.Win32/pcre/pcre_study.obj
+         ../../Link/VC2010.Release.Win32/pcre/pcre_tables.obj
+         ../../Link/VC2010.Release.Win32/pcre/pcre_try_flipped.obj
+         ../../Link/VC2010.Release.Win32/pcre/pcre_ucp_searchfuncs.obj
+         ../../Link/VC2010.Release.Win32/pcre/pcre_valid_utf8.obj
+         ../../Link/VC2010.Release.Win32/pcre/pcre_version.obj
+         ../../Link/VC2010.Release.Win32/pcre/pcre_xclass.obj
+         pcre.vcxproj -> C:\Users\kottlerg\Desktop\Cryptid\Torque3D\My Projects\Cryptid\buildFiles\VisualStudio 2010\projects\../../../../../Engine/lib//compiled/Release.Win32/pcre.lib
+     1>Done Building Project "C:\Users\kottlerg\Desktop\Cryptid\Torque3D\My Projects\Cryptid\buildFiles\VisualStudio 2010\projects\pcre.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:35.91

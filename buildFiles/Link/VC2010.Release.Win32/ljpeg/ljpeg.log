@@ -1,0 +1,103 @@
+﻿Build started 18/08/2013 6:44:22 PM.
+     1>Project "C:\Users\kottlerg\Desktop\Cryptid\Torque3D\My Projects\Cryptid\buildFiles\VisualStudio 2010\projects\ljpeg.vcxproj" on node 5 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I../../../../../Engine/lib/ljpeg /Zi /nologo /W3 /WX- /Ox /Ob2 /Oy- /D UNICODE /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /GF /Gm- /MT /GS- /Gy /fp:precise /Zc:wchar_t- /Zc:forScope /GR /Fo"../../Link/VC2010.Release.Win32/ljpeg/" /Fd"../../../../../Engine/lib//compiled/Release.Win32/ljpeg.pdb" /Gd /TC /wd4244 /wd4305 /wd4530 /wd4355 /analyze- /errorReport:prompt /MP ..\..\..\..\..\Engine\lib\ljpeg\jcapimin.c ..\..\..\..\..\Engine\lib\ljpeg\jcapistd.c ..\..\..\..\..\Engine\lib\ljpeg\jccoefct.c ..\..\..\..\..\Engine\lib\ljpeg\jccolor.c ..\..\..\..\..\Engine\lib\ljpeg\jcdctmgr.c ..\..\..\..\..\Engine\lib\ljpeg\jchuff.c ..\..\..\..\..\Engine\lib\ljpeg\jcinit.c ..\..\..\..\..\Engine\lib\ljpeg\jcmainct.c ..\..\..\..\..\Engine\lib\ljpeg\jcmarker.c ..\..\..\..\..\Engine\lib\ljpeg\jcmaster.c ..\..\..\..\..\Engine\lib\ljpeg\jcomapi.c ..\..\..\..\..\Engine\lib\ljpeg\jcparam.c ..\..\..\..\..\Engine\lib\ljpeg\jcphuff.c ..\..\..\..\..\Engine\lib\ljpeg\jcprepct.c ..\..\..\..\..\Engine\lib\ljpeg\jcsample.c ..\..\..\..\..\Engine\lib\ljpeg\jctrans.c ..\..\..\..\..\Engine\lib\ljpeg\jdapimin.c ..\..\..\..\..\Engine\lib\ljpeg\jdapistd.c ..\..\..\..\..\Engine\lib\ljpeg\jdatadst.c ..\..\..\..\..\Engine\lib\ljpeg\jdatasrc.c ..\..\..\..\..\Engine\lib\ljpeg\jdcoefct.c ..\..\..\..\..\Engine\lib\ljpeg\jdcolor.c ..\..\..\..\..\Engine\lib\ljpeg\jddctmgr.c ..\..\..\..\..\Engine\lib\ljpeg\jdhuff.c ..\..\..\..\..\Engine\lib\ljpeg\jdinput.c ..\..\..\..\..\Engine\lib\ljpeg\jdmainct.c ..\..\..\..\..\Engine\lib\ljpeg\jdmarker.c ..\..\..\..\..\Engine\lib\ljpeg\jdmaster.c ..\..\..\..\..\Engine\lib\ljpeg\jdmerge.c ..\..\..\..\..\Engine\lib\ljpeg\jdphuff.c ..\..\..\..\..\Engine\lib\ljpeg\jdpostct.c ..\..\..\..\..\Engine\lib\ljpeg\jdsample.c ..\..\..\..\..\Engine\lib\ljpeg\jdtrans.c ..\..\..\..\..\Engine\lib\ljpeg\jerror.c ..\..\..\..\..\Engine\lib\ljpeg\jfdctflt.c ..\..\..\..\..\Engine\lib\ljpeg\jfdctfst.c ..\..\..\..\..\Engine\lib\ljpeg\jfdctint.c ..\..\..\..\..\Engine\lib\ljpeg\jidctflt.c ..\..\..\..\..\Engine\lib\ljpeg\jidctfst.c ..\..\..\..\..\Engine\lib\ljpeg\jidctint.c ..\..\..\..\..\Engine\lib\ljpeg\jidctred.c ..\..\..\..\..\Engine\lib\ljpeg\jmemmgr.c ..\..\..\..\..\Engine\lib\ljpeg\jmemnobs.c ..\..\..\..\..\Engine\lib\ljpeg\jquant1.c ..\..\..\..\..\Engine\lib\ljpeg\jquant2.c ..\..\..\..\..\Engine\lib\ljpeg\jutils.c
+         jcapimin.c
+         jcapistd.c
+         jccoefct.c
+         jccolor.c
+         jcdctmgr.c
+         jchuff.c
+         jcinit.c
+         jcmainct.c
+         jcmarker.c
+         jcmaster.c
+         jcomapi.c
+         jcparam.c
+         jcphuff.c
+         jcprepct.c
+         jcsample.c
+         jctrans.c
+         jdapimin.c
+         jdapistd.c
+         jdatadst.c
+         jdatasrc.c
+         jdcoefct.c
+         jdcolor.c
+         jddctmgr.c
+         jdhuff.c
+         jdinput.c
+         jdmainct.c
+         jdmarker.c
+         jdmaster.c
+         jdmerge.c
+         jdphuff.c
+         jdpostct.c
+         jdsample.c
+         jdtrans.c
+         jerror.c
+         jfdctflt.c
+         jfdctfst.c
+         jfdctint.c
+         jidctflt.c
+         jidctfst.c
+         jidctint.c
+         jidctred.c
+         jmemmgr.c
+         jmemnobs.c
+         jquant1.c
+         jquant2.c
+         jutils.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"../../../../../Engine/lib//compiled/Release.Win32//ljpeg.lib" /NOLOGO ../../Link/VC2010.Release.Win32/ljpeg/jcapimin.obj
+         ../../Link/VC2010.Release.Win32/ljpeg/jcapistd.obj
+         ../../Link/VC2010.Release.Win32/ljpeg/jccoefct.obj
+         ../../Link/VC2010.Release.Win32/ljpeg/jccolor.obj
+         ../../Link/VC2010.Release.Win32/ljpeg/jcdctmgr.obj
+         ../../Link/VC2010.Release.Win32/ljpeg/jchuff.obj
+         ../../Link/VC2010.Release.Win32/ljpeg/jcinit.obj
+         ../../Link/VC2010.Release.Win32/ljpeg/jcmainct.obj
+         ../../Link/VC2010.Release.Win32/ljpeg/jcmarker.obj
+         ../../Link/VC2010.Release.Win32/ljpeg/jcmaster.obj
+         ../../Link/VC2010.Release.Win32/ljpeg/jcomapi.obj
+         ../../Link/VC2010.Release.Win32/ljpeg/jcparam.obj
+         ../../Link/VC2010.Release.Win32/ljpeg/jcphuff.obj
+         ../../Link/VC2010.Release.Win32/ljpeg/jcprepct.obj
+         ../../Link/VC2010.Release.Win32/ljpeg/jcsample.obj
+         ../../Link/VC2010.Release.Win32/ljpeg/jctrans.obj
+         ../../Link/VC2010.Release.Win32/ljpeg/jdapimin.obj
+         ../../Link/VC2010.Release.Win32/ljpeg/jdapistd.obj
+         ../../Link/VC2010.Release.Win32/ljpeg/jdatadst.obj
+         ../../Link/VC2010.Release.Win32/ljpeg/jdatasrc.obj
+         ../../Link/VC2010.Release.Win32/ljpeg/jdcoefct.obj
+         ../../Link/VC2010.Release.Win32/ljpeg/jdcolor.obj
+         ../../Link/VC2010.Release.Win32/ljpeg/jddctmgr.obj
+         ../../Link/VC2010.Release.Win32/ljpeg/jdhuff.obj
+         ../../Link/VC2010.Release.Win32/ljpeg/jdinput.obj
+         ../../Link/VC2010.Release.Win32/ljpeg/jdmainct.obj
+         ../../Link/VC2010.Release.Win32/ljpeg/jdmarker.obj
+         ../../Link/VC2010.Release.Win32/ljpeg/jdmaster.obj
+         ../../Link/VC2010.Release.Win32/ljpeg/jdmerge.obj
+         ../../Link/VC2010.Release.Win32/ljpeg/jdphuff.obj
+         ../../Link/VC2010.Release.Win32/ljpeg/jdpostct.obj
+         ../../Link/VC2010.Release.Win32/ljpeg/jdsample.obj
+         ../../Link/VC2010.Release.Win32/ljpeg/jdtrans.obj
+         ../../Link/VC2010.Release.Win32/ljpeg/jerror.obj
+         ../../Link/VC2010.Release.Win32/ljpeg/jfdctflt.obj
+         ../../Link/VC2010.Release.Win32/ljpeg/jfdctfst.obj
+         ../../Link/VC2010.Release.Win32/ljpeg/jfdctint.obj
+         ../../Link/VC2010.Release.Win32/ljpeg/jidctflt.obj
+         ../../Link/VC2010.Release.Win32/ljpeg/jidctfst.obj
+         ../../Link/VC2010.Release.Win32/ljpeg/jidctint.obj
+         ../../Link/VC2010.Release.Win32/ljpeg/jidctred.obj
+         ../../Link/VC2010.Release.Win32/ljpeg/jmemmgr.obj
+         ../../Link/VC2010.Release.Win32/ljpeg/jmemnobs.obj
+         ../../Link/VC2010.Release.Win32/ljpeg/jquant1.obj
+         ../../Link/VC2010.Release.Win32/ljpeg/jquant2.obj
+         ../../Link/VC2010.Release.Win32/ljpeg/jutils.obj
+         ljpeg.vcxproj -> C:\Users\kottlerg\Desktop\Cryptid\Torque3D\My Projects\Cryptid\buildFiles\VisualStudio 2010\projects\../../../../../Engine/lib//compiled/Release.Win32/ljpeg.lib
+     1>Done Building Project "C:\Users\kottlerg\Desktop\Cryptid\Torque3D\My Projects\Cryptid\buildFiles\VisualStudio 2010\projects\ljpeg.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:15.16

@@ -1,0 +1,31 @@
+﻿Build started 18/08/2013 6:44:57 PM.
+     1>Project "C:\Users\kottlerg\Desktop\Cryptid\Torque3D\My Projects\Cryptid\buildFiles\VisualStudio 2010\projects\convexDecomp.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I../../../../../Engine/lib/convexDecomp /Zi /nologo /W3 /WX- /Ox /Ob2 /Oy- /D WIN32 /D UNICODE /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /GF /Gm- /MT /GS- /Gy /fp:precise /Zc:wchar_t- /Zc:forScope /GR /Fo"../../Link/VC2010.Release.Win32/convexDecomp/" /Fd"../../../../../Engine/lib//compiled/Release.Win32/convexDecomp.pdb" /Gd /TP /wd4244 /wd4305 /wd4530 /wd4355 /analyze- /errorReport:prompt /MP ..\..\..\..\..\Engine\lib\convexDecomp\NvConcavityVolume.cpp ..\..\..\..\..\Engine\lib\convexDecomp\NvConvexDecomposition.cpp ..\..\..\..\..\Engine\lib\convexDecomp\NvFloatMath.cpp ..\..\..\..\..\Engine\lib\convexDecomp\NvMeshIslandGeneration.cpp ..\..\..\..\..\Engine\lib\convexDecomp\NvRayCast.cpp ..\..\..\..\..\Engine\lib\convexDecomp\NvRemoveTjunctions.cpp ..\..\..\..\..\Engine\lib\convexDecomp\NvSplitMesh.cpp ..\..\..\..\..\Engine\lib\convexDecomp\NvStanHull.cpp ..\..\..\..\..\Engine\lib\convexDecomp\NvThreadConfig.cpp ..\..\..\..\..\Engine\lib\convexDecomp\wavefront.cpp
+         NvConcavityVolume.cpp
+         NvConvexDecomposition.cpp
+         NvFloatMath.cpp
+         NvMeshIslandGeneration.cpp
+         NvRayCast.cpp
+         NvRemoveTjunctions.cpp
+         NvSplitMesh.cpp
+         NvStanHull.cpp
+         NvThreadConfig.cpp
+         wavefront.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"../../../../../Engine/lib//compiled/Release.Win32//convexDecomp.lib" /NOLOGO ../../Link/VC2010.Release.Win32/convexDecomp/NvConcavityVolume.obj
+         ../../Link/VC2010.Release.Win32/convexDecomp/NvConvexDecomposition.obj
+         ../../Link/VC2010.Release.Win32/convexDecomp/NvFloatMath.obj
+         ../../Link/VC2010.Release.Win32/convexDecomp/NvMeshIslandGeneration.obj
+         ../../Link/VC2010.Release.Win32/convexDecomp/NvRayCast.obj
+         ../../Link/VC2010.Release.Win32/convexDecomp/NvRemoveTjunctions.obj
+         ../../Link/VC2010.Release.Win32/convexDecomp/NvSplitMesh.obj
+         ../../Link/VC2010.Release.Win32/convexDecomp/NvStanHull.obj
+         ../../Link/VC2010.Release.Win32/convexDecomp/NvThreadConfig.obj
+         ../../Link/VC2010.Release.Win32/convexDecomp/wavefront.obj
+         convexDecomp.vcxproj -> C:\Users\kottlerg\Desktop\Cryptid\Torque3D\My Projects\Cryptid\buildFiles\VisualStudio 2010\projects\../../../../../Engine/lib//compiled/Release.Win32/convexDecomp.lib
+     1>Done Building Project "C:\Users\kottlerg\Desktop\Cryptid\Torque3D\My Projects\Cryptid\buildFiles\VisualStudio 2010\projects\convexDecomp.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.88

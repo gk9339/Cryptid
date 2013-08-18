@@ -1,0 +1,49 @@
+﻿Build started 18/08/2013 6:44:22 PM.
+     1>Project "C:\Users\kottlerg\Desktop\Cryptid\Torque3D\My Projects\Cryptid\buildFiles\VisualStudio 2010\projects\lmng.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I../../../../../Engine/lib/lmng /I../../../../../Engine/lib/lpng /I../../../../../Engine/lib/zlib /I../../../../../Engine/lib/ljpeg /Zi /nologo /W3 /WX- /Ox /Ob2 /Oy- /D MNG_OPTIMIZE_OBJCLEANUP /D UNICODE /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /GF /Gm- /MT /GS- /Gy /fp:precise /Zc:wchar_t- /Zc:forScope /GR /Fo"../../Link/VC2010.Release.Win32/lmng/" /Fd"../../../../../Engine/lib//compiled/Release.Win32/lmng.pdb" /Gd /TC /wd4244 /wd4305 /wd4530 /wd4355 /analyze- /errorReport:prompt /MP ..\..\..\..\..\Engine\lib\lmng\libmng_callback_xs.c ..\..\..\..\..\Engine\lib\lmng\libmng_chunk_descr.c ..\..\..\..\..\Engine\lib\lmng\libmng_chunk_io.c ..\..\..\..\..\Engine\lib\lmng\libmng_chunk_prc.c ..\..\..\..\..\Engine\lib\lmng\libmng_chunk_xs.c ..\..\..\..\..\Engine\lib\lmng\libmng_cms.c ..\..\..\..\..\Engine\lib\lmng\libmng_display.c ..\..\..\..\..\Engine\lib\lmng\libmng_dither.c ..\..\..\..\..\Engine\lib\lmng\libmng_error.c ..\..\..\..\..\Engine\lib\lmng\libmng_filter.c ..\..\..\..\..\Engine\lib\lmng\libmng_hlapi.c ..\..\..\..\..\Engine\lib\lmng\libmng_jpeg.c ..\..\..\..\..\Engine\lib\lmng\libmng_object_prc.c ..\..\..\..\..\Engine\lib\lmng\libmng_pixels.c ..\..\..\..\..\Engine\lib\lmng\libmng_prop_xs.c ..\..\..\..\..\Engine\lib\lmng\libmng_read.c ..\..\..\..\..\Engine\lib\lmng\libmng_trace.c ..\..\..\..\..\Engine\lib\lmng\libmng_write.c ..\..\..\..\..\Engine\lib\lmng\libmng_zlib.c
+         libmng_callback_xs.c
+         libmng_chunk_descr.c
+         libmng_chunk_io.c
+         libmng_chunk_prc.c
+         libmng_chunk_xs.c
+         libmng_cms.c
+         libmng_display.c
+         libmng_dither.c
+         libmng_error.c
+         libmng_filter.c
+         libmng_hlapi.c
+         libmng_jpeg.c
+         libmng_object_prc.c
+         libmng_pixels.c
+         libmng_prop_xs.c
+         libmng_read.c
+         libmng_trace.c
+         libmng_write.c
+         libmng_zlib.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"../../../../../Engine/lib//compiled/Release.Win32//lmng.lib" /NOLOGO ../../Link/VC2010.Release.Win32/lmng/libmng_callback_xs.obj
+         ../../Link/VC2010.Release.Win32/lmng/libmng_chunk_descr.obj
+         ../../Link/VC2010.Release.Win32/lmng/libmng_chunk_io.obj
+         ../../Link/VC2010.Release.Win32/lmng/libmng_chunk_prc.obj
+         ../../Link/VC2010.Release.Win32/lmng/libmng_chunk_xs.obj
+         ../../Link/VC2010.Release.Win32/lmng/libmng_cms.obj
+         ../../Link/VC2010.Release.Win32/lmng/libmng_display.obj
+         ../../Link/VC2010.Release.Win32/lmng/libmng_dither.obj
+         ../../Link/VC2010.Release.Win32/lmng/libmng_error.obj
+         ../../Link/VC2010.Release.Win32/lmng/libmng_filter.obj
+         ../../Link/VC2010.Release.Win32/lmng/libmng_hlapi.obj
+         ../../Link/VC2010.Release.Win32/lmng/libmng_jpeg.obj
+         ../../Link/VC2010.Release.Win32/lmng/libmng_object_prc.obj
+         ../../Link/VC2010.Release.Win32/lmng/libmng_pixels.obj
+         ../../Link/VC2010.Release.Win32/lmng/libmng_prop_xs.obj
+         ../../Link/VC2010.Release.Win32/lmng/libmng_read.obj
+         ../../Link/VC2010.Release.Win32/lmng/libmng_trace.obj
+         ../../Link/VC2010.Release.Win32/lmng/libmng_write.obj
+         ../../Link/VC2010.Release.Win32/lmng/libmng_zlib.obj
+         lmng.vcxproj -> C:\Users\kottlerg\Desktop\Cryptid\Torque3D\My Projects\Cryptid\buildFiles\VisualStudio 2010\projects\../../../../../Engine/lib//compiled/Release.Win32/lmng.lib
+     1>Done Building Project "C:\Users\kottlerg\Desktop\Cryptid\Torque3D\My Projects\Cryptid\buildFiles\VisualStudio 2010\projects\lmng.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.53

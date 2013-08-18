@@ -1,0 +1,17 @@
+﻿Build started 18/08/2013 6:54:56 PM.
+     1>Project "C:\Users\kottlerg\Desktop\Cryptid\Torque3D\My Projects\Cryptid\buildFiles\VisualStudio 2010\projects\Cryptid.vcxproj" on node 5 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W4 /WX- /Ox /Ob2 /Oi /Oy- /D TORQUE_SHARED /D WIN32 /D UNICODE /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /GF /Gm- /EHsc /MT /GS- /Gy /fp:precise /Zc:wchar_t- /Zc:forScope /GR /Fo"../../Link/VC2010.Release.Win32/Cryptid/" /Fd"../../Link/VC2010.Release.Win32/Cryptid/vc110.pdb" /Gd /TP /wd4018 /wd4100 /wd4121 /wd4127 /wd4130 /wd4244 /wd4245 /wd4389 /wd4511 /wd4512 /wd4800 /analyze- /errorReport:prompt /MP4 ..\..\..\..\..\Engine\source\main\main.cpp
+         main.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D NDEBUG /l"0x0409" /nologo /fo"../../Link/VC2010.Release.Win32/Cryptid/Torque.res" Torque.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../game/Cryptid.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../../Link/VC2010.Release.Win32 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBC /NODEFAULTLIB:LIBCD /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"../../Link/VC2010.Release.Win32/Cryptid/Cryptid.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"../../../game/Cryptid.lib" /MACHINE:X86 /SAFESEH ../../Link/VC2010.Release.Win32/Cryptid/Torque.res
+         ../../Link/VC2010.Release.Win32/Cryptid/main.obj
+         "C:\Users\kottlerg\Desktop\Cryptid\Torque3D\My Projects\Cryptid\game\Cryptid.lib"
+         Cryptid.vcxproj -> C:\Users\kottlerg\Desktop\Cryptid\Torque3D\My Projects\Cryptid\buildFiles\VisualStudio 2010\projects\../../../game/Cryptid.exe
+     1>Done Building Project "C:\Users\kottlerg\Desktop\Cryptid\Torque3D\My Projects\Cryptid\buildFiles\VisualStudio 2010\projects\Cryptid.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.16

@@ -1,0 +1,17 @@
+﻿Build started 18/08/2013 6:44:33 PM.
+     1>Project "C:\Users\kottlerg\Desktop\Cryptid\Torque3D\My Projects\Cryptid\buildFiles\VisualStudio 2010\projects\lungif.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I../../../../../Engine/lib/lungif /Zi /nologo /W3 /WX- /Ox /Ob2 /Oy- /D _GBA_NO_FILEIO /D UNICODE /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /GF /Gm- /MT /GS- /Gy /fp:precise /Zc:wchar_t- /Zc:forScope /GR /Fo"../../Link/VC2010.Release.Win32/lungif/" /Fd"../../../../../Engine/lib//compiled/Release.Win32/lungif.pdb" /Gd /TC /wd4244 /wd4305 /wd4530 /wd4355 /analyze- /errorReport:prompt /MP ..\..\..\..\..\Engine\lib\lungif\dgif_lib.c ..\..\..\..\..\Engine\lib\lungif\gifalloc.c ..\..\..\..\..\Engine\lib\lungif\gif_err.c
+         dgif_lib.c
+         gifalloc.c
+         gif_err.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"../../../../../Engine/lib//compiled/Release.Win32//lungif.lib" /NOLOGO ../../Link/VC2010.Release.Win32/lungif/dgif_lib.obj
+         ../../Link/VC2010.Release.Win32/lungif/gifalloc.obj
+         ../../Link/VC2010.Release.Win32/lungif/gif_err.obj
+         lungif.vcxproj -> C:\Users\kottlerg\Desktop\Cryptid\Torque3D\My Projects\Cryptid\buildFiles\VisualStudio 2010\projects\../../../../../Engine/lib//compiled/Release.Win32/lungif.lib
+     1>Done Building Project "C:\Users\kottlerg\Desktop\Cryptid\Torque3D\My Projects\Cryptid\buildFiles\VisualStudio 2010\projects\lungif.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.27

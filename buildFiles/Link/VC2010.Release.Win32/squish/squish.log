@@ -1,0 +1,29 @@
+﻿Build started 18/08/2013 6:44:37 PM.
+     1>Project "C:\Users\kottlerg\Desktop\Cryptid\Torque3D\My Projects\Cryptid\buildFiles\VisualStudio 2010\projects\squish.vcxproj" on node 5 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I../../../../../Engine/lib/squish /Zi /nologo /W3 /WX- /Ox /Ob2 /Oy- /D UNICODE /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /GF /Gm- /MT /GS- /Gy /fp:precise /Zc:wchar_t- /Zc:forScope /GR /Fo"../../Link/VC2010.Release.Win32/squish/" /Fd"../../../../../Engine/lib//compiled/Release.Win32/squish.pdb" /Gd /TP /wd4244 /wd4305 /wd4530 /wd4355 /analyze- /errorReport:prompt /MP ..\..\..\..\..\Engine\lib\squish\alpha.cpp ..\..\..\..\..\Engine\lib\squish\clusterfit.cpp ..\..\..\..\..\Engine\lib\squish\colourblock.cpp ..\..\..\..\..\Engine\lib\squish\colourfit.cpp ..\..\..\..\..\Engine\lib\squish\colourset.cpp ..\..\..\..\..\Engine\lib\squish\maths.cpp ..\..\..\..\..\Engine\lib\squish\rangefit.cpp ..\..\..\..\..\Engine\lib\squish\singlecolourfit.cpp ..\..\..\..\..\Engine\lib\squish\squish.cpp
+         alpha.cpp
+         clusterfit.cpp
+         colourblock.cpp
+         colourfit.cpp
+         colourset.cpp
+         maths.cpp
+         rangefit.cpp
+         singlecolourfit.cpp
+         squish.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"../../../../../Engine/lib//compiled/Release.Win32//squish.lib" /NOLOGO ../../Link/VC2010.Release.Win32/squish/alpha.obj
+         ../../Link/VC2010.Release.Win32/squish/clusterfit.obj
+         ../../Link/VC2010.Release.Win32/squish/colourblock.obj
+         ../../Link/VC2010.Release.Win32/squish/colourfit.obj
+         ../../Link/VC2010.Release.Win32/squish/colourset.obj
+         ../../Link/VC2010.Release.Win32/squish/maths.obj
+         ../../Link/VC2010.Release.Win32/squish/rangefit.obj
+         ../../Link/VC2010.Release.Win32/squish/singlecolourfit.obj
+         ../../Link/VC2010.Release.Win32/squish/squish.obj
+         squish.vcxproj -> C:\Users\kottlerg\Desktop\Cryptid\Torque3D\My Projects\Cryptid\buildFiles\VisualStudio 2010\projects\../../../../../Engine/lib//compiled/Release.Win32/squish.lib
+     1>Done Building Project "C:\Users\kottlerg\Desktop\Cryptid\Torque3D\My Projects\Cryptid\buildFiles\VisualStudio 2010\projects\squish.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.73

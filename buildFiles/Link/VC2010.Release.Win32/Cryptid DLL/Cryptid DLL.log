@@ -1,0 +1,1833 @@
+﻿Build started 18/08/2013 6:48:03 PM.
+     1>Project "C:\Users\kottlerg\Desktop\Cryptid\Torque3D\My Projects\Cryptid\buildFiles\VisualStudio 2010\projects\Cryptid DLL.vcxproj" on node 4 (Build target(s)).
+     1>CustomBuild:
+         Performing Custom Build Tools
+         Performing Custom Build Tools
+         Performing Custom Build Tools
+         Performing Custom Build Tools
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I../../../game/shaders /I../../../../../Engine/lib/lmng /I../../../../../Engine/lib/lpng /I../../../../../Engine/lib/ljpeg /I../../../../../Engine/lib/lungif /I../../../../../Engine/lib/zlib /I../../../../../Engine/lib/tinyxml /I../../../../../Engine/lib/opcode /I../../../../../Engine/lib/squish /I../../../../../Engine/lib/convexDecomp /I../../../../../Engine/lib/libvorbis/include /I../../../../../Engine/lib/libogg/include /I../../../../../Engine/lib/libtheora/include /I../../../source /I../../../../../Engine/source/ /I../../../../../Engine/lib/ /I../../../../../Engine/lib/directx8 /I../../../../../Engine/lib/openal/win32 /I../../../../../Engine/lib/collada/include /I../../../../../Engine/lib/collada/include/1.4 /I../../../../../Engine/lib/openal/win32 /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\/Include" /nologo /W4 /WX- /Ox /Ob2 /Oy- /D TORQUE_SHADERGEN /D TORQUE_UNICODE /D TORQUE_SHARED /D BAN_OPCODE_AUTOLINK /D ICE_NO_DLL /D TORQUE_OPCODE /D LTC_NO_PROTOTYPES /D TORQUE_ADVANCED_LIGHTING /D TORQUE_BASIC_LIGHTING /D TORQUE_COLLADA /D DOM_INCLUDE_TINYXML /D PCRE_STATIC /D TORQUE_OGGVORBIS /D TORQUE_OGGTHEORA /D TORQUE_OGGVORIBS /D UNICODE /D INITGUID /D _CRT_SECURE_NO_DEPRECATE /D UNICODE /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /GF /Gm- /EHsc /MT /GS- /Gy /fp:precise /Zc:wchar_t- /Zc:forScope /GR /Fo"../../Link/VC2010.Release.Win32/Cryptid DLL/" /Fd"../../Link/VC2010.Release.Win32/Cryptid DLL/vc110.pdb" /Gd /TP /wd4018 /wd4100 /wd4121 /wd4127 /wd4130 /wd4244 /wd4245 /wd4389 /wd4511 /wd4512 /wd4800 /analyze- /errorReport:prompt /MP4 ..\..\..\..\..\Engine\source\T3D\aiClient.cpp ..\..\..\..\..\Engine\source\T3D\aiConnection.cpp ..\..\..\..\..\Engine\source\T3D\aiPlayer.cpp ..\..\..\..\..\Engine\source\T3D\camera.cpp ..\..\..\..\..\Engine\source\T3D\cameraSpline.cpp ..\..\..\..\..\Engine\source\T3D\containerQuery.cpp ..\..\..\..\..\Engine\source\T3D\convexShape.cpp ..\..\..\..\..\Engine\source\T3D\debris.cpp ..\..\..\..\..\Engine\source\T3D\gameFunctions.cpp ..\..\..\..\..\Engine\source\T3D\gameTSCtrl.cpp ..\..\..\..\..\Engine\source\T3D\groundPlane.cpp ..\..\..\..\..\Engine\source\T3D\guiMaterialPreview.cpp ..\..\..\..\..\Engine\source\T3D\guiNoMouseCtrl.cpp ..\..\..\..\..\Engine\source\T3D\guiObjectView.cpp ..\..\..\..\..\Engine\source\T3D\item.cpp ..\..\..\..\..\Engine\source\T3D\levelInfo.cpp ..\..\..\..\..\Engine\source\T3D\lightAnimData.cpp ..\..\..\..\..\Engine\source\T3D\lightBase.cpp ..\..\..\..\..\Engine\source\T3D\lightDescription.cpp ..\..\..\..\..\Engine\source\T3D\lightFlareData.cpp ..\..\..\..\..\Engine\source\T3D\missionArea.cpp ..\..\..\..\..\Engine\source\T3D\missionMarker.cpp ..\..\..\..\..\Engine\source\T3D\occlusionVolume.cpp ..\..\..\..\..\Engine\source\T3D\pathCamera.cpp ..\..\..\..\..\Engine\source\T3D\physicalZone.cpp ..\..\..\..\..\Engine\source\T3D\player.cpp ..\..\..\..\..\Engine\source\T3D\pointLight.cpp ..\..\..\..\..\Engine\source\T3D\portal.cpp ..\..\..\..\..\Engine\source\T3D\prefab.cpp ..\..\..\..\..\Engine\source\T3D\projectile.cpp ..\..\..\..\..\Engine\source\T3D\proximityMine.cpp ..\..\..\..\..\Engine\source\T3D\rigid.cpp ..\..\..\..\..\Engine\source\T3D\rigidShape.cpp ..\..\..\..\..\Engine\source\T3D\scopeAlwaysShape.cpp ..\..\..\..\..\Engine\source\T3D\shapeBase.cpp ..\..\..\..\..\Engine\source\T3D\shapeCollision.cpp ..\..\..\..\..\Engine\source\T3D\shapeImage.cpp ..\..\..\..\..\Engine\source\T3D\spotLight.cpp ..\..\..\..\..\Engine\source\T3D\staticShape.cpp ..\..\..\..\..\Engine\source\T3D\trigger.cpp ..\..\..\..\..\Engine\source\T3D\tsStatic.cpp ..\..\..\..\..\Engine\source\T3D\zone.cpp ..\..\..\..\..\Engine\source\T3D\decal\decalData.cpp ..\..\..\..\..\Engine\source\T3D\decal\decalDataFile.cpp ..\..\..\..\..\Engine\source\T3D\decal\decalInstance.cpp ..\..\..\..\..\Engine\source\T3D\decal\decalManager.cpp ..\..\..\..\..\Engine\source\T3D\decal\decalSphere.cpp ..\..\..\..\..\Engine\source\T3D\examples\renderMeshExample.cpp ..\..\..\..\..\Engine\source\T3D\examples\renderObjectExample.cpp ..\..\..\..\..\Engine\source\T3D\examples\renderShapeExample.cpp ..\..\..\..\..\Engine\source\T3D\fps\guiClockHud.cpp ..\..\..\..\..\Engine\source\T3D\fps\guiCrossHairHud.cpp ..\..\..\..\..\Engine\source\T3D\fps\guiHealthBarHud.cpp ..\..\..\..\..\Engine\source\T3D\fps\guiHealthTextHud.cpp ..\..\..\..\..\Engine\source\T3D\fps\guiShapeNameHud.cpp ..\..\..\..\..\Engine\source\T3D\fx\cameraFXMgr.cpp ..\..\..\..\..\Engine\source\T3D\fx\explosion.cpp ..\..\..\..\..\Engine\source\T3D\fx\fxFoliageReplicator.cpp ..\..\..\..\..\Engine\source\T3D\fx\fxShapeReplicator.cpp ..\..\..\..\..\Engine\source\T3D\fx\groundCover.cpp ..\..\..\..\..\Engine\source\T3D\fx\lightning.cpp ..\..\..\..\..\Engine\source\T3D\fx\particle.cpp ..\..\..\..\..\Engine\source\T3D\fx\particleEmitter.cpp ..\..\..\..\..\Engine\source\T3D\fx\particleEmitterNode.cpp ..\..\..\..\..\Engine\source\T3D\fx\precipitation.cpp ..\..\..\..\..\Engine\source\T3D\fx\splash.cpp ..\..\..\..\..\Engine\source\T3D\fx\windEmitter.cpp ..\..\..\..\..\Engine\source\T3D\gameBase\gameBase.cpp ..\..\..\..\..\Engine\source\T3D\gameBase\gameConnection.cpp ..\..\..\..\..\Engine\source\T3D\gameBase\gameConnectionEvents.cpp ..\..\..\..\..\Engine\source\T3D\gameBase\gameProcess.cpp ..\..\..\..\..\Engine\source\T3D\gameBase\moveList.cpp ..\..\..\..\..\Engine\source\T3D\gameBase\moveManager.cpp ..\..\..\..\..\Engine\source\T3D\gameBase\processList.cpp ..\..\..\..\..\Engine\source\T3D\gameBase\tickCache.cpp ..\..\..\..\..\Engine\source\T3D\gameBase\std\stdGameProcess.cpp ..\..\..\..\..\Engine\source\T3D\gameBase\std\stdMoveList.cpp ..\..\..\..\..\Engine\source\T3D\physics\physicsBody.cpp ..\..\..\..\..\Engine\source\T3D\physics\physicsDebris.cpp ..\..\..\..\..\Engine\source\T3D\physics\physicsEvents.cpp ..\..\..\..\..\Engine\source\T3D\physics\physicsForce.cpp ..\..\..\..\..\Engine\source\T3D\physics\physicsObject.cpp ..\..\..\..\..\Engine\source\T3D\physics\physicsPlayer.cpp ..\..\..\..\..\Engine\source\T3D\physics\physicsPlugin.cpp ..\..\..\..\..\Engine\source\T3D\physics\physicsShape.cpp ..\..\..\..\..\Engine\source\T3D\physics\physicsUserData.cpp ..\..\..\..\..\Engine\source\T3D\physics\physicsWorld.cpp ..\..\..\..\..\Engine\source\T3D\sfx\sfx3DWorld.cpp ..\..\..\..\..\Engine\source\T3D\sfx\sfxEmitter.cpp ..\..\..\..\..\Engine\source\T3D\sfx\sfxSpace.cpp ..\..\..\..\..\Engine\source\T3D\turret\aiTurretShape.cpp ..\..\..\..\..\Engine\source\T3D\turret\turretShape.cpp ..\..\..\..\..\Engine\source\T3D\vehicles\flyingVehicle.cpp ..\..\..\..\..\Engine\source\T3D\vehicles\guiSpeedometer.cpp ..\..\..\..\..\Engine\source\T3D\vehicles\hoverVehicle.cpp ..\..\..\..\..\Engine\source\T3D\vehicles\vehicle.cpp ..\..\..\..\..\Engine\source\T3D\vehicles\vehicleBlocker.cpp ..\..\..\..\..\Engine\source\T3D\vehicles\wheeledVehicle.cpp ..\..\..\..\..\Engine\source\app\badWordFilter.cpp ..\..\..\..\..\Engine\source\app\banList.cpp ..\..\..\..\..\Engine\source\app\game.cpp ..\..\..\..\..\Engine\source\app\mainLoop.cpp ..\..\..\..\..\Engine\source\app\version.cpp ..\..\..\..\..\Engine\source\app\net\httpObject.cpp ..\..\..\..\..\Engine\source\app\net\net.cpp ..\..\..\..\..\Engine\source\app\net\netTest.cpp ..\..\..\..\..\Engine\source\app\net\serverQuery.cpp ..\..\..\..\..\Engine\source\app\net\tcpObject.cpp ..\..\..\..\..\Engine\source\cinterface\cinterface.cpp ..\..\..\..\..\Engine\source\cinterface\c_consoleInterface.cpp ..\..\..\..\..\Engine\source\cinterface\c_scripting.cpp ..\..\..\..\..\Engine\source\collision\abstractPolyList.cpp ..\..\..\..\..\Engine\source\collision\boxConvex.cpp ..\..\..\..\..\Engine\source\collision\clippedPolyList.cpp ..\..\..\..\..\Engine\source\collision\concretePolyList.cpp ..\..\..\..\..\Engine\source\collision\convex.cpp ..\..\..\..\..\Engine\source\collision\depthSortList.cpp ..\..\..\..\..\Engine\source\collision\earlyOutPolyList.cpp ..\..\..\..\..\Engine\source\collision\extrudedPolyList.cpp ..\..\..\..\..\Engine\source\collision\gjk.cpp ..\..\..\..\..\Engine\source\collision\optimizedPolyList.cpp ..\..\..\..\..\Engine\source\collision\planeExtractor.cpp ..\..\..\..\..\Engine\source\collision\polytope.cpp ..\..\..\..\..\Engine\source\collision\vertexPolyList.cpp ..\..\..\..\..\Engine\source\component\componentInterface.cpp ..\..\..\..\..\Engine\source\component\dynamicConsoleMethodComponent.cpp ..\..\..\..\..\Engine\source\component\moreAdvancedComponent.cpp ..\..\..\..\..\Engine\source\component\simComponent.cpp ..\..\..\..\..\Engine\source\component\simpleComponent.cpp ..\..\..\..\..\Engine\source\console\arrayObject.cpp ..\..\..\..\..\Engine\source\console\astAlloc.cpp ..\..\..\..\..\Engine\source\console\astNodes.cpp ..\..\..\..\..\Engine\source\console\cmdgram.cpp ..\..\..\..\..\Engine\source\console\CMDscan.cpp ..\..\..\..\..\Engine\source\console\codeBlock.cpp ..\..\..\..\..\Engine\source\console\compiledEval.cpp ..\..\..\..\..\Engine\source\console\compiler.cpp ..\..\..\..\..\Engine\source\console\console.cpp ..\..\..\..\..\Engine\source\console\consoleDoc.cpp ..\..\..\..\..\Engine\source\console\consoleFunctions.cpp ..\..\..\..\..\Engine\source\console\consoleInternal.cpp ..\..\..\..\..\Engine\source\console\consoleLogger.cpp ..\..\..\..\..\Engine\source\console\consoleObject.cpp ..\..\..\..\..\Engine\source\console\consoleParser.cpp ..\..\..\..\..\Engine\source\console\consoleTypes.cpp ..\..\..\..\..\Engine\source\console\consoleXMLExport.cpp ..\..\..\..\..\Engine\source\console\debugOutputConsumer.cpp ..\..\..\..\..\Engine\source\console\dynamicTypes.cpp ..\..\..\..\..\Engine\source\console\engineDoc.cpp ..\..\..\..\..\Engine\source\console\engineExports.cpp ..\..\..\..\..\Engine\source\console\engineFunctions.cpp ..\..\..\..\..\Engine\source\console\engineObject.cpp ..\..\..\..\..\Engine\source\console\enginePrimitives.cpp ..\..\..\..\..\Engine\source\console\engineStructs.cpp ..\..\..\..\..\Engine\source\console\engineTypeInfo.cpp ..\..\..\..\..\Engine\source\console\engineTypes.cpp ..\..\..\..\..\Engine\source\console\engineXMLExport.cpp ..\..\..\..\..\Engine\source\console\fieldBrushObject.cpp ..\..\..\..\..\Engine\source\console\fileSystemFunctions.cpp ..\..\..\..\..\Engine\source\console\persistenceManager.cpp ..\..\..\..\..\Engine\source\console\propertyParsing.cpp ..\..\..\..\..\Engine\source\console\runtimeClassRep.cpp ..\..\..\..\..\Engine\source\console\scriptFilename.cpp ..\..\..\..\..\Engine\source\console\scriptObjects.cpp ..\..\..\..\..\Engine\source\console\sim.cpp ..\..\..\..\..\Engine\source\console\simDatablock.cpp ..\..\..\..\..\Engine\source\console\simDictionary.cpp ..\..\..\..\..\Engine\source\console\simEvents.cpp ..\..\..\..\..\Engine\source\console\simFieldDictionary.cpp ..\..\..\..\..\Engine\source\console\simManager.cpp ..\..\..\..\..\Engine\source\console\simObject.cpp ..\..\..\..\..\Engine\source\console\simObjectList.cpp ..\..\..\..\..\Engine\source\console\simObjectMemento.cpp ..\..\..\..\..\Engine\source\console\simPersistID.cpp ..\..\..\..\..\Engine\source\console\simPersistSet.cpp ..\..\..\..\..\Engine\source\console\simSerialize.cpp ..\..\..\..\..\Engine\source\console\simSet.cpp ..\..\..\..\..\Engine\source\console\SimXMLDocument.cpp ..\..\..\..\..\Engine\source\console\stringStack.cpp ..\..\..\..\..\Engine\source\console\telnetConsole.cpp ..\..\..\..\..\Engine\source\console\telnetDebugger.cpp ..\..\..\..\..\Engine\source\console\typeValidators.cpp ..\..\..\..\..\Engine\source\core\bitRender.cpp ..\..\..\..\..\Engine\source\core\bitVector.cpp ..\..\..\..\..\Engine\source\core\color.cpp ..\..\..\..\..\Engine\source\core\crc.cpp ..\..\..\..\..\Engine\source\core\dataChunker.cpp ..\..\..\..\..\Engine\source\core\dnet.cpp ..\..\..\..\..\Engine\source\core\fileObject.cpp ..\..\..\..\..\Engine\source\core\filterStream.cpp ..\..\..\..\..\Engine\source\core\frameAllocator.cpp ..\..\..\..\..\Engine\source\core\idGenerator.cpp ..\..\..\..\..\Engine\source\core\iTickable.cpp ..\..\..\..\..\Engine\source\core\memVolume.cpp ..\..\..\..\..\Engine\source\core\module.cpp ..\..\..\..\..\Engine\source\core\resizeStream.cpp ..\..\..\..\..\Engine\source\core\resource.cpp ..\..\..\..\..\Engine\source\core\resourceManager.cpp ..\..\..\..\..\Engine\source\core\stringBuffer.cpp ..\..\..\..\..\Engine\source\core\stringTable.cpp ..\..\..\..\..\Engine\source\core\tagDictionary.cpp ..\..\..\..\..\Engine\source\core\threadStatic.cpp ..\..\..\..\..\Engine\source\core\tokenizer.cpp ..\..\..\..\..\Engine\source\core\virtualMountSystem.cpp ..\..\..\..\..\Engine\source\core\volume.cpp ..\..\..\..\..\Engine\source\core\ogg\oggInputStream.cpp ..\..\..\..\..\Engine\source\core\ogg\oggTheoraDecoder.cpp ..\..\..\..\..\Engine\source\core\ogg\oggVorbisDecoder.cpp ..\..\..\..\..\Engine\source\core\stream\bitStream.cpp ..\..\..\..\..\Engine\source\core\stream\fileStream.cpp ..\..\..\..\..\Engine\source\core\stream\fileStreamObject.cpp ..\..\..\..\..\Engine\source\core\stream\memStream.cpp ..\..\..\..\..\Engine\source\core\stream\stream.cpp ..\..\..\..\..\Engine\source\core\stream\streamObject.cpp ..\..\..\..\..\Engine\source\core\strings\findMatch.cpp ..\..\..\..\..\Engine\source\core\strings\stringFunctions.cpp ..\..\..\..\..\Engine\source\core\strings\stringUnit.cpp ..\..\..\..\..\Engine\source\core\strings\unicode.cpp ..\..\..\..\..\Engine\source\core\util\byteBuffer.cpp ..\..\..\..\..\Engine\source\core\util\commonSwizzles.cpp ..\..\..\..\..\Engine\source\core\util\hashFunction.cpp ..\..\..\..\..\Engine\source\core\util\md5.cpp ..\..\..\..\..\Engine\source\core\util\path.cpp ..\..\..\..\..\Engine\source\core\util\rgb2luv.cpp ..\..\..\..\..\Engine\source\core\util\rgb2xyz.cpp ..\..\..\..\..\Engine\source\core\util\str.cpp ..\..\..\..\..\Engine\source\core\util\tDictionary.cpp ..\..\..\..\..\Engine\source\core\util\timeClass.cpp ..\..\..\..\..\Engine\source\core\util\tSignal.cpp ..\..\..\..\..\Engine\source\core\util\tVector.cpp ..\..\..\..\..\Engine\source\core\util\uuid.cpp ..\..\..\..\..\Engine\source\core\util\journal\journal.cpp ..\..\..\..\..\Engine\source\core\util\journal\process.cpp ..\..\..\..\..\Engine\source\core\util\journal\test\testJournal.cpp ..\..\..\..\..\Engine\source\core\util\journal\test\testProcess.cpp ..\..\..\..\..\Engine\source\core\util\test\testFixedSizeDeque.cpp ..\..\..\..\..\Engine\source\core\util\test\testPath.cpp ..\..\..\..\..\Engine\source\core\util\test\testString.cpp ..\..\..\..\..\Engine\source\core\util\test\testVector2.cpp ..\..\..\..\..\Engine\source\core\util\zip\centralDir.cpp ..\..\..\..\..\Engine\source\core\util\zip\compressor.cpp ..\..\..\..\..\Engine\source\core\util\zip\extraField.cpp ..\..\..\..\..\Engine\source\core\util\zip\fileHeader.cpp ..\..\..\..\..\Engine\source\core\util\zip\zipArchive.cpp ..\..\..\..\..\Engine\source\core\util\zip\zipCryptStream.cpp ..\..\..\..\..\Engine\source\core\util\zip\zipObject.cpp ..\..\..\..\..\Engine\source\core\util\zip\zipSubStream.cpp ..\..\..\..\..\Engine\source\core\util\zip\zipTempStream.cpp ..\..\..\..\..\Engine\source\core\util\zip\zipVolume.cpp ..\..\..\..\..\Engine\source\core\util\zip\compressors\deflate.cpp ..\..\..\..\..\Engine\source\core\util\zip\compressors\stored.cpp ..\..\..\..\..\Engine\source\core\util\zip\unitTests\zipTestMisc.cpp ..\..\..\..\..\Engine\source\core\util\zip\unitTests\zipTestRead.cpp ..\..\..\..\..\Engine\source\core\util\zip\unitTests\zipTestWrite.cpp ..\..\..\..\..\Engine\source\environment\basicClouds.cpp ..\..\..\..\..\Engine\source\environment\cloudLayer.cpp ..\..\..\..\..\Engine\source\environment\decalRoad.cpp ..\..\..\..\..\Engine\source\environment\meshRoad.cpp ..\..\..\..\..\Engine\source\environment\nodeListManager.cpp ..\..\..\..\..\Engine\source\environment\river.cpp ..\..\..\..\..\Engine\source\environment\scatterSky.cpp ..\..\..\..\..\Engine\source\environment\skyBox.cpp ..\..\..\..\..\Engine\source\environment\sun.cpp ..\..\..\..\..\Engine\source\environment\timeOfDay.cpp ..\..\..\..\..\Engine\source\environment\waterBlock.cpp ..\..\..\..\..\Engine\source\environment\waterObject.cpp ..\..\..\..\..\Engine\source\environment\waterPlane.cpp ..\..\..\..\..\Engine\source\environment\editors\guiMeshRoadEditorCtrl.cpp ..\..\..\..\..\Engine\source\environment\editors\guiRiverEditorCtrl.cpp ..\..\..\..\..\Engine\source\environment\editors\guiRoadEditorCtrl.cpp ..\..\..\..\..\Engine\source\forest\forest.cpp ..\..\..\..\..\Engine\source\forest\forestCell.cpp ..\..\..\..\..\Engine\source\forest\forestCellBatch.cpp ..\..\..\..\..\Engine\source\forest\forestCollision.cpp ..\..\..\..\..\Engine\source\forest\forestDataFile.cpp ..\..\..\..\..\Engine\source\forest\forestItem.cpp ..\..\..\..\..\Engine\source\forest\forestRender.cpp ..\..\..\..\..\Engine\source\forest\forestWindAccumulator.cpp ..\..\..\..\..\Engine\source\forest\forestWindEmitter.cpp ..\..\..\..\..\Engine\source\forest\forestWindMgr.cpp ..\..\..\..\..\Engine\source\forest\windDeformation.cpp ..\..\..\..\..\Engine\source\forest\editor\forestBrushElement.cpp ..\..\..\..\..\Engine\source\forest\editor\forestBrushTool.cpp ..\..\..\..\..\Engine\source\forest\editor\forestEditorCtrl.cpp ..\..\..\..\..\Engine\source\forest\editor\forestSelectionTool.cpp ..\..\..\..\..\Engine\source\forest\editor\forestTool.cpp ..\..\..\..\..\Engine\source\forest\editor\forestUndo.cpp ..\..\..\..\..\Engine\source\forest\hlsl\windDeformationHLSL.cpp ..\..\..\..\..\Engine\source\forest\ts\tsForestCellBatch.cpp ..\..\..\..\..\Engine\source\forest\ts\tsForestItemData.cpp ..\..\..\..\..\Engine\source\gfx\genericConstBuffer.cpp ..\..\..\..\..\Engine\source\gfx\gFont.cpp ..\..\..\..\..\Engine\source\gfx\gfxAPI.cpp ..\..\..\..\..\Engine\source\gfx\gfxCardProfile.cpp ..\..\..\..\..\Engine\source\gfx\gfxCubemap.cpp ..\..\..\..\..\Engine\source\gfx\gfxDevice.cpp ..\..\..\..\..\Engine\source\gfx\gfxDeviceStatistics.cpp ..\..\..\..\..\Engine\source\gfx\gfxDrawUtil.cpp ..\..\..\..\..\Engine\source\gfx\gfxFence.cpp ..\..\..\..\..\Engine\source\gfx\gfxFontRenderBatcher.cpp ..\..\..\..\..\Engine\source\gfx\gfxFormatUtils.cpp ..\..\..\..\..\Engine\source\gfx\gfxInit.cpp ..\..\..\..\..\Engine\source\gfx\gfxOcclusionQuery.cpp ..\..\..\..\..\Engine\source\gfx\gfxPrimitiveBuffer.cpp ..\..\..\..\..\Engine\source\gfx\gfxResource.cpp ..\..\..\..\..\Engine\source\gfx\gfxShader.cpp ..\..\..\..\..\Engine\source\gfx\gfxStateBlock.cpp ..\..\..\..\..\Engine\source\gfx\gfxStringEnumTranslate.cpp ..\..\..\..\..\Engine\source\gfx\gfxStructs.cpp ..\..\..\..\..\Engine\source\gfx\gfxTarget.cpp ..\..\..\..\..\Engine\source\gfx\gfxTextureHandle.cpp ..\..\..\..\..\Engine\source\gfx\gfxTextureManager.cpp ..\..\..\..\..\Engine\source\gfx\gfxTextureObject.cpp ..\..\..\..\..\Engine\source\gfx\gfxTextureProfile.cpp ..\..\..\..\..\Engine\source\gfx\gfxVertexBuffer.cpp ..\..\..\..\..\Engine\source\gfx\gfxVertexColor.cpp ..\..\..\..\..\Engine\source\gfx\gfxVertexFormat.cpp ..\..\..\..\..\Engine\source\gfx\gfxVertexTypes.cpp ..\..\..\..\..\Engine\source\gfx\primBuilder.cpp ..\..\..\..\..\Engine\source\gfx\screenshot.cpp ..\..\..\..\..\Engine\source\gfx\D3D9\gfxD3D9CardProfiler.cpp ..\..\..\..\..\Engine\source\gfx\D3D9\gfxD3D9Cubemap.cpp ..\..\..\..\..\Engine\source\gfx\D3D9\gfxD3D9Device.cpp "..\..\..\..\..\Engine\source\gfx\D3D9\gfxD3D9Device.regen-states.cpp" ..\..\..\..\..\Engine\source\gfx\D3D9\gfxD3D9OcclusionQuery.cpp ..\..\..\..\..\Engine\source\gfx\D3D9\gfxD3D9PrimitiveBuffer.cpp ..\..\..\..\..\Engine\source\gfx\D3D9\gfxD3D9QueryFence.cpp ..\..\..\..\..\Engine\source\gfx\D3D9\gfxD3D9Shader.cpp ..\..\..\..\..\Engine\source\gfx\D3D9\gfxD3D9StateBlock.cpp ..\..\..\..\..\Engine\source\gfx\D3D9\gfxD3D9TextureManager.cpp ..\..\..\..\..\Engine\source\gfx\D3D9\gfxD3D9TextureObject.cpp ..\..\..\..\..\Engine\source\gfx\D3D9\gfxD3D9VertexBuffer.cpp ..\..\..\..\..\Engine\source\gfx\D3D9\screenshotD3D9.cpp ..\..\..\..\..\Engine\source\gfx\D3D9\videoCaptureD3D9.cpp ..\..\..\..\..\Engine\source\gfx\D3D9\pc\gfxD3D9Device.pc.cpp ..\..\..\..\..\Engine\source\gfx\D3D9\pc\gfxD3D9EnumTranslate.pc.cpp ..\..\..\..\..\Engine\source\gfx\D3D9\pc\gfxD3D9PrimitiveBuffer.pc.cpp ..\..\..\..\..\Engine\source\gfx\D3D9\pc\gfxPCD3D9Device.cpp ..\..\..\..\..\Engine\source\gfx\D3D9\pc\gfxPCD3D9Target.cpp ..\..\..\..\..\Engine\source\gfx\Null\gfxNullDevice.cpp ..\..\..\..\..\Engine\source\gfx\bitmap\bitmapUtils.cpp ..\..\..\..\..\Engine\source\gfx\bitmap\ddsLoader.cpp ..\..\..\..\..\Engine\source\gfx\bitmap\ddsUtils.cpp ..\..\..\..\..\Engine\source\gfx\bitmap\gBitmap.cpp ..\..\..\..\..\Engine\source\gfx\bitmap\loaders\bitmapBmp.cpp ..\..\..\..\..\Engine\source\gfx\bitmap\loaders\bitmapGif.cpp ..\..\..\..\..\Engine\source\gfx\bitmap\loaders\bitmapJpeg.cpp ..\..\..\..\..\Engine\source\gfx\bitmap\loaders\bitmapMng.cpp ..\..\..\..\..\Engine\source\gfx\bitmap\loaders\bitmapPng.cpp ..\..\..\..\..\Engine\source\gfx\bitmap\loaders\bitmapTga.cpp ..\..\..\..\..\Engine\source\gfx\sim\cubemapData.cpp ..\..\..\..\..\Engine\source\gfx\sim\debugDraw.cpp ..\..\..\..\..\Engine\source\gfx\sim\gfxStateBlockData.cpp ..\..\..\..\..\Engine\source\gfx\test\stanfordBunny.cpp ..\..\..\..\..\Engine\source\gfx\test\testGfx.cpp ..\..\..\..\..\Engine\source\gfx\util\distanceField.cpp ..\..\..\..\..\Engine\source\gfx\util\gfxFrustumSaver.cpp ..\..\..\..\..\Engine\source\gfx\util\screenspace.cpp ..\..\..\..\..\Engine\source\gfx\util\triListOpt.cpp ..\..\..\..\..\Engine\source\gfx\video\theoraTexture.cpp ..\..\..\..\..\Engine\source\gfx\video\theoraTextureObject.cpp ..\..\..\..\..\Engine\source\gfx\video\videoCapture.cpp ..\..\..\..\..\Engine\source\gfx\video\videoEncoderPNG.cpp ..\..\..\..\..\Engine\source\gfx\video\videoEncoderTheora.cpp ..\..\..\..\..\Engine\source\gui\3d\guiTSControl.cpp ..\..\..\..\..\Engine\source\gui\buttons\guiBitmapButtonCtrl.cpp ..\..\..\..\..\Engine\source\gui\buttons\guiBorderButton.cpp ..\..\..\..\..\Engine\source\gui\buttons\guiButtonBaseCtrl.cpp ..\..\..\..\..\Engine\source\gui\buttons\guiButtonCtrl.cpp ..\..\..\..\..\Engine\source\gui\buttons\guiCheckBoxCtrl.cpp ..\..\..\..\..\Engine\source\gui\buttons\guiIconButtonCtrl.cpp ..\..\..\..\..\Engine\source\gui\buttons\guiRadioCtrl.cpp ..\..\..\..\..\Engine\source\gui\buttons\guiSwatchButtonCtrl.cpp ..\..\..\..\..\Engine\source\gui\buttons\guiToggleButtonCtrl.cpp ..\..\..\..\..\Engine\source\gui\buttons\guiToolboxButtonCtrl.cpp ..\..\..\..\..\Engine\source\gui\containers\guiAutoScrollCtrl.cpp ..\..\..\..\..\Engine\source\gui\containers\guiContainer.cpp ..\..\..\..\..\Engine\source\gui\containers\guiCtrlArrayCtrl.cpp ..\..\..\..\..\Engine\source\gui\containers\guiDragAndDropCtrl.cpp ..\..\..\..\..\Engine\source\gui\containers\guiDynamicCtrlArrayCtrl.cpp ..\..\..\..\..\Engine\source\gui\containers\guiFormCtrl.cpp ..\..\..\..\..\Engine\source\gui\containers\guiFrameCtrl.cpp ..\..\..\..\..\Engine\source\gui\containers\guiPaneCtrl.cpp ..\..\..\..\..\Engine\source\gui\containers\guiPanel.cpp ..\..\..\..\..\Engine\source\gui\containers\guiRolloutCtrl.cpp ..\..\..\..\..\Engine\source\gui\containers\guiScrollCtrl.cpp ..\..\..\..\..\Engine\source\gui\containers\guiSplitContainer.cpp ..\..\..\..\..\Engine\source\gui\containers\guiStackCtrl.cpp ..\..\..\..\..\Engine\source\gui\containers\guiTabBookCtrl.cpp ..\..\..\..\..\Engine\source\gui\containers\guiWindowCollapseCtrl.cpp ..\..\..\..\..\Engine\source\gui\containers\guiWindowCtrl.cpp ..\..\..\..\..\Engine\source\gui\controls\guiBackgroundCtrl.cpp ..\..\..\..\..\Engine\source\gui\controls\guiBitmapBorderCtrl.cpp ..\..\..\..\..\Engine\source\gui\controls\guiBitmapCtrl.cpp ..\..\..\..\..\Engine\source\gui\controls\guiColorPicker.cpp ..\..\..\..\..\Engine\source\gui\controls\guiConsole.cpp ..\..\..\..\..\Engine\source\gui\controls\guiConsoleEditCtrl.cpp ..\..\..\..\..\Engine\source\gui\controls\guiConsoleTextCtrl.cpp ..\..\..\..\..\Engine\source\gui\controls\guiDecoyCtrl.cpp ..\..\..\..\..\Engine\source\gui\controls\guiDirectoryFileListCtrl.cpp ..\..\..\..\..\Engine\source\gui\controls\guiFileTreeCtrl.cpp ..\..\..\..\..\Engine\source\gui\controls\guiGameListMenuCtrl.cpp ..\..\..\..\..\Engine\source\gui\controls\guiGameListOptionsCtrl.cpp ..\..\..\..\..\Engine\source\gui\controls\guiGradientCtrl.cpp ..\..\..\..\..\Engine\source\gui\controls\guiListBoxCtrl.cpp ..\..\..\..\..\Engine\source\gui\controls\guiMaterialCtrl.cpp ..\..\..\..\..\Engine\source\gui\controls\guiMLTextCtrl.cpp ..\..\..\..\..\Engine\source\gui\controls\guiMLTextEditCtrl.cpp ..\..\..\..\..\Engine\source\gui\controls\guiPopUpCtrl.cpp ..\..\..\..\..\Engine\source\gui\controls\guiPopUpCtrlEx.cpp ..\..\..\..\..\Engine\source\gui\controls\guiSliderCtrl.cpp ..\..\..\..\..\Engine\source\gui\controls\guiTabPageCtrl.cpp ..\..\..\..\..\Engine\source\gui\controls\guiTextCtrl.cpp ..\..\..\..\..\Engine\source\gui\controls\guiTextEditCtrl.cpp ..\..\..\..\..\Engine\source\gui\controls\guiTextEditSliderBitmapCtrl.cpp ..\..\..\..\..\Engine\source\gui\controls\guiTextEditSliderCtrl.cpp ..\..\..\..\..\Engine\source\gui\controls\guiTextListCtrl.cpp ..\..\..\..\..\Engine\source\gui\controls\guiTreeViewCtrl.cpp ..\..\..\..\..\Engine\source\gui\core\guiArrayCtrl.cpp ..\..\..\..\..\Engine\source\gui\core\guiCanvas.cpp ..\..\..\..\..\Engine\source\gui\core\guiControl.cpp ..\..\..\..\..\Engine\source\gui\core\guiDefaultControlRender.cpp ..\..\..\..\..\Engine\source\gui\core\guiScriptNotifyControl.cpp ..\..\..\..\..\Engine\source\gui\core\guiTypes.cpp ..\..\..\..\..\Engine\source\gui\editor\editorFunctions.cpp ..\..\..\..\..\Engine\source\gui\editor\guiDebugger.cpp ..\..\..\..\..\Engine\source\gui\editor\guiEaseViewCtrl.cpp ..\..\..\..\..\Engine\source\gui\editor\guiEditCtrl.cpp ..\..\..\..\..\Engine\source\gui\editor\guiFilterCtrl.cpp ..\..\..\..\..\Engine\source\gui\editor\guiGraphCtrl.cpp ..\..\..\..\..\Engine\source\gui\editor\guiImageList.cpp ..\..\..\..\..\Engine\source\gui\editor\guiInspector.cpp ..\..\..\..\..\Engine\source\gui\editor\guiInspectorTypes.cpp ..\..\..\..\..\Engine\source\gui\editor\guiMenuBar.cpp ..\..\..\..\..\Engine\source\gui\editor\guiParticleGraphCtrl.cpp ..\..\..\..\..\Engine\source\gui\editor\guiRectHandles.cpp ..\..\..\..\..\Engine\source\gui\editor\guiSeparatorCtrl.cpp ..\..\..\..\..\Engine\source\gui\editor\guiShapeEdPreview.cpp ..\..\..\..\..\Engine\source\gui\editor\inspector\customField.cpp ..\..\..\..\..\Engine\source\gui\editor\inspector\datablockField.cpp ..\..\..\..\..\Engine\source\gui\editor\inspector\dynamicField.cpp ..\..\..\..\..\Engine\source\gui\editor\inspector\dynamicGroup.cpp ..\..\..\..\..\Engine\source\gui\editor\inspector\field.cpp ..\..\..\..\..\Engine\source\gui\editor\inspector\group.cpp ..\..\..\..\..\Engine\source\gui\editor\inspector\variableField.cpp ..\..\..\..\..\Engine\source\gui\editor\inspector\variableGroup.cpp ..\..\..\..\..\Engine\source\gui\editor\inspector\variableInspector.cpp ..\..\..\..\..\Engine\source\gui\game\guiChunkedBitmapCtrl.cpp ..\..\..\..\..\Engine\source\gui\game\guiFadeinBitmapCtrl.cpp ..\..\..\..\..\Engine\source\gui\game\guiIdleCamFadeBitmapCtrl.cpp ..\..\..\..\..\Engine\source\gui\game\guiMessageVectorCtrl.cpp ..\..\..\..\..\Engine\source\gui\game\guiProgressBitmapCtrl.cpp ..\..\..\..\..\Engine\source\gui\game\guiProgressCtrl.cpp ..\..\..\..\..\Engine\source\gui\shiny\guiTickCtrl.cpp ..\..\..\..\..\Engine\source\gui\theora\guiTheoraCtrl.cpp ..\..\..\..\..\Engine\source\gui\utility\guiBubbleTextCtrl.cpp ..\..\..\..\..\Engine\source\gui\utility\guiInputCtrl.cpp ..\..\..\..\..\Engine\source\gui\utility\guiMouseEventCtrl.cpp ..\..\..\..\..\Engine\source\gui\utility\messageVector.cpp ..\..\..\..\..\Engine\source\gui\worldEditor\creator.cpp ..\..\..\..\..\Engine\source\gui\worldEditor\editor.cpp ..\..\..\..\..\Engine\source\gui\worldEditor\editorIconRegistry.cpp ..\..\..\..\..\Engine\source\gui\worldEditor\editTSCtrl.cpp ..\..\..\..\..\Engine\source\gui\worldEditor\gizmo.cpp ..\..\..\..\..\Engine\source\gui\worldEditor\guiConvexShapeEditorCtrl.cpp ..\..\..\..\..\Engine\source\gui\worldEditor\guiDecalEditorCtrl.cpp ..\..\..\..\..\Engine\source\gui\worldEditor\guiMissionArea.cpp ..\..\..\..\..\Engine\source\gui\worldEditor\guiMissionAreaEditor.cpp ..\..\..\..\..\Engine\source\gui\worldEditor\guiTerrPreviewCtrl.cpp ..\..\..\..\..\Engine\source\gui\worldEditor\terrainActions.cpp ..\..\..\..\..\Engine\source\gui\worldEditor\terrainEditor.cpp ..\..\..\..\..\Engine\source\gui\worldEditor\tSelection.cpp ..\..\..\..\..\Engine\source\gui\worldEditor\undoActions.cpp ..\..\..\..\..\Engine\source\gui\worldEditor\worldEditor.cpp ..\..\..\..\..\Engine\source\gui\worldEditor\worldEditorSelection.cpp ..\..\..\..\..\Engine\source\i18n\i18n.cpp ..\..\..\..\..\Engine\source\i18n\lang.cpp ..\..\..\..\..\Engine\source\lighting\lightInfo.cpp ..\..\..\..\..\Engine\source\lighting\lightingInterfaces.cpp ..\..\..\..\..\Engine\source\lighting\lightManager.cpp ..\..\..\..\..\Engine\source\lighting\lightQuery.cpp ..\..\..\..\..\Engine\source\lighting\shadowManager.cpp ..\..\..\..\..\Engine\source\lighting\advanced\advancedLightBinManager.cpp ..\..\..\..\..\Engine\source\lighting\advanced\advancedLightBufferConditioner.cpp ..\..\..\..\..\Engine\source\lighting\advanced\advancedLightingFeatures.cpp ..\..\..\..\..\Engine\source\lighting\advanced\advancedLightManager.cpp ..\..\..\..\..\Engine\source\lighting\advanced\hlsl\advancedLightingFeaturesHLSL.cpp ..\..\..\..\..\Engine\source\lighting\advanced\hlsl\gBufferConditionerHLSL.cpp ..\..\..\..\..\Engine\source\lighting\basic\basicLightManager.cpp ..\..\..\..\..\Engine\source\lighting\basic\basicSceneObjectLightingPlugin.cpp ..\..\..\..\..\Engine\source\lighting\basic\blTerrainSystem.cpp ..\..\..\..\..\Engine\source\lighting\common\blobShadow.cpp ..\..\..\..\..\Engine\source\lighting\common\lightMapParams.cpp ..\..\..\..\..\Engine\source\lighting\common\projectedShadow.cpp ..\..\..\..\..\Engine\source\lighting\common\sceneLighting.cpp ..\..\..\..\..\Engine\source\lighting\common\scenePersist.cpp ..\..\..\..\..\Engine\source\lighting\common\shadowVolumeBSP.cpp ..\..\..\..\..\Engine\source\lighting\shadowMap\cubeLightShadowMap.cpp ..\..\..\..\..\Engine\source\lighting\shadowMap\dualParaboloidLightShadowMap.cpp ..\..\..\..\..\Engine\source\lighting\shadowMap\lightShadowMap.cpp ..\..\..\..\..\Engine\source\lighting\shadowMap\paraboloidLightShadowMap.cpp ..\..\..\..\..\Engine\source\lighting\shadowMap\pssmLightShadowMap.cpp ..\..\..\..\..\Engine\source\lighting\shadowMap\shadowMapManager.cpp ..\..\..\..\..\Engine\source\lighting\shadowMap\shadowMapPass.cpp ..\..\..\..\..\Engine\source\lighting\shadowMap\shadowMatHook.cpp ..\..\..\..\..\Engine\source\lighting\shadowMap\singleLightShadowMap.cpp ..\..\..\..\..\Engine\source\materials\baseMatInstance.cpp ..\..\..\..\..\Engine\source\materials\customMaterialDefinition.cpp ..\..\..\..\..\Engine\source\materials\materialDefinition.cpp ..\..\..\..\..\Engine\source\materials\materialFeatureData.cpp ..\..\..\..\..\Engine\source\materials\materialFeatureTypes.cpp ..\..\..\..\..\Engine\source\materials\materialList.cpp ..\..\..\..\..\Engine\source\materials\materialManager.cpp ..\..\..\..\..\Engine\source\materials\matInstance.cpp ..\..\..\..\..\Engine\source\materials\matInstanceHook.cpp ..\..\..\..\..\Engine\source\materials\matStateHint.cpp ..\..\..\..\..\Engine\source\materials\matTextureTarget.cpp ..\..\..\..\..\Engine\source\materials\processedCustomMaterial.cpp ..\..\..\..\..\Engine\source\materials\processedFFMaterial.cpp ..\..\..\..\..\Engine\source\materials\processedMaterial.cpp ..\..\..\..\..\Engine\source\materials\processedShaderMaterial.cpp ..\..\..\..\..\Engine\source\materials\shaderData.cpp ..\..\..\..\..\Engine\source\materials\shaderMaterialParameters.cpp ..\..\..\..\..\Engine\source\math\mAngAxis.cpp ..\..\..\..\..\Engine\source\math\mathTypes.cpp ..\..\..\..\..\Engine\source\math\mathUtils.cpp ..\..\..\..\..\Engine\source\math\mBox.cpp ..\..\..\..\..\Engine\source\math\mConsoleFunctions.cpp ..\..\..\..\..\Engine\source\math\mEase.cpp ..\..\..\..\..\Engine\source\math\mMathAltivec.cpp ..\..\..\..\..\Engine\source\math\mMathAMD.cpp ..\..\..\..\..\Engine\source\math\mMathSSE.cpp ..\..\..\..\..\Engine\source\math\mMath_C.cpp ..\..\..\..\..\Engine\source\math\mMatrix.cpp ..\..\..\..\..\Engine\source\math\mOrientedBox.cpp ..\..\..\..\..\Engine\source\math\mPlane.cpp ..\..\..\..\..\Engine\source\math\mPlaneTransformer.cpp ..\..\..\..\..\Engine\source\math\mPoint.cpp ..\..\..\..\..\Engine\source\math\mPolyhedron.cpp ..\..\..\..\..\Engine\source\math\mQuadPatch.cpp ..\..\..\..\..\Engine\source\math\mQuat.cpp ..\..\..\..\..\Engine\source\math\mRandom.cpp ..\..\..\..\..\Engine\source\math\mRect.cpp ..\..\..\..\..\Engine\source\math\mSolver.cpp ..\..\..\..\..\Engine\source\math\mSphere.cpp ..\..\..\..\..\Engine\source\math\mSplinePatch.cpp ..\..\..\..\..\Engine\source\math\test\testMathPlane.cpp ..\..\..\..\..\Engine\source\math\test\testPolyhedron.cpp ..\..\..\..\..\Engine\source\math\util\frustum.cpp ..\..\..\..\..\Engine\source\math\util\matrixSet.cpp ..\..\..\..\..\Engine\source\math\util\quadTransforms.cpp ..\..\..\..\..\Engine\source\math\util\sphereMesh.cpp ..\..\..\..\..\Engine\source\math\util\tResponseCurve.cpp ..\..\..\..\..\Engine\source\platform\platform.cpp ..\..\..\..\..\Engine\source\platform\platformAssert.cpp ..\..\..\..\..\Engine\source\platform\platformCPU.cpp ..\..\..\..\..\Engine\source\platform\platformCPUCount.cpp ..\..\..\..\..\Engine\source\platform\platformFileIO.cpp ..\..\..\..\..\Engine\source\platform\platformFont.cpp ..\..\..\..\..\Engine\source\platform\platformMemory.cpp ..\..\..\..\..\Engine\source\platform\platformNet.cpp ..\..\..\..\..\Engine\source\platform\platformNetAsync.cpp ..\..\..\..\..\Engine\source\platform\platformRedBook.cpp ..\..\..\..\..\Engine\source\platform\platformTimer.cpp ..\..\..\..\..\Engine\source\platform\platformVideoInfo.cpp ..\..\..\..\..\Engine\source\platform\platformVolume.cpp ..\..\..\..\..\Engine\source\platform\profiler.cpp ..\..\..\..\..\Engine\source\platform\async\asyncUpdate.cpp ..\..\..\..\..\Engine\source\platform\input\event.cpp ..\..\..\..\..\Engine\source\platform\menus\menuBar.cpp ..\..\..\..\..\Engine\source\platform\menus\popupMenu.cpp ..\..\..\..\..\Engine\source\platform\nativeDialogs\msgBox.cpp ..\..\..\..\..\Engine\source\platform\test\testAlerts.cpp ..\..\..\..\..\Engine\source\platform\test\testAsyncPacketQueue.cpp ..\..\..\..\..\Engine\source\platform\test\testBasicTypes.cpp ..\..\..\..\..\Engine\source\platform\test\testFile.cpp ..\..\..\..\..\Engine\source\platform\test\testNet.cpp ..\..\..\..\..\Engine\source\platform\test\testThreading.cpp ..\..\..\..\..\Engine\source\platform\test\testThreadPool.cpp ..\..\..\..\..\Engine\source\platform\test\testThreadSafeDeque.cpp ..\..\..\..\..\Engine\source\platform\test\testThreadSafePriorityQueue.cpp ..\..\..\..\..\Engine\source\platform\test\testThreadSafeRefCount.cpp ..\..\..\..\..\Engine\source\platform\test\testTimeManager.cpp ..\..\..\..\..\Engine\source\platform\threads\threadPool.cpp ..\..\..\..\..\Engine\source\platformWin32\cardProfile.cpp ..\..\..\..\..\Engine\source\platformWin32\winAsmBlit.cpp ..\..\..\..\..\Engine\source\platformWin32\winAsync.cpp ..\..\..\..\..\Engine\source\platformWin32\winConsole.cpp ..\..\..\..\..\Engine\source\platformWin32\winCPUInfo.cpp ..\..\..\..\..\Engine\source\platformWin32\winDInputDevice.cpp ..\..\..\..\..\Engine\source\platformWin32\winDirectInput.cpp ..\..\..\..\..\Engine\source\platformWin32\winDlibrary.cpp ..\..\..\..\..\Engine\source\platformWin32\winExec.cpp ..\..\..\..\..\Engine\source\platformWin32\winFileio.cpp ..\..\..\..\..\Engine\source\platformWin32\winFont.cpp ..\..\..\..\..\Engine\source\platformWin32\winInput.cpp ..\..\..\..\..\Engine\source\platformWin32\winMath.cpp ..\..\..\..\..\Engine\source\platformWin32\winMath_ASM.cpp ..\..\..\..\..\Engine\source\platformWin32\winMemory.cpp ..\..\..\..\..\Engine\source\platformWin32\winProcessControl.cpp ..\..\..\..\..\Engine\source\platformWin32\winRedbook.cpp ..\..\..\..\..\Engine\source\platformWin32\winSemaphore.cpp ..\..\..\..\..\Engine\source\platformWin32\winTime.cpp ..\..\..\..\..\Engine\source\platformWin32\winTimer.cpp ..\..\..\..\..\Engine\source\platformWin32\winTLS.cpp ..\..\..\..\..\Engine\source\platformWin32\winUser.cpp ..\..\..\..\..\Engine\source\platformWin32\winVFS.cpp ..\..\..\..\..\Engine\source\platformWin32\winVolume.cpp ..\..\..\..\..\Engine\source\platformWin32\winWindow.cpp ..\..\..\..\..\Engine\source\platformWin32\menus\menuBarWin32.cpp ..\..\..\..\..\Engine\source\platformWin32\menus\popupMenuWin32.cpp ..\..\..\..\..\Engine\source\platformWin32\minidump\winMiniDump.cpp ..\..\..\..\..\Engine\source\platformWin32\minidump\winStackWalker.cpp ..\..\..\..\..\Engine\source\platformWin32\nativeDialogs\fileDialog.cpp ..\..\..\..\..\Engine\source\platformWin32\nativeDialogs\win32MsgBox.cpp ..\..\..\..\..\Engine\source\platformWin32\threads\mutex.cpp ..\..\..\..\..\Engine\source\platformWin32\threads\thread.cpp ..\..\..\..\..\Engine\source\platformWin32\videoInfo\wmiVideoInfo.cpp ..\..\..\..\..\Engine\source\postFx\postEffect.cpp ..\..\..\..\..\Engine\source\postFx\postEffectManager.cpp ..\..\..\..\..\Engine\source\postFx\postEffectVis.cpp ..\..\..\..\..\Engine\source\renderInstance\forcedMaterialMeshMgr.cpp ..\..\..\..\..\Engine\source\renderInstance\renderBinManager.cpp ..\..\..\..\..\Engine\source\renderInstance\renderFormatChanger.cpp ..\..\..\..\..\Engine\source\renderInstance\renderGlowMgr.cpp ..\..\..\..\..\Engine\source\renderInstance\renderImposterMgr.cpp ..\..\..\..\..\Engine\source\renderInstance\renderMeshMgr.cpp ..\..\..\..\..\Engine\source\renderInstance\renderObjectMgr.cpp ..\..\..\..\..\Engine\source\renderInstance\renderOcclusionMgr.cpp ..\..\..\..\..\Engine\source\renderInstance\renderParticleMgr.cpp ..\..\..\..\..\Engine\source\renderInstance\renderPassManager.cpp ..\..\..\..\..\Engine\source\renderInstance\renderPassStateToken.cpp ..\..\..\..\..\Engine\source\renderInstance\renderPrePassMgr.cpp ..\..\..\..\..\Engine\source\renderInstance\renderTerrainMgr.cpp ..\..\..\..\..\Engine\source\renderInstance\renderTexTargetBinManager.cpp ..\..\..\..\..\Engine\source\renderInstance\renderTranslucentMgr.cpp ..\..\..\..\..\Engine\source\scene\pathManager.cpp ..\..\..\..\..\Engine\source\scene\reflectionManager.cpp ..\..\..\..\..\Engine\source\scene\reflectionMatHook.cpp ..\..\..\..\..\Engine\source\scene\reflector.cpp ..\..\..\..\..\Engine\source\scene\sceneCameraState.cpp ..\..\..\..\..\Engine\source\scene\sceneContainer.cpp ..\..\..\..\..\Engine\source\scene\sceneManager.cpp ..\..\..\..\..\Engine\source\scene\sceneObject.cpp ..\..\..\..\..\Engine\source\scene\scenePolyhedralSpace.cpp ..\..\..\..\..\Engine\source\scene\sceneRenderState.cpp ..\..\..\..\..\Engine\source\scene\sceneSpace.cpp ..\..\..\..\..\Engine\source\scene\sceneTracker.cpp ..\..\..\..\..\Engine\source\scene\sgUtil.cpp ..\..\..\..\..\Engine\source\scene\simPath.cpp ..\..\..\..\..\Engine\source\scene\culling\sceneCullingState.cpp ..\..\..\..\..\Engine\source\scene\culling\sceneCullingVolume.cpp ..\..\..\..\..\Engine\source\scene\culling\sceneZoneCullingState.cpp ..\..\..\..\..\Engine\source\scene\zones\scenePolyhedralZone.cpp ..\..\..\..\..\Engine\source\scene\zones\sceneRootZone.cpp ..\..\..\..\..\Engine\source\scene\zones\sceneSimpleZone.cpp ..\..\..\..\..\Engine\source\scene\zones\sceneTraversalState.cpp ..\..\..\..\..\Engine\source\scene\zones\sceneZoneSpace.cpp ..\..\..\..\..\Engine\source\scene\zones\sceneZoneSpaceManager.cpp ..\..\..\..\..\Engine\source\sfx\sfxAmbience.cpp ..\..\..\..\..\Engine\source\sfx\sfxBuffer.cpp ..\..\..\..\..\Engine\source\sfx\sfxController.cpp ..\..\..\..\..\Engine\source\sfx\sfxDescription.cpp ..\..\..\..\..\Engine\source\sfx\sfxDevice.cpp ..\..\..\..\..\Engine\source\sfx\sfxEnvironment.cpp ..\..\..\..\..\Engine\source\sfx\sfxFileStream.cpp ..\..\..\..\..\Engine\source\sfx\sfxInternal.cpp ..\..\..\..\..\Engine\source\sfx\sfxMemoryStream.cpp ..\..\..\..\..\Engine\source\sfx\sfxModifier.cpp ..\..\..\..\..\Engine\source\sfx\sfxParameter.cpp ..\..\..\..\..\Engine\source\sfx\sfxPlayList.cpp ..\..\..\..\..\Engine\source\sfx\sfxProfile.cpp ..\..\..\..\..\Engine\source\sfx\sfxProvider.cpp ..\..\..\..\..\Engine\source\sfx\sfxResource.cpp ..\..\..\..\..\Engine\source\sfx\sfxSound.cpp ..\..\..\..\..\Engine\source\sfx\sfxSoundscape.cpp ..\..\..\..\..\Engine\source\sfx\sfxSource.cpp ..\..\..\..\..\Engine\source\sfx\sfxState.cpp ..\..\..\..\..\Engine\source\sfx\sfxSystem.cpp ..\..\..\..\..\Engine\source\sfx\sfxTrack.cpp ..\..\..\..\..\Engine\source\sfx\sfxTypes.cpp ..\..\..\..\..\Engine\source\sfx\sfxVoice.cpp ..\..\..\..\..\Engine\source\sfx\dsound\sfxDSBuffer.cpp ..\..\..\..\..\Engine\source\sfx\dsound\sfxDSDevice.cpp ..\..\..\..\..\Engine\source\sfx\dsound\sfxDSProvider.cpp ..\..\..\..\..\Engine\source\sfx\dsound\sfxDSVoice.cpp ..\..\..\..\..\Engine\source\sfx\media\sfxVorbisStream.cpp ..\..\..\..\..\Engine\source\sfx\media\sfxWavStream.cpp ..\..\..\..\..\Engine\source\sfx\null\sfxNullBuffer.cpp ..\..\..\..\..\Engine\source\sfx\null\sfxNullDevice.cpp ..\..\..\..\..\Engine\source\sfx\null\sfxNullProvider.cpp ..\..\..\..\..\Engine\source\sfx\null\sfxNullVoice.cpp ..\..\..\..\..\Engine\source\sfx\openal\aldlist.cpp ..\..\..\..\..\Engine\source\sfx\openal\sfxALBuffer.cpp ..\..\..\..\..\Engine\source\sfx\openal\sfxALDevice.cpp ..\..\..\..\..\Engine\source\sfx\openal\sfxALProvider.cpp ..\..\..\..\..\Engine\source\sfx\openal\sfxALVoice.cpp ..\..\..\..\..\Engine\source\sfx\openal\win32\LoadOAL.cpp ..\..\..\..\..\Engine\source\sfx\xaudio\sfxXAudioBuffer.cpp ..\..\..\..\..\Engine\source\sfx\xaudio\sfxXAudioDevice.cpp ..\..\..\..\..\Engine\source\sfx\xaudio\sfxXAudioProvider.cpp ..\..\..\..\..\Engine\source\sfx\xaudio\sfxXAudioVoice.cpp ..\..\..\..\..\Engine\source\shaderGen\conditionerFeature.cpp ..\..\..\..\..\Engine\source\shaderGen\featureMgr.cpp ..\..\..\..\..\Engine\source\shaderGen\featureSet.cpp ..\..\..\..\..\Engine\source\shaderGen\featureType.cpp ..\..\..\..\..\Engine\source\shaderGen\langElement.cpp ..\..\..\..\..\Engine\source\shaderGen\shaderComp.cpp ..\..\..\..\..\Engine\source\shaderGen\shaderDependency.cpp ..\..\..\..\..\Engine\source\shaderGen\shaderFeature.cpp ..\..\..\..\..\Engine\source\shaderGen\shaderGen.cpp ..\..\..\..\..\Engine\source\shaderGen\shaderGenVars.cpp ..\..\..\..\..\Engine\source\shaderGen\shaderOp.cpp ..\..\..\..\..\Engine\source\shaderGen\HLSL\bumpHLSL.cpp ..\..\..\..\..\Engine\source\shaderGen\HLSL\depthHLSL.cpp ..\..\..\..\..\Engine\source\shaderGen\HLSL\paraboloidHLSL.cpp ..\..\..\..\..\Engine\source\shaderGen\HLSL\pixSpecularHLSL.cpp ..\..\..\..\..\Engine\source\shaderGen\HLSL\shaderCompHLSL.cpp ..\..\..\..\..\Engine\source\shaderGen\HLSL\shaderFeatureHLSL.cpp ..\..\..\..\..\Engine\source\shaderGen\HLSL\shaderGenHLSL.cpp ..\..\..\..\..\Engine\source\shaderGen\HLSL\shaderGenHLSLInit.cpp ..\..\..\..\..\Engine\source\sim\actionMap.cpp ..\..\..\..\..\Engine\source\sim\connectionStringTable.cpp ..\..\..\..\..\Engine\source\sim\netConnection.cpp ..\..\..\..\..\Engine\source\sim\netDownload.cpp ..\..\..\..\..\Engine\source\sim\netEvent.cpp ..\..\..\..\..\Engine\source\sim\netGhost.cpp ..\..\..\..\..\Engine\source\sim\netInterface.cpp ..\..\..\..\..\Engine\source\sim\netObject.cpp ..\..\..\..\..\Engine\source\sim\netStringTable.cpp ..\..\..\..\..\Engine\source\terrain\terrCell.cpp ..\..\..\..\..\Engine\source\terrain\terrCellMaterial.cpp ..\..\..\..\..\Engine\source\terrain\terrCollision.cpp ..\..\..\..\..\Engine\source\terrain\terrData.cpp ..\..\..\..\..\Engine\source\terrain\terrExport.cpp ..\..\..\..\..\Engine\source\terrain\terrFeatureTypes.cpp ..\..\..\..\..\Engine\source\terrain\terrFile.cpp ..\..\..\..\..\Engine\source\terrain\terrImport.cpp ..\..\..\..\..\Engine\source\terrain\terrLighting.cpp ..\..\..\..\..\Engine\source\terrain\terrMaterial.cpp ..\..\..\..\..\Engine\source\terrain\terrRender.cpp ..\..\..\..\..\Engine\source\terrain\hlsl\terrFeatureHLSL.cpp ..\..\..\..\..\Engine\source\ts\instancingMatHook.cpp ..\..\..\..\..\Engine\source\ts\tsAnimate.cpp ..\..\..\..\..\Engine\source\ts\tsCollision.cpp ..\..\..\..\..\Engine\source\ts\tsDecal.cpp ..\..\..\..\..\Engine\source\ts\tsDump.cpp ..\..\..\..\..\Engine\source\ts\tsIntegerSet.cpp ..\..\..\..\..\Engine\source\ts\tsLastDetail.cpp ..\..\..\..\..\Engine\source\ts\tsMaterialList.cpp ..\..\..\..\..\Engine\source\ts\tsMesh.cpp ..\..\..\..\..\Engine\source\ts\tsMeshFit.cpp ..\..\..\..\..\Engine\source\ts\tsMeshIntrinsics.cpp ..\..\..\..\..\Engine\source\ts\tsPartInstance.cpp ..\..\..\..\..\Engine\source\ts\tsRenderState.cpp ..\..\..\..\..\Engine\source\ts\tsShape.cpp ..\..\..\..\..\Engine\source\ts\tsShapeAlloc.cpp ..\..\..\..\..\Engine\source\ts\tsShapeConstruct.cpp ..\..\..\..\..\Engine\source\ts\tsShapeEdit.cpp ..\..\..\..\..\Engine\source\ts\tsShapeInstance.cpp ..\..\..\..\..\Engine\source\ts\tsShapeOldRead.cpp ..\..\..\..\..\Engine\source\ts\tsSortedMesh.cpp ..\..\..\..\..\Engine\source\ts\tsThread.cpp ..\..\..\..\..\Engine\source\ts\tsTransform.cpp ..\..\..\..\..\Engine\source\ts\arch\tsMeshIntrinsics.sse.cpp ..\..\..\..\..\Engine\source\ts\arch\tsMeshIntrinsics.sse4.cpp ..\..\..\..\..\Engine\source\ts\collada\colladaAppMaterial.cpp ..\..\..\..\..\Engine\source\ts\collada\colladaAppMesh.cpp ..\..\..\..\..\Engine\source\ts\collada\colladaAppNode.cpp ..\..\..\..\..\Engine\source\ts\collada\colladaAppSequence.cpp ..\..\..\..\..\Engine\source\ts\collada\colladaExtensions.cpp ..\..\..\..\..\Engine\source\ts\collada\colladaImport.cpp ..\..\..\..\..\Engine\source\ts\collada\colladaLights.cpp ..\..\..\..\..\Engine\source\ts\collada\colladaShapeLoader.cpp ..\..\..\..\..\Engine\source\ts\collada\colladaUtils.cpp ..\..\..\..\..\Engine\source\ts\loader\appMesh.cpp ..\..\..\..\..\Engine\source\ts\loader\appNode.cpp ..\..\..\..\..\Engine\source\ts\loader\tsShapeLoader.cpp ..\..\..\..\..\Engine\source\unit\consoleTest.cpp ..\..\..\..\..\Engine\source\unit\memoryTester.cpp ..\..\..\..\..\Engine\source\unit\test.cpp ..\..\..\..\..\Engine\source\unit\unitTestComponentInterface.cpp ..\..\..\..\..\Engine\source\unit\tests\testComponents.cpp ..\..\..\..\..\Engine\source\unit\tests\testDefaultConstruction.cpp ..\..\..\..\..\Engine\source\unit\tests\testMatrixMul.cpp ..\..\..\..\..\Engine\source\unit\tests\testRuntimeClassRep.cpp ..\..\..\..\..\Engine\source\unit\tests\testSwizzle.cpp ..\..\..\..\..\Engine\source\unit\tests\testThreadStatic.cpp ..\..\..\..\..\Engine\source\unit\tests\testThreadStaticPerformance.cpp ..\..\..\..\..\Engine\source\unit\tests\testVector.cpp ..\..\..\..\..\Engine\source\util\catmullRom.cpp ..\..\..\..\..\Engine\source\util\fpsTracker.cpp ..\..\..\..\..\Engine\source\util\imposterCapture.cpp ..\..\..\..\..\Engine\source\util\noise2d.cpp ..\..\..\..\..\Engine\source\util\quadTreeTracer.cpp ..\..\..\..\..\Engine\source\util\rectClipper.cpp ..\..\..\..\..\Engine\source\util\sampler.cpp ..\..\..\..\..\Engine\source\util\settings.cpp ..\..\..\..\..\Engine\source\util\triBoxCheck.cpp ..\..\..\..\..\Engine\source\util\triRayCheck.cpp ..\..\..\..\..\Engine\source\util\undo.cpp ..\..\..\..\..\Engine\source\util\messaging\dispatcher.cpp ..\..\..\..\..\Engine\source\util\messaging\eventManager.cpp ..\..\..\..\..\Engine\source\util\messaging\message.cpp ..\..\..\..\..\Engine\source\util\messaging\messageForwarder.cpp ..\..\..\..\..\Engine\source\util\messaging\scriptMsgListener.cpp ..\..\..\..\..\Engine\source\windowManager\platformCursorController.cpp ..\..\..\..\..\Engine\source\windowManager\platformInterface.cpp ..\..\..\..\..\Engine\source\windowManager\platformWindow.cpp ..\..\..\..\..\Engine\source\windowManager\windowInputGenerator.cpp ..\..\..\..\..\Engine\source\windowManager\test\testWinMgr.cpp ..\..\..\..\..\Engine\source\windowManager\win32\win32CursorController.cpp ..\..\..\..\..\Engine\source\windowManager\win32\win32SplashScreen.cpp ..\..\..\..\..\Engine\source\windowManager\win32\win32Window.cpp ..\..\..\..\..\Engine\source\windowManager\win32\win32WindowMgr.cpp ..\..\..\..\..\Engine\source\windowManager\win32\winDispatch.cpp
+         aiClient.cpp
+         aiConnection.cpp
+         aiPlayer.cpp
+         camera.cpp
+         cameraSpline.cpp
+         containerQuery.cpp
+         convexShape.cpp
+         debris.cpp
+         gameFunctions.cpp
+         gameTSCtrl.cpp
+         groundPlane.cpp
+         guiMaterialPreview.cpp
+         guiNoMouseCtrl.cpp
+         guiObjectView.cpp
+         item.cpp
+         levelInfo.cpp
+         lightAnimData.cpp
+         lightBase.cpp
+         lightDescription.cpp
+         lightFlareData.cpp
+         missionArea.cpp
+         missionMarker.cpp
+         occlusionVolume.cpp
+         pathCamera.cpp
+         physicalZone.cpp
+         player.cpp
+         pointLight.cpp
+         portal.cpp
+         prefab.cpp
+         projectile.cpp
+         proximityMine.cpp
+         rigid.cpp
+         rigidShape.cpp
+         scopeAlwaysShape.cpp
+         shapeBase.cpp
+         shapeCollision.cpp
+         shapeImage.cpp
+         spotLight.cpp
+         staticShape.cpp
+         trigger.cpp
+     1>..\..\..\..\..\Engine\source\T3D\shapeBase.cpp(3169): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 ..\..\..\..\..\Engine\source\T3D\shapeBase.cpp(3161) : definition of 'i' ignored
+                 ..\..\..\..\..\Engine\source\T3D\shapeBase.cpp(3139) : definition of 'i' used
+     1>..\..\..\..\..\Engine\source\T3D\shapeBase.cpp(3170): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 ..\..\..\..\..\Engine\source\T3D\shapeBase.cpp(3161) : definition of 'i' ignored
+                 ..\..\..\..\..\Engine\source\T3D\shapeBase.cpp(3139) : definition of 'i' used
+     1>..\..\..\..\..\Engine\source\T3D\shapeBase.cpp(3171): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 ..\..\..\..\..\Engine\source\T3D\shapeBase.cpp(3161) : definition of 'i' ignored
+                 ..\..\..\..\..\Engine\source\T3D\shapeBase.cpp(3139) : definition of 'i' used
+     1>..\..\..\..\..\Engine\source\T3D\shapeBase.cpp(3318): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 ..\..\..\..\..\Engine\source\T3D\shapeBase.cpp(3306) : definition of 'i' ignored
+                 ..\..\..\..\..\Engine\source\T3D\shapeBase.cpp(3274) : definition of 'i' used
+     1>..\..\..\..\..\Engine\source\T3D\shapeBase.cpp(3321): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 ..\..\..\..\..\Engine\source\T3D\shapeBase.cpp(3306) : definition of 'i' ignored
+                 ..\..\..\..\..\Engine\source\T3D\shapeBase.cpp(3274) : definition of 'i' used
+     1>..\..\..\..\..\Engine\source\T3D\shapeBase.cpp(3332): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 ..\..\..\..\..\Engine\source\T3D\shapeBase.cpp(3306) : definition of 'i' ignored
+                 ..\..\..\..\..\Engine\source\T3D\shapeBase.cpp(3274) : definition of 'i' used
+     1>..\..\..\..\..\Engine\source\T3D\shapeBase.cpp(3334): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 ..\..\..\..\..\Engine\source\T3D\shapeBase.cpp(3306) : definition of 'i' ignored
+                 ..\..\..\..\..\Engine\source\T3D\shapeBase.cpp(3274) : definition of 'i' used
+     1>..\..\..\..\..\Engine\source\T3D\shapeBase.cpp(3347): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 ..\..\..\..\..\Engine\source\T3D\shapeBase.cpp(3306) : definition of 'i' ignored
+                 ..\..\..\..\..\Engine\source\T3D\shapeBase.cpp(3274) : definition of 'i' used
+     1>..\..\..\..\..\Engine\source\T3D\shapeBase.cpp(3353): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 ..\..\..\..\..\Engine\source\T3D\shapeBase.cpp(3306) : definition of 'i' ignored
+                 ..\..\..\..\..\Engine\source\T3D\shapeBase.cpp(3274) : definition of 'i' used
+     1>..\..\..\..\..\Engine\source\T3D\shapeBase.cpp(3359): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 ..\..\..\..\..\Engine\source\T3D\shapeBase.cpp(3306) : definition of 'i' ignored
+                 ..\..\..\..\..\Engine\source\T3D\shapeBase.cpp(3274) : definition of 'i' used
+     1>..\..\..\..\..\Engine\source\T3D\shapeBase.cpp(3390): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 ..\..\..\..\..\Engine\source\T3D\shapeBase.cpp(3306) : definition of 'i' ignored
+                 ..\..\..\..\..\Engine\source\T3D\shapeBase.cpp(3274) : definition of 'i' used
+     1>..\..\..\..\..\Engine\source\T3D\shapeBase.cpp(3410): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 ..\..\..\..\..\Engine\source\T3D\shapeBase.cpp(3306) : definition of 'i' ignored
+                 ..\..\..\..\..\Engine\source\T3D\shapeBase.cpp(3274) : definition of 'i' used
+     1>..\..\..\..\..\Engine\source\T3D\shapeBase.cpp(3412): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 ..\..\..\..\..\Engine\source\T3D\shapeBase.cpp(3306) : definition of 'i' ignored
+                 ..\..\..\..\..\Engine\source\T3D\shapeBase.cpp(3274) : definition of 'i' used
+     1>..\..\..\..\..\Engine\source\T3D\shapeBase.cpp(3414): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 ..\..\..\..\..\Engine\source\T3D\shapeBase.cpp(3306) : definition of 'i' ignored
+                 ..\..\..\..\..\Engine\source\T3D\shapeBase.cpp(3274) : definition of 'i' used
+         tsStatic.cpp
+         zone.cpp
+         decalData.cpp
+         decalDataFile.cpp
+         decalInstance.cpp
+         decalManager.cpp
+         decalSphere.cpp
+         renderMeshExample.cpp
+         renderObjectExample.cpp
+         renderShapeExample.cpp
+         guiClockHud.cpp
+         guiCrossHairHud.cpp
+         guiHealthBarHud.cpp
+         guiHealthTextHud.cpp
+         guiShapeNameHud.cpp
+         cameraFXMgr.cpp
+         explosion.cpp
+         fxFoliageReplicator.cpp
+         fxShapeReplicator.cpp
+         groundCover.cpp
+         lightning.cpp
+         particle.cpp
+         particleEmitter.cpp
+         particleEmitterNode.cpp
+         precipitation.cpp
+         splash.cpp
+         windEmitter.cpp
+         gameBase.cpp
+         gameConnection.cpp
+         gameConnectionEvents.cpp
+         gameProcess.cpp
+         moveList.cpp
+         moveManager.cpp
+         processList.cpp
+         tickCache.cpp
+         stdGameProcess.cpp
+         stdMoveList.cpp
+         physicsBody.cpp
+         physicsDebris.cpp
+         physicsEvents.cpp
+         physicsForce.cpp
+         physicsObject.cpp
+         physicsPlayer.cpp
+         physicsPlugin.cpp
+         physicsShape.cpp
+         physicsUserData.cpp
+         physicsWorld.cpp
+         sfx3DWorld.cpp
+         sfxEmitter.cpp
+         sfxSpace.cpp
+         aiTurretShape.cpp
+     1>../../../../../Engine/source/sfx/sfxWorld.h(305): warning C4189: 'ambience' : local variable is initialized but not referenced (..\..\..\..\..\Engine\source\T3D\sfx\sfx3DWorld.cpp)
+                 ../../../../../Engine/source/sfx/sfxWorld.h(263) : while compiling class template member function 'void SFXWorld<NUM_DIMENSIONS,Object>::update(void)'
+                 with
+                 [
+                     NUM_DIMENSIONS=3,
+                     Object=SFX3DObject *
+                 ]
+                 ..\..\..\..\..\Engine\source\T3D\sfx\sfx3DWorld.cpp(207) : see reference to function template instantiation 'void SFXWorld<NUM_DIMENSIONS,Object>::update(void)' being compiled
+                 with
+                 [
+                     NUM_DIMENSIONS=3,
+                     Object=SFX3DObject *
+                 ]
+                 ../../../../../Engine/source/T3D/sfx/sfx3DWorld.h(90) : see reference to class template instantiation 'SFXWorld<NUM_DIMENSIONS,Object>' being compiled
+                 with
+                 [
+                     NUM_DIMENSIONS=3,
+                     Object=SFX3DObject *
+                 ]
+         turretShape.cpp
+         flyingVehicle.cpp
+         guiSpeedometer.cpp
+         hoverVehicle.cpp
+         vehicle.cpp
+         vehicleBlocker.cpp
+         wheeledVehicle.cpp
+         badWordFilter.cpp
+         banList.cpp
+         game.cpp
+         mainLoop.cpp
+         version.cpp
+         httpObject.cpp
+         net.cpp
+         netTest.cpp
+         serverQuery.cpp
+         tcpObject.cpp
+         cinterface.cpp
+         c_consoleInterface.cpp
+         c_scripting.cpp
+         abstractPolyList.cpp
+         boxConvex.cpp
+         clippedPolyList.cpp
+         concretePolyList.cpp
+         convex.cpp
+         depthSortList.cpp
+         earlyOutPolyList.cpp
+         extrudedPolyList.cpp
+         gjk.cpp
+         optimizedPolyList.cpp
+         planeExtractor.cpp
+         polytope.cpp
+         vertexPolyList.cpp
+         componentInterface.cpp
+         dynamicConsoleMethodComponent.cpp
+         moreAdvancedComponent.cpp
+         simComponent.cpp
+         simpleComponent.cpp
+         arrayObject.cpp
+         astAlloc.cpp
+         astNodes.cpp
+         cmdgram.cpp
+         CMDscan.cpp
+     1>cmdgram.cpp(2067): warning C4065: switch statement contains 'default' but no 'case' labels (..\..\..\..\..\Engine\source\console\cmdgram.cpp)
+     1>CMDscan.cpp(1913): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _fileno. See online help for details. (..\..\..\..\..\Engine\source\console\CMDscan.cpp)
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(711) : see declaration of 'fileno'
+     1>c:\users\kottlerg\desktop\cryptid\torque3d\my projects\cryptid\buildfiles\visualstudio 2010\projects\cmdgram.cpp(3258): warning C4702: unreachable code
+         codeBlock.cpp
+         compiledEval.cpp
+         compiler.cpp
+         console.cpp
+         consoleDoc.cpp
+         consoleFunctions.cpp
+     1>../../../../../Engine/source/core/util/journal/journal.h(409): warning C4189: 'r' : local variable is initialized but not referenced (..\..\..\..\..\Engine\source\console\consoleFunctions.cpp)
+                 ..\..\..\..\..\Engine\source\console\consoleFunctions.cpp(1941) : see reference to function template instantiation 'void Journal::Read<bool>(T *)' being compiled
+                 with
+                 [
+                     T=bool
+                 ]
+     1>../../../../../Engine/source/core/util/journal/journal.h(431): warning C4189: 'r' : local variable is initialized but not referenced (..\..\..\..\..\Engine\source\console\consoleFunctions.cpp)
+                 ..\..\..\..\..\Engine\source\console\consoleFunctions.cpp(2057) : see reference to function template instantiation 'void Journal::Write<bool>(const T &)' being compiled
+                 with
+                 [
+                     T=bool
+                 ]
+         consoleInternal.cpp
+     1>c:\users\kottlerg\desktop\cryptid\torque3d\engine\source\console\consolefunctions.cpp(491): warning C4702: unreachable code
+         consoleLogger.cpp
+         consoleObject.cpp
+         consoleParser.cpp
+         consoleTypes.cpp
+         consoleXMLExport.cpp
+         debugOutputConsumer.cpp
+         dynamicTypes.cpp
+         engineDoc.cpp
+         engineExports.cpp
+         engineFunctions.cpp
+         engineObject.cpp
+         enginePrimitives.cpp
+         engineStructs.cpp
+         engineTypeInfo.cpp
+         engineTypes.cpp
+         engineXMLExport.cpp
+         fieldBrushObject.cpp
+         fileSystemFunctions.cpp
+         persistenceManager.cpp
+         propertyParsing.cpp
+         runtimeClassRep.cpp
+         scriptFilename.cpp
+         scriptObjects.cpp
+         sim.cpp
+         simDatablock.cpp
+         simDictionary.cpp
+         simEvents.cpp
+         simFieldDictionary.cpp
+         simManager.cpp
+         simObject.cpp
+         simObjectList.cpp
+     1>..\..\..\..\..\Engine\source\console\simObject.cpp(1448): warning C4189: 'ok' : local variable is initialized but not referenced
+         simObjectMemento.cpp
+         simPersistID.cpp
+         simPersistSet.cpp
+         simSerialize.cpp
+         simSet.cpp
+         SimXMLDocument.cpp
+         stringStack.cpp
+         telnetConsole.cpp
+         telnetDebugger.cpp
+         typeValidators.cpp
+         bitRender.cpp
+         bitVector.cpp
+         color.cpp
+         crc.cpp
+         dataChunker.cpp
+         dnet.cpp
+         fileObject.cpp
+         filterStream.cpp
+         frameAllocator.cpp
+         idGenerator.cpp
+         iTickable.cpp
+         memVolume.cpp
+         module.cpp
+         resizeStream.cpp
+         resource.cpp
+         resourceManager.cpp
+         stringBuffer.cpp
+         stringTable.cpp
+         tagDictionary.cpp
+         threadStatic.cpp
+         tokenizer.cpp
+         virtualMountSystem.cpp
+         volume.cpp
+         oggInputStream.cpp
+         oggTheoraDecoder.cpp
+         oggVorbisDecoder.cpp
+         bitStream.cpp
+         fileStream.cpp
+         fileStreamObject.cpp
+         memStream.cpp
+         stream.cpp
+         streamObject.cpp
+         findMatch.cpp
+         stringFunctions.cpp
+         stringUnit.cpp
+         unicode.cpp
+     1>c:\users\kottlerg\desktop\cryptid\torque3d\engine\source\core\strings\stringfunctions.cpp(148): warning C4702: unreachable code
+     1>c:\users\kottlerg\desktop\cryptid\torque3d\engine\source\core\strings\stringfunctions.cpp(126): warning C4702: unreachable code
+         byteBuffer.cpp
+         commonSwizzles.cpp
+         hashFunction.cpp
+         md5.cpp
+         path.cpp
+         rgb2luv.cpp
+         rgb2xyz.cpp
+         str.cpp
+         tDictionary.cpp
+         timeClass.cpp
+         tSignal.cpp
+         tVector.cpp
+         uuid.cpp
+     1>..\..\..\..\..\Engine\source\core\util\str.cpp(508): warning C4189: 'sub' : local variable is initialized but not referenced
+         journal.cpp
+         process.cpp
+         testJournal.cpp
+         testProcess.cpp
+         testFixedSizeDeque.cpp
+         testPath.cpp
+         testString.cpp
+         testVector2.cpp
+         centralDir.cpp
+         compressor.cpp
+         extraField.cpp
+         fileHeader.cpp
+         zipArchive.cpp
+         zipCryptStream.cpp
+         zipObject.cpp
+         zipSubStream.cpp
+         zipTempStream.cpp
+         zipVolume.cpp
+     1>..\..\..\..\..\Engine\source\core\util\zip\zipSubStream.cpp(438): warning C4189: 'retVal' : local variable is initialized but not referenced
+         deflate.cpp
+         stored.cpp
+         zipTestMisc.cpp
+         zipTestRead.cpp
+         zipTestWrite.cpp
+         basicClouds.cpp
+         cloudLayer.cpp
+         decalRoad.cpp
+         meshRoad.cpp
+     1>..\..\..\..\..\Engine\source\environment\decalRoad.cpp(785): warning C4189: 'vertCount' : local variable is initialized but not referenced
+         nodeListManager.cpp
+         river.cpp
+         scatterSky.cpp
+         skyBox.cpp
+         sun.cpp
+         timeOfDay.cpp
+         waterBlock.cpp
+         waterObject.cpp
+         waterPlane.cpp
+         guiMeshRoadEditorCtrl.cpp
+         guiRiverEditorCtrl.cpp
+         guiRoadEditorCtrl.cpp
+         forest.cpp
+         forestCell.cpp
+         forestCellBatch.cpp
+         forestCollision.cpp
+         forestDataFile.cpp
+         forestItem.cpp
+     1>..\..\..\..\..\Engine\source\forest\forestDataFile.cpp(200): warning C4189: 'localName' : local variable is initialized but not referenced
+         forestRender.cpp
+         forestWindAccumulator.cpp
+         forestWindEmitter.cpp
+         forestWindMgr.cpp
+         windDeformation.cpp
+         forestBrushElement.cpp
+         forestBrushTool.cpp
+         forestEditorCtrl.cpp
+         forestSelectionTool.cpp
+         forestTool.cpp
+         forestUndo.cpp
+         windDeformationHLSL.cpp
+         tsForestCellBatch.cpp
+         tsForestItemData.cpp
+         genericConstBuffer.cpp
+         gFont.cpp
+         gfxAPI.cpp
+         gfxCardProfile.cpp
+         gfxCubemap.cpp
+         gfxDevice.cpp
+         gfxDeviceStatistics.cpp
+         gfxDrawUtil.cpp
+         gfxFence.cpp
+         gfxFontRenderBatcher.cpp
+         gfxFormatUtils.cpp
+         gfxInit.cpp
+         gfxOcclusionQuery.cpp
+         gfxPrimitiveBuffer.cpp
+         gfxResource.cpp
+         gfxShader.cpp
+         gfxStateBlock.cpp
+         gfxStringEnumTranslate.cpp
+         gfxStructs.cpp
+         gfxTarget.cpp
+         gfxTextureHandle.cpp
+         gfxTextureManager.cpp
+         gfxTextureObject.cpp
+         gfxTextureProfile.cpp
+         gfxVertexBuffer.cpp
+         gfxVertexColor.cpp
+         gfxVertexFormat.cpp
+         gfxVertexTypes.cpp
+         primBuilder.cpp
+         screenshot.cpp
+         gfxD3D9CardProfiler.cpp
+         gfxD3D9Cubemap.cpp
+         gfxD3D9Device.cpp
+         gfxD3D9Device.regen-states.cpp
+         gfxD3D9OcclusionQuery.cpp
+         gfxD3D9PrimitiveBuffer.cpp
+         gfxD3D9QueryFence.cpp
+         gfxD3D9Shader.cpp
+         gfxD3D9StateBlock.cpp
+         gfxD3D9TextureManager.cpp
+         gfxD3D9TextureObject.cpp
+         gfxD3D9VertexBuffer.cpp
+         screenshotD3D9.cpp
+         videoCaptureD3D9.cpp
+         gfxD3D9Device.pc.cpp
+         gfxD3D9EnumTranslate.pc.cpp
+         gfxD3D9PrimitiveBuffer.pc.cpp
+         gfxPCD3D9Device.cpp
+         gfxPCD3D9Target.cpp
+         gfxNullDevice.cpp
+         bitmapUtils.cpp
+         ddsLoader.cpp
+         ddsUtils.cpp
+         gBitmap.cpp
+         bitmapBmp.cpp
+         bitmapGif.cpp
+         bitmapJpeg.cpp
+         bitmapMng.cpp
+         bitmapPng.cpp
+         bitmapTga.cpp
+     1>..\..\..\..\..\Engine\source\gfx\bitmap\loaders\bitmapPng.cpp(78): warning C4189: 'success' : local variable is initialized but not referenced
+     1>..\..\..\..\..\Engine\source\gfx\bitmap\loaders\bitmapPng.cpp(91): warning C4189: 'success' : local variable is initialized but not referenced
+         cubemapData.cpp
+         debugDraw.cpp
+         gfxStateBlockData.cpp
+         stanfordBunny.cpp
+         testGfx.cpp
+         distanceField.cpp
+         gfxFrustumSaver.cpp
+         screenspace.cpp
+         triListOpt.cpp
+         theoraTexture.cpp
+         theoraTextureObject.cpp
+         videoCapture.cpp
+         videoEncoderPNG.cpp
+         videoEncoderTheora.cpp
+         guiTSControl.cpp
+         guiBitmapButtonCtrl.cpp
+         guiBorderButton.cpp
+         guiButtonBaseCtrl.cpp
+         guiButtonCtrl.cpp
+         guiCheckBoxCtrl.cpp
+         guiIconButtonCtrl.cpp
+         guiRadioCtrl.cpp
+         guiSwatchButtonCtrl.cpp
+         guiToggleButtonCtrl.cpp
+         guiToolboxButtonCtrl.cpp
+         guiAutoScrollCtrl.cpp
+         guiContainer.cpp
+         guiCtrlArrayCtrl.cpp
+         guiDragAndDropCtrl.cpp
+         guiDynamicCtrlArrayCtrl.cpp
+         guiFormCtrl.cpp
+         guiFrameCtrl.cpp
+         guiPaneCtrl.cpp
+         guiPanel.cpp
+         guiRolloutCtrl.cpp
+         guiScrollCtrl.cpp
+         guiSplitContainer.cpp
+         guiStackCtrl.cpp
+     1>..\..\..\..\..\Engine\source\gui\containers\guiSplitContainer.cpp(350): warning C4189: 'panelTwo' : local variable is initialized but not referenced
+     1>..\..\..\..\..\Engine\source\gui\containers\guiSplitContainer.cpp(349): warning C4189: 'panelOne' : local variable is initialized but not referenced
+         guiTabBookCtrl.cpp
+         guiWindowCollapseCtrl.cpp
+         guiWindowCtrl.cpp
+         guiBackgroundCtrl.cpp
+         guiBitmapBorderCtrl.cpp
+         guiBitmapCtrl.cpp
+         guiColorPicker.cpp
+         guiConsole.cpp
+         guiConsoleEditCtrl.cpp
+         guiConsoleTextCtrl.cpp
+         guiDecoyCtrl.cpp
+         guiDirectoryFileListCtrl.cpp
+         guiFileTreeCtrl.cpp
+         guiGameListMenuCtrl.cpp
+         guiGameListOptionsCtrl.cpp
+         guiGradientCtrl.cpp
+         guiListBoxCtrl.cpp
+         guiMaterialCtrl.cpp
+         guiMLTextCtrl.cpp
+         guiMLTextEditCtrl.cpp
+         guiPopUpCtrl.cpp
+         guiPopUpCtrlEx.cpp
+         guiSliderCtrl.cpp
+         guiTabPageCtrl.cpp
+         guiTextCtrl.cpp
+         guiTextEditCtrl.cpp
+         guiTextEditSliderBitmapCtrl.cpp
+         guiTextEditSliderCtrl.cpp
+         guiTextListCtrl.cpp
+         guiTreeViewCtrl.cpp
+         guiArrayCtrl.cpp
+         guiCanvas.cpp
+         guiControl.cpp
+         guiDefaultControlRender.cpp
+     1>../../../../../Engine/source/core/util/journal/journal.h(431): warning C4189: 'r' : local variable is initialized but not referenced (..\..\..\..\..\Engine\source\gui\core\guiCanvas.cpp)
+                 ..\..\..\..\..\Engine\source\gui\core\guiCanvas.cpp(214) : see reference to function template instantiation 'void Journal::Write<S32>(const T &)' being compiled
+                 with
+                 [
+                     T=S32
+                 ]
+     1>../../../../../Engine/source/core/util/journal/journal.h(409): warning C4189: 'r' : local variable is initialized but not referenced (..\..\..\..\..\Engine\source\gui\core\guiCanvas.cpp)
+                 ..\..\..\..\..\Engine\source\gui\core\guiCanvas.cpp(222) : see reference to function template instantiation 'void Journal::Read<S32>(T *)' being compiled
+                 with
+                 [
+                     T=S32
+                 ]
+         guiScriptNotifyControl.cpp
+         guiTypes.cpp
+         editorFunctions.cpp
+         guiDebugger.cpp
+         guiEaseViewCtrl.cpp
+         guiEditCtrl.cpp
+         guiFilterCtrl.cpp
+         guiGraphCtrl.cpp
+         guiImageList.cpp
+         guiInspector.cpp
+         guiInspectorTypes.cpp
+         guiMenuBar.cpp
+         guiParticleGraphCtrl.cpp
+         guiRectHandles.cpp
+         guiSeparatorCtrl.cpp
+         guiShapeEdPreview.cpp
+         customField.cpp
+         datablockField.cpp
+         dynamicField.cpp
+         dynamicGroup.cpp
+         field.cpp
+         group.cpp
+         variableField.cpp
+         variableGroup.cpp
+         variableInspector.cpp
+         guiChunkedBitmapCtrl.cpp
+         guiFadeinBitmapCtrl.cpp
+         guiIdleCamFadeBitmapCtrl.cpp
+         guiMessageVectorCtrl.cpp
+         guiProgressBitmapCtrl.cpp
+         guiProgressCtrl.cpp
+         guiTickCtrl.cpp
+         guiTheoraCtrl.cpp
+         guiBubbleTextCtrl.cpp
+         guiInputCtrl.cpp
+         guiMouseEventCtrl.cpp
+         messageVector.cpp
+         creator.cpp
+         editor.cpp
+         editorIconRegistry.cpp
+         editTSCtrl.cpp
+         gizmo.cpp
+         guiConvexShapeEditorCtrl.cpp
+         guiDecalEditorCtrl.cpp
+         guiMissionArea.cpp
+         guiMissionAreaEditor.cpp
+         guiTerrPreviewCtrl.cpp
+         terrainActions.cpp
+         terrainEditor.cpp
+         tSelection.cpp
+         undoActions.cpp
+         worldEditor.cpp
+         worldEditorSelection.cpp
+         i18n.cpp
+         lang.cpp
+         lightInfo.cpp
+         lightingInterfaces.cpp
+         lightManager.cpp
+         lightQuery.cpp
+         shadowManager.cpp
+         advancedLightBinManager.cpp
+         advancedLightBufferConditioner.cpp
+         advancedLightingFeatures.cpp
+         advancedLightManager.cpp
+         advancedLightingFeaturesHLSL.cpp
+         gBufferConditionerHLSL.cpp
+         basicLightManager.cpp
+         basicSceneObjectLightingPlugin.cpp
+     1>..\..\..\..\..\Engine\source\lighting\advanced\hlsl\advancedLightingFeaturesHLSL.cpp(468): warning C4189: 'lightInfoSamp' : local variable is initialized but not referenced
+         blTerrainSystem.cpp
+         blobShadow.cpp
+         lightMapParams.cpp
+         projectedShadow.cpp
+         sceneLighting.cpp
+         scenePersist.cpp
+         shadowVolumeBSP.cpp
+         cubeLightShadowMap.cpp
+         dualParaboloidLightShadowMap.cpp
+         lightShadowMap.cpp
+         paraboloidLightShadowMap.cpp
+         pssmLightShadowMap.cpp
+         shadowMapManager.cpp
+         shadowMapPass.cpp
+         shadowMatHook.cpp
+         singleLightShadowMap.cpp
+         baseMatInstance.cpp
+         customMaterialDefinition.cpp
+         materialDefinition.cpp
+         materialFeatureData.cpp
+         materialFeatureTypes.cpp
+         materialList.cpp
+         materialManager.cpp
+         matInstance.cpp
+         matInstanceHook.cpp
+         matStateHint.cpp
+         matTextureTarget.cpp
+         processedCustomMaterial.cpp
+         processedFFMaterial.cpp
+         processedMaterial.cpp
+         processedShaderMaterial.cpp
+         shaderData.cpp
+         shaderMaterialParameters.cpp
+         mAngAxis.cpp
+         mathTypes.cpp
+         mathUtils.cpp
+         mBox.cpp
+         mConsoleFunctions.cpp
+     1>..\..\..\..\..\Engine\source\math\mathTypes.cpp(514): warning C4189: 'args' : local variable is initialized but not referenced
+         mEase.cpp
+         mMathAltivec.cpp
+         mMathAMD.cpp
+         mMathSSE.cpp
+         mMath_C.cpp
+         mMatrix.cpp
+         mOrientedBox.cpp
+         mPlane.cpp
+         mPlaneTransformer.cpp
+         mPoint.cpp
+         mPolyhedron.cpp
+         mQuadPatch.cpp
+         mQuat.cpp
+         mRandom.cpp
+         mRect.cpp
+         mSolver.cpp
+     1>../../../../../Engine/source/core/util/journal/journal.h(409): warning C4189: 'r' : local variable is initialized but not referenced (..\..\..\..\..\Engine\source\math\mRandom.cpp)
+                 ..\..\..\..\..\Engine\source\math\mRandom.cpp(33) : see reference to function template instantiation 'void Journal::Read<U32>(T *)' being compiled
+                 with
+                 [
+                     T=U32
+                 ]
+     1>../../../../../Engine/source/core/util/journal/journal.h(431): warning C4189: 'r' : local variable is initialized but not referenced (..\..\..\..\..\Engine\source\math\mRandom.cpp)
+                 ..\..\..\..\..\Engine\source\math\mRandom.cpp(38) : see reference to function template instantiation 'void Journal::Write<U32>(const T &)' being compiled
+                 with
+                 [
+                     T=U32
+                 ]
+         mSphere.cpp
+         mSplinePatch.cpp
+         testMathPlane.cpp
+         testPolyhedron.cpp
+         frustum.cpp
+         matrixSet.cpp
+         quadTransforms.cpp
+         sphereMesh.cpp
+         tResponseCurve.cpp
+         platform.cpp
+         platformAssert.cpp
+         platformCPU.cpp
+         platformCPUCount.cpp
+         platformFileIO.cpp
+         platformFont.cpp
+         platformMemory.cpp
+         platformNet.cpp
+         platformNetAsync.cpp
+     1>..\..\..\..\..\Engine\source\platform\platformMemory.cpp(801): warning C4101: 'buffer' : unreferenced local variable
+         platformRedBook.cpp
+         platformTimer.cpp
+         Mac/Lunix will need to implement this or get unresolved externals.
+          It was previously defined here with a Win32 ifdef which goes against
+          how torque implements its platform agnostic systems - JDD
+     1>..\..\..\..\..\Engine\source\platform\platformNet.cpp(30): warning C4005: 'EINPROGRESS' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>../../../../../Engine/source/core/util/journal/journal.h(409): warning C4189: 'r' : local variable is initialized but not referenced (..\..\..\..\..\Engine\source\platform\platformNet.cpp)
+                 ..\..\..\..\..\Engine\source\platform\platformNet.cpp(334) : see reference to function template instantiation 'void Journal::Read<U32>(T *)' being compiled
+                 with
+                 [
+                     T=U32
+                 ]
+     1>../../../../../Engine/source/core/util/journal/journal.h(431): warning C4189: 'r' : local variable is initialized but not referenced (..\..\..\..\..\Engine\source\platform\platformNet.cpp)
+                 ..\..\..\..\..\Engine\source\platform\platformNet.cpp(362) : see reference to function template instantiation 'void Journal::Write<U32>(const T &)' being compiled
+                 with
+                 [
+                     T=U32
+                 ]
+         platformVideoInfo.cpp
+         platformVolume.cpp
+         profiler.cpp
+         asyncUpdate.cpp
+     1>c:\users\kottlerg\desktop\cryptid\torque3d\engine\source\platform\platformcpucount.cpp(138): warning C4702: unreachable code
+         event.cpp
+         menuBar.cpp
+         popupMenu.cpp
+         msgBox.cpp
+     1>..\..\..\..\..\Engine\source\platform\profiler.cpp(625): warning C4189: 'success' : local variable is initialized but not referenced
+         testAlerts.cpp
+         testAsyncPacketQueue.cpp
+         testBasicTypes.cpp
+         testFile.cpp
+         testNet.cpp
+         testThreading.cpp
+         testThreadPool.cpp
+         testThreadSafeDeque.cpp
+         testThreadSafePriorityQueue.cpp
+         testThreadSafeRefCount.cpp
+         testTimeManager.cpp
+         threadPool.cpp
+         cardProfile.cpp
+         winAsmBlit.cpp
+         winAsync.cpp
+         winConsole.cpp
+         winCPUInfo.cpp
+         winDInputDevice.cpp
+         winDirectInput.cpp
+         winDlibrary.cpp
+         winExec.cpp
+         winFileio.cpp
+         winFont.cpp
+         winInput.cpp
+         winMath.cpp
+         winMath_ASM.cpp
+         winMemory.cpp
+         winProcessControl.cpp
+         winRedbook.cpp
+         winSemaphore.cpp
+         winTime.cpp
+         winTimer.cpp
+         winTLS.cpp
+         winUser.cpp
+         winVFS.cpp
+         winVolume.cpp
+         winWindow.cpp
+         menuBarWin32.cpp
+         popupMenuWin32.cpp
+         winMiniDump.cpp
+         winStackWalker.cpp
+         fileDialog.cpp
+         win32MsgBox.cpp
+         mutex.cpp
+         thread.cpp
+         wmiVideoInfo.cpp
+         postEffect.cpp
+         postEffectManager.cpp
+         postEffectVis.cpp
+         forcedMaterialMeshMgr.cpp
+         renderBinManager.cpp
+         renderFormatChanger.cpp
+         renderGlowMgr.cpp
+         renderImposterMgr.cpp
+         renderMeshMgr.cpp
+         renderObjectMgr.cpp
+         renderOcclusionMgr.cpp
+         renderParticleMgr.cpp
+         renderPassManager.cpp
+         renderPassStateToken.cpp
+         renderPrePassMgr.cpp
+         renderTerrainMgr.cpp
+         renderTexTargetBinManager.cpp
+         renderTranslucentMgr.cpp
+         pathManager.cpp
+         reflectionManager.cpp
+         reflectionMatHook.cpp
+         reflector.cpp
+         sceneCameraState.cpp
+     1>..\..\..\..\..\Engine\source\scene\reflectionManager.cpp(192): warning C4189: 'totalElapsed' : local variable is initialized but not referenced
+     1>..\..\..\..\..\Engine\source\scene\reflectionManager.cpp(196): warning C4189: 'numEnabled' : local variable is initialized but not referenced
+         sceneContainer.cpp
+         sceneManager.cpp
+         sceneObject.cpp
+         scenePolyhedralSpace.cpp
+         sceneRenderState.cpp
+         sceneSpace.cpp
+         sceneTracker.cpp
+         sgUtil.cpp
+         simPath.cpp
+         sceneCullingState.cpp
+         sceneCullingVolume.cpp
+         sceneZoneCullingState.cpp
+         scenePolyhedralZone.cpp
+         sceneRootZone.cpp
+         sceneSimpleZone.cpp
+         sceneTraversalState.cpp
+         sceneZoneSpace.cpp
+         sceneZoneSpaceManager.cpp
+         sfxAmbience.cpp
+         sfxBuffer.cpp
+     1>..\..\..\..\..\Engine\source\scene\zones\sceneZoneSpaceManager.cpp(903): warning C4189: 'otherSpace' : local variable is initialized but not referenced
+         sfxController.cpp
+         sfxDescription.cpp
+         sfxDevice.cpp
+         sfxEnvironment.cpp
+         sfxFileStream.cpp
+         sfxInternal.cpp
+         sfxMemoryStream.cpp
+         sfxModifier.cpp
+         sfxParameter.cpp
+         sfxPlayList.cpp
+         sfxProfile.cpp
+         sfxProvider.cpp
+         sfxResource.cpp
+         sfxSound.cpp
+         sfxSoundscape.cpp
+         sfxSource.cpp
+         sfxState.cpp
+         sfxSystem.cpp
+         sfxTrack.cpp
+         sfxTypes.cpp
+         sfxVoice.cpp
+         sfxDSBuffer.cpp
+         sfxDSDevice.cpp
+         sfxDSProvider.cpp
+         sfxDSVoice.cpp
+         sfxVorbisStream.cpp
+         sfxWavStream.cpp
+         sfxNullBuffer.cpp
+         sfxNullDevice.cpp
+         sfxNullProvider.cpp
+         sfxNullVoice.cpp
+         aldlist.cpp
+         sfxALBuffer.cpp
+         sfxALDevice.cpp
+         sfxALProvider.cpp
+         sfxALVoice.cpp
+         LoadOAL.cpp
+         sfxXAudioBuffer.cpp
+         sfxXAudioDevice.cpp
+         sfxXAudioProvider.cpp
+         sfxXAudioVoice.cpp
+         conditionerFeature.cpp
+         featureMgr.cpp
+         featureSet.cpp
+         featureType.cpp
+         langElement.cpp
+         shaderComp.cpp
+         shaderDependency.cpp
+         shaderFeature.cpp
+         shaderGen.cpp
+         shaderGenVars.cpp
+         shaderOp.cpp
+         bumpHLSL.cpp
+         depthHLSL.cpp
+         paraboloidHLSL.cpp
+         pixSpecularHLSL.cpp
+         shaderCompHLSL.cpp
+         shaderFeatureHLSL.cpp
+         shaderGenHLSL.cpp
+         shaderGenHLSLInit.cpp
+         actionMap.cpp
+         connectionStringTable.cpp
+         netConnection.cpp
+         netDownload.cpp
+         netEvent.cpp
+         netGhost.cpp
+         netInterface.cpp
+         netObject.cpp
+         netStringTable.cpp
+         terrCell.cpp
+     1>../../../../../Engine/source/core/util/journal/journal.h(409): warning C4189: 'r' : local variable is initialized but not referenced (..\..\..\..\..\Engine\source\sim\netInterface.cpp)
+                 ..\..\..\..\..\Engine\source\sim\netInterface.cpp(53) : see reference to function template instantiation 'void Journal::Read<U32>(T *)' being compiled
+                 with
+                 [
+                     T=U32
+                 ]
+     1>../../../../../Engine/source/core/util/journal/journal.h(431): warning C4189: 'r' : local variable is initialized but not referenced (..\..\..\..\..\Engine\source\sim\netInterface.cpp)
+                 ..\..\..\..\..\Engine\source\sim\netInterface.cpp(55) : see reference to function template instantiation 'void Journal::Write<U32>(const T &)' being compiled
+                 with
+                 [
+                     T=U32
+                 ]
+         terrCellMaterial.cpp
+         terrCollision.cpp
+         terrData.cpp
+         terrExport.cpp
+         terrFeatureTypes.cpp
+         terrFile.cpp
+         terrImport.cpp
+         terrLighting.cpp
+         terrMaterial.cpp
+         terrRender.cpp
+         terrFeatureHLSL.cpp
+         instancingMatHook.cpp
+         tsAnimate.cpp
+     1>..\..\..\..\..\Engine\source\terrain\hlsl\terrFeatureHLSL.cpp(803): warning C4189: 'baseColor' : local variable is initialized but not referenced
+         tsCollision.cpp
+         tsDecal.cpp
+         Using OPCODE
+         Compiling on Windows...
+         Compiling with VC++...
+     1>..\..\..\..\..\Engine\source\ts\tsCollision.cpp(1514): warning C4189: 'safety' : local variable is initialized but not referenced
+         tsDump.cpp
+         tsIntegerSet.cpp
+         tsLastDetail.cpp
+         tsMaterialList.cpp
+         tsMesh.cpp
+         tsMeshFit.cpp
+         tsMeshIntrinsics.cpp
+         tsPartInstance.cpp
+         Using OPCODE
+         Compiling on Windows...
+         Compiling with VC++...
+         tsRenderState.cpp
+         tsShape.cpp
+         tsShapeAlloc.cpp
+         tsShapeConstruct.cpp
+     1>..\..\..\..\..\Engine\source\ts\tsShapeAlloc.cpp(215): warning C4189: 'check8' : local variable is initialized but not referenced
+     1>..\..\..\..\..\Engine\source\ts\tsShapeAlloc.cpp(213): warning C4189: 'check32' : local variable is initialized but not referenced
+     1>..\..\..\..\..\Engine\source\ts\tsShapeAlloc.cpp(214): warning C4189: 'check16' : local variable is initialized but not referenced
+         tsShapeEdit.cpp
+     1>..\..\..\..\..\Engine\source\ts\tsShape.cpp(392): warning C4189: 'numSubShapes' : local variable is initialized but not referenced
+         tsShapeInstance.cpp
+         tsShapeOldRead.cpp
+         tsSortedMesh.cpp
+         tsThread.cpp
+         tsTransform.cpp
+         tsMeshIntrinsics.sse.cpp
+         tsMeshIntrinsics.sse4.cpp
+     1>..\..\..\..\..\Engine\source\ts\tsThread.cpp(164): warning C4189: 'shape' : local variable is initialized but not referenced
+         colladaAppMaterial.cpp
+         colladaAppMesh.cpp
+         colladaAppNode.cpp
+         colladaAppSequence.cpp
+         colladaExtensions.cpp
+         colladaImport.cpp
+         colladaLights.cpp
+         colladaShapeLoader.cpp
+         colladaUtils.cpp
+         appMesh.cpp
+         appNode.cpp
+         tsShapeLoader.cpp
+         consoleTest.cpp
+         memoryTester.cpp
+         test.cpp
+         unitTestComponentInterface.cpp
+         testComponents.cpp
+         testDefaultConstruction.cpp
+         testMatrixMul.cpp
+         testRuntimeClassRep.cpp
+         testSwizzle.cpp
+         testThreadStatic.cpp
+         testThreadStaticPerformance.cpp
+         testVector.cpp
+         catmullRom.cpp
+         fpsTracker.cpp
+         imposterCapture.cpp
+         noise2d.cpp
+         quadTreeTracer.cpp
+         rectClipper.cpp
+         sampler.cpp
+         settings.cpp
+         triBoxCheck.cpp
+         triRayCheck.cpp
+         undo.cpp
+         dispatcher.cpp
+         eventManager.cpp
+         message.cpp
+         messageForwarder.cpp
+         scriptMsgListener.cpp
+         platformCursorController.cpp
+         platformInterface.cpp
+         platformWindow.cpp
+         windowInputGenerator.cpp
+         testWinMgr.cpp
+         win32CursorController.cpp
+         win32SplashScreen.cpp
+         win32Window.cpp
+         win32WindowMgr.cpp
+         winDispatch.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D NDEBUG /l"0x0409" /I../../../game/shaders /I../../../../../Engine/lib/lmng /I../../../../../Engine/lib/lpng /I../../../../../Engine/lib/ljpeg /I../../../../../Engine/lib/lungif /I../../../../../Engine/lib/zlib /I../../../../../Engine/lib/tinyxml /I../../../../../Engine/lib/opcode /I../../../../../Engine/lib/squish /I../../../../../Engine/lib/convexDecomp /I../../../../../Engine/lib/libvorbis/include /I../../../../../Engine/lib/libogg/include /I../../../../../Engine/lib/libtheora/include /I../../../source /I../../../../../Engine/source/ /I../../../../../Engine/lib/ /I../../../../../Engine/lib/directx8 /I../../../../../Engine/lib/openal/win32 /I../../../../../Engine/lib/collada/include /I../../../../../Engine/lib/collada/include/1.4 /I../../../../../Engine/lib/openal/win32 /nologo /fo"../../Link/VC2010.Release.Win32/Cryptid DLL/Torque.res" Torque.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../game/Cryptid.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:../../../../../Engine/lib/SDL/win32 /LIBPATH:../../../../../Engine/lib/unicode /LIBPATH:../../../../../Engine/lib/directx8 /LIBPATH:../../Link/VC2010.Release.Win32 /LIBPATH:"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\/Lib/x86" x3daudio.lib COMCTL32.LIB COMDLG32.LIB USER32.LIB ADVAPI32.LIB GDI32.LIB WINMM.LIB WSOCK32.LIB vfw32.lib Imm32.lib d3d9.lib d3dx9.lib DxErr.lib ole32.lib shell32.lib oleaut32.lib version.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBC /NODEFAULTLIB:LIBCD /DEF:"../../../../../Engine/lib/Torque3D/msvc/torque3d.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"../../Link/VC2010.Release.Win32/Cryptid DLL/Cryptid DLL.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"../../../game/Cryptid.lib" /MACHINE:X86 /SAFESEH /DLL "../../Link/VC2010.Release.Win32/Cryptid DLL/mMathAMD_ASM.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/mMathSSE_ASM.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/mMath_ASM.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/platformCPUInfo.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/Torque.res"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/aiClient.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/aiConnection.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/aiPlayer.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/camera.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/cameraSpline.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/containerQuery.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/convexShape.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/debris.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gameFunctions.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gameTSCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/groundPlane.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiMaterialPreview.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiNoMouseCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiObjectView.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/item.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/levelInfo.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/lightAnimData.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/lightBase.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/lightDescription.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/lightFlareData.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/missionArea.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/missionMarker.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/occlusionVolume.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/pathCamera.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/physicalZone.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/player.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/pointLight.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/portal.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/prefab.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/projectile.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/proximityMine.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/rigid.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/rigidShape.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/scopeAlwaysShape.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/shapeBase.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/shapeCollision.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/shapeImage.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/spotLight.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/staticShape.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/trigger.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/tsStatic.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/zone.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/decalData.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/decalDataFile.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/decalInstance.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/decalManager.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/decalSphere.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/renderMeshExample.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/renderObjectExample.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/renderShapeExample.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiClockHud.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiCrossHairHud.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiHealthBarHud.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiHealthTextHud.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiShapeNameHud.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/cameraFXMgr.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/explosion.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/fxFoliageReplicator.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/fxShapeReplicator.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/groundCover.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/lightning.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/particle.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/particleEmitter.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/particleEmitterNode.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/precipitation.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/splash.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/windEmitter.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gameBase.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gameConnection.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gameConnectionEvents.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gameProcess.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/moveList.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/moveManager.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/processList.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/tickCache.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/stdGameProcess.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/stdMoveList.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/physicsBody.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/physicsDebris.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/physicsEvents.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/physicsForce.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/physicsObject.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/physicsPlayer.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/physicsPlugin.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/physicsShape.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/physicsUserData.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/physicsWorld.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sfx3DWorld.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sfxEmitter.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sfxSpace.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/aiTurretShape.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/turretShape.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/flyingVehicle.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiSpeedometer.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/hoverVehicle.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/vehicle.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/vehicleBlocker.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/wheeledVehicle.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/badWordFilter.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/banList.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/game.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/mainLoop.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/version.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/httpObject.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/net.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/netTest.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/serverQuery.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/tcpObject.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/cinterface.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/c_consoleInterface.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/c_scripting.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/abstractPolyList.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/boxConvex.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/clippedPolyList.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/concretePolyList.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/convex.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/depthSortList.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/earlyOutPolyList.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/extrudedPolyList.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gjk.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/optimizedPolyList.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/planeExtractor.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/polytope.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/vertexPolyList.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/componentInterface.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/dynamicConsoleMethodComponent.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/moreAdvancedComponent.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/simComponent.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/simpleComponent.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/arrayObject.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/astAlloc.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/astNodes.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/cmdgram.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/CMDscan.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/codeBlock.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/compiledEval.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/compiler.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/console.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/consoleDoc.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/consoleFunctions.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/consoleInternal.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/consoleLogger.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/consoleObject.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/consoleParser.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/consoleTypes.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/consoleXMLExport.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/debugOutputConsumer.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/dynamicTypes.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/engineDoc.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/engineExports.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/engineFunctions.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/engineObject.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/enginePrimitives.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/engineStructs.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/engineTypeInfo.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/engineTypes.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/engineXMLExport.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/fieldBrushObject.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/fileSystemFunctions.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/persistenceManager.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/propertyParsing.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/runtimeClassRep.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/scriptFilename.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/scriptObjects.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sim.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/simDatablock.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/simDictionary.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/simEvents.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/simFieldDictionary.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/simManager.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/simObject.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/simObjectList.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/simObjectMemento.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/simPersistID.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/simPersistSet.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/simSerialize.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/simSet.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/SimXMLDocument.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/stringStack.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/telnetConsole.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/telnetDebugger.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/typeValidators.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/bitRender.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/bitVector.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/color.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/crc.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/dataChunker.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/dnet.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/fileObject.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/filterStream.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/frameAllocator.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/idGenerator.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/iTickable.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/memVolume.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/module.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/resizeStream.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/resource.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/resourceManager.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/stringBuffer.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/stringTable.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/tagDictionary.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/threadStatic.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/tokenizer.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/virtualMountSystem.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/volume.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/oggInputStream.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/oggTheoraDecoder.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/oggVorbisDecoder.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/bitStream.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/fileStream.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/fileStreamObject.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/memStream.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/stream.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/streamObject.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/findMatch.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/stringFunctions.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/stringUnit.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/unicode.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/byteBuffer.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/commonSwizzles.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/hashFunction.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/md5.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/path.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/rgb2luv.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/rgb2xyz.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/str.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/tDictionary.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/timeClass.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/tSignal.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/tVector.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/uuid.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/journal.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/process.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/testJournal.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/testProcess.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/testFixedSizeDeque.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/testPath.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/testString.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/testVector2.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/centralDir.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/compressor.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/extraField.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/fileHeader.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/zipArchive.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/zipCryptStream.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/zipObject.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/zipSubStream.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/zipTempStream.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/zipVolume.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/deflate.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/stored.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/zipTestMisc.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/zipTestRead.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/zipTestWrite.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/basicClouds.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/cloudLayer.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/decalRoad.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/meshRoad.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/nodeListManager.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/river.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/scatterSky.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/skyBox.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sun.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/timeOfDay.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/waterBlock.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/waterObject.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/waterPlane.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiMeshRoadEditorCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiRiverEditorCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiRoadEditorCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/forest.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/forestCell.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/forestCellBatch.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/forestCollision.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/forestDataFile.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/forestItem.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/forestRender.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/forestWindAccumulator.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/forestWindEmitter.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/forestWindMgr.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/windDeformation.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/forestBrushElement.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/forestBrushTool.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/forestEditorCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/forestSelectionTool.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/forestTool.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/forestUndo.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/windDeformationHLSL.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/tsForestCellBatch.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/tsForestItemData.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/genericConstBuffer.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gFont.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gfxAPI.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gfxCardProfile.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gfxCubemap.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gfxDevice.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gfxDeviceStatistics.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gfxDrawUtil.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gfxFence.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gfxFontRenderBatcher.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gfxFormatUtils.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gfxInit.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gfxOcclusionQuery.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gfxPrimitiveBuffer.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gfxResource.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gfxShader.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gfxStateBlock.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gfxStringEnumTranslate.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gfxStructs.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gfxTarget.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gfxTextureHandle.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gfxTextureManager.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gfxTextureObject.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gfxTextureProfile.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gfxVertexBuffer.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gfxVertexColor.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gfxVertexFormat.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gfxVertexTypes.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/primBuilder.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/screenshot.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gfxD3D9CardProfiler.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gfxD3D9Cubemap.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gfxD3D9Device.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gfxD3D9Device.regen-states.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gfxD3D9OcclusionQuery.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gfxD3D9PrimitiveBuffer.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gfxD3D9QueryFence.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gfxD3D9Shader.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gfxD3D9StateBlock.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gfxD3D9TextureManager.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gfxD3D9TextureObject.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gfxD3D9VertexBuffer.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/screenshotD3D9.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/videoCaptureD3D9.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gfxD3D9Device.pc.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gfxD3D9EnumTranslate.pc.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gfxD3D9PrimitiveBuffer.pc.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gfxPCD3D9Device.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gfxPCD3D9Target.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gfxNullDevice.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/bitmapUtils.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/ddsLoader.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/ddsUtils.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gBitmap.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/bitmapBmp.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/bitmapGif.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/bitmapJpeg.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/bitmapMng.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/bitmapPng.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/bitmapTga.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/cubemapData.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/debugDraw.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gfxStateBlockData.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/stanfordBunny.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/testGfx.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/distanceField.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gfxFrustumSaver.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/screenspace.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/triListOpt.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/theoraTexture.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/theoraTextureObject.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/videoCapture.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/videoEncoderPNG.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/videoEncoderTheora.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiTSControl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiBitmapButtonCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiBorderButton.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiButtonBaseCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiButtonCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiCheckBoxCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiIconButtonCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiRadioCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiSwatchButtonCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiToggleButtonCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiToolboxButtonCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiAutoScrollCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiContainer.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiCtrlArrayCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiDragAndDropCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiDynamicCtrlArrayCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiFormCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiFrameCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiPaneCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiPanel.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiRolloutCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiScrollCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiSplitContainer.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiStackCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiTabBookCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiWindowCollapseCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiWindowCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiBackgroundCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiBitmapBorderCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiBitmapCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiColorPicker.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiConsole.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiConsoleEditCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiConsoleTextCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiDecoyCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiDirectoryFileListCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiFileTreeCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiGameListMenuCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiGameListOptionsCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiGradientCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiListBoxCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiMaterialCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiMLTextCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiMLTextEditCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiPopUpCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiPopUpCtrlEx.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiSliderCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiTabPageCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiTextCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiTextEditCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiTextEditSliderBitmapCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiTextEditSliderCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiTextListCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiTreeViewCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiArrayCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiCanvas.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiControl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiDefaultControlRender.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiScriptNotifyControl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiTypes.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/editorFunctions.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiDebugger.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiEaseViewCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiEditCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiFilterCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiGraphCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiImageList.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiInspector.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiInspectorTypes.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiMenuBar.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiParticleGraphCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiRectHandles.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiSeparatorCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiShapeEdPreview.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/customField.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/datablockField.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/dynamicField.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/dynamicGroup.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/field.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/group.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/variableField.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/variableGroup.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/variableInspector.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiChunkedBitmapCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiFadeinBitmapCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiIdleCamFadeBitmapCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiMessageVectorCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiProgressBitmapCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiProgressCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiTickCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiTheoraCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiBubbleTextCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiInputCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiMouseEventCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/messageVector.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/creator.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/editor.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/editorIconRegistry.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/editTSCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gizmo.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiConvexShapeEditorCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiDecalEditorCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiMissionArea.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiMissionAreaEditor.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/guiTerrPreviewCtrl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/terrainActions.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/terrainEditor.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/tSelection.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/undoActions.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/worldEditor.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/worldEditorSelection.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/i18n.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/lang.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/lightInfo.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/lightingInterfaces.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/lightManager.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/lightQuery.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/shadowManager.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/advancedLightBinManager.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/advancedLightBufferConditioner.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/advancedLightingFeatures.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/advancedLightManager.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/advancedLightingFeaturesHLSL.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/gBufferConditionerHLSL.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/basicLightManager.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/basicSceneObjectLightingPlugin.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/blTerrainSystem.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/blobShadow.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/lightMapParams.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/projectedShadow.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sceneLighting.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/scenePersist.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/shadowVolumeBSP.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/cubeLightShadowMap.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/dualParaboloidLightShadowMap.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/lightShadowMap.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/paraboloidLightShadowMap.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/pssmLightShadowMap.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/shadowMapManager.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/shadowMapPass.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/shadowMatHook.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/singleLightShadowMap.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/baseMatInstance.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/customMaterialDefinition.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/materialDefinition.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/materialFeatureData.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/materialFeatureTypes.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/materialList.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/materialManager.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/matInstance.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/matInstanceHook.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/matStateHint.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/matTextureTarget.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/processedCustomMaterial.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/processedFFMaterial.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/processedMaterial.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/processedShaderMaterial.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/shaderData.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/shaderMaterialParameters.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/mAngAxis.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/mathTypes.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/mathUtils.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/mBox.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/mConsoleFunctions.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/mEase.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/mMathAltivec.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/mMathAMD.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/mMathSSE.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/mMath_C.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/mMatrix.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/mOrientedBox.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/mPlane.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/mPlaneTransformer.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/mPoint.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/mPolyhedron.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/mQuadPatch.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/mQuat.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/mRandom.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/mRect.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/mSolver.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/mSphere.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/mSplinePatch.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/testMathPlane.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/testPolyhedron.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/frustum.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/matrixSet.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/quadTransforms.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sphereMesh.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/tResponseCurve.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/platform.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/platformAssert.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/platformCPU.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/platformCPUCount.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/platformFileIO.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/platformFont.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/platformMemory.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/platformNet.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/platformNetAsync.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/platformRedBook.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/platformTimer.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/platformVideoInfo.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/platformVolume.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/profiler.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/asyncUpdate.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/event.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/menuBar.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/popupMenu.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/msgBox.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/testAlerts.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/testAsyncPacketQueue.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/testBasicTypes.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/testFile.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/testNet.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/testThreading.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/testThreadPool.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/testThreadSafeDeque.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/testThreadSafePriorityQueue.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/testThreadSafeRefCount.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/testTimeManager.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/threadPool.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/cardProfile.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/winAsmBlit.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/winAsync.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/winConsole.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/winCPUInfo.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/winDInputDevice.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/winDirectInput.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/winDlibrary.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/winExec.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/winFileio.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/winFont.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/winInput.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/winMath.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/winMath_ASM.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/winMemory.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/winProcessControl.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/winRedbook.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/winSemaphore.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/winTime.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/winTimer.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/winTLS.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/winUser.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/winVFS.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/winVolume.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/winWindow.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/menuBarWin32.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/popupMenuWin32.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/winMiniDump.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/winStackWalker.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/fileDialog.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/win32MsgBox.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/mutex.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/thread.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/wmiVideoInfo.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/postEffect.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/postEffectManager.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/postEffectVis.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/forcedMaterialMeshMgr.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/renderBinManager.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/renderFormatChanger.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/renderGlowMgr.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/renderImposterMgr.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/renderMeshMgr.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/renderObjectMgr.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/renderOcclusionMgr.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/renderParticleMgr.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/renderPassManager.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/renderPassStateToken.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/renderPrePassMgr.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/renderTerrainMgr.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/renderTexTargetBinManager.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/renderTranslucentMgr.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/pathManager.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/reflectionManager.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/reflectionMatHook.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/reflector.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sceneCameraState.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sceneContainer.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sceneManager.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sceneObject.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/scenePolyhedralSpace.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sceneRenderState.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sceneSpace.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sceneTracker.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sgUtil.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/simPath.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sceneCullingState.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sceneCullingVolume.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sceneZoneCullingState.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/scenePolyhedralZone.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sceneRootZone.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sceneSimpleZone.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sceneTraversalState.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sceneZoneSpace.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sceneZoneSpaceManager.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sfxAmbience.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sfxBuffer.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sfxController.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sfxDescription.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sfxDevice.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sfxEnvironment.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sfxFileStream.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sfxInternal.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sfxMemoryStream.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sfxModifier.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sfxParameter.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sfxPlayList.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sfxProfile.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sfxProvider.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sfxResource.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sfxSound.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sfxSoundscape.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sfxSource.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sfxState.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sfxSystem.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sfxTrack.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sfxTypes.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sfxVoice.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sfxDSBuffer.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sfxDSDevice.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sfxDSProvider.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sfxDSVoice.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sfxVorbisStream.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sfxWavStream.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sfxNullBuffer.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sfxNullDevice.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sfxNullProvider.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sfxNullVoice.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/aldlist.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sfxALBuffer.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sfxALDevice.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sfxALProvider.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sfxALVoice.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/LoadOAL.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sfxXAudioBuffer.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sfxXAudioDevice.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sfxXAudioProvider.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sfxXAudioVoice.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/conditionerFeature.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/featureMgr.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/featureSet.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/featureType.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/langElement.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/shaderComp.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/shaderDependency.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/shaderFeature.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/shaderGen.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/shaderGenVars.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/shaderOp.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/bumpHLSL.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/depthHLSL.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/paraboloidHLSL.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/pixSpecularHLSL.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/shaderCompHLSL.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/shaderFeatureHLSL.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/shaderGenHLSL.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/shaderGenHLSLInit.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/actionMap.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/connectionStringTable.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/netConnection.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/netDownload.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/netEvent.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/netGhost.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/netInterface.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/netObject.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/netStringTable.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/terrCell.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/terrCellMaterial.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/terrCollision.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/terrData.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/terrExport.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/terrFeatureTypes.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/terrFile.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/terrImport.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/terrLighting.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/terrMaterial.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/terrRender.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/terrFeatureHLSL.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/instancingMatHook.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/tsAnimate.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/tsCollision.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/tsDecal.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/tsDump.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/tsIntegerSet.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/tsLastDetail.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/tsMaterialList.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/tsMesh.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/tsMeshFit.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/tsMeshIntrinsics.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/tsPartInstance.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/tsRenderState.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/tsShape.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/tsShapeAlloc.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/tsShapeConstruct.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/tsShapeEdit.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/tsShapeInstance.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/tsShapeOldRead.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/tsSortedMesh.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/tsThread.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/tsTransform.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/tsMeshIntrinsics.sse.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/tsMeshIntrinsics.sse4.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/colladaAppMaterial.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/colladaAppMesh.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/colladaAppNode.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/colladaAppSequence.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/colladaExtensions.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/colladaImport.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/colladaLights.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/colladaShapeLoader.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/colladaUtils.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/appMesh.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/appNode.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/tsShapeLoader.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/consoleTest.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/memoryTester.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/test.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/unitTestComponentInterface.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/testComponents.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/testDefaultConstruction.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/testMatrixMul.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/testRuntimeClassRep.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/testSwizzle.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/testThreadStatic.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/testThreadStaticPerformance.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/testVector.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/catmullRom.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/fpsTracker.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/imposterCapture.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/noise2d.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/quadTreeTracer.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/rectClipper.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/sampler.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/settings.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/triBoxCheck.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/triRayCheck.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/undo.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/dispatcher.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/eventManager.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/message.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/messageForwarder.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/scriptMsgListener.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/platformCursorController.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/platformInterface.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/platformWindow.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/windowInputGenerator.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/testWinMgr.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/win32CursorController.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/win32SplashScreen.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/win32Window.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/win32WindowMgr.obj"
+         "../../Link/VC2010.Release.Win32/Cryptid DLL/winDispatch.obj"
+         C:\Users\kottlerg\Desktop\Cryptid\Torque3D\Engine\lib\compiled\Release.Win32\lmng.lib
+         C:\Users\kottlerg\Desktop\Cryptid\Torque3D\Engine\lib\compiled\Release.Win32\lpng.lib
+         C:\Users\kottlerg\Desktop\Cryptid\Torque3D\Engine\lib\compiled\Release.Win32\lungif.lib
+         C:\Users\kottlerg\Desktop\Cryptid\Torque3D\Engine\lib\compiled\Release.Win32\ljpeg.lib
+         C:\Users\kottlerg\Desktop\Cryptid\Torque3D\Engine\lib\compiled\Release.Win32\zlib.lib
+         C:\Users\kottlerg\Desktop\Cryptid\Torque3D\Engine\lib\compiled\Release.Win32\tinyxml.lib
+         C:\Users\kottlerg\Desktop\Cryptid\Torque3D\Engine\lib\compiled\Release.Win32\opcode.lib
+         C:\Users\kottlerg\Desktop\Cryptid\Torque3D\Engine\lib\compiled\Release.Win32\squish.lib
+         C:\Users\kottlerg\Desktop\Cryptid\Torque3D\Engine\lib\compiled\Release.Win32\pcre.lib
+         C:\Users\kottlerg\Desktop\Cryptid\Torque3D\Engine\lib\compiled\Release.Win32\collada_dom.lib
+         C:\Users\kottlerg\Desktop\Cryptid\Torque3D\Engine\lib\compiled\Release.Win32\convexDecomp.lib
+         C:\Users\kottlerg\Desktop\Cryptid\Torque3D\Engine\lib\compiled\Release.Win32\libvorbis.lib
+         C:\Users\kottlerg\Desktop\Cryptid\Torque3D\Engine\lib\compiled\Release.Win32\libogg.lib
+         C:\Users\kottlerg\Desktop\Cryptid\Torque3D\Engine\lib\compiled\Release.Win32\libtheora.lib
+            Creating library ../../../game/Cryptid.lib and object ../../../game/Cryptid.exp
+         Cryptid DLL.vcxproj -> C:\Users\kottlerg\Desktop\Cryptid\Torque3D\My Projects\Cryptid\buildFiles\VisualStudio 2010\projects\../../../game/Cryptid.dll
+     1>Done Building Project "C:\Users\kottlerg\Desktop\Cryptid\Torque3D\My Projects\Cryptid\buildFiles\VisualStudio 2010\projects\Cryptid DLL.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:06:52.23

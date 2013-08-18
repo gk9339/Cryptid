@@ -1,0 +1,45 @@
+﻿Build started 18/08/2013 6:44:33 PM.
+     1>Project "C:\Users\kottlerg\Desktop\Cryptid\Torque3D\My Projects\Cryptid\buildFiles\VisualStudio 2010\projects\lpng.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I../../../../../Engine/lib/zlib /I../../../../../Engine/lib/lpng /Zi /nologo /W3 /WX- /Ox /Ob2 /Oy- /D UNICODE /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /GF /Gm- /MT /GS- /Gy /fp:precise /Zc:wchar_t- /Zc:forScope /GR /Fo"../../Link/VC2010.Release.Win32/lpng/" /Fd"../../../../../Engine/lib//compiled/Release.Win32/lpng.pdb" /Gd /TC /wd4244 /wd4305 /wd4530 /wd4355 /analyze- /errorReport:prompt /MP ..\..\..\..\..\Engine\lib\lpng\example.c ..\..\..\..\..\Engine\lib\lpng\png.c ..\..\..\..\..\Engine\lib\lpng\pngerror.c ..\..\..\..\..\Engine\lib\lpng\pngget.c ..\..\..\..\..\Engine\lib\lpng\pngmem.c ..\..\..\..\..\Engine\lib\lpng\pngpread.c ..\..\..\..\..\Engine\lib\lpng\pngread.c ..\..\..\..\..\Engine\lib\lpng\pngrio.c ..\..\..\..\..\Engine\lib\lpng\pngrtran.c ..\..\..\..\..\Engine\lib\lpng\pngrutil.c ..\..\..\..\..\Engine\lib\lpng\pngset.c ..\..\..\..\..\Engine\lib\lpng\pngtest.c ..\..\..\..\..\Engine\lib\lpng\pngtrans.c ..\..\..\..\..\Engine\lib\lpng\pngwio.c ..\..\..\..\..\Engine\lib\lpng\pngwrite.c ..\..\..\..\..\Engine\lib\lpng\pngwtran.c ..\..\..\..\..\Engine\lib\lpng\pngwutil.c
+         example.c
+         png.c
+         pngerror.c
+         pngget.c
+         pngmem.c
+         pngpread.c
+         pngread.c
+         pngrio.c
+         pngrtran.c
+         pngrutil.c
+         pngset.c
+         pngtest.c
+         pngtrans.c
+         pngwio.c
+         pngwrite.c
+         pngwtran.c
+         pngwutil.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"../../../../../Engine/lib//compiled/Release.Win32//lpng.lib" /NOLOGO ../../Link/VC2010.Release.Win32/lpng/example.obj
+         ../../Link/VC2010.Release.Win32/lpng/png.obj
+         ../../Link/VC2010.Release.Win32/lpng/pngerror.obj
+         ../../Link/VC2010.Release.Win32/lpng/pngget.obj
+         ../../Link/VC2010.Release.Win32/lpng/pngmem.obj
+         ../../Link/VC2010.Release.Win32/lpng/pngpread.obj
+         ../../Link/VC2010.Release.Win32/lpng/pngread.obj
+         ../../Link/VC2010.Release.Win32/lpng/pngrio.obj
+         ../../Link/VC2010.Release.Win32/lpng/pngrtran.obj
+         ../../Link/VC2010.Release.Win32/lpng/pngrutil.obj
+         ../../Link/VC2010.Release.Win32/lpng/pngset.obj
+         ../../Link/VC2010.Release.Win32/lpng/pngtest.obj
+         ../../Link/VC2010.Release.Win32/lpng/pngtrans.obj
+         ../../Link/VC2010.Release.Win32/lpng/pngwio.obj
+         ../../Link/VC2010.Release.Win32/lpng/pngwrite.obj
+         ../../Link/VC2010.Release.Win32/lpng/pngwtran.obj
+         ../../Link/VC2010.Release.Win32/lpng/pngwutil.obj
+         lpng.vcxproj -> C:\Users\kottlerg\Desktop\Cryptid\Torque3D\My Projects\Cryptid\buildFiles\VisualStudio 2010\projects\../../../../../Engine/lib//compiled/Release.Win32/lpng.lib
+     1>Done Building Project "C:\Users\kottlerg\Desktop\Cryptid\Torque3D\My Projects\Cryptid\buildFiles\VisualStudio 2010\projects\lpng.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:23.85

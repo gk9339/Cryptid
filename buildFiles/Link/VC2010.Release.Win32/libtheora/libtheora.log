@@ -1,0 +1,110 @@
+﻿Build started 18/08/2013 6:45:08 PM.
+     1>Project "C:\Users\kottlerg\Desktop\Cryptid\Torque3D\My Projects\Cryptid\buildFiles\VisualStudio 2010\projects\libtheora.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I../../../../../Engine/lib/libtheora/include /I../../../../../Engine/lib/libogg/include /Zi /nologo /W3 /WX- /Ox /Ob2 /Oy- /D UNICODE /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /GF /Gm- /MT /GS- /Gy /fp:precise /Zc:wchar_t- /Zc:forScope /GR /Fo"../../Link/VC2010.Release.Win32/libtheora/" /Fd"../../../../../Engine/lib//compiled/Release.Win32/libtheora.pdb" /Gd /TC /wd4244 /wd4305 /wd4530 /wd4355 /analyze- /errorReport:prompt /MP ..\..\..\..\..\Engine\lib\libtheora\lib\cpu.c ..\..\..\..\..\Engine\lib\libtheora\lib\dec\apiwrapper.c ..\..\..\..\..\Engine\lib\libtheora\lib\dec\bitpack.c ..\..\..\..\..\Engine\lib\libtheora\lib\dec\decapiwrapper.c ..\..\..\..\..\Engine\lib\libtheora\lib\dec\decinfo.c ..\..\..\..\..\Engine\lib\libtheora\lib\dec\decode.c ..\..\..\..\..\Engine\lib\libtheora\lib\dec\dequant.c ..\..\..\..\..\Engine\lib\libtheora\lib\dec\fragment.c ..\..\..\..\..\Engine\lib\libtheora\lib\dec\huffdec.c ..\..\..\..\..\Engine\lib\libtheora\lib\dec\idct.c ..\..\..\..\..\Engine\lib\libtheora\lib\dec\info.c ..\..\..\..\..\Engine\lib\libtheora\lib\dec\internal.c ..\..\..\..\..\Engine\lib\libtheora\lib\dec\quant.c ..\..\..\..\..\Engine\lib\libtheora\lib\dec\state.c ..\..\..\..\..\Engine\lib\libtheora\lib\dec\x86_vc\mmxfrag.c ..\..\..\..\..\Engine\lib\libtheora\lib\dec\x86_vc\mmxidct.c ..\..\..\..\..\Engine\lib\libtheora\lib\dec\x86_vc\mmxloopfilter.c ..\..\..\..\..\Engine\lib\libtheora\lib\dec\x86_vc\mmxstate.c ..\..\..\..\..\Engine\lib\libtheora\lib\dec\x86_vc\x86state.c ..\..\..\..\..\Engine\lib\libtheora\lib\enc\blockmap.c ..\..\..\..\..\Engine\lib\libtheora\lib\enc\dct.c ..\..\..\..\..\Engine\lib\libtheora\lib\enc\dct_decode.c ..\..\..\..\..\Engine\lib\libtheora\lib\enc\dct_encode.c ..\..\..\..\..\Engine\lib\libtheora\lib\enc\dsp.c ..\..\..\..\..\Engine\lib\libtheora\lib\enc\encapiwrapper.c ..\..\..\..\..\Engine\lib\libtheora\lib\enc\encode.c ..\..\..\..\..\Engine\lib\libtheora\lib\enc\encoder_huffman.c ..\..\..\..\..\Engine\lib\libtheora\lib\enc\encoder_idct.c ..\..\..\..\..\Engine\lib\libtheora\lib\enc\encoder_quant.c ..\..\..\..\..\Engine\lib\libtheora\lib\enc\encoder_toplevel.c ..\..\..\..\..\Engine\lib\libtheora\lib\enc\frarray.c ..\..\..\..\..\Engine\lib\libtheora\lib\enc\frinit.c ..\..\..\..\..\Engine\lib\libtheora\lib\enc\mcomp.c ..\..\..\..\..\Engine\lib\libtheora\lib\enc\misc_common.c ..\..\..\..\..\Engine\lib\libtheora\lib\enc\pb.c ..\..\..\..\..\Engine\lib\libtheora\lib\enc\pp.c ..\..\..\..\..\Engine\lib\libtheora\lib\enc\reconstruct.c ..\..\..\..\..\Engine\lib\libtheora\lib\enc\scan.c ..\..\..\..\..\Engine\lib\libtheora\lib\enc\x86_32_vs\dsp_mmx.c ..\..\..\..\..\Engine\lib\libtheora\lib\enc\x86_32_vs\fdct_mmx.c ..\..\..\..\..\Engine\lib\libtheora\lib\enc\x86_32_vs\recon_mmx.c
+         cpu.c
+         apiwrapper.c
+         bitpack.c
+         decapiwrapper.c
+     1>..\..\..\..\..\Engine\lib\libtheora\lib\dec\bitpack.c(36): warning C4554: '>>' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>..\..\..\..\..\Engine\lib\libtheora\lib\dec\bitpack.c(71): warning C4554: '<<' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>..\..\..\..\..\Engine\lib\libtheora\lib\dec\bitpack.c(73): warning C4554: '<<' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>..\..\..\..\..\Engine\lib\libtheora\lib\dec\bitpack.c(75): warning C4554: '<<' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>..\..\..\..\..\Engine\lib\libtheora\lib\dec\bitpack.c(78): warning C4554: '>>' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>..\..\..\..\..\Engine\lib\libtheora\lib\dec\bitpack.c(82): warning C4554: '>>' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>..\..\..\..\..\Engine\lib\libtheora\lib\dec\bitpack.c(99): warning C4554: '>>' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>..\..\..\..\..\Engine\lib\libtheora\lib\dec\bitpack.c(112): warning C4554: '>>' : check operator precedence for possible error; use parentheses to clarify precedence
+         decinfo.c
+         decode.c
+         dequant.c
+         fragment.c
+         huffdec.c
+         idct.c
+         info.c
+     1>..\..\..\..\..\Engine\lib\libtheora\lib\dec\idct.c(236): warning C4554: '>>' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>..\..\..\..\..\Engine\lib\libtheora\lib\dec\idct.c(267): warning C4554: '>>' : check operator precedence for possible error; use parentheses to clarify precedence
+         internal.c
+         quant.c
+         state.c
+         mmxfrag.c
+         mmxidct.c
+         mmxloopfilter.c
+         mmxstate.c
+         x86state.c
+         blockmap.c
+         dct.c
+         dct_decode.c
+         dct_encode.c
+         dsp.c
+         encapiwrapper.c
+         encode.c
+         encoder_huffman.c
+         encoder_idct.c
+     1>..\..\..\..\..\Engine\lib\libtheora\lib\enc\encapiwrapper.c(1019): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\..\..\Engine\lib\libtheora\lib\enc\encapiwrapper.c(1030): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\..\..\Engine\lib\libtheora\lib\enc\encapiwrapper.c(1031): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\..\..\Engine\lib\libtheora\lib\enc\encapiwrapper.c(1037): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\..\..\Engine\lib\libtheora\lib\enc\encapiwrapper.c(1038): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\..\..\Engine\lib\libtheora\lib\enc\encapiwrapper.c(1040): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\..\..\Engine\lib\libtheora\lib\enc\encapiwrapper.c(1094): warning C4018: '>' : signed/unsigned mismatch
+         encoder_quant.c
+         encoder_toplevel.c
+         frarray.c
+         frinit.c
+         mcomp.c
+         misc_common.c
+         pb.c
+         pp.c
+         reconstruct.c
+         scan.c
+         dsp_mmx.c
+         fdct_mmx.c
+         recon_mmx.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"../../../../../Engine/lib//compiled/Release.Win32//libtheora.lib" /NOLOGO ../../Link/VC2010.Release.Win32/libtheora/cpu.obj
+         ../../Link/VC2010.Release.Win32/libtheora/apiwrapper.obj
+         ../../Link/VC2010.Release.Win32/libtheora/bitpack.obj
+         ../../Link/VC2010.Release.Win32/libtheora/decapiwrapper.obj
+         ../../Link/VC2010.Release.Win32/libtheora/decinfo.obj
+         ../../Link/VC2010.Release.Win32/libtheora/decode.obj
+         ../../Link/VC2010.Release.Win32/libtheora/dequant.obj
+         ../../Link/VC2010.Release.Win32/libtheora/fragment.obj
+         ../../Link/VC2010.Release.Win32/libtheora/huffdec.obj
+         ../../Link/VC2010.Release.Win32/libtheora/idct.obj
+         ../../Link/VC2010.Release.Win32/libtheora/info.obj
+         ../../Link/VC2010.Release.Win32/libtheora/internal.obj
+         ../../Link/VC2010.Release.Win32/libtheora/quant.obj
+         ../../Link/VC2010.Release.Win32/libtheora/state.obj
+         ../../Link/VC2010.Release.Win32/libtheora/mmxfrag.obj
+         ../../Link/VC2010.Release.Win32/libtheora/mmxidct.obj
+         ../../Link/VC2010.Release.Win32/libtheora/mmxloopfilter.obj
+         ../../Link/VC2010.Release.Win32/libtheora/mmxstate.obj
+         ../../Link/VC2010.Release.Win32/libtheora/x86state.obj
+         ../../Link/VC2010.Release.Win32/libtheora/blockmap.obj
+         ../../Link/VC2010.Release.Win32/libtheora/dct.obj
+         ../../Link/VC2010.Release.Win32/libtheora/dct_decode.obj
+         ../../Link/VC2010.Release.Win32/libtheora/dct_encode.obj
+         ../../Link/VC2010.Release.Win32/libtheora/dsp.obj
+         ../../Link/VC2010.Release.Win32/libtheora/encapiwrapper.obj
+         ../../Link/VC2010.Release.Win32/libtheora/encode.obj
+         ../../Link/VC2010.Release.Win32/libtheora/encoder_huffman.obj
+         ../../Link/VC2010.Release.Win32/libtheora/encoder_idct.obj
+         ../../Link/VC2010.Release.Win32/libtheora/encoder_quant.obj
+         ../../Link/VC2010.Release.Win32/libtheora/encoder_toplevel.obj
+         ../../Link/VC2010.Release.Win32/libtheora/frarray.obj
+         ../../Link/VC2010.Release.Win32/libtheora/frinit.obj
+         ../../Link/VC2010.Release.Win32/libtheora/mcomp.obj
+         ../../Link/VC2010.Release.Win32/libtheora/misc_common.obj
+         ../../Link/VC2010.Release.Win32/libtheora/pb.obj
+         ../../Link/VC2010.Release.Win32/libtheora/pp.obj
+         ../../Link/VC2010.Release.Win32/libtheora/reconstruct.obj
+         ../../Link/VC2010.Release.Win32/libtheora/scan.obj
+         ../../Link/VC2010.Release.Win32/libtheora/dsp_mmx.obj
+         ../../Link/VC2010.Release.Win32/libtheora/fdct_mmx.obj
+         ../../Link/VC2010.Release.Win32/libtheora/recon_mmx.obj
+         libtheora.vcxproj -> C:\Users\kottlerg\Desktop\Cryptid\Torque3D\My Projects\Cryptid\buildFiles\VisualStudio 2010\projects\../../../../../Engine/lib//compiled/Release.Win32/libtheora.lib
+     1>Done Building Project "C:\Users\kottlerg\Desktop\Cryptid\Torque3D\My Projects\Cryptid\buildFiles\VisualStudio 2010\projects\libtheora.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.65
