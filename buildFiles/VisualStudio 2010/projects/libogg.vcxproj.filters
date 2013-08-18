@@ -1,41 +1,36 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-   <ItemGroup>
-      <Filter Include="Source Files">
-         <UniqueIdentifier>{a6aaf0d4-79a1-479d-bc24-ade20b3fcba6}</UniqueIdentifier>
-         <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat;cc</Extensions>
-      </Filter>
-      <Filter Include="Source Files\lib">
-         <UniqueIdentifier>{f1c686d5-06e1-4036-bb04-3c86fe73bf6d}</UniqueIdentifier>
-      </Filter>
-      <Filter Include="Source Files\lib\include">
-         <UniqueIdentifier>{655a032a-eac3-41ba-8b70-0bcc438b5cb2}</UniqueIdentifier>
-      </Filter>
-      <Filter Include="Source Files\lib\src">
-         <UniqueIdentifier>{8a556b01-7687-45da-a8b9-441f35208232}</UniqueIdentifier>
-      </Filter>
-   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="Torque.rc">
-      <Filter>Source Files</Filter>
-    </ResourceCompile>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{53d24a53-8035-4e87-b3e9-9173541c59a1}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat;cc</Extensions>
+    </Filter>
+    <Filter Include="Source Files\lib">
+      <UniqueIdentifier>{658fca97-a3e8-4162-9b09-339cac0edd1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lib\include">
+      <UniqueIdentifier>{fe577c5d-4b58-4c11-b17e-0df009d1634b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lib\src">
+      <UniqueIdentifier>{e2a2ee8d-059b-4aef-9e43-1d5b67efd39b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
-   <ItemGroup>
-      <ClCompile Include="..\..\..\..\..\Engine\lib\libogg\src\bitwise.c">
-         <Filter>Source Files\lib\src</Filter>
-      </ClCompile>
-      <ClCompile Include="..\..\..\..\..\Engine\lib\libogg\src\framing.c">
-         <Filter>Source Files\lib\src</Filter>
-      </ClCompile>
-   </ItemGroup>
-   <ItemGroup>
-      <ClInclude Include="..\..\..\..\..\Engine\lib\libogg\include\ogg\ogg.h">
-         <Filter>Source Files\lib\include</Filter>
-      </ClInclude>
-      <ClInclude Include="..\..\..\..\..\Engine\lib\libogg\include\ogg\os_types.h">
-         <Filter>Source Files\lib\include</Filter>
-      </ClInclude>
-   </ItemGroup>
-   <ItemGroup>
-   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libogg\src\bitwise.c">
+      <Filter>Source Files\lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libogg\src\framing.c">
+      <Filter>Source Files\lib\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libogg\include\ogg\ogg.h">
+      <Filter>Source Files\lib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libogg\include\ogg\os_types.h">
+      <Filter>Source Files\lib\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
 </Project>

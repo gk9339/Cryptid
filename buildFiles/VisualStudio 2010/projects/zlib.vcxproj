@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Library Project Template -->
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
@@ -22,14 +22,17 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
+    <PlatformToolset>v110</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Optimized Debug|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
+    <PlatformToolset>v110</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
+    <PlatformToolset>v110</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -81,7 +84,7 @@
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
       <CompileAs>Default</CompileAs>
-      <DisableSpecificWarnings>4244;4305;4530;4355;%(DisableSpecificWarnings)</DisableSpecificWarnings>      
+      <DisableSpecificWarnings>4244;4305;4530;4355;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -164,143 +167,35 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-
-               
-               
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\zlib\adler32.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\zlib\compress.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\zlib\crc32.c" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\zlib\crc32.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\zlib\deflate.c" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\zlib\deflate.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\zlib\gzclose.c" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\zlib\gzguts.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\zlib\gzlib.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\zlib\gzread.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\zlib\gzwrite.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\zlib\infback.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\zlib\inffast.c" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\zlib\inffast.h" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\zlib\inffixed.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\zlib\inflate.c" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\zlib\inflate.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\zlib\inftrees.c" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\zlib\inftrees.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\zlib\trees.c" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\zlib\trees.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\zlib\uncompr.c" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\zlib\zconf.h" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\zlib\zlib.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\zlib\zutil.c" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\zlib\zutil.h" />      
-			         
-			      
-   
-      
-      
+    <ClCompile Include="..\..\..\..\..\Engine\lib\zlib\adler32.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\zlib\compress.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\zlib\crc32.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\zlib\crc32.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\zlib\deflate.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\zlib\deflate.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\zlib\gzclose.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\zlib\gzguts.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\zlib\gzlib.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\zlib\gzread.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\zlib\gzwrite.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\zlib\infback.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\zlib\inffast.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\zlib\inffast.h" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\zlib\inffixed.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\zlib\inflate.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\zlib\inflate.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\zlib\inftrees.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\zlib\inftrees.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\zlib\trees.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\zlib\trees.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\zlib\uncompr.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\zlib\zconf.h" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\zlib\zlib.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\zlib\zutil.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\zlib\zutil.h" />
   </ItemGroup>
   <ItemGroup>
-    </ItemGroup>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

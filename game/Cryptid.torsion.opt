@@ -2,8 +2,10 @@
 <Address>127.0.0.1</Address>
 <Password>password</Password>
 <Port>6060</Port>
-<LastConfig>Debug</LastConfig>
+<LastConfig>Release</LastConfig>
 <Breakpoints/>
 <Bookmarks/>
-<OpenFiles/>
+<OpenFiles>
+<File ScrollX="0" ScrollY="0" Active="true">main.cs</File>
+</OpenFiles>
 </TorsionProjectOptions>
