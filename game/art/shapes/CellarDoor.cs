@@ -1,3 +1,6 @@
+//-----------------------------------------------------------------------------
+// Copyright (c) 2013 TGL
+//-----------------------------------------------------------------------------
 datablock StaticShapeData (cellarDoor)
 {
    shapeFile = "./DUMMYcellardoorNOANIM.cached.dts";

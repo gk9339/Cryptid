@@ -10,7 +10,6 @@ tmp/
 *.tmp
 *.bak
 *.swp
-*~.nib
 local.properties
 .classpath
 .settings/
@@ -167,7 +166,6 @@ pip-log.txt
 #############
 *.dso
 console.log
-*.cached.dts
 !Engine/bin
 My Projects/
 Project Manager.exe
