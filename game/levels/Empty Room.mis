@@ -110,7 +110,7 @@ new SimGroup(MissionGroup) {
             canSaveDynamicFields = "1";
          };
          new TSStatic(MainHouse) {
-            shapeName = "art/shapes/DUMMY House exterior.dae";
+            shapeName = "art/shapes/Cryptid/ExteriorDUMMY House exterior.dae";
             playAmbient = "1";
             meshCulling = "0";
             originSort = "0";
@@ -126,7 +126,7 @@ new SimGroup(MissionGroup) {
             canSaveDynamicFields = "1";
          };
          new TSStatic(Door) {
-            shapeName = "art/shapes/dummyfrontdoor.dae";
+            shapeName = "art/shapes/Cryptid/Exterior/dummyfrontdoor.dae";
             playAmbient = "1";
             meshCulling = "0";
             originSort = "0";
@@ -487,7 +487,7 @@ new SimGroup(MissionGroup) {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "art/shapes/DUMMYcellardoorNOANIM.dae";
+      shapeName = "art/shapes/Cryptid/Exterior/DUMMYcellardoorNOANIM.dae";
       playAmbient = "1";
       meshCulling = "0";
       originSort = "0";
