@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+
+   /* Begin PBXBuildFiles included by project generator */
+      B00000000000000000000002 = /* libmng_callback_xs.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000002 /* libmng_callback_xs.c */; };
+      B00000000000000000000003 = /* libmng_chunk_descr.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000003 /* libmng_chunk_descr.c */; };
+      B00000000000000000000005 = /* libmng_chunk_io.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000005 /* libmng_chunk_io.c */; };
+      B00000000000000000000007 = /* libmng_chunk_prc.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000007 /* libmng_chunk_prc.c */; };
+      B00000000000000000000009 = /* libmng_chunk_xs.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000009 /* libmng_chunk_xs.c */; };
+      B0000000000000000000000B = /* libmng_cms.c in lib */ {isa = PBXBuildFile; fileRef = F0000000000000000000000B /* libmng_cms.c */; };
+      B0000000000000000000000F = /* libmng_display.c in lib */ {isa = PBXBuildFile; fileRef = F0000000000000000000000F /* libmng_display.c */; };
+      B00000000000000000000011 = /* libmng_dither.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000011 /* libmng_dither.c */; };
+      B00000000000000000000013 = /* libmng_error.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000013 /* libmng_error.c */; };
+      B00000000000000000000015 = /* libmng_filter.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000015 /* libmng_filter.c */; };
+      B00000000000000000000017 = /* libmng_hlapi.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000017 /* libmng_hlapi.c */; };
+      B00000000000000000000018 = /* libmng_jpeg.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000018 /* libmng_jpeg.c */; };
+      B0000000000000000000001B = /* libmng_object_prc.c in lib */ {isa = PBXBuildFile; fileRef = F0000000000000000000001B /* libmng_object_prc.c */; };
+      B0000000000000000000001E = /* libmng_pixels.c in lib */ {isa = PBXBuildFile; fileRef = F0000000000000000000001E /* libmng_pixels.c */; };
+      B00000000000000000000020 = /* libmng_prop_xs.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000020 /* libmng_prop_xs.c */; };
+      B00000000000000000000021 = /* libmng_read.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000021 /* libmng_read.c */; };
+      B00000000000000000000023 = /* libmng_trace.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000023 /* libmng_trace.c */; };
+      B00000000000000000000026 = /* libmng_write.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000026 /* libmng_write.c */; };
+      B00000000000000000000028 = /* libmng_zlib.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000028 /* libmng_zlib.c */; };
+   /* End PBXBuildFiles included by project generator */
+
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+	  F00000000000000000000001 /* liblmng.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblmng.a; sourceTree = BUILT_PRODUCTS_DIR; };
+
+   /* Begin PBXFileReferences included by project generator */
+	        F00000000000000000000001 = /* libmng.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = libmng.h; path = ../../../../Engine/lib/lmng/libmng.h; };
+      F00000000000000000000002 = /* libmng_callback_xs.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = libmng_callback_xs.c; path = ../../../../Engine/lib/lmng/libmng_callback_xs.c; };
+      F00000000000000000000003 = /* libmng_chunk_descr.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = libmng_chunk_descr.c; path = ../../../../Engine/lib/lmng/libmng_chunk_descr.c; };
+      F00000000000000000000004 = /* libmng_chunk_descr.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = libmng_chunk_descr.h; path = ../../../../Engine/lib/lmng/libmng_chunk_descr.h; };
+      F00000000000000000000005 = /* libmng_chunk_io.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = libmng_chunk_io.c; path = ../../../../Engine/lib/lmng/libmng_chunk_io.c; };
+      F00000000000000000000006 = /* libmng_chunk_io.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = libmng_chunk_io.h; path = ../../../../Engine/lib/lmng/libmng_chunk_io.h; };
+      F00000000000000000000007 = /* libmng_chunk_prc.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = libmng_chunk_prc.c; path = ../../../../Engine/lib/lmng/libmng_chunk_prc.c; };
+      F00000000000000000000008 = /* libmng_chunk_prc.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = libmng_chunk_prc.h; path = ../../../../Engine/lib/lmng/libmng_chunk_prc.h; };
+      F00000000000000000000009 = /* libmng_chunk_xs.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = libmng_chunk_xs.c; path = ../../../../Engine/lib/lmng/libmng_chunk_xs.c; };
+      F0000000000000000000000A = /* libmng_chunks.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = libmng_chunks.h; path = ../../../../Engine/lib/lmng/libmng_chunks.h; };
+      F0000000000000000000000B = /* libmng_cms.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = libmng_cms.c; path = ../../../../Engine/lib/lmng/libmng_cms.c; };
+      F0000000000000000000000C = /* libmng_cms.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = libmng_cms.h; path = ../../../../Engine/lib/lmng/libmng_cms.h; };
+      F0000000000000000000000D = /* libmng_conf.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = libmng_conf.h; path = ../../../../Engine/lib/lmng/libmng_conf.h; };
+      F0000000000000000000000E = /* libmng_data.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = libmng_data.h; path = ../../../../Engine/lib/lmng/libmng_data.h; };
+      F0000000000000000000000F = /* libmng_display.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = libmng_display.c; path = ../../../../Engine/lib/lmng/libmng_display.c; };
+      F00000000000000000000010 = /* libmng_display.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = libmng_display.h; path = ../../../../Engine/lib/lmng/libmng_display.h; };
+      F00000000000000000000011 = /* libmng_dither.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = libmng_dither.c; path = ../../../../Engine/lib/lmng/libmng_dither.c; };
+      F00000000000000000000012 = /* libmng_dither.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = libmng_dither.h; path = ../../../../Engine/lib/lmng/libmng_dither.h; };
+      F00000000000000000000013 = /* libmng_error.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = libmng_error.c; path = ../../../../Engine/lib/lmng/libmng_error.c; };
+      F00000000000000000000014 = /* libmng_error.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = libmng_error.h; path = ../../../../Engine/lib/lmng/libmng_error.h; };
+      F00000000000000000000015 = /* libmng_filter.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = libmng_filter.c; path = ../../../../Engine/lib/lmng/libmng_filter.c; };
+      F00000000000000000000016 = /* libmng_filter.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = libmng_filter.h; path = ../../../../Engine/lib/lmng/libmng_filter.h; };
+      F00000000000000000000017 = /* libmng_hlapi.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = libmng_hlapi.c; path = ../../../../Engine/lib/lmng/libmng_hlapi.c; };
+      F00000000000000000000018 = /* libmng_jpeg.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = libmng_jpeg.c; path = ../../../../Engine/lib/lmng/libmng_jpeg.c; };
+      F00000000000000000000019 = /* libmng_jpeg.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = libmng_jpeg.h; path = ../../../../Engine/lib/lmng/libmng_jpeg.h; };
+      F0000000000000000000001A = /* libmng_memory.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = libmng_memory.h; path = ../../../../Engine/lib/lmng/libmng_memory.h; };
+      F0000000000000000000001B = /* libmng_object_prc.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = libmng_object_prc.c; path = ../../../../Engine/lib/lmng/libmng_object_prc.c; };
+      F0000000000000000000001C = /* libmng_object_prc.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = libmng_object_prc.h; path = ../../../../Engine/lib/lmng/libmng_object_prc.h; };
+      F0000000000000000000001D = /* libmng_objects.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = libmng_objects.h; path = ../../../../Engine/lib/lmng/libmng_objects.h; };
+      F0000000000000000000001E = /* libmng_pixels.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = libmng_pixels.c; path = ../../../../Engine/lib/lmng/libmng_pixels.c; };
+      F0000000000000000000001F = /* libmng_pixels.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = libmng_pixels.h; path = ../../../../Engine/lib/lmng/libmng_pixels.h; };
+      F00000000000000000000020 = /* libmng_prop_xs.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = libmng_prop_xs.c; path = ../../../../Engine/lib/lmng/libmng_prop_xs.c; };
+      F00000000000000000000021 = /* libmng_read.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = libmng_read.c; path = ../../../../Engine/lib/lmng/libmng_read.c; };
+      F00000000000000000000022 = /* libmng_read.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = libmng_read.h; path = ../../../../Engine/lib/lmng/libmng_read.h; };
+      F00000000000000000000023 = /* libmng_trace.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = libmng_trace.c; path = ../../../../Engine/lib/lmng/libmng_trace.c; };
+      F00000000000000000000024 = /* libmng_trace.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = libmng_trace.h; path = ../../../../Engine/lib/lmng/libmng_trace.h; };
+      F00000000000000000000025 = /* libmng_types.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = libmng_types.h; path = ../../../../Engine/lib/lmng/libmng_types.h; };
+      F00000000000000000000026 = /* libmng_write.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = libmng_write.c; path = ../../../../Engine/lib/lmng/libmng_write.c; };
+      F00000000000000000000027 = /* libmng_write.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = libmng_write.h; path = ../../../../Engine/lib/lmng/libmng_write.h; };
+      F00000000000000000000028 = /* libmng_zlib.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = libmng_zlib.c; path = ../../../../Engine/lib/lmng/libmng_zlib.c; };
+      F00000000000000000000029 = /* libmng_zlib.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = libmng_zlib.h; path = ../../../../Engine/lib/lmng/libmng_zlib.h; };
+   /* End PBXFileReferences included by project generator */
+
+
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+	  D27393730CDABF9C006111D4 /* Frameworks */ = {
+		 isa = PBXFrameworksBuildPhase;
+		 buildActionMask = 2147483647;
+		 files = (
+		 );
+		 runOnlyForDeploymentPostprocessing = 0;
+	  };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+	  D268347C0C02C5750020EE4F = {
+		 isa = PBXGroup;
+		 children = (
+			A00000000000000000000000 /* Code */,
+			D26834AC0C02C77B0020EE4F /* Products */,
+		 );
+		 sourceTree = "<group>";
+	  };
+	  D26834AC0C02C77B0020EE4F /* Products */ = {
+		 isa = PBXGroup;
+		 children = (
+			F00000000000000000000001 /* liblmng.a */,
+		 );
+		 name = Products;
+		 sourceTree = SOURCE_ROOT;
+	  };
+	  
+   /* Begin PBXGroups from project generator */
+		A00000000000000000000000 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+            A00000000000000000000003 /* lib -- paxorr/lib */,
+			);
+			name = Code;
+			sourceTree = "<group>"; /* paxorr */
+         };
+         
+		A00000000000000000000003 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+            F00000000000000000000001 /* libmng.h */,
+            F00000000000000000000002 /* libmng_callback_xs.c */,
+            F00000000000000000000003 /* libmng_chunk_descr.c */,
+            F00000000000000000000004 /* libmng_chunk_descr.h */,
+            F00000000000000000000005 /* libmng_chunk_io.c */,
+            F00000000000000000000006 /* libmng_chunk_io.h */,
+            F00000000000000000000007 /* libmng_chunk_prc.c */,
+            F00000000000000000000008 /* libmng_chunk_prc.h */,
+            F00000000000000000000009 /* libmng_chunk_xs.c */,
+            F0000000000000000000000A /* libmng_chunks.h */,
+            F0000000000000000000000B /* libmng_cms.c */,
+            F0000000000000000000000C /* libmng_cms.h */,
+            F0000000000000000000000D /* libmng_conf.h */,
+            F0000000000000000000000E /* libmng_data.h */,
+            F0000000000000000000000F /* libmng_display.c */,
+            F00000000000000000000010 /* libmng_display.h */,
+            F00000000000000000000011 /* libmng_dither.c */,
+            F00000000000000000000012 /* libmng_dither.h */,
+            F00000000000000000000013 /* libmng_error.c */,
+            F00000000000000000000014 /* libmng_error.h */,
+            F00000000000000000000015 /* libmng_filter.c */,
+            F00000000000000000000016 /* libmng_filter.h */,
+            F00000000000000000000017 /* libmng_hlapi.c */,
+            F00000000000000000000018 /* libmng_jpeg.c */,
+            F00000000000000000000019 /* libmng_jpeg.h */,
+            F0000000000000000000001A /* libmng_memory.h */,
+            F0000000000000000000001B /* libmng_object_prc.c */,
+            F0000000000000000000001C /* libmng_object_prc.h */,
+            F0000000000000000000001D /* libmng_objects.h */,
+            F0000000000000000000001E /* libmng_pixels.c */,
+            F0000000000000000000001F /* libmng_pixels.h */,
+            F00000000000000000000020 /* libmng_prop_xs.c */,
+            F00000000000000000000021 /* libmng_read.c */,
+            F00000000000000000000022 /* libmng_read.h */,
+            F00000000000000000000023 /* libmng_trace.c */,
+            F00000000000000000000024 /* libmng_trace.h */,
+            F00000000000000000000025 /* libmng_types.h */,
+            F00000000000000000000026 /* libmng_write.c */,
+            F00000000000000000000027 /* libmng_write.h */,
+            F00000000000000000000028 /* libmng_zlib.c */,
+            F00000000000000000000029 /* libmng_zlib.h */,
+			);
+			name = lib;
+			sourceTree = "<group>"; /* paxorr/lib */
+         };
+         
+   /* End PBXGroups from project generator */
+   
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+	  D00000000000000000000002 /* lmng */ = {
+		 isa = PBXNativeTarget;
+		 buildConfigurationList = D27393740CDABF9C006111D4 /* Build configuration list for PBXNativeTarget "lmng" */;
+		 buildPhases = (
+			D27393300CDABF9C006111D4 /* Sources */,
+		 );
+		 buildRules = (
+		 );
+		 dependencies = (
+		 );
+		 name = lmng;
+		 productName = liblmng;
+		 productReference = F00000000000000000000001 /* liblmng.a */;
+		 productType = "com.apple.product-type.library.static";
+	  };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+	  D268347E0C02C5750020EE4F /* Project object */ = {
+		 isa = PBXProject;
+		 buildConfigurationList = D268347F0C02C5750020EE4F /* Build configuration list for PBXProject "lmng" */;
+		 compatibilityVersion = "Xcode 3.2";
+		 hasScannedForEncodings = 0;
+		 mainGroup = D268347C0C02C5750020EE4F;
+		 productRefGroup = D26834AC0C02C77B0020EE4F /* Products */;
+		 projectDirPath = "";
+		 projectRoot = ../../../..;
+		 targets = (
+			D00000000000000000000002 /* lmng */,
+		 );
+	  };
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D27393300CDABF9C006111D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+      B00000000000000000000001 /* libmng.h in lib */,
+      B00000000000000000000002 /* libmng_callback_xs.c in lib */,
+      B00000000000000000000003 /* libmng_chunk_descr.c in lib */,
+      B00000000000000000000004 /* libmng_chunk_descr.h in lib */,
+      B00000000000000000000005 /* libmng_chunk_io.c in lib */,
+      B00000000000000000000006 /* libmng_chunk_io.h in lib */,
+      B00000000000000000000007 /* libmng_chunk_prc.c in lib */,
+      B00000000000000000000008 /* libmng_chunk_prc.h in lib */,
+      B00000000000000000000009 /* libmng_chunk_xs.c in lib */,
+      B0000000000000000000000A /* libmng_chunks.h in lib */,
+      B0000000000000000000000B /* libmng_cms.c in lib */,
+      B0000000000000000000000C /* libmng_cms.h in lib */,
+      B0000000000000000000000D /* libmng_conf.h in lib */,
+      B0000000000000000000000E /* libmng_data.h in lib */,
+      B0000000000000000000000F /* libmng_display.c in lib */,
+      B00000000000000000000010 /* libmng_display.h in lib */,
+      B00000000000000000000011 /* libmng_dither.c in lib */,
+      B00000000000000000000012 /* libmng_dither.h in lib */,
+      B00000000000000000000013 /* libmng_error.c in lib */,
+      B00000000000000000000014 /* libmng_error.h in lib */,
+      B00000000000000000000015 /* libmng_filter.c in lib */,
+      B00000000000000000000016 /* libmng_filter.h in lib */,
+      B00000000000000000000017 /* libmng_hlapi.c in lib */,
+      B00000000000000000000018 /* libmng_jpeg.c in lib */,
+      B00000000000000000000019 /* libmng_jpeg.h in lib */,
+      B0000000000000000000001A /* libmng_memory.h in lib */,
+      B0000000000000000000001B /* libmng_object_prc.c in lib */,
+      B0000000000000000000001C /* libmng_object_prc.h in lib */,
+      B0000000000000000000001D /* libmng_objects.h in lib */,
+      B0000000000000000000001E /* libmng_pixels.c in lib */,
+      B0000000000000000000001F /* libmng_pixels.h in lib */,
+      B00000000000000000000020 /* libmng_prop_xs.c in lib */,
+      B00000000000000000000021 /* libmng_read.c in lib */,
+      B00000000000000000000022 /* libmng_read.h in lib */,
+      B00000000000000000000023 /* libmng_trace.c in lib */,
+      B00000000000000000000024 /* libmng_trace.h in lib */,
+      B00000000000000000000025 /* libmng_types.h in lib */,
+      B00000000000000000000026 /* libmng_write.c in lib */,
+      B00000000000000000000027 /* libmng_write.h in lib */,
+      B00000000000000000000028 /* libmng_zlib.c in lib */,
+      B00000000000000000000029 /* libmng_zlib.h in lib */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D26834800C02C5750020EE4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CONFIGURATION_BUILD_DIR = "$(TORQUE_BUILT_LIBS_DIR)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				OTHER_LDFLAGS_i386 = "-framework Accelerate";
+				OTHER_LDFLAGS_ppc = "-framework vecLib";
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+            GCC_VERSION = 4.2;
+				TORQUE_BUILT_LIBS_DIR = ../../../../engine/lib/builtLibs/;
+			};
+			name = Debug;
+		};
+		D26834810C02C5750020EE4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CONFIGURATION_BUILD_DIR = ../../assets/;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				OTHER_LDFLAGS_i386 = "-framework Accelerate";
+				OTHER_LDFLAGS_ppc = "-framework vecLib";
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+            GCC_VERSION = 4.2;
+				TORQUE_BUILT_LIBS_DIR = ../../../../engine/lib/builtLibs/;
+			};
+			name = Release;
+		};
+		D27393750CDABF9C006111D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+			   __MACOSX__,
+			   "MNG_OPTIMIZE_OBJCLEANUP",
+			);
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+				"../../../../Engine/lib/lmng",
+				"../../../../Engine/lib/lpng",
+				"../../../../Engine/lib/zlib",
+				"../../../../Engine/lib/ljpeg",
+				);
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = lmng;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		D27393760CDABF9C006111D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = "$(TORQUE_BUILT_LIBS_DIR)";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+			   __MACOSX__,
+			   "MNG_OPTIMIZE_OBJCLEANUP",
+				);
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+				"../../../../Engine/lib/lmng",
+				"../../../../Engine/lib/lpng",
+				"../../../../Engine/lib/zlib",
+				"../../../../Engine/lib/ljpeg",
+				);
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = lmng;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D268347F0C02C5750020EE4F /* Build configuration list for PBXProject "LibTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D26834800C02C5750020EE4F /* Debug */,
+				D26834810C02C5750020EE4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D27393740CDABF9C006111D4 /* Build configuration list for PBXNativeTarget "lmng" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27393750CDABF9C006111D4 /* Debug */,
+				D27393760CDABF9C006111D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D268347E0C02C5750020EE4F /* Project object */;
+}

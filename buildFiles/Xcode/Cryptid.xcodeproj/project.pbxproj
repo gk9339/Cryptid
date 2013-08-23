@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B00000000000000000000900 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000900 /* main.cpp */; };
+		D21C29DF0CE933AB00670EED /* mainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = D21C29DE0CE933AB00670EED /* mainMenu.nib */; };
+		D2559B3B0C921A2B0003B62A /* torqueDemo.icns in Resources */ = {isa = PBXBuildFile; fileRef = D2559B3A0C921A2B0003B62A /* torqueDemo.icns */; };
+		D297FD360C05187F00C14A16 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D297FD350C05187F00C14A16 /* OpenAL.framework */; };
+		D29CADE70C88C2C900BBF312 /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29CADE30C88C2C900BBF312 /* AGL.framework */; };
+		D29CADE80C88C2C900BBF312 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29CADE40C88C2C900BBF312 /* Carbon.framework */; };
+		D29CADE90C88C2C900BBF312 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29CADE50C88C2C900BBF312 /* Cocoa.framework */; };
+		D29CADEA0C88C2C900BBF312 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29CADE60C88C2C900BBF312 /* OpenGL.framework */; };
+		FAE3EDA00EEE3A0F0024DCA3 /* resizeNWSE.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE3ED9D0EEE3A0F0024DCA3 /* resizeNWSE.png */; };
+		FAE3EDA10EEE3A0F0024DCA3 /* resizeall.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE3ED9E0EEE3A0F0024DCA3 /* resizeall.png */; };
+		FAE3EDA20EEE3A0F0024DCA3 /* resizeNESW.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE3ED9F0EEE3A0F0024DCA3 /* resizeNESW.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		D297FC2D0C04FB9A00C14A16 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.nasm;
+			filePatterns = "*.asm";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+			);
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXContainerItemProxy section */
+		E000000000000000000000E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C000000000000000000000EA /* Cryptid Bundle.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D26834AA0C02C77B0020EE4F;
+			remoteInfo = "Cryptid Bundle";
+		};
+		E000000000000000000000EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C000000000000000000000F1 /* Cryptid Plugin.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D01CCC60486CAD60068D4B7;
+			remoteInfo = "Cryptid Plugin";
+		};
+		F000000000000000000000E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C000000000000000000000EA /* Cryptid Bundle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F000000000000000000000E9;
+			remoteInfo = "Cryptid Bundle";
+		};
+		F000000000000000000000EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C000000000000000000000F1 /* Cryptid Plugin.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F000000000000000000000F0;
+			remoteInfo = "Cryptid Plugin";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AFFFF000000000000000FFFF /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C000000000000000000000EA /* Cryptid Bundle.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Cryptid Bundle.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		C000000000000000000000F1 /* Cryptid Plugin.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Cryptid Plugin.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		D21C29DE0CE933AB00670EED /* mainMenu.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = mainMenu.nib; path = ../../../../engine/source/platformMac/menus/mainMenu.nib; sourceTree = SOURCE_ROOT; };
+		D2559B3A0C921A2B0003B62A /* torqueDemo.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = torqueDemo.icns; sourceTree = "<group>"; };
+		D26834AB0C02C77B0020EE4F /* Cryptid_DEBUG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cryptid_DEBUG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D26834AE0C02C77B0020EE4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D297FD350C05187F00C14A16 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = ../../../../engine/lib/openal/macosx/OpenAL.framework; sourceTree = SOURCE_ROOT; };
+		D29CADE30C88C2C900BBF312 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
+		D29CADE40C88C2C900BBF312 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		D29CADE50C88C2C900BBF312 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		D29CADE60C88C2C900BBF312 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		F00000000000000000000900 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../../../Engine/source/main/main.cpp; sourceTree = SOURCE_ROOT; };
+		FAE3ED9D0EEE3A0F0024DCA3 /* resizeNWSE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = resizeNWSE.png; path = ../../../../engine/source/platformMac/cursors/resizeNWSE.png; sourceTree = SOURCE_ROOT; };
+		FAE3ED9E0EEE3A0F0024DCA3 /* resizeall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = resizeall.png; path = ../../../../engine/source/platformMac/cursors/resizeall.png; sourceTree = SOURCE_ROOT; };
+		FAE3ED9F0EEE3A0F0024DCA3 /* resizeNESW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = resizeNESW.png; path = ../../../../engine/source/platformMac/cursors/resizeNESW.png; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D26834A90C02C77B0020EE4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D297FD360C05187F00C14A16 /* OpenAL.framework in Frameworks */,
+				D29CADE70C88C2C900BBF312 /* AGL.framework in Frameworks */,
+				D29CADE80C88C2C900BBF312 /* Carbon.framework in Frameworks */,
+				D29CADE90C88C2C900BBF312 /* Cocoa.framework in Frameworks */,
+				D29CADEA0C88C2C900BBF312 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00000000000000000000000 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				A0000000000000000000006A /* source */,
+			);
+			name = Code;
+			sourceTree = "<group>";
+		};
+		A0000000000000000000006A /* source */ = {
+			isa = PBXGroup;
+			children = (
+				F00000000000000000000900 /* main.cpp */,
+			);
+			name = source;
+			sourceTree = "<group>";
+		};
+		ADDDD0000000000000000000 /* builtLibs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = builtLibs;
+			path = ../../../../engine/lib/builtLibs;
+			sourceTree = SOURCE_ROOT;
+		};
+		AEEEE0000000000000000000 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				ADDDD0000000000000000000 /* builtLibs */,
+				C000000000000000000000EA /* Cryptid Bundle.xcodeproj */,
+				C000000000000000000000F1 /* Cryptid Plugin.xcodeproj */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		AFFFF0000000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000000 /* Code */,
+				AEEEE0000000000000000000 /* Dependencies */,
+				D297FD340C05186400C14A16 /* Frameworks */,
+				D26834AC0C02C77B0020EE4F /* Products */,
+				D26834AE0C02C77B0020EE4F /* Info.plist */,
+				D2559B3A0C921A2B0003B62A /* torqueDemo.icns */,
+				D21C29DE0CE933AB00670EED /* mainMenu.nib */,
+				FAE3ED9D0EEE3A0F0024DCA3 /* resizeNWSE.png */,
+				FAE3ED9E0EEE3A0F0024DCA3 /* resizeall.png */,
+				FAE3ED9F0EEE3A0F0024DCA3 /* resizeNESW.png */,
+			);
+			sourceTree = "<group>";
+		};
+		B000000000000000000000EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C000000000000000000000EC /* libCryptid Bundle.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B000000000000000000000F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C000000000000000000000F3 /* libCryptid Plugin.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D26834AC0C02C77B0020EE4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D26834AB0C02C77B0020EE4F /* Cryptid_DEBUG.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D297FD340C05186400C14A16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D29CAE9C0C88C2D200BBF312 /* System */,
+				D29CAEAF0C88C2DE00BBF312 /* Local */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D29CAE9C0C88C2D200BBF312 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				D29CADE30C88C2C900BBF312 /* AGL.framework */,
+				D29CADE40C88C2C900BBF312 /* Carbon.framework */,
+				D29CADE50C88C2C900BBF312 /* Cocoa.framework */,
+				D29CADE60C88C2C900BBF312 /* OpenGL.framework */,
+			);
+			name = System;
+			sourceTree = "<group>";
+		};
+		D29CAEAF0C88C2DE00BBF312 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				D297FD350C05187F00C14A16 /* OpenAL.framework */,
+			);
+			name = Local;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D26834AA0C02C77B0020EE4F /* Cryptid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D26834AF0C02C77B0020EE4F /* Build configuration list for PBXNativeTarget "Cryptid" */;
+			buildPhases = (
+				D26834A70C02C77B0020EE4F /* Resources */,
+				D26834A80C02C77B0020EE4F /* Sources */,
+				D26834A90C02C77B0020EE4F /* Frameworks */,
+				AFFFF000000000000000FFFF /* Copy Frameworks */,
+			);
+			buildRules = (
+				D297FC2D0C04FB9A00C14A16 /* PBXBuildRule */,
+			);
+			dependencies = (
+				D000000000000000000000ED /* PBXTargetDependency */,
+				D000000000000000000000F4 /* PBXTargetDependency */,
+			);
+			name = Cryptid;
+			productName = Cryptid;
+			productReference = D26834AB0C02C77B0020EE4F /* Cryptid_DEBUG.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D268347E0C02C5750020EE4F /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D268347F0C02C5750020EE4F /* Build configuration list for PBXProject "Cryptid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AFFFF0000000000000000000;
+			productRefGroup = D26834AC0C02C77B0020EE4F /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B000000000000000000000EA /* Products */;
+					ProjectRef = C000000000000000000000EA /* Cryptid Bundle.xcodeproj */;
+				},
+				{
+					ProductGroup = B000000000000000000000F1 /* Products */;
+					ProjectRef = C000000000000000000000F1 /* Cryptid Plugin.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				D26834AA0C02C77B0020EE4F /* Cryptid */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C000000000000000000000EC /* libCryptid Bundle.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Cryptid Bundle.bundle";
+			remoteRef = F000000000000000000000E7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C000000000000000000000F3 /* libCryptid Plugin.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Cryptid Plugin.bundle";
+			remoteRef = F000000000000000000000EE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D26834A70C02C77B0020EE4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2559B3B0C921A2B0003B62A /* torqueDemo.icns in Resources */,
+				D21C29DF0CE933AB00670EED /* mainMenu.nib in Resources */,
+				FAE3EDA00EEE3A0F0024DCA3 /* resizeNWSE.png in Resources */,
+				FAE3EDA10EEE3A0F0024DCA3 /* resizeall.png in Resources */,
+				FAE3EDA20EEE3A0F0024DCA3 /* resizeNESW.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D26834A80C02C77B0020EE4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00000000000000000000900 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D000000000000000000000ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Cryptid Bundle";
+			targetProxy = E000000000000000000000E8 /* PBXContainerItemProxy */;
+		};
+		D000000000000000000000F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Cryptid Plugin";
+			targetProxy = E000000000000000000000EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D26834800C02C5750020EE4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CONFIGURATION_BUILD_DIR = ../../game/;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_VERSION = 4.2;
+				OTHER_LDFLAGS_i386 = "-framework Accelerate";
+				OTHER_LDFLAGS_ppc = "-framework vecLib";
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+				TORQUE_BUILT_LIBS_DIR = ../../../../engine/lib/builtLibs/;
+			};
+			name = Debug;
+		};
+		D26834810C02C5750020EE4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CONFIGURATION_BUILD_DIR = ../../game/;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_VERSION = 4.2;
+				OTHER_LDFLAGS_i386 = "-framework Accelerate";
+				OTHER_LDFLAGS_ppc = "-framework vecLib";
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+				TORQUE_BUILT_LIBS_DIR = ../../../../engine/lib/builtLibs/;
+			};
+			name = Release;
+		};
+		D26834B00C02C77B0020EE4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					../../../../engine/lib/openal/macosx,
+					../../../../engine/lib/xiph/macosx,
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(TORQUE_DEBUG_DEFINE)",
+					__MACOSX__,
+					WIN32_LEAN_AND_MEAN,
+					NOMINMAX,
+					TORQUE_MULTITHREAD,
+					TORQUE_DISABLE_MEMORY_MANAGER,
+					TORQUE_UNICODE,
+					TORQUE_SHARED,
+					__MACOSX__,
+				);
+				GCC_TREAT_NONCONFORMANT_CODE_ERRORS_AS_WARNINGS = YES;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = "$(TORQUE_BUILT_LIBS_DIR)";
+				OTHER_LDFLAGS = "-lz";
+				PREBINDING = NO;
+				PRODUCT_NAME = Cryptid_DEBUG;
+				TORQUE_DEBUG_DEFINE = TORQUE_DEBUG;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wno-sign-compare",
+					"-Wpointer-arith",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		D26834B10C02C77B0020EE4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					../../../../engine/lib/openal/macosx,
+					../../../../engine/lib/xiph/macosx,
+				);
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(TORQUE_DEBUG_DEFINE)",
+					__MACOSX__,
+					WIN32_LEAN_AND_MEAN,
+					NOMINMAX,
+					TORQUE_MULTITHREAD,
+					TORQUE_DISABLE_MEMORY_MANAGER,
+					TORQUE_UNICODE,
+					TORQUE_SHARED,
+					__MACOSX__,
+				);
+				GCC_TREAT_NONCONFORMANT_CODE_ERRORS_AS_WARNINGS = YES;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = "$(TORQUE_BUILT_LIBS_DIR)";
+				OTHER_LDFLAGS = "-lz";
+				PREBINDING = NO;
+				PRODUCT_NAME = Cryptid;
+				TORQUE_DEBUG_DEFINE = "";
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wno-sign-compare",
+					"-Wpointer-arith",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D268347F0C02C5750020EE4F /* Build configuration list for PBXProject "Cryptid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D26834800C02C5750020EE4F /* Debug */,
+				D26834810C02C5750020EE4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D26834AF0C02C77B0020EE4F /* Build configuration list for PBXNativeTarget "Cryptid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D26834B00C02C77B0020EE4F /* Debug */,
+				D26834B10C02C77B0020EE4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D268347E0C02C5750020EE4F /* Project object */;
+}

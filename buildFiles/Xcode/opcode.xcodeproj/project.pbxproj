@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+
+   /* Begin PBXBuildFiles included by project generator */
+      B000000000000000000000A4 = /* OPC_AABBCollider.cpp in lib */ {isa = PBXBuildFile; fileRef = F000000000000000000000A4 /* OPC_AABBCollider.cpp */; };
+      B000000000000000000000A6 = /* OPC_AABBTree.cpp in lib */ {isa = PBXBuildFile; fileRef = F000000000000000000000A6 /* OPC_AABBTree.cpp */; };
+      B000000000000000000000A8 = /* OPC_BaseModel.cpp in lib */ {isa = PBXBuildFile; fileRef = F000000000000000000000A8 /* OPC_BaseModel.cpp */; };
+      B000000000000000000000AB = /* OPC_BoxPruning.cpp in lib */ {isa = PBXBuildFile; fileRef = F000000000000000000000AB /* OPC_BoxPruning.cpp */; };
+      B000000000000000000000AD = /* OPC_Collider.cpp in lib */ {isa = PBXBuildFile; fileRef = F000000000000000000000AD /* OPC_Collider.cpp */; };
+      B000000000000000000000AF = /* OPC_Common.cpp in lib */ {isa = PBXBuildFile; fileRef = F000000000000000000000AF /* OPC_Common.cpp */; };
+      B000000000000000000000B1 = /* OPC_HybridModel.cpp in lib */ {isa = PBXBuildFile; fileRef = F000000000000000000000B1 /* OPC_HybridModel.cpp */; };
+      B000000000000000000000B5 = /* OPC_LSSCollider.cpp in lib */ {isa = PBXBuildFile; fileRef = F000000000000000000000B5 /* OPC_LSSCollider.cpp */; };
+      B000000000000000000000B8 = /* OPC_MeshInterface.cpp in lib */ {isa = PBXBuildFile; fileRef = F000000000000000000000B8 /* OPC_MeshInterface.cpp */; };
+      B000000000000000000000BA = /* OPC_Model.cpp in lib */ {isa = PBXBuildFile; fileRef = F000000000000000000000BA /* OPC_Model.cpp */; };
+      B000000000000000000000BC = /* OPC_OBBCollider.cpp in lib */ {isa = PBXBuildFile; fileRef = F000000000000000000000BC /* OPC_OBBCollider.cpp */; };
+      B000000000000000000000BE = /* OPC_OptimizedTree.cpp in lib */ {isa = PBXBuildFile; fileRef = F000000000000000000000BE /* OPC_OptimizedTree.cpp */; };
+      B000000000000000000000C0 = /* OPC_Picking.cpp in lib */ {isa = PBXBuildFile; fileRef = F000000000000000000000C0 /* OPC_Picking.cpp */; };
+      B000000000000000000000C3 = /* OPC_PlanesCollider.cpp in lib */ {isa = PBXBuildFile; fileRef = F000000000000000000000C3 /* OPC_PlanesCollider.cpp */; };
+      B000000000000000000000C7 = /* OPC_RayCollider.cpp in lib */ {isa = PBXBuildFile; fileRef = F000000000000000000000C7 /* OPC_RayCollider.cpp */; };
+      B000000000000000000000CC = /* OPC_SphereCollider.cpp in lib */ {isa = PBXBuildFile; fileRef = F000000000000000000000CC /* OPC_SphereCollider.cpp */; };
+      B000000000000000000000CF = /* OPC_SweepAndPrune.cpp in lib */ {isa = PBXBuildFile; fileRef = F000000000000000000000CF /* OPC_SweepAndPrune.cpp */; };
+      B000000000000000000000D1 = /* OPC_TreeBuilders.cpp in lib */ {isa = PBXBuildFile; fileRef = F000000000000000000000D1 /* OPC_TreeBuilders.cpp */; };
+      B000000000000000000000D3 = /* OPC_TreeCollider.cpp in lib */ {isa = PBXBuildFile; fileRef = F000000000000000000000D3 /* OPC_TreeCollider.cpp */; };
+      B000000000000000000000D7 = /* OPC_VolumeCollider.cpp in lib */ {isa = PBXBuildFile; fileRef = F000000000000000000000D7 /* OPC_VolumeCollider.cpp */; };
+      B000000000000000000000D9 = /* Opcode.cpp in lib */ {isa = PBXBuildFile; fileRef = F000000000000000000000D9 /* Opcode.cpp */; };
+      B000000000000000000000DB = /* IceAABB.cpp in Ice */ {isa = PBXBuildFile; fileRef = F000000000000000000000DB /* IceAABB.cpp */; };
+      B000000000000000000000DF = /* IceContainer.cpp in Ice */ {isa = PBXBuildFile; fileRef = F000000000000000000000DF /* IceContainer.cpp */; };
+      B000000000000000000000E2 = /* IceHPoint.cpp in Ice */ {isa = PBXBuildFile; fileRef = F000000000000000000000E2 /* IceHPoint.cpp */; };
+      B000000000000000000000E4 = /* IceIndexedTriangle.cpp in Ice */ {isa = PBXBuildFile; fileRef = F000000000000000000000E4 /* IceIndexedTriangle.cpp */; };
+      B000000000000000000000E7 = /* IceMatrix3x3.cpp in Ice */ {isa = PBXBuildFile; fileRef = F000000000000000000000E7 /* IceMatrix3x3.cpp */; };
+      B000000000000000000000E9 = /* IceMatrix4x4.cpp in Ice */ {isa = PBXBuildFile; fileRef = F000000000000000000000E9 /* IceMatrix4x4.cpp */; };
+      B000000000000000000000EC = /* IceOBB.cpp in Ice */ {isa = PBXBuildFile; fileRef = F000000000000000000000EC /* IceOBB.cpp */; };
+      B000000000000000000000EF = /* IcePlane.cpp in Ice */ {isa = PBXBuildFile; fileRef = F000000000000000000000EF /* IcePlane.cpp */; };
+      B000000000000000000000F1 = /* IcePoint.cpp in Ice */ {isa = PBXBuildFile; fileRef = F000000000000000000000F1 /* IcePoint.cpp */; };
+      B000000000000000000000F4 = /* IceRandom.cpp in Ice */ {isa = PBXBuildFile; fileRef = F000000000000000000000F4 /* IceRandom.cpp */; };
+      B000000000000000000000F6 = /* IceRay.cpp in Ice */ {isa = PBXBuildFile; fileRef = F000000000000000000000F6 /* IceRay.cpp */; };
+      B000000000000000000000F8 = /* IceRevisitedRadix.cpp in Ice */ {isa = PBXBuildFile; fileRef = F000000000000000000000F8 /* IceRevisitedRadix.cpp */; };
+      B000000000000000000000FA = /* IceSegment.cpp in Ice */ {isa = PBXBuildFile; fileRef = F000000000000000000000FA /* IceSegment.cpp */; };
+      B000000000000000000000FC = /* IceTriangle.cpp in Ice */ {isa = PBXBuildFile; fileRef = F000000000000000000000FC /* IceTriangle.cpp */; };
+      B00000000000000000000100 = /* IceUtils.cpp in Ice */ {isa = PBXBuildFile; fileRef = F00000000000000000000100 /* IceUtils.cpp */; };
+   /* End PBXBuildFiles included by project generator */
+
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+	  F0000000000000000000000E /* libopcode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libopcode.a; sourceTree = BUILT_PRODUCTS_DIR; };
+
+   /* Begin PBXFileReferences included by project generator */
+	        F000000000000000000000A4 = /* OPC_AABBCollider.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_AABBCollider.cpp; path = ../../../../Engine/lib/opcode/OPC_AABBCollider.cpp; };
+      F000000000000000000000A5 = /* OPC_AABBCollider.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_AABBCollider.h; path = ../../../../Engine/lib/opcode/OPC_AABBCollider.h; };
+      F000000000000000000000A6 = /* OPC_AABBTree.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_AABBTree.cpp; path = ../../../../Engine/lib/opcode/OPC_AABBTree.cpp; };
+      F000000000000000000000A7 = /* OPC_AABBTree.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_AABBTree.h; path = ../../../../Engine/lib/opcode/OPC_AABBTree.h; };
+      F000000000000000000000A8 = /* OPC_BaseModel.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_BaseModel.cpp; path = ../../../../Engine/lib/opcode/OPC_BaseModel.cpp; };
+      F000000000000000000000A9 = /* OPC_BaseModel.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_BaseModel.h; path = ../../../../Engine/lib/opcode/OPC_BaseModel.h; };
+      F000000000000000000000AA = /* OPC_BoxBoxOverlap.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_BoxBoxOverlap.h; path = ../../../../Engine/lib/opcode/OPC_BoxBoxOverlap.h; };
+      F000000000000000000000AB = /* OPC_BoxPruning.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_BoxPruning.cpp; path = ../../../../Engine/lib/opcode/OPC_BoxPruning.cpp; };
+      F000000000000000000000AC = /* OPC_BoxPruning.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_BoxPruning.h; path = ../../../../Engine/lib/opcode/OPC_BoxPruning.h; };
+      F000000000000000000000AD = /* OPC_Collider.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_Collider.cpp; path = ../../../../Engine/lib/opcode/OPC_Collider.cpp; };
+      F000000000000000000000AE = /* OPC_Collider.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_Collider.h; path = ../../../../Engine/lib/opcode/OPC_Collider.h; };
+      F000000000000000000000AF = /* OPC_Common.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_Common.cpp; path = ../../../../Engine/lib/opcode/OPC_Common.cpp; };
+      F000000000000000000000B0 = /* OPC_Common.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_Common.h; path = ../../../../Engine/lib/opcode/OPC_Common.h; };
+      F000000000000000000000B1 = /* OPC_HybridModel.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_HybridModel.cpp; path = ../../../../Engine/lib/opcode/OPC_HybridModel.cpp; };
+      F000000000000000000000B2 = /* OPC_HybridModel.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_HybridModel.h; path = ../../../../Engine/lib/opcode/OPC_HybridModel.h; };
+      F000000000000000000000B3 = /* OPC_IceHook.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_IceHook.h; path = ../../../../Engine/lib/opcode/OPC_IceHook.h; };
+      F000000000000000000000B4 = /* OPC_LSSAABBOverlap.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_LSSAABBOverlap.h; path = ../../../../Engine/lib/opcode/OPC_LSSAABBOverlap.h; };
+      F000000000000000000000B5 = /* OPC_LSSCollider.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_LSSCollider.cpp; path = ../../../../Engine/lib/opcode/OPC_LSSCollider.cpp; };
+      F000000000000000000000B6 = /* OPC_LSSCollider.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_LSSCollider.h; path = ../../../../Engine/lib/opcode/OPC_LSSCollider.h; };
+      F000000000000000000000B7 = /* OPC_LSSTriOverlap.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_LSSTriOverlap.h; path = ../../../../Engine/lib/opcode/OPC_LSSTriOverlap.h; };
+      F000000000000000000000B8 = /* OPC_MeshInterface.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_MeshInterface.cpp; path = ../../../../Engine/lib/opcode/OPC_MeshInterface.cpp; };
+      F000000000000000000000B9 = /* OPC_MeshInterface.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_MeshInterface.h; path = ../../../../Engine/lib/opcode/OPC_MeshInterface.h; };
+      F000000000000000000000BA = /* OPC_Model.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_Model.cpp; path = ../../../../Engine/lib/opcode/OPC_Model.cpp; };
+      F000000000000000000000BB = /* OPC_Model.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_Model.h; path = ../../../../Engine/lib/opcode/OPC_Model.h; };
+      F000000000000000000000BC = /* OPC_OBBCollider.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_OBBCollider.cpp; path = ../../../../Engine/lib/opcode/OPC_OBBCollider.cpp; };
+      F000000000000000000000BD = /* OPC_OBBCollider.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_OBBCollider.h; path = ../../../../Engine/lib/opcode/OPC_OBBCollider.h; };
+      F000000000000000000000BE = /* OPC_OptimizedTree.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_OptimizedTree.cpp; path = ../../../../Engine/lib/opcode/OPC_OptimizedTree.cpp; };
+      F000000000000000000000BF = /* OPC_OptimizedTree.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_OptimizedTree.h; path = ../../../../Engine/lib/opcode/OPC_OptimizedTree.h; };
+      F000000000000000000000C0 = /* OPC_Picking.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_Picking.cpp; path = ../../../../Engine/lib/opcode/OPC_Picking.cpp; };
+      F000000000000000000000C1 = /* OPC_Picking.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_Picking.h; path = ../../../../Engine/lib/opcode/OPC_Picking.h; };
+      F000000000000000000000C2 = /* OPC_PlanesAABBOverlap.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_PlanesAABBOverlap.h; path = ../../../../Engine/lib/opcode/OPC_PlanesAABBOverlap.h; };
+      F000000000000000000000C3 = /* OPC_PlanesCollider.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_PlanesCollider.cpp; path = ../../../../Engine/lib/opcode/OPC_PlanesCollider.cpp; };
+      F000000000000000000000C4 = /* OPC_PlanesCollider.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_PlanesCollider.h; path = ../../../../Engine/lib/opcode/OPC_PlanesCollider.h; };
+      F000000000000000000000C5 = /* OPC_PlanesTriOverlap.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_PlanesTriOverlap.h; path = ../../../../Engine/lib/opcode/OPC_PlanesTriOverlap.h; };
+      F000000000000000000000C6 = /* OPC_RayAABBOverlap.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_RayAABBOverlap.h; path = ../../../../Engine/lib/opcode/OPC_RayAABBOverlap.h; };
+      F000000000000000000000C7 = /* OPC_RayCollider.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_RayCollider.cpp; path = ../../../../Engine/lib/opcode/OPC_RayCollider.cpp; };
+      F000000000000000000000C8 = /* OPC_RayCollider.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_RayCollider.h; path = ../../../../Engine/lib/opcode/OPC_RayCollider.h; };
+      F000000000000000000000C9 = /* OPC_RayTriOverlap.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_RayTriOverlap.h; path = ../../../../Engine/lib/opcode/OPC_RayTriOverlap.h; };
+      F000000000000000000000CA = /* OPC_Settings.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_Settings.h; path = ../../../../Engine/lib/opcode/OPC_Settings.h; };
+      F000000000000000000000CB = /* OPC_SphereAABBOverlap.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_SphereAABBOverlap.h; path = ../../../../Engine/lib/opcode/OPC_SphereAABBOverlap.h; };
+      F000000000000000000000CC = /* OPC_SphereCollider.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_SphereCollider.cpp; path = ../../../../Engine/lib/opcode/OPC_SphereCollider.cpp; };
+      F000000000000000000000CD = /* OPC_SphereCollider.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_SphereCollider.h; path = ../../../../Engine/lib/opcode/OPC_SphereCollider.h; };
+      F000000000000000000000CE = /* OPC_SphereTriOverlap.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_SphereTriOverlap.h; path = ../../../../Engine/lib/opcode/OPC_SphereTriOverlap.h; };
+      F000000000000000000000CF = /* OPC_SweepAndPrune.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_SweepAndPrune.cpp; path = ../../../../Engine/lib/opcode/OPC_SweepAndPrune.cpp; };
+      F000000000000000000000D0 = /* OPC_SweepAndPrune.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_SweepAndPrune.h; path = ../../../../Engine/lib/opcode/OPC_SweepAndPrune.h; };
+      F000000000000000000000D1 = /* OPC_TreeBuilders.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_TreeBuilders.cpp; path = ../../../../Engine/lib/opcode/OPC_TreeBuilders.cpp; };
+      F000000000000000000000D2 = /* OPC_TreeBuilders.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_TreeBuilders.h; path = ../../../../Engine/lib/opcode/OPC_TreeBuilders.h; };
+      F000000000000000000000D3 = /* OPC_TreeCollider.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_TreeCollider.cpp; path = ../../../../Engine/lib/opcode/OPC_TreeCollider.cpp; };
+      F000000000000000000000D4 = /* OPC_TreeCollider.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_TreeCollider.h; path = ../../../../Engine/lib/opcode/OPC_TreeCollider.h; };
+      F000000000000000000000D5 = /* OPC_TriBoxOverlap.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_TriBoxOverlap.h; path = ../../../../Engine/lib/opcode/OPC_TriBoxOverlap.h; };
+      F000000000000000000000D6 = /* OPC_TriTriOverlap.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_TriTriOverlap.h; path = ../../../../Engine/lib/opcode/OPC_TriTriOverlap.h; };
+      F000000000000000000000D7 = /* OPC_VolumeCollider.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_VolumeCollider.cpp; path = ../../../../Engine/lib/opcode/OPC_VolumeCollider.cpp; };
+      F000000000000000000000D8 = /* OPC_VolumeCollider.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = OPC_VolumeCollider.h; path = ../../../../Engine/lib/opcode/OPC_VolumeCollider.h; };
+      F000000000000000000000D9 = /* Opcode.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = Opcode.cpp; path = ../../../../Engine/lib/opcode/Opcode.cpp; };
+      F000000000000000000000DA = /* Opcode.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = Opcode.h; path = ../../../../Engine/lib/opcode/Opcode.h; };
+      F000000000000000000000DB = /* IceAABB.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = IceAABB.cpp; path = ../../../../Engine/lib/opcode/Ice/IceAABB.cpp; };
+      F000000000000000000000DC = /* IceAABB.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = IceAABB.h; path = ../../../../Engine/lib/opcode/Ice/IceAABB.h; };
+      F000000000000000000000DD = /* IceAxes.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = IceAxes.h; path = ../../../../Engine/lib/opcode/Ice/IceAxes.h; };
+      F000000000000000000000DE = /* IceBoundingSphere.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = IceBoundingSphere.h; path = ../../../../Engine/lib/opcode/Ice/IceBoundingSphere.h; };
+      F000000000000000000000DF = /* IceContainer.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = IceContainer.cpp; path = ../../../../Engine/lib/opcode/Ice/IceContainer.cpp; };
+      F000000000000000000000E0 = /* IceContainer.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = IceContainer.h; path = ../../../../Engine/lib/opcode/Ice/IceContainer.h; };
+      F000000000000000000000E1 = /* IceFPU.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = IceFPU.h; path = ../../../../Engine/lib/opcode/Ice/IceFPU.h; };
+      F000000000000000000000E2 = /* IceHPoint.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = IceHPoint.cpp; path = ../../../../Engine/lib/opcode/Ice/IceHPoint.cpp; };
+      F000000000000000000000E3 = /* IceHPoint.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = IceHPoint.h; path = ../../../../Engine/lib/opcode/Ice/IceHPoint.h; };
+      F000000000000000000000E4 = /* IceIndexedTriangle.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = IceIndexedTriangle.cpp; path = ../../../../Engine/lib/opcode/Ice/IceIndexedTriangle.cpp; };
+      F000000000000000000000E5 = /* IceIndexedTriangle.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = IceIndexedTriangle.h; path = ../../../../Engine/lib/opcode/Ice/IceIndexedTriangle.h; };
+      F000000000000000000000E6 = /* IceLSS.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = IceLSS.h; path = ../../../../Engine/lib/opcode/Ice/IceLSS.h; };
+      F000000000000000000000E7 = /* IceMatrix3x3.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = IceMatrix3x3.cpp; path = ../../../../Engine/lib/opcode/Ice/IceMatrix3x3.cpp; };
+      F000000000000000000000E8 = /* IceMatrix3x3.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = IceMatrix3x3.h; path = ../../../../Engine/lib/opcode/Ice/IceMatrix3x3.h; };
+      F000000000000000000000E9 = /* IceMatrix4x4.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = IceMatrix4x4.cpp; path = ../../../../Engine/lib/opcode/Ice/IceMatrix4x4.cpp; };
+      F000000000000000000000EA = /* IceMatrix4x4.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = IceMatrix4x4.h; path = ../../../../Engine/lib/opcode/Ice/IceMatrix4x4.h; };
+      F000000000000000000000EB = /* IceMemoryMacros.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = IceMemoryMacros.h; path = ../../../../Engine/lib/opcode/Ice/IceMemoryMacros.h; };
+      F000000000000000000000EC = /* IceOBB.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = IceOBB.cpp; path = ../../../../Engine/lib/opcode/Ice/IceOBB.cpp; };
+      F000000000000000000000ED = /* IceOBB.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = IceOBB.h; path = ../../../../Engine/lib/opcode/Ice/IceOBB.h; };
+      F000000000000000000000EE = /* IcePairs.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = IcePairs.h; path = ../../../../Engine/lib/opcode/Ice/IcePairs.h; };
+      F000000000000000000000EF = /* IcePlane.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = IcePlane.cpp; path = ../../../../Engine/lib/opcode/Ice/IcePlane.cpp; };
+      F000000000000000000000F0 = /* IcePlane.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = IcePlane.h; path = ../../../../Engine/lib/opcode/Ice/IcePlane.h; };
+      F000000000000000000000F1 = /* IcePoint.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = IcePoint.cpp; path = ../../../../Engine/lib/opcode/Ice/IcePoint.cpp; };
+      F000000000000000000000F2 = /* IcePoint.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = IcePoint.h; path = ../../../../Engine/lib/opcode/Ice/IcePoint.h; };
+      F000000000000000000000F3 = /* IcePreprocessor.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = IcePreprocessor.h; path = ../../../../Engine/lib/opcode/Ice/IcePreprocessor.h; };
+      F000000000000000000000F4 = /* IceRandom.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = IceRandom.cpp; path = ../../../../Engine/lib/opcode/Ice/IceRandom.cpp; };
+      F000000000000000000000F5 = /* IceRandom.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = IceRandom.h; path = ../../../../Engine/lib/opcode/Ice/IceRandom.h; };
+      F000000000000000000000F6 = /* IceRay.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = IceRay.cpp; path = ../../../../Engine/lib/opcode/Ice/IceRay.cpp; };
+      F000000000000000000000F7 = /* IceRay.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = IceRay.h; path = ../../../../Engine/lib/opcode/Ice/IceRay.h; };
+      F000000000000000000000F8 = /* IceRevisitedRadix.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = IceRevisitedRadix.cpp; path = ../../../../Engine/lib/opcode/Ice/IceRevisitedRadix.cpp; };
+      F000000000000000000000F9 = /* IceRevisitedRadix.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = IceRevisitedRadix.h; path = ../../../../Engine/lib/opcode/Ice/IceRevisitedRadix.h; };
+      F000000000000000000000FA = /* IceSegment.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = IceSegment.cpp; path = ../../../../Engine/lib/opcode/Ice/IceSegment.cpp; };
+      F000000000000000000000FB = /* IceSegment.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = IceSegment.h; path = ../../../../Engine/lib/opcode/Ice/IceSegment.h; };
+      F000000000000000000000FC = /* IceTriangle.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = IceTriangle.cpp; path = ../../../../Engine/lib/opcode/Ice/IceTriangle.cpp; };
+      F000000000000000000000FD = /* IceTriangle.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = IceTriangle.h; path = ../../../../Engine/lib/opcode/Ice/IceTriangle.h; };
+      F000000000000000000000FE = /* IceTriList.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = IceTriList.h; path = ../../../../Engine/lib/opcode/Ice/IceTriList.h; };
+      F000000000000000000000FF = /* IceTypes.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = IceTypes.h; path = ../../../../Engine/lib/opcode/Ice/IceTypes.h; };
+      F00000000000000000000100 = /* IceUtils.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = IceUtils.cpp; path = ../../../../Engine/lib/opcode/Ice/IceUtils.cpp; };
+      F00000000000000000000101 = /* IceUtils.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = IceUtils.h; path = ../../../../Engine/lib/opcode/Ice/IceUtils.h; };
+   /* End PBXFileReferences included by project generator */
+
+
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+	  D27393730CDABF9C006111D4 /* Frameworks */ = {
+		 isa = PBXFrameworksBuildPhase;
+		 buildActionMask = 2147483647;
+		 files = (
+		 );
+		 runOnlyForDeploymentPostprocessing = 0;
+	  };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+	  D268347C0C02C5750020EE4F = {
+		 isa = PBXGroup;
+		 children = (
+			A00000000000000000000000 /* Code */,
+			D26834AC0C02C77B0020EE4F /* Products */,
+		 );
+		 sourceTree = "<group>";
+	  };
+	  D26834AC0C02C77B0020EE4F /* Products */ = {
+		 isa = PBXGroup;
+		 children = (
+			F0000000000000000000000E /* libopcode.a */,
+		 );
+		 name = Products;
+		 sourceTree = SOURCE_ROOT;
+	  };
+	  
+   /* Begin PBXGroups from project generator */
+		A00000000000000000000000 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+            A00000000000000000000003 /* lib -- paxorr/lib */,
+			);
+			name = Code;
+			sourceTree = "<group>"; /* paxorr */
+         };
+         
+		A00000000000000000000003 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+            F000000000000000000000A4 /* OPC_AABBCollider.cpp */,
+            F000000000000000000000A5 /* OPC_AABBCollider.h */,
+            F000000000000000000000A6 /* OPC_AABBTree.cpp */,
+            F000000000000000000000A7 /* OPC_AABBTree.h */,
+            F000000000000000000000A8 /* OPC_BaseModel.cpp */,
+            F000000000000000000000A9 /* OPC_BaseModel.h */,
+            F000000000000000000000AA /* OPC_BoxBoxOverlap.h */,
+            F000000000000000000000AB /* OPC_BoxPruning.cpp */,
+            F000000000000000000000AC /* OPC_BoxPruning.h */,
+            F000000000000000000000AD /* OPC_Collider.cpp */,
+            F000000000000000000000AE /* OPC_Collider.h */,
+            F000000000000000000000AF /* OPC_Common.cpp */,
+            F000000000000000000000B0 /* OPC_Common.h */,
+            F000000000000000000000B1 /* OPC_HybridModel.cpp */,
+            F000000000000000000000B2 /* OPC_HybridModel.h */,
+            F000000000000000000000B3 /* OPC_IceHook.h */,
+            F000000000000000000000B4 /* OPC_LSSAABBOverlap.h */,
+            F000000000000000000000B5 /* OPC_LSSCollider.cpp */,
+            F000000000000000000000B6 /* OPC_LSSCollider.h */,
+            F000000000000000000000B7 /* OPC_LSSTriOverlap.h */,
+            F000000000000000000000B8 /* OPC_MeshInterface.cpp */,
+            F000000000000000000000B9 /* OPC_MeshInterface.h */,
+            F000000000000000000000BA /* OPC_Model.cpp */,
+            F000000000000000000000BB /* OPC_Model.h */,
+            F000000000000000000000BC /* OPC_OBBCollider.cpp */,
+            F000000000000000000000BD /* OPC_OBBCollider.h */,
+            F000000000000000000000BE /* OPC_OptimizedTree.cpp */,
+            F000000000000000000000BF /* OPC_OptimizedTree.h */,
+            F000000000000000000000C0 /* OPC_Picking.cpp */,
+            F000000000000000000000C1 /* OPC_Picking.h */,
+            F000000000000000000000C2 /* OPC_PlanesAABBOverlap.h */,
+            F000000000000000000000C3 /* OPC_PlanesCollider.cpp */,
+            F000000000000000000000C4 /* OPC_PlanesCollider.h */,
+            F000000000000000000000C5 /* OPC_PlanesTriOverlap.h */,
+            F000000000000000000000C6 /* OPC_RayAABBOverlap.h */,
+            F000000000000000000000C7 /* OPC_RayCollider.cpp */,
+            F000000000000000000000C8 /* OPC_RayCollider.h */,
+            F000000000000000000000C9 /* OPC_RayTriOverlap.h */,
+            F000000000000000000000CA /* OPC_Settings.h */,
+            F000000000000000000000CB /* OPC_SphereAABBOverlap.h */,
+            F000000000000000000000CC /* OPC_SphereCollider.cpp */,
+            F000000000000000000000CD /* OPC_SphereCollider.h */,
+            F000000000000000000000CE /* OPC_SphereTriOverlap.h */,
+            F000000000000000000000CF /* OPC_SweepAndPrune.cpp */,
+            F000000000000000000000D0 /* OPC_SweepAndPrune.h */,
+            F000000000000000000000D1 /* OPC_TreeBuilders.cpp */,
+            F000000000000000000000D2 /* OPC_TreeBuilders.h */,
+            F000000000000000000000D3 /* OPC_TreeCollider.cpp */,
+            F000000000000000000000D4 /* OPC_TreeCollider.h */,
+            F000000000000000000000D5 /* OPC_TriBoxOverlap.h */,
+            F000000000000000000000D6 /* OPC_TriTriOverlap.h */,
+            F000000000000000000000D7 /* OPC_VolumeCollider.cpp */,
+            F000000000000000000000D8 /* OPC_VolumeCollider.h */,
+            F000000000000000000000D9 /* Opcode.cpp */,
+            F000000000000000000000DA /* Opcode.h */,
+            A00000000000000000000010 /* Ice -- paxorr/lib/Ice */,
+			);
+			name = lib;
+			sourceTree = "<group>"; /* paxorr/lib */
+         };
+         
+		A00000000000000000000010 /* Ice */ = {
+			isa = PBXGroup;
+			children = (
+            F000000000000000000000DB /* IceAABB.cpp */,
+            F000000000000000000000DC /* IceAABB.h */,
+            F000000000000000000000DD /* IceAxes.h */,
+            F000000000000000000000DE /* IceBoundingSphere.h */,
+            F000000000000000000000DF /* IceContainer.cpp */,
+            F000000000000000000000E0 /* IceContainer.h */,
+            F000000000000000000000E1 /* IceFPU.h */,
+            F000000000000000000000E2 /* IceHPoint.cpp */,
+            F000000000000000000000E3 /* IceHPoint.h */,
+            F000000000000000000000E4 /* IceIndexedTriangle.cpp */,
+            F000000000000000000000E5 /* IceIndexedTriangle.h */,
+            F000000000000000000000E6 /* IceLSS.h */,
+            F000000000000000000000E7 /* IceMatrix3x3.cpp */,
+            F000000000000000000000E8 /* IceMatrix3x3.h */,
+            F000000000000000000000E9 /* IceMatrix4x4.cpp */,
+            F000000000000000000000EA /* IceMatrix4x4.h */,
+            F000000000000000000000EB /* IceMemoryMacros.h */,
+            F000000000000000000000EC /* IceOBB.cpp */,
+            F000000000000000000000ED /* IceOBB.h */,
+            F000000000000000000000EE /* IcePairs.h */,
+            F000000000000000000000EF /* IcePlane.cpp */,
+            F000000000000000000000F0 /* IcePlane.h */,
+            F000000000000000000000F1 /* IcePoint.cpp */,
+            F000000000000000000000F2 /* IcePoint.h */,
+            F000000000000000000000F3 /* IcePreprocessor.h */,
+            F000000000000000000000F4 /* IceRandom.cpp */,
+            F000000000000000000000F5 /* IceRandom.h */,
+            F000000000000000000000F6 /* IceRay.cpp */,
+            F000000000000000000000F7 /* IceRay.h */,
+            F000000000000000000000F8 /* IceRevisitedRadix.cpp */,
+            F000000000000000000000F9 /* IceRevisitedRadix.h */,
+            F000000000000000000000FA /* IceSegment.cpp */,
+            F000000000000000000000FB /* IceSegment.h */,
+            F000000000000000000000FC /* IceTriangle.cpp */,
+            F000000000000000000000FD /* IceTriangle.h */,
+            F000000000000000000000FE /* IceTriList.h */,
+            F000000000000000000000FF /* IceTypes.h */,
+            F00000000000000000000100 /* IceUtils.cpp */,
+            F00000000000000000000101 /* IceUtils.h */,
+			);
+			name = Ice;
+			sourceTree = "<group>"; /* paxorr/lib/Ice */
+         };
+         
+   /* End PBXGroups from project generator */
+   
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+	  D0000000000000000000000F /* opcode */ = {
+		 isa = PBXNativeTarget;
+		 buildConfigurationList = D27393740CDABF9C006111D4 /* Build configuration list for PBXNativeTarget "opcode" */;
+		 buildPhases = (
+			D27393300CDABF9C006111D4 /* Sources */,
+		 );
+		 buildRules = (
+		 );
+		 dependencies = (
+		 );
+		 name = opcode;
+		 productName = libopcode;
+		 productReference = F0000000000000000000000E /* libopcode.a */;
+		 productType = "com.apple.product-type.library.static";
+	  };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+	  D268347E0C02C5750020EE4F /* Project object */ = {
+		 isa = PBXProject;
+		 buildConfigurationList = D268347F0C02C5750020EE4F /* Build configuration list for PBXProject "opcode" */;
+		 compatibilityVersion = "Xcode 3.2";
+		 hasScannedForEncodings = 0;
+		 mainGroup = D268347C0C02C5750020EE4F;
+		 productRefGroup = D26834AC0C02C77B0020EE4F /* Products */;
+		 projectDirPath = "";
+		 projectRoot = ../../../..;
+		 targets = (
+			D0000000000000000000000F /* opcode */,
+		 );
+	  };
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D27393300CDABF9C006111D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+      B000000000000000000000A4 /* OPC_AABBCollider.cpp in lib */,
+      B000000000000000000000A5 /* OPC_AABBCollider.h in lib */,
+      B000000000000000000000A6 /* OPC_AABBTree.cpp in lib */,
+      B000000000000000000000A7 /* OPC_AABBTree.h in lib */,
+      B000000000000000000000A8 /* OPC_BaseModel.cpp in lib */,
+      B000000000000000000000A9 /* OPC_BaseModel.h in lib */,
+      B000000000000000000000AA /* OPC_BoxBoxOverlap.h in lib */,
+      B000000000000000000000AB /* OPC_BoxPruning.cpp in lib */,
+      B000000000000000000000AC /* OPC_BoxPruning.h in lib */,
+      B000000000000000000000AD /* OPC_Collider.cpp in lib */,
+      B000000000000000000000AE /* OPC_Collider.h in lib */,
+      B000000000000000000000AF /* OPC_Common.cpp in lib */,
+      B000000000000000000000B0 /* OPC_Common.h in lib */,
+      B000000000000000000000B1 /* OPC_HybridModel.cpp in lib */,
+      B000000000000000000000B2 /* OPC_HybridModel.h in lib */,
+      B000000000000000000000B3 /* OPC_IceHook.h in lib */,
+      B000000000000000000000B4 /* OPC_LSSAABBOverlap.h in lib */,
+      B000000000000000000000B5 /* OPC_LSSCollider.cpp in lib */,
+      B000000000000000000000B6 /* OPC_LSSCollider.h in lib */,
+      B000000000000000000000B7 /* OPC_LSSTriOverlap.h in lib */,
+      B000000000000000000000B8 /* OPC_MeshInterface.cpp in lib */,
+      B000000000000000000000B9 /* OPC_MeshInterface.h in lib */,
+      B000000000000000000000BA /* OPC_Model.cpp in lib */,
+      B000000000000000000000BB /* OPC_Model.h in lib */,
+      B000000000000000000000BC /* OPC_OBBCollider.cpp in lib */,
+      B000000000000000000000BD /* OPC_OBBCollider.h in lib */,
+      B000000000000000000000BE /* OPC_OptimizedTree.cpp in lib */,
+      B000000000000000000000BF /* OPC_OptimizedTree.h in lib */,
+      B000000000000000000000C0 /* OPC_Picking.cpp in lib */,
+      B000000000000000000000C1 /* OPC_Picking.h in lib */,
+      B000000000000000000000C2 /* OPC_PlanesAABBOverlap.h in lib */,
+      B000000000000000000000C3 /* OPC_PlanesCollider.cpp in lib */,
+      B000000000000000000000C4 /* OPC_PlanesCollider.h in lib */,
+      B000000000000000000000C5 /* OPC_PlanesTriOverlap.h in lib */,
+      B000000000000000000000C6 /* OPC_RayAABBOverlap.h in lib */,
+      B000000000000000000000C7 /* OPC_RayCollider.cpp in lib */,
+      B000000000000000000000C8 /* OPC_RayCollider.h in lib */,
+      B000000000000000000000C9 /* OPC_RayTriOverlap.h in lib */,
+      B000000000000000000000CA /* OPC_Settings.h in lib */,
+      B000000000000000000000CB /* OPC_SphereAABBOverlap.h in lib */,
+      B000000000000000000000CC /* OPC_SphereCollider.cpp in lib */,
+      B000000000000000000000CD /* OPC_SphereCollider.h in lib */,
+      B000000000000000000000CE /* OPC_SphereTriOverlap.h in lib */,
+      B000000000000000000000CF /* OPC_SweepAndPrune.cpp in lib */,
+      B000000000000000000000D0 /* OPC_SweepAndPrune.h in lib */,
+      B000000000000000000000D1 /* OPC_TreeBuilders.cpp in lib */,
+      B000000000000000000000D2 /* OPC_TreeBuilders.h in lib */,
+      B000000000000000000000D3 /* OPC_TreeCollider.cpp in lib */,
+      B000000000000000000000D4 /* OPC_TreeCollider.h in lib */,
+      B000000000000000000000D5 /* OPC_TriBoxOverlap.h in lib */,
+      B000000000000000000000D6 /* OPC_TriTriOverlap.h in lib */,
+      B000000000000000000000D7 /* OPC_VolumeCollider.cpp in lib */,
+      B000000000000000000000D8 /* OPC_VolumeCollider.h in lib */,
+      B000000000000000000000D9 /* Opcode.cpp in lib */,
+      B000000000000000000000DA /* Opcode.h in lib */,
+      B000000000000000000000DB /* IceAABB.cpp in Ice */,
+      B000000000000000000000DC /* IceAABB.h in Ice */,
+      B000000000000000000000DD /* IceAxes.h in Ice */,
+      B000000000000000000000DE /* IceBoundingSphere.h in Ice */,
+      B000000000000000000000DF /* IceContainer.cpp in Ice */,
+      B000000000000000000000E0 /* IceContainer.h in Ice */,
+      B000000000000000000000E1 /* IceFPU.h in Ice */,
+      B000000000000000000000E2 /* IceHPoint.cpp in Ice */,
+      B000000000000000000000E3 /* IceHPoint.h in Ice */,
+      B000000000000000000000E4 /* IceIndexedTriangle.cpp in Ice */,
+      B000000000000000000000E5 /* IceIndexedTriangle.h in Ice */,
+      B000000000000000000000E6 /* IceLSS.h in Ice */,
+      B000000000000000000000E7 /* IceMatrix3x3.cpp in Ice */,
+      B000000000000000000000E8 /* IceMatrix3x3.h in Ice */,
+      B000000000000000000000E9 /* IceMatrix4x4.cpp in Ice */,
+      B000000000000000000000EA /* IceMatrix4x4.h in Ice */,
+      B000000000000000000000EB /* IceMemoryMacros.h in Ice */,
+      B000000000000000000000EC /* IceOBB.cpp in Ice */,
+      B000000000000000000000ED /* IceOBB.h in Ice */,
+      B000000000000000000000EE /* IcePairs.h in Ice */,
+      B000000000000000000000EF /* IcePlane.cpp in Ice */,
+      B000000000000000000000F0 /* IcePlane.h in Ice */,
+      B000000000000000000000F1 /* IcePoint.cpp in Ice */,
+      B000000000000000000000F2 /* IcePoint.h in Ice */,
+      B000000000000000000000F3 /* IcePreprocessor.h in Ice */,
+      B000000000000000000000F4 /* IceRandom.cpp in Ice */,
+      B000000000000000000000F5 /* IceRandom.h in Ice */,
+      B000000000000000000000F6 /* IceRay.cpp in Ice */,
+      B000000000000000000000F7 /* IceRay.h in Ice */,
+      B000000000000000000000F8 /* IceRevisitedRadix.cpp in Ice */,
+      B000000000000000000000F9 /* IceRevisitedRadix.h in Ice */,
+      B000000000000000000000FA /* IceSegment.cpp in Ice */,
+      B000000000000000000000FB /* IceSegment.h in Ice */,
+      B000000000000000000000FC /* IceTriangle.cpp in Ice */,
+      B000000000000000000000FD /* IceTriangle.h in Ice */,
+      B000000000000000000000FE /* IceTriList.h in Ice */,
+      B000000000000000000000FF /* IceTypes.h in Ice */,
+      B00000000000000000000100 /* IceUtils.cpp in Ice */,
+      B00000000000000000000101 /* IceUtils.h in Ice */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D26834800C02C5750020EE4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CONFIGURATION_BUILD_DIR = "$(TORQUE_BUILT_LIBS_DIR)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				OTHER_LDFLAGS_i386 = "-framework Accelerate";
+				OTHER_LDFLAGS_ppc = "-framework vecLib";
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+            GCC_VERSION = 4.2;
+				TORQUE_BUILT_LIBS_DIR = ../../../../engine/lib/builtLibs/;
+			};
+			name = Debug;
+		};
+		D26834810C02C5750020EE4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CONFIGURATION_BUILD_DIR = ../../assets/;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				OTHER_LDFLAGS_i386 = "-framework Accelerate";
+				OTHER_LDFLAGS_ppc = "-framework vecLib";
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+            GCC_VERSION = 4.2;
+				TORQUE_BUILT_LIBS_DIR = ../../../../engine/lib/builtLibs/;
+			};
+			name = Release;
+		};
+		D27393750CDABF9C006111D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+			   __MACOSX__,
+			   "TORQUE_OPCODE",
+			   "ICE_NO_DLL",
+			   "TORQUE_OPCODE",
+			   "ICE_NO_DLL",
+			);
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+				"../../../../Engine/lib/opcode",
+				);
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = opcode;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		D27393760CDABF9C006111D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = "$(TORQUE_BUILT_LIBS_DIR)";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+			   __MACOSX__,
+			   "TORQUE_OPCODE",
+			   "ICE_NO_DLL",
+			   "TORQUE_OPCODE",
+			   "ICE_NO_DLL",
+				);
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+				"../../../../Engine/lib/opcode",
+				);
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = opcode;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D268347F0C02C5750020EE4F /* Build configuration list for PBXProject "LibTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D26834800C02C5750020EE4F /* Debug */,
+				D26834810C02C5750020EE4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D27393740CDABF9C006111D4 /* Build configuration list for PBXNativeTarget "opcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27393750CDABF9C006111D4 /* Debug */,
+				D27393760CDABF9C006111D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D268347E0C02C5750020EE4F /* Project object */;
+}

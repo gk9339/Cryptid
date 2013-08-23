@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+
+   /* Begin PBXBuildFiles included by project generator */
+      B00000000000000000000061 = /* jcapimin.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000061 /* jcapimin.c */; };
+      B00000000000000000000062 = /* jcapistd.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000062 /* jcapistd.c */; };
+      B00000000000000000000063 = /* jccoefct.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000063 /* jccoefct.c */; };
+      B00000000000000000000064 = /* jccolor.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000064 /* jccolor.c */; };
+      B00000000000000000000065 = /* jcdctmgr.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000065 /* jcdctmgr.c */; };
+      B00000000000000000000066 = /* jchuff.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000066 /* jchuff.c */; };
+      B00000000000000000000068 = /* jcinit.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000068 /* jcinit.c */; };
+      B00000000000000000000069 = /* jcmainct.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000069 /* jcmainct.c */; };
+      B0000000000000000000006A = /* jcmarker.c in lib */ {isa = PBXBuildFile; fileRef = F0000000000000000000006A /* jcmarker.c */; };
+      B0000000000000000000006B = /* jcmaster.c in lib */ {isa = PBXBuildFile; fileRef = F0000000000000000000006B /* jcmaster.c */; };
+      B0000000000000000000006C = /* jcomapi.c in lib */ {isa = PBXBuildFile; fileRef = F0000000000000000000006C /* jcomapi.c */; };
+      B00000000000000000000072 = /* jcparam.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000072 /* jcparam.c */; };
+      B00000000000000000000073 = /* jcphuff.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000073 /* jcphuff.c */; };
+      B00000000000000000000074 = /* jcprepct.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000074 /* jcprepct.c */; };
+      B00000000000000000000075 = /* jcsample.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000075 /* jcsample.c */; };
+      B00000000000000000000076 = /* jctrans.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000076 /* jctrans.c */; };
+      B00000000000000000000077 = /* jdapimin.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000077 /* jdapimin.c */; };
+      B00000000000000000000078 = /* jdapistd.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000078 /* jdapistd.c */; };
+      B00000000000000000000079 = /* jdatadst.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000079 /* jdatadst.c */; };
+      B0000000000000000000007A = /* jdatasrc.c in lib */ {isa = PBXBuildFile; fileRef = F0000000000000000000007A /* jdatasrc.c */; };
+      B0000000000000000000007B = /* jdcoefct.c in lib */ {isa = PBXBuildFile; fileRef = F0000000000000000000007B /* jdcoefct.c */; };
+      B0000000000000000000007C = /* jdcolor.c in lib */ {isa = PBXBuildFile; fileRef = F0000000000000000000007C /* jdcolor.c */; };
+      B0000000000000000000007E = /* jddctmgr.c in lib */ {isa = PBXBuildFile; fileRef = F0000000000000000000007E /* jddctmgr.c */; };
+      B0000000000000000000007F = /* jdhuff.c in lib */ {isa = PBXBuildFile; fileRef = F0000000000000000000007F /* jdhuff.c */; };
+      B00000000000000000000081 = /* jdinput.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000081 /* jdinput.c */; };
+      B00000000000000000000082 = /* jdmainct.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000082 /* jdmainct.c */; };
+      B00000000000000000000083 = /* jdmarker.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000083 /* jdmarker.c */; };
+      B00000000000000000000084 = /* jdmaster.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000084 /* jdmaster.c */; };
+      B00000000000000000000085 = /* jdmerge.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000085 /* jdmerge.c */; };
+      B00000000000000000000086 = /* jdphuff.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000086 /* jdphuff.c */; };
+      B00000000000000000000087 = /* jdpostct.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000087 /* jdpostct.c */; };
+      B00000000000000000000088 = /* jdsample.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000088 /* jdsample.c */; };
+      B00000000000000000000089 = /* jdtrans.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000089 /* jdtrans.c */; };
+      B0000000000000000000008A = /* jerror.c in lib */ {isa = PBXBuildFile; fileRef = F0000000000000000000008A /* jerror.c */; };
+      B0000000000000000000008C = /* jfdctflt.c in lib */ {isa = PBXBuildFile; fileRef = F0000000000000000000008C /* jfdctflt.c */; };
+      B0000000000000000000008D = /* jfdctfst.c in lib */ {isa = PBXBuildFile; fileRef = F0000000000000000000008D /* jfdctfst.c */; };
+      B0000000000000000000008E = /* jfdctint.c in lib */ {isa = PBXBuildFile; fileRef = F0000000000000000000008E /* jfdctint.c */; };
+      B0000000000000000000008F = /* jidctflt.c in lib */ {isa = PBXBuildFile; fileRef = F0000000000000000000008F /* jidctflt.c */; };
+      B00000000000000000000090 = /* jidctfst.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000090 /* jidctfst.c */; };
+      B00000000000000000000091 = /* jidctint.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000091 /* jidctint.c */; };
+      B00000000000000000000092 = /* jidctred.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000092 /* jidctred.c */; };
+      B00000000000000000000094 = /* jmemmgr.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000094 /* jmemmgr.c */; };
+      B00000000000000000000095 = /* jmemnobs.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000095 /* jmemnobs.c */; };
+      B0000000000000000000009A = /* jquant1.c in lib */ {isa = PBXBuildFile; fileRef = F0000000000000000000009A /* jquant1.c */; };
+      B0000000000000000000009B = /* jquant2.c in lib */ {isa = PBXBuildFile; fileRef = F0000000000000000000009B /* jquant2.c */; };
+      B0000000000000000000009C = /* jutils.c in lib */ {isa = PBXBuildFile; fileRef = F0000000000000000000009C /* jutils.c */; };
+   /* End PBXBuildFiles included by project generator */
+
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+	  F0000000000000000000000A /* libljpeg.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libljpeg.a; sourceTree = BUILT_PRODUCTS_DIR; };
+
+   /* Begin PBXFileReferences included by project generator */
+	        F00000000000000000000061 = /* jcapimin.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jcapimin.c; path = ../../../../Engine/lib/ljpeg/jcapimin.c; };
+      F00000000000000000000062 = /* jcapistd.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jcapistd.c; path = ../../../../Engine/lib/ljpeg/jcapistd.c; };
+      F00000000000000000000063 = /* jccoefct.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jccoefct.c; path = ../../../../Engine/lib/ljpeg/jccoefct.c; };
+      F00000000000000000000064 = /* jccolor.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jccolor.c; path = ../../../../Engine/lib/ljpeg/jccolor.c; };
+      F00000000000000000000065 = /* jcdctmgr.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jcdctmgr.c; path = ../../../../Engine/lib/ljpeg/jcdctmgr.c; };
+      F00000000000000000000066 = /* jchuff.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jchuff.c; path = ../../../../Engine/lib/ljpeg/jchuff.c; };
+      F00000000000000000000067 = /* jchuff.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jchuff.h; path = ../../../../Engine/lib/ljpeg/jchuff.h; };
+      F00000000000000000000068 = /* jcinit.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jcinit.c; path = ../../../../Engine/lib/ljpeg/jcinit.c; };
+      F00000000000000000000069 = /* jcmainct.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jcmainct.c; path = ../../../../Engine/lib/ljpeg/jcmainct.c; };
+      F0000000000000000000006A = /* jcmarker.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jcmarker.c; path = ../../../../Engine/lib/ljpeg/jcmarker.c; };
+      F0000000000000000000006B = /* jcmaster.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jcmaster.c; path = ../../../../Engine/lib/ljpeg/jcmaster.c; };
+      F0000000000000000000006C = /* jcomapi.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jcomapi.c; path = ../../../../Engine/lib/ljpeg/jcomapi.c; };
+      F0000000000000000000006D = /* jconfig.cw.mac.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jconfig.cw.mac.h; path = ../../../../Engine/lib/ljpeg/jconfig.cw.mac.h; };
+      F0000000000000000000006E = /* jconfig.cw.win.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jconfig.cw.win.h; path = ../../../../Engine/lib/ljpeg/jconfig.cw.win.h; };
+      F0000000000000000000006F = /* jconfig.gcc.linux.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jconfig.gcc.linux.h; path = ../../../../Engine/lib/ljpeg/jconfig.gcc.linux.h; };
+      F00000000000000000000070 = /* jconfig.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jconfig.h; path = ../../../../Engine/lib/ljpeg/jconfig.h; };
+      F00000000000000000000071 = /* jconfig.vc.win.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jconfig.vc.win.h; path = ../../../../Engine/lib/ljpeg/jconfig.vc.win.h; };
+      F00000000000000000000072 = /* jcparam.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jcparam.c; path = ../../../../Engine/lib/ljpeg/jcparam.c; };
+      F00000000000000000000073 = /* jcphuff.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jcphuff.c; path = ../../../../Engine/lib/ljpeg/jcphuff.c; };
+      F00000000000000000000074 = /* jcprepct.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jcprepct.c; path = ../../../../Engine/lib/ljpeg/jcprepct.c; };
+      F00000000000000000000075 = /* jcsample.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jcsample.c; path = ../../../../Engine/lib/ljpeg/jcsample.c; };
+      F00000000000000000000076 = /* jctrans.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jctrans.c; path = ../../../../Engine/lib/ljpeg/jctrans.c; };
+      F00000000000000000000077 = /* jdapimin.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jdapimin.c; path = ../../../../Engine/lib/ljpeg/jdapimin.c; };
+      F00000000000000000000078 = /* jdapistd.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jdapistd.c; path = ../../../../Engine/lib/ljpeg/jdapistd.c; };
+      F00000000000000000000079 = /* jdatadst.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jdatadst.c; path = ../../../../Engine/lib/ljpeg/jdatadst.c; };
+      F0000000000000000000007A = /* jdatasrc.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jdatasrc.c; path = ../../../../Engine/lib/ljpeg/jdatasrc.c; };
+      F0000000000000000000007B = /* jdcoefct.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jdcoefct.c; path = ../../../../Engine/lib/ljpeg/jdcoefct.c; };
+      F0000000000000000000007C = /* jdcolor.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jdcolor.c; path = ../../../../Engine/lib/ljpeg/jdcolor.c; };
+      F0000000000000000000007D = /* jdct.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jdct.h; path = ../../../../Engine/lib/ljpeg/jdct.h; };
+      F0000000000000000000007E = /* jddctmgr.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jddctmgr.c; path = ../../../../Engine/lib/ljpeg/jddctmgr.c; };
+      F0000000000000000000007F = /* jdhuff.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jdhuff.c; path = ../../../../Engine/lib/ljpeg/jdhuff.c; };
+      F00000000000000000000080 = /* jdhuff.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jdhuff.h; path = ../../../../Engine/lib/ljpeg/jdhuff.h; };
+      F00000000000000000000081 = /* jdinput.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jdinput.c; path = ../../../../Engine/lib/ljpeg/jdinput.c; };
+      F00000000000000000000082 = /* jdmainct.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jdmainct.c; path = ../../../../Engine/lib/ljpeg/jdmainct.c; };
+      F00000000000000000000083 = /* jdmarker.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jdmarker.c; path = ../../../../Engine/lib/ljpeg/jdmarker.c; };
+      F00000000000000000000084 = /* jdmaster.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jdmaster.c; path = ../../../../Engine/lib/ljpeg/jdmaster.c; };
+      F00000000000000000000085 = /* jdmerge.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jdmerge.c; path = ../../../../Engine/lib/ljpeg/jdmerge.c; };
+      F00000000000000000000086 = /* jdphuff.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jdphuff.c; path = ../../../../Engine/lib/ljpeg/jdphuff.c; };
+      F00000000000000000000087 = /* jdpostct.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jdpostct.c; path = ../../../../Engine/lib/ljpeg/jdpostct.c; };
+      F00000000000000000000088 = /* jdsample.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jdsample.c; path = ../../../../Engine/lib/ljpeg/jdsample.c; };
+      F00000000000000000000089 = /* jdtrans.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jdtrans.c; path = ../../../../Engine/lib/ljpeg/jdtrans.c; };
+      F0000000000000000000008A = /* jerror.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jerror.c; path = ../../../../Engine/lib/ljpeg/jerror.c; };
+      F0000000000000000000008B = /* jerror.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jerror.h; path = ../../../../Engine/lib/ljpeg/jerror.h; };
+      F0000000000000000000008C = /* jfdctflt.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jfdctflt.c; path = ../../../../Engine/lib/ljpeg/jfdctflt.c; };
+      F0000000000000000000008D = /* jfdctfst.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jfdctfst.c; path = ../../../../Engine/lib/ljpeg/jfdctfst.c; };
+      F0000000000000000000008E = /* jfdctint.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jfdctint.c; path = ../../../../Engine/lib/ljpeg/jfdctint.c; };
+      F0000000000000000000008F = /* jidctflt.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jidctflt.c; path = ../../../../Engine/lib/ljpeg/jidctflt.c; };
+      F00000000000000000000090 = /* jidctfst.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jidctfst.c; path = ../../../../Engine/lib/ljpeg/jidctfst.c; };
+      F00000000000000000000091 = /* jidctint.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jidctint.c; path = ../../../../Engine/lib/ljpeg/jidctint.c; };
+      F00000000000000000000092 = /* jidctred.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jidctred.c; path = ../../../../Engine/lib/ljpeg/jidctred.c; };
+      F00000000000000000000093 = /* jinclude.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jinclude.h; path = ../../../../Engine/lib/ljpeg/jinclude.h; };
+      F00000000000000000000094 = /* jmemmgr.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jmemmgr.c; path = ../../../../Engine/lib/ljpeg/jmemmgr.c; };
+      F00000000000000000000095 = /* jmemnobs.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jmemnobs.c; path = ../../../../Engine/lib/ljpeg/jmemnobs.c; };
+      F00000000000000000000096 = /* jmemsys.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jmemsys.h; path = ../../../../Engine/lib/ljpeg/jmemsys.h; };
+      F00000000000000000000097 = /* jmorecfg.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jmorecfg.h; path = ../../../../Engine/lib/ljpeg/jmorecfg.h; };
+      F00000000000000000000098 = /* jpegint.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jpegint.h; path = ../../../../Engine/lib/ljpeg/jpegint.h; };
+      F00000000000000000000099 = /* jpeglib.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jpeglib.h; path = ../../../../Engine/lib/ljpeg/jpeglib.h; };
+      F0000000000000000000009A = /* jquant1.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jquant1.c; path = ../../../../Engine/lib/ljpeg/jquant1.c; };
+      F0000000000000000000009B = /* jquant2.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jquant2.c; path = ../../../../Engine/lib/ljpeg/jquant2.c; };
+      F0000000000000000000009C = /* jutils.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jutils.c; path = ../../../../Engine/lib/ljpeg/jutils.c; };
+      F0000000000000000000009D = /* jversion.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = jversion.h; path = ../../../../Engine/lib/ljpeg/jversion.h; };
+   /* End PBXFileReferences included by project generator */
+
+
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+	  D27393730CDABF9C006111D4 /* Frameworks */ = {
+		 isa = PBXFrameworksBuildPhase;
+		 buildActionMask = 2147483647;
+		 files = (
+		 );
+		 runOnlyForDeploymentPostprocessing = 0;
+	  };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+	  D268347C0C02C5750020EE4F = {
+		 isa = PBXGroup;
+		 children = (
+			A00000000000000000000000 /* Code */,
+			D26834AC0C02C77B0020EE4F /* Products */,
+		 );
+		 sourceTree = "<group>";
+	  };
+	  D26834AC0C02C77B0020EE4F /* Products */ = {
+		 isa = PBXGroup;
+		 children = (
+			F0000000000000000000000A /* libljpeg.a */,
+		 );
+		 name = Products;
+		 sourceTree = SOURCE_ROOT;
+	  };
+	  
+   /* Begin PBXGroups from project generator */
+		A00000000000000000000000 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+            A00000000000000000000003 /* lib -- paxorr/lib */,
+			);
+			name = Code;
+			sourceTree = "<group>"; /* paxorr */
+         };
+         
+		A00000000000000000000003 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+            F00000000000000000000061 /* jcapimin.c */,
+            F00000000000000000000062 /* jcapistd.c */,
+            F00000000000000000000063 /* jccoefct.c */,
+            F00000000000000000000064 /* jccolor.c */,
+            F00000000000000000000065 /* jcdctmgr.c */,
+            F00000000000000000000066 /* jchuff.c */,
+            F00000000000000000000067 /* jchuff.h */,
+            F00000000000000000000068 /* jcinit.c */,
+            F00000000000000000000069 /* jcmainct.c */,
+            F0000000000000000000006A /* jcmarker.c */,
+            F0000000000000000000006B /* jcmaster.c */,
+            F0000000000000000000006C /* jcomapi.c */,
+            F0000000000000000000006D /* jconfig.cw.mac.h */,
+            F0000000000000000000006E /* jconfig.cw.win.h */,
+            F0000000000000000000006F /* jconfig.gcc.linux.h */,
+            F00000000000000000000070 /* jconfig.h */,
+            F00000000000000000000071 /* jconfig.vc.win.h */,
+            F00000000000000000000072 /* jcparam.c */,
+            F00000000000000000000073 /* jcphuff.c */,
+            F00000000000000000000074 /* jcprepct.c */,
+            F00000000000000000000075 /* jcsample.c */,
+            F00000000000000000000076 /* jctrans.c */,
+            F00000000000000000000077 /* jdapimin.c */,
+            F00000000000000000000078 /* jdapistd.c */,
+            F00000000000000000000079 /* jdatadst.c */,
+            F0000000000000000000007A /* jdatasrc.c */,
+            F0000000000000000000007B /* jdcoefct.c */,
+            F0000000000000000000007C /* jdcolor.c */,
+            F0000000000000000000007D /* jdct.h */,
+            F0000000000000000000007E /* jddctmgr.c */,
+            F0000000000000000000007F /* jdhuff.c */,
+            F00000000000000000000080 /* jdhuff.h */,
+            F00000000000000000000081 /* jdinput.c */,
+            F00000000000000000000082 /* jdmainct.c */,
+            F00000000000000000000083 /* jdmarker.c */,
+            F00000000000000000000084 /* jdmaster.c */,
+            F00000000000000000000085 /* jdmerge.c */,
+            F00000000000000000000086 /* jdphuff.c */,
+            F00000000000000000000087 /* jdpostct.c */,
+            F00000000000000000000088 /* jdsample.c */,
+            F00000000000000000000089 /* jdtrans.c */,
+            F0000000000000000000008A /* jerror.c */,
+            F0000000000000000000008B /* jerror.h */,
+            F0000000000000000000008C /* jfdctflt.c */,
+            F0000000000000000000008D /* jfdctfst.c */,
+            F0000000000000000000008E /* jfdctint.c */,
+            F0000000000000000000008F /* jidctflt.c */,
+            F00000000000000000000090 /* jidctfst.c */,
+            F00000000000000000000091 /* jidctint.c */,
+            F00000000000000000000092 /* jidctred.c */,
+            F00000000000000000000093 /* jinclude.h */,
+            F00000000000000000000094 /* jmemmgr.c */,
+            F00000000000000000000095 /* jmemnobs.c */,
+            F00000000000000000000096 /* jmemsys.h */,
+            F00000000000000000000097 /* jmorecfg.h */,
+            F00000000000000000000098 /* jpegint.h */,
+            F00000000000000000000099 /* jpeglib.h */,
+            F0000000000000000000009A /* jquant1.c */,
+            F0000000000000000000009B /* jquant2.c */,
+            F0000000000000000000009C /* jutils.c */,
+            F0000000000000000000009D /* jversion.h */,
+			);
+			name = lib;
+			sourceTree = "<group>"; /* paxorr/lib */
+         };
+         
+   /* End PBXGroups from project generator */
+   
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+	  D0000000000000000000000B /* ljpeg */ = {
+		 isa = PBXNativeTarget;
+		 buildConfigurationList = D27393740CDABF9C006111D4 /* Build configuration list for PBXNativeTarget "ljpeg" */;
+		 buildPhases = (
+			D27393300CDABF9C006111D4 /* Sources */,
+		 );
+		 buildRules = (
+		 );
+		 dependencies = (
+		 );
+		 name = ljpeg;
+		 productName = libljpeg;
+		 productReference = F0000000000000000000000A /* libljpeg.a */;
+		 productType = "com.apple.product-type.library.static";
+	  };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+	  D268347E0C02C5750020EE4F /* Project object */ = {
+		 isa = PBXProject;
+		 buildConfigurationList = D268347F0C02C5750020EE4F /* Build configuration list for PBXProject "ljpeg" */;
+		 compatibilityVersion = "Xcode 3.2";
+		 hasScannedForEncodings = 0;
+		 mainGroup = D268347C0C02C5750020EE4F;
+		 productRefGroup = D26834AC0C02C77B0020EE4F /* Products */;
+		 projectDirPath = "";
+		 projectRoot = ../../../..;
+		 targets = (
+			D0000000000000000000000B /* ljpeg */,
+		 );
+	  };
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D27393300CDABF9C006111D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+      B00000000000000000000061 /* jcapimin.c in lib */,
+      B00000000000000000000062 /* jcapistd.c in lib */,
+      B00000000000000000000063 /* jccoefct.c in lib */,
+      B00000000000000000000064 /* jccolor.c in lib */,
+      B00000000000000000000065 /* jcdctmgr.c in lib */,
+      B00000000000000000000066 /* jchuff.c in lib */,
+      B00000000000000000000067 /* jchuff.h in lib */,
+      B00000000000000000000068 /* jcinit.c in lib */,
+      B00000000000000000000069 /* jcmainct.c in lib */,
+      B0000000000000000000006A /* jcmarker.c in lib */,
+      B0000000000000000000006B /* jcmaster.c in lib */,
+      B0000000000000000000006C /* jcomapi.c in lib */,
+      B0000000000000000000006D /* jconfig.cw.mac.h in lib */,
+      B0000000000000000000006E /* jconfig.cw.win.h in lib */,
+      B0000000000000000000006F /* jconfig.gcc.linux.h in lib */,
+      B00000000000000000000070 /* jconfig.h in lib */,
+      B00000000000000000000071 /* jconfig.vc.win.h in lib */,
+      B00000000000000000000072 /* jcparam.c in lib */,
+      B00000000000000000000073 /* jcphuff.c in lib */,
+      B00000000000000000000074 /* jcprepct.c in lib */,
+      B00000000000000000000075 /* jcsample.c in lib */,
+      B00000000000000000000076 /* jctrans.c in lib */,
+      B00000000000000000000077 /* jdapimin.c in lib */,
+      B00000000000000000000078 /* jdapistd.c in lib */,
+      B00000000000000000000079 /* jdatadst.c in lib */,
+      B0000000000000000000007A /* jdatasrc.c in lib */,
+      B0000000000000000000007B /* jdcoefct.c in lib */,
+      B0000000000000000000007C /* jdcolor.c in lib */,
+      B0000000000000000000007D /* jdct.h in lib */,
+      B0000000000000000000007E /* jddctmgr.c in lib */,
+      B0000000000000000000007F /* jdhuff.c in lib */,
+      B00000000000000000000080 /* jdhuff.h in lib */,
+      B00000000000000000000081 /* jdinput.c in lib */,
+      B00000000000000000000082 /* jdmainct.c in lib */,
+      B00000000000000000000083 /* jdmarker.c in lib */,
+      B00000000000000000000084 /* jdmaster.c in lib */,
+      B00000000000000000000085 /* jdmerge.c in lib */,
+      B00000000000000000000086 /* jdphuff.c in lib */,
+      B00000000000000000000087 /* jdpostct.c in lib */,
+      B00000000000000000000088 /* jdsample.c in lib */,
+      B00000000000000000000089 /* jdtrans.c in lib */,
+      B0000000000000000000008A /* jerror.c in lib */,
+      B0000000000000000000008B /* jerror.h in lib */,
+      B0000000000000000000008C /* jfdctflt.c in lib */,
+      B0000000000000000000008D /* jfdctfst.c in lib */,
+      B0000000000000000000008E /* jfdctint.c in lib */,
+      B0000000000000000000008F /* jidctflt.c in lib */,
+      B00000000000000000000090 /* jidctfst.c in lib */,
+      B00000000000000000000091 /* jidctint.c in lib */,
+      B00000000000000000000092 /* jidctred.c in lib */,
+      B00000000000000000000093 /* jinclude.h in lib */,
+      B00000000000000000000094 /* jmemmgr.c in lib */,
+      B00000000000000000000095 /* jmemnobs.c in lib */,
+      B00000000000000000000096 /* jmemsys.h in lib */,
+      B00000000000000000000097 /* jmorecfg.h in lib */,
+      B00000000000000000000098 /* jpegint.h in lib */,
+      B00000000000000000000099 /* jpeglib.h in lib */,
+      B0000000000000000000009A /* jquant1.c in lib */,
+      B0000000000000000000009B /* jquant2.c in lib */,
+      B0000000000000000000009C /* jutils.c in lib */,
+      B0000000000000000000009D /* jversion.h in lib */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D26834800C02C5750020EE4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CONFIGURATION_BUILD_DIR = "$(TORQUE_BUILT_LIBS_DIR)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				OTHER_LDFLAGS_i386 = "-framework Accelerate";
+				OTHER_LDFLAGS_ppc = "-framework vecLib";
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+            GCC_VERSION = 4.2;
+				TORQUE_BUILT_LIBS_DIR = ../../../../engine/lib/builtLibs/;
+			};
+			name = Debug;
+		};
+		D26834810C02C5750020EE4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CONFIGURATION_BUILD_DIR = ../../assets/;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				OTHER_LDFLAGS_i386 = "-framework Accelerate";
+				OTHER_LDFLAGS_ppc = "-framework vecLib";
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+            GCC_VERSION = 4.2;
+				TORQUE_BUILT_LIBS_DIR = ../../../../engine/lib/builtLibs/;
+			};
+			name = Release;
+		};
+		D27393750CDABF9C006111D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+			   __MACOSX__,
+			);
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+				"../../../../Engine/lib/ljpeg",
+				);
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = ljpeg;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		D27393760CDABF9C006111D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = "$(TORQUE_BUILT_LIBS_DIR)";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+			   __MACOSX__,
+				);
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+				"../../../../Engine/lib/ljpeg",
+				);
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = ljpeg;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D268347F0C02C5750020EE4F /* Build configuration list for PBXProject "LibTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D26834800C02C5750020EE4F /* Debug */,
+				D26834810C02C5750020EE4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D27393740CDABF9C006111D4 /* Build configuration list for PBXNativeTarget "ljpeg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27393750CDABF9C006111D4 /* Debug */,
+				D27393760CDABF9C006111D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D268347E0C02C5750020EE4F /* Project object */;
+}

@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+
+   /* Begin PBXBuildFiles included by project generator */
+      B00000000000000000000047 = /* adler32.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000047 /* adler32.c */; };
+      B00000000000000000000048 = /* compress.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000048 /* compress.c */; };
+      B00000000000000000000049 = /* crc32.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000049 /* crc32.c */; };
+      B0000000000000000000004B = /* deflate.c in lib */ {isa = PBXBuildFile; fileRef = F0000000000000000000004B /* deflate.c */; };
+      B0000000000000000000004D = /* gzclose.c in lib */ {isa = PBXBuildFile; fileRef = F0000000000000000000004D /* gzclose.c */; };
+      B0000000000000000000004F = /* gzlib.c in lib */ {isa = PBXBuildFile; fileRef = F0000000000000000000004F /* gzlib.c */; };
+      B00000000000000000000050 = /* gzread.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000050 /* gzread.c */; };
+      B00000000000000000000051 = /* gzwrite.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000051 /* gzwrite.c */; };
+      B00000000000000000000052 = /* infback.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000052 /* infback.c */; };
+      B00000000000000000000053 = /* inffast.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000053 /* inffast.c */; };
+      B00000000000000000000056 = /* inflate.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000056 /* inflate.c */; };
+      B00000000000000000000058 = /* inftrees.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000058 /* inftrees.c */; };
+      B0000000000000000000005A = /* trees.c in lib */ {isa = PBXBuildFile; fileRef = F0000000000000000000005A /* trees.c */; };
+      B0000000000000000000005C = /* uncompr.c in lib */ {isa = PBXBuildFile; fileRef = F0000000000000000000005C /* uncompr.c */; };
+      B0000000000000000000005F = /* zutil.c in lib */ {isa = PBXBuildFile; fileRef = F0000000000000000000005F /* zutil.c */; };
+   /* End PBXBuildFiles included by project generator */
+
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+	  F00000000000000000000008 /* libzlib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libzlib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+
+   /* Begin PBXFileReferences included by project generator */
+	        F00000000000000000000047 = /* adler32.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = adler32.c; path = ../../../../Engine/lib/zlib/adler32.c; };
+      F00000000000000000000048 = /* compress.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = compress.c; path = ../../../../Engine/lib/zlib/compress.c; };
+      F00000000000000000000049 = /* crc32.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = crc32.c; path = ../../../../Engine/lib/zlib/crc32.c; };
+      F0000000000000000000004A = /* crc32.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = crc32.h; path = ../../../../Engine/lib/zlib/crc32.h; };
+      F0000000000000000000004B = /* deflate.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = deflate.c; path = ../../../../Engine/lib/zlib/deflate.c; };
+      F0000000000000000000004C = /* deflate.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = deflate.h; path = ../../../../Engine/lib/zlib/deflate.h; };
+      F0000000000000000000004D = /* gzclose.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = gzclose.c; path = ../../../../Engine/lib/zlib/gzclose.c; };
+      F0000000000000000000004E = /* gzguts.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = gzguts.h; path = ../../../../Engine/lib/zlib/gzguts.h; };
+      F0000000000000000000004F = /* gzlib.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = gzlib.c; path = ../../../../Engine/lib/zlib/gzlib.c; };
+      F00000000000000000000050 = /* gzread.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = gzread.c; path = ../../../../Engine/lib/zlib/gzread.c; };
+      F00000000000000000000051 = /* gzwrite.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = gzwrite.c; path = ../../../../Engine/lib/zlib/gzwrite.c; };
+      F00000000000000000000052 = /* infback.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = infback.c; path = ../../../../Engine/lib/zlib/infback.c; };
+      F00000000000000000000053 = /* inffast.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = inffast.c; path = ../../../../Engine/lib/zlib/inffast.c; };
+      F00000000000000000000054 = /* inffast.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = inffast.h; path = ../../../../Engine/lib/zlib/inffast.h; };
+      F00000000000000000000055 = /* inffixed.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = inffixed.h; path = ../../../../Engine/lib/zlib/inffixed.h; };
+      F00000000000000000000056 = /* inflate.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = inflate.c; path = ../../../../Engine/lib/zlib/inflate.c; };
+      F00000000000000000000057 = /* inflate.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = inflate.h; path = ../../../../Engine/lib/zlib/inflate.h; };
+      F00000000000000000000058 = /* inftrees.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = inftrees.c; path = ../../../../Engine/lib/zlib/inftrees.c; };
+      F00000000000000000000059 = /* inftrees.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = inftrees.h; path = ../../../../Engine/lib/zlib/inftrees.h; };
+      F0000000000000000000005A = /* trees.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = trees.c; path = ../../../../Engine/lib/zlib/trees.c; };
+      F0000000000000000000005B = /* trees.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = trees.h; path = ../../../../Engine/lib/zlib/trees.h; };
+      F0000000000000000000005C = /* uncompr.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = uncompr.c; path = ../../../../Engine/lib/zlib/uncompr.c; };
+      F0000000000000000000005D = /* zconf.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = zconf.h; path = ../../../../Engine/lib/zlib/zconf.h; };
+      F0000000000000000000005E = /* zlib.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = zlib.h; path = ../../../../Engine/lib/zlib/zlib.h; };
+      F0000000000000000000005F = /* zutil.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = zutil.c; path = ../../../../Engine/lib/zlib/zutil.c; };
+      F00000000000000000000060 = /* zutil.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = zutil.h; path = ../../../../Engine/lib/zlib/zutil.h; };
+   /* End PBXFileReferences included by project generator */
+
+
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+	  D27393730CDABF9C006111D4 /* Frameworks */ = {
+		 isa = PBXFrameworksBuildPhase;
+		 buildActionMask = 2147483647;
+		 files = (
+		 );
+		 runOnlyForDeploymentPostprocessing = 0;
+	  };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+	  D268347C0C02C5750020EE4F = {
+		 isa = PBXGroup;
+		 children = (
+			A00000000000000000000000 /* Code */,
+			D26834AC0C02C77B0020EE4F /* Products */,
+		 );
+		 sourceTree = "<group>";
+	  };
+	  D26834AC0C02C77B0020EE4F /* Products */ = {
+		 isa = PBXGroup;
+		 children = (
+			F00000000000000000000008 /* libzlib.a */,
+		 );
+		 name = Products;
+		 sourceTree = SOURCE_ROOT;
+	  };
+	  
+   /* Begin PBXGroups from project generator */
+		A00000000000000000000000 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+            A00000000000000000000003 /* lib -- paxorr/lib */,
+			);
+			name = Code;
+			sourceTree = "<group>"; /* paxorr */
+         };
+         
+		A00000000000000000000003 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+            F00000000000000000000047 /* adler32.c */,
+            F00000000000000000000048 /* compress.c */,
+            F00000000000000000000049 /* crc32.c */,
+            F0000000000000000000004A /* crc32.h */,
+            F0000000000000000000004B /* deflate.c */,
+            F0000000000000000000004C /* deflate.h */,
+            F0000000000000000000004D /* gzclose.c */,
+            F0000000000000000000004E /* gzguts.h */,
+            F0000000000000000000004F /* gzlib.c */,
+            F00000000000000000000050 /* gzread.c */,
+            F00000000000000000000051 /* gzwrite.c */,
+            F00000000000000000000052 /* infback.c */,
+            F00000000000000000000053 /* inffast.c */,
+            F00000000000000000000054 /* inffast.h */,
+            F00000000000000000000055 /* inffixed.h */,
+            F00000000000000000000056 /* inflate.c */,
+            F00000000000000000000057 /* inflate.h */,
+            F00000000000000000000058 /* inftrees.c */,
+            F00000000000000000000059 /* inftrees.h */,
+            F0000000000000000000005A /* trees.c */,
+            F0000000000000000000005B /* trees.h */,
+            F0000000000000000000005C /* uncompr.c */,
+            F0000000000000000000005D /* zconf.h */,
+            F0000000000000000000005E /* zlib.h */,
+            F0000000000000000000005F /* zutil.c */,
+            F00000000000000000000060 /* zutil.h */,
+			);
+			name = lib;
+			sourceTree = "<group>"; /* paxorr/lib */
+         };
+         
+   /* End PBXGroups from project generator */
+   
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+	  D00000000000000000000009 /* zlib */ = {
+		 isa = PBXNativeTarget;
+		 buildConfigurationList = D27393740CDABF9C006111D4 /* Build configuration list for PBXNativeTarget "zlib" */;
+		 buildPhases = (
+			D27393300CDABF9C006111D4 /* Sources */,
+		 );
+		 buildRules = (
+		 );
+		 dependencies = (
+		 );
+		 name = zlib;
+		 productName = libzlib;
+		 productReference = F00000000000000000000008 /* libzlib.a */;
+		 productType = "com.apple.product-type.library.static";
+	  };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+	  D268347E0C02C5750020EE4F /* Project object */ = {
+		 isa = PBXProject;
+		 buildConfigurationList = D268347F0C02C5750020EE4F /* Build configuration list for PBXProject "zlib" */;
+		 compatibilityVersion = "Xcode 3.2";
+		 hasScannedForEncodings = 0;
+		 mainGroup = D268347C0C02C5750020EE4F;
+		 productRefGroup = D26834AC0C02C77B0020EE4F /* Products */;
+		 projectDirPath = "";
+		 projectRoot = ../../../..;
+		 targets = (
+			D00000000000000000000009 /* zlib */,
+		 );
+	  };
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D27393300CDABF9C006111D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+      B00000000000000000000047 /* adler32.c in lib */,
+      B00000000000000000000048 /* compress.c in lib */,
+      B00000000000000000000049 /* crc32.c in lib */,
+      B0000000000000000000004A /* crc32.h in lib */,
+      B0000000000000000000004B /* deflate.c in lib */,
+      B0000000000000000000004C /* deflate.h in lib */,
+      B0000000000000000000004D /* gzclose.c in lib */,
+      B0000000000000000000004E /* gzguts.h in lib */,
+      B0000000000000000000004F /* gzlib.c in lib */,
+      B00000000000000000000050 /* gzread.c in lib */,
+      B00000000000000000000051 /* gzwrite.c in lib */,
+      B00000000000000000000052 /* infback.c in lib */,
+      B00000000000000000000053 /* inffast.c in lib */,
+      B00000000000000000000054 /* inffast.h in lib */,
+      B00000000000000000000055 /* inffixed.h in lib */,
+      B00000000000000000000056 /* inflate.c in lib */,
+      B00000000000000000000057 /* inflate.h in lib */,
+      B00000000000000000000058 /* inftrees.c in lib */,
+      B00000000000000000000059 /* inftrees.h in lib */,
+      B0000000000000000000005A /* trees.c in lib */,
+      B0000000000000000000005B /* trees.h in lib */,
+      B0000000000000000000005C /* uncompr.c in lib */,
+      B0000000000000000000005D /* zconf.h in lib */,
+      B0000000000000000000005E /* zlib.h in lib */,
+      B0000000000000000000005F /* zutil.c in lib */,
+      B00000000000000000000060 /* zutil.h in lib */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D26834800C02C5750020EE4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CONFIGURATION_BUILD_DIR = "$(TORQUE_BUILT_LIBS_DIR)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				OTHER_LDFLAGS_i386 = "-framework Accelerate";
+				OTHER_LDFLAGS_ppc = "-framework vecLib";
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+            GCC_VERSION = 4.2;
+				TORQUE_BUILT_LIBS_DIR = ../../../../engine/lib/builtLibs/;
+			};
+			name = Debug;
+		};
+		D26834810C02C5750020EE4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CONFIGURATION_BUILD_DIR = ../../assets/;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				OTHER_LDFLAGS_i386 = "-framework Accelerate";
+				OTHER_LDFLAGS_ppc = "-framework vecLib";
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+            GCC_VERSION = 4.2;
+				TORQUE_BUILT_LIBS_DIR = ../../../../engine/lib/builtLibs/;
+			};
+			name = Release;
+		};
+		D27393750CDABF9C006111D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+			   __MACOSX__,
+			);
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+				"../../../../Engine/lib/zlib",
+				);
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = zlib;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		D27393760CDABF9C006111D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = "$(TORQUE_BUILT_LIBS_DIR)";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+			   __MACOSX__,
+				);
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+				"../../../../Engine/lib/zlib",
+				);
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = zlib;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D268347F0C02C5750020EE4F /* Build configuration list for PBXProject "LibTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D26834800C02C5750020EE4F /* Debug */,
+				D26834810C02C5750020EE4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D27393740CDABF9C006111D4 /* Build configuration list for PBXNativeTarget "zlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27393750CDABF9C006111D4 /* Debug */,
+				D27393760CDABF9C006111D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D268347E0C02C5750020EE4F /* Project object */;
+}

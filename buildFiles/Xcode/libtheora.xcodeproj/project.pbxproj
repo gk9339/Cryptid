@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+
+   /* Begin PBXBuildFiles included by project generator */
+      B0000000000000000000026D = /* cpu.c in lib */ {isa = PBXBuildFile; fileRef = F0000000000000000000026D /* cpu.c */; };
+      B00000000000000000000270 = /* apiwrapper.c in dec */ {isa = PBXBuildFile; fileRef = F00000000000000000000270 /* apiwrapper.c */; };
+      B00000000000000000000272 = /* bitpack.c in dec */ {isa = PBXBuildFile; fileRef = F00000000000000000000272 /* bitpack.c */; };
+      B00000000000000000000275 = /* decapiwrapper.c in dec */ {isa = PBXBuildFile; fileRef = F00000000000000000000275 /* decapiwrapper.c */; };
+      B00000000000000000000276 = /* decinfo.c in dec */ {isa = PBXBuildFile; fileRef = F00000000000000000000276 /* decinfo.c */; };
+      B00000000000000000000278 = /* decode.c in dec */ {isa = PBXBuildFile; fileRef = F00000000000000000000278 /* decode.c */; };
+      B00000000000000000000279 = /* dequant.c in dec */ {isa = PBXBuildFile; fileRef = F00000000000000000000279 /* dequant.c */; };
+      B0000000000000000000027B = /* fragment.c in dec */ {isa = PBXBuildFile; fileRef = F0000000000000000000027B /* fragment.c */; };
+      B0000000000000000000027C = /* huffdec.c in dec */ {isa = PBXBuildFile; fileRef = F0000000000000000000027C /* huffdec.c */; };
+      B0000000000000000000027F = /* idct.c in dec */ {isa = PBXBuildFile; fileRef = F0000000000000000000027F /* idct.c */; };
+      B00000000000000000000281 = /* info.c in dec */ {isa = PBXBuildFile; fileRef = F00000000000000000000281 /* info.c */; };
+      B00000000000000000000282 = /* internal.c in dec */ {isa = PBXBuildFile; fileRef = F00000000000000000000282 /* internal.c */; };
+      B00000000000000000000284 = /* quant.c in dec */ {isa = PBXBuildFile; fileRef = F00000000000000000000284 /* quant.c */; };
+      B00000000000000000000286 = /* state.c in dec */ {isa = PBXBuildFile; fileRef = F00000000000000000000286 /* state.c */; };
+      B00000000000000000000287 = /* mmxfrag.c in x86 */ {isa = PBXBuildFile; fileRef = F00000000000000000000287 /* mmxfrag.c */; };
+      B00000000000000000000288 = /* mmxidct.c in x86 */ {isa = PBXBuildFile; fileRef = F00000000000000000000288 /* mmxidct.c */; };
+      B00000000000000000000289 = /* mmxstate.c in x86 */ {isa = PBXBuildFile; fileRef = F00000000000000000000289 /* mmxstate.c */; };
+      B0000000000000000000028B = /* x86state.c in x86 */ {isa = PBXBuildFile; fileRef = F0000000000000000000028B /* x86state.c */; };
+      B0000000000000000000028D = /* blockmap.c in enc */ {isa = PBXBuildFile; fileRef = F0000000000000000000028D /* blockmap.c */; };
+      B0000000000000000000028F = /* dct.c in enc */ {isa = PBXBuildFile; fileRef = F0000000000000000000028F /* dct.c */; };
+      B00000000000000000000290 = /* dct_decode.c in enc */ {isa = PBXBuildFile; fileRef = F00000000000000000000290 /* dct_decode.c */; };
+      B00000000000000000000291 = /* dct_encode.c in enc */ {isa = PBXBuildFile; fileRef = F00000000000000000000291 /* dct_encode.c */; };
+      B00000000000000000000292 = /* dsp.c in enc */ {isa = PBXBuildFile; fileRef = F00000000000000000000292 /* dsp.c */; };
+      B00000000000000000000294 = /* encapiwrapper.c in enc */ {isa = PBXBuildFile; fileRef = F00000000000000000000294 /* encapiwrapper.c */; };
+      B00000000000000000000295 = /* encode.c in enc */ {isa = PBXBuildFile; fileRef = F00000000000000000000295 /* encode.c */; };
+      B00000000000000000000296 = /* encoder_huffman.c in enc */ {isa = PBXBuildFile; fileRef = F00000000000000000000296 /* encoder_huffman.c */; };
+      B00000000000000000000298 = /* encoder_idct.c in enc */ {isa = PBXBuildFile; fileRef = F00000000000000000000298 /* encoder_idct.c */; };
+      B0000000000000000000029A = /* encoder_quant.c in enc */ {isa = PBXBuildFile; fileRef = F0000000000000000000029A /* encoder_quant.c */; };
+      B0000000000000000000029B = /* encoder_toplevel.c in enc */ {isa = PBXBuildFile; fileRef = F0000000000000000000029B /* encoder_toplevel.c */; };
+      B0000000000000000000029C = /* frarray.c in enc */ {isa = PBXBuildFile; fileRef = F0000000000000000000029C /* frarray.c */; };
+      B0000000000000000000029D = /* frinit.c in enc */ {isa = PBXBuildFile; fileRef = F0000000000000000000029D /* frinit.c */; };
+      B0000000000000000000029F = /* mcomp.c in enc */ {isa = PBXBuildFile; fileRef = F0000000000000000000029F /* mcomp.c */; };
+      B000000000000000000002A0 = /* misc_common.c in enc */ {isa = PBXBuildFile; fileRef = F000000000000000000002A0 /* misc_common.c */; };
+      B000000000000000000002A1 = /* pb.c in enc */ {isa = PBXBuildFile; fileRef = F000000000000000000002A1 /* pb.c */; };
+      B000000000000000000002A2 = /* pp.c in enc */ {isa = PBXBuildFile; fileRef = F000000000000000000002A2 /* pp.c */; };
+      B000000000000000000002A5 = /* reconstruct.c in enc */ {isa = PBXBuildFile; fileRef = F000000000000000000002A5 /* reconstruct.c */; };
+      B000000000000000000002A6 = /* scan.c in enc */ {isa = PBXBuildFile; fileRef = F000000000000000000002A6 /* scan.c */; };
+      B000000000000000000002A8 = /* dct_decode_mmx.c in x86_32 */ {isa = PBXBuildFile; fileRef = F000000000000000000002A8 /* dct_decode_mmx.c */; };
+      B000000000000000000002A9 = /* dsp_mmx.c in x86_32 */ {isa = PBXBuildFile; fileRef = F000000000000000000002A9 /* dsp_mmx.c */; };
+      B000000000000000000002AA = /* dsp_mmxext.c in x86_32 */ {isa = PBXBuildFile; fileRef = F000000000000000000002AA /* dsp_mmxext.c */; };
+      B000000000000000000002AB = /* fdct_mmx.c in x86_32 */ {isa = PBXBuildFile; fileRef = F000000000000000000002AB /* fdct_mmx.c */; };
+      B000000000000000000002AC = /* idct_mmx.c in x86_32 */ {isa = PBXBuildFile; fileRef = F000000000000000000002AC /* idct_mmx.c */; };
+      B000000000000000000002AD = /* recon_mmx.c in x86_32 */ {isa = PBXBuildFile; fileRef = F000000000000000000002AD /* recon_mmx.c */; };
+   /* End PBXBuildFiles included by project generator */
+
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+	  F0000000000000000000002B /* liblibtheora.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibtheora.a; sourceTree = BUILT_PRODUCTS_DIR; };
+
+   /* Begin PBXFileReferences included by project generator */
+	        F00000000000000000000269 = /* codec.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = codec.h; path = ../../../../Engine/lib/libtheora/include/theora/codec.h; };
+      F0000000000000000000026A = /* theora.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = theora.h; path = ../../../../Engine/lib/libtheora/include/theora/theora.h; };
+      F0000000000000000000026B = /* theoradec.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = theoradec.h; path = ../../../../Engine/lib/libtheora/include/theora/theoradec.h; };
+      F0000000000000000000026C = /* theoraenc.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = theoraenc.h; path = ../../../../Engine/lib/libtheora/include/theora/theoraenc.h; };
+      F0000000000000000000026D = /* cpu.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = cpu.c; path = ../../../../Engine/lib/libtheora/lib/cpu.c; };
+      F0000000000000000000026E = /* cpu.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = cpu.h; path = ../../../../Engine/lib/libtheora/lib/cpu.h; };
+      F0000000000000000000026F = /* internal.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = internal.h; path = ../../../../Engine/lib/libtheora/lib/internal.h; };
+      F00000000000000000000270 = /* apiwrapper.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = apiwrapper.c; path = ../../../../Engine/lib/libtheora/lib/dec/apiwrapper.c; };
+      F00000000000000000000271 = /* apiwrapper.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = apiwrapper.h; path = ../../../../Engine/lib/libtheora/lib/dec/apiwrapper.h; };
+      F00000000000000000000272 = /* bitpack.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = bitpack.c; path = ../../../../Engine/lib/libtheora/lib/dec/bitpack.c; };
+      F00000000000000000000273 = /* bitpack.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = bitpack.h; path = ../../../../Engine/lib/libtheora/lib/dec/bitpack.h; };
+      F00000000000000000000274 = /* dct.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = dct.h; path = ../../../../Engine/lib/libtheora/lib/dec/dct.h; };
+      F00000000000000000000275 = /* decapiwrapper.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = decapiwrapper.c; path = ../../../../Engine/lib/libtheora/lib/dec/decapiwrapper.c; };
+      F00000000000000000000276 = /* decinfo.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = decinfo.c; path = ../../../../Engine/lib/libtheora/lib/dec/decinfo.c; };
+      F00000000000000000000277 = /* decint.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = decint.h; path = ../../../../Engine/lib/libtheora/lib/dec/decint.h; };
+      F00000000000000000000278 = /* decode.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = decode.c; path = ../../../../Engine/lib/libtheora/lib/dec/decode.c; };
+      F00000000000000000000279 = /* dequant.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = dequant.c; path = ../../../../Engine/lib/libtheora/lib/dec/dequant.c; };
+      F0000000000000000000027A = /* dequant.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = dequant.h; path = ../../../../Engine/lib/libtheora/lib/dec/dequant.h; };
+      F0000000000000000000027B = /* fragment.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = fragment.c; path = ../../../../Engine/lib/libtheora/lib/dec/fragment.c; };
+      F0000000000000000000027C = /* huffdec.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = huffdec.c; path = ../../../../Engine/lib/libtheora/lib/dec/huffdec.c; };
+      F0000000000000000000027D = /* huffdec.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = huffdec.h; path = ../../../../Engine/lib/libtheora/lib/dec/huffdec.h; };
+      F0000000000000000000027E = /* huffman.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = huffman.h; path = ../../../../Engine/lib/libtheora/lib/dec/huffman.h; };
+      F0000000000000000000027F = /* idct.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = idct.c; path = ../../../../Engine/lib/libtheora/lib/dec/idct.c; };
+      F00000000000000000000280 = /* idct.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = idct.h; path = ../../../../Engine/lib/libtheora/lib/dec/idct.h; };
+      F00000000000000000000281 = /* info.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = info.c; path = ../../../../Engine/lib/libtheora/lib/dec/info.c; };
+      F00000000000000000000282 = /* internal.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = internal.c; path = ../../../../Engine/lib/libtheora/lib/dec/internal.c; };
+      F00000000000000000000283 = /* ocintrin.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = ocintrin.h; path = ../../../../Engine/lib/libtheora/lib/dec/ocintrin.h; };
+      F00000000000000000000284 = /* quant.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = quant.c; path = ../../../../Engine/lib/libtheora/lib/dec/quant.c; };
+      F00000000000000000000285 = /* quant.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = quant.h; path = ../../../../Engine/lib/libtheora/lib/dec/quant.h; };
+      F00000000000000000000286 = /* state.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = state.c; path = ../../../../Engine/lib/libtheora/lib/dec/state.c; };
+      F00000000000000000000287 = /* mmxfrag.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = mmxfrag.c; path = ../../../../Engine/lib/libtheora/lib/dec/x86/mmxfrag.c; };
+      F00000000000000000000288 = /* mmxidct.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = mmxidct.c; path = ../../../../Engine/lib/libtheora/lib/dec/x86/mmxidct.c; };
+      F00000000000000000000289 = /* mmxstate.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = mmxstate.c; path = ../../../../Engine/lib/libtheora/lib/dec/x86/mmxstate.c; };
+      F0000000000000000000028A = /* x86int.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = x86int.h; path = ../../../../Engine/lib/libtheora/lib/dec/x86/x86int.h; };
+      F0000000000000000000028B = /* x86state.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = x86state.c; path = ../../../../Engine/lib/libtheora/lib/dec/x86/x86state.c; };
+      F0000000000000000000028C = /* block_inline.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = block_inline.h; path = ../../../../Engine/lib/libtheora/lib/enc/block_inline.h; };
+      F0000000000000000000028D = /* blockmap.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = blockmap.c; path = ../../../../Engine/lib/libtheora/lib/enc/blockmap.c; };
+      F0000000000000000000028E = /* codec_internal.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = codec_internal.h; path = ../../../../Engine/lib/libtheora/lib/enc/codec_internal.h; };
+      F0000000000000000000028F = /* dct.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = dct.c; path = ../../../../Engine/lib/libtheora/lib/enc/dct.c; };
+      F00000000000000000000290 = /* dct_decode.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = dct_decode.c; path = ../../../../Engine/lib/libtheora/lib/enc/dct_decode.c; };
+      F00000000000000000000291 = /* dct_encode.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = dct_encode.c; path = ../../../../Engine/lib/libtheora/lib/enc/dct_encode.c; };
+      F00000000000000000000292 = /* dsp.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = dsp.c; path = ../../../../Engine/lib/libtheora/lib/enc/dsp.c; };
+      F00000000000000000000293 = /* dsp.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = dsp.h; path = ../../../../Engine/lib/libtheora/lib/enc/dsp.h; };
+      F00000000000000000000294 = /* encapiwrapper.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = encapiwrapper.c; path = ../../../../Engine/lib/libtheora/lib/enc/encapiwrapper.c; };
+      F00000000000000000000295 = /* encode.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = encode.c; path = ../../../../Engine/lib/libtheora/lib/enc/encode.c; };
+      F00000000000000000000296 = /* encoder_huffman.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = encoder_huffman.c; path = ../../../../Engine/lib/libtheora/lib/enc/encoder_huffman.c; };
+      F00000000000000000000297 = /* encoder_huffman.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = encoder_huffman.h; path = ../../../../Engine/lib/libtheora/lib/enc/encoder_huffman.h; };
+      F00000000000000000000298 = /* encoder_idct.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = encoder_idct.c; path = ../../../../Engine/lib/libtheora/lib/enc/encoder_idct.c; };
+      F00000000000000000000299 = /* encoder_lookup.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = encoder_lookup.h; path = ../../../../Engine/lib/libtheora/lib/enc/encoder_lookup.h; };
+      F0000000000000000000029A = /* encoder_quant.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = encoder_quant.c; path = ../../../../Engine/lib/libtheora/lib/enc/encoder_quant.c; };
+      F0000000000000000000029B = /* encoder_toplevel.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = encoder_toplevel.c; path = ../../../../Engine/lib/libtheora/lib/enc/encoder_toplevel.c; };
+      F0000000000000000000029C = /* frarray.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = frarray.c; path = ../../../../Engine/lib/libtheora/lib/enc/frarray.c; };
+      F0000000000000000000029D = /* frinit.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = frinit.c; path = ../../../../Engine/lib/libtheora/lib/enc/frinit.c; };
+      F0000000000000000000029E = /* hufftables.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = hufftables.h; path = ../../../../Engine/lib/libtheora/lib/enc/hufftables.h; };
+      F0000000000000000000029F = /* mcomp.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = mcomp.c; path = ../../../../Engine/lib/libtheora/lib/enc/mcomp.c; };
+      F000000000000000000002A0 = /* misc_common.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = misc_common.c; path = ../../../../Engine/lib/libtheora/lib/enc/misc_common.c; };
+      F000000000000000000002A1 = /* pb.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = pb.c; path = ../../../../Engine/lib/libtheora/lib/enc/pb.c; };
+      F000000000000000000002A2 = /* pp.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = pp.c; path = ../../../../Engine/lib/libtheora/lib/enc/pp.c; };
+      F000000000000000000002A3 = /* pp.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = pp.h; path = ../../../../Engine/lib/libtheora/lib/enc/pp.h; };
+      F000000000000000000002A4 = /* quant_lookup.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = quant_lookup.h; path = ../../../../Engine/lib/libtheora/lib/enc/quant_lookup.h; };
+      F000000000000000000002A5 = /* reconstruct.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = reconstruct.c; path = ../../../../Engine/lib/libtheora/lib/enc/reconstruct.c; };
+      F000000000000000000002A6 = /* scan.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = scan.c; path = ../../../../Engine/lib/libtheora/lib/enc/scan.c; };
+      F000000000000000000002A7 = /* toplevel_lookup.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = toplevel_lookup.h; path = ../../../../Engine/lib/libtheora/lib/enc/toplevel_lookup.h; };
+      F000000000000000000002A8 = /* dct_decode_mmx.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = dct_decode_mmx.c; path = ../../../../Engine/lib/libtheora/lib/enc/x86_32/dct_decode_mmx.c; };
+      F000000000000000000002A9 = /* dsp_mmx.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = dsp_mmx.c; path = ../../../../Engine/lib/libtheora/lib/enc/x86_32/dsp_mmx.c; };
+      F000000000000000000002AA = /* dsp_mmxext.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = dsp_mmxext.c; path = ../../../../Engine/lib/libtheora/lib/enc/x86_32/dsp_mmxext.c; };
+      F000000000000000000002AB = /* fdct_mmx.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = fdct_mmx.c; path = ../../../../Engine/lib/libtheora/lib/enc/x86_32/fdct_mmx.c; };
+      F000000000000000000002AC = /* idct_mmx.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = idct_mmx.c; path = ../../../../Engine/lib/libtheora/lib/enc/x86_32/idct_mmx.c; };
+      F000000000000000000002AD = /* recon_mmx.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = recon_mmx.c; path = ../../../../Engine/lib/libtheora/lib/enc/x86_32/recon_mmx.c; };
+   /* End PBXFileReferences included by project generator */
+
+
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+	  D27393730CDABF9C006111D4 /* Frameworks */ = {
+		 isa = PBXFrameworksBuildPhase;
+		 buildActionMask = 2147483647;
+		 files = (
+		 );
+		 runOnlyForDeploymentPostprocessing = 0;
+	  };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+	  D268347C0C02C5750020EE4F = {
+		 isa = PBXGroup;
+		 children = (
+			A00000000000000000000000 /* Code */,
+			D26834AC0C02C77B0020EE4F /* Products */,
+		 );
+		 sourceTree = "<group>";
+	  };
+	  D26834AC0C02C77B0020EE4F /* Products */ = {
+		 isa = PBXGroup;
+		 children = (
+			F0000000000000000000002B /* liblibtheora.a */,
+		 );
+		 name = Products;
+		 sourceTree = SOURCE_ROOT;
+	  };
+	  
+   /* Begin PBXGroups from project generator */
+		A00000000000000000000000 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+            A00000000000000000000003 /* lib -- paxorr/lib */,
+			);
+			name = Code;
+			sourceTree = "<group>"; /* paxorr */
+         };
+         
+		A00000000000000000000003 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+            A00000000000000000000022 /* include -- paxorr/lib/include */,
+            A00000000000000000000023 /* lib -- paxorr/lib/lib */,
+			);
+			name = lib;
+			sourceTree = "<group>"; /* paxorr/lib */
+         };
+         
+		A00000000000000000000022 /* include */ = {
+			isa = PBXGroup;
+			children = (
+            F00000000000000000000269 /* codec.h */,
+            F0000000000000000000026A /* theora.h */,
+            F0000000000000000000026B /* theoradec.h */,
+            F0000000000000000000026C /* theoraenc.h */,
+			);
+			name = include;
+			sourceTree = "<group>"; /* paxorr/lib/include */
+         };
+         
+		A00000000000000000000023 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+            F0000000000000000000026D /* cpu.c */,
+            F0000000000000000000026E /* cpu.h */,
+            F0000000000000000000026F /* internal.h */,
+            A0000000000000000000002D /* dec -- paxorr/lib/lib/dec */,
+            A0000000000000000000002E /* enc -- paxorr/lib/lib/enc */,
+			);
+			name = lib;
+			sourceTree = "<group>"; /* paxorr/lib/lib */
+         };
+         
+		A0000000000000000000002D /* dec */ = {
+			isa = PBXGroup;
+			children = (
+            F00000000000000000000270 /* apiwrapper.c */,
+            F00000000000000000000271 /* apiwrapper.h */,
+            F00000000000000000000272 /* bitpack.c */,
+            F00000000000000000000273 /* bitpack.h */,
+            F00000000000000000000274 /* dct.h */,
+            F00000000000000000000275 /* decapiwrapper.c */,
+            F00000000000000000000276 /* decinfo.c */,
+            F00000000000000000000277 /* decint.h */,
+            F00000000000000000000278 /* decode.c */,
+            F00000000000000000000279 /* dequant.c */,
+            F0000000000000000000027A /* dequant.h */,
+            F0000000000000000000027B /* fragment.c */,
+            F0000000000000000000027C /* huffdec.c */,
+            F0000000000000000000027D /* huffdec.h */,
+            F0000000000000000000027E /* huffman.h */,
+            F0000000000000000000027F /* idct.c */,
+            F00000000000000000000280 /* idct.h */,
+            F00000000000000000000281 /* info.c */,
+            F00000000000000000000282 /* internal.c */,
+            F00000000000000000000283 /* ocintrin.h */,
+            F00000000000000000000284 /* quant.c */,
+            F00000000000000000000285 /* quant.h */,
+            F00000000000000000000286 /* state.c */,
+            A0000000000000000000002F /* x86 -- paxorr/lib/lib/dec/x86 */,
+			);
+			name = dec;
+			sourceTree = "<group>"; /* paxorr/lib/lib/dec */
+         };
+         
+		A0000000000000000000002F /* x86 */ = {
+			isa = PBXGroup;
+			children = (
+            F00000000000000000000287 /* mmxfrag.c */,
+            F00000000000000000000288 /* mmxidct.c */,
+            F00000000000000000000289 /* mmxstate.c */,
+            F0000000000000000000028A /* x86int.h */,
+            F0000000000000000000028B /* x86state.c */,
+			);
+			name = x86;
+			sourceTree = "<group>"; /* paxorr/lib/lib/dec/x86 */
+         };
+         
+		A0000000000000000000002E /* enc */ = {
+			isa = PBXGroup;
+			children = (
+            F0000000000000000000028C /* block_inline.h */,
+            F0000000000000000000028D /* blockmap.c */,
+            F0000000000000000000028E /* codec_internal.h */,
+            F0000000000000000000028F /* dct.c */,
+            F00000000000000000000290 /* dct_decode.c */,
+            F00000000000000000000291 /* dct_encode.c */,
+            F00000000000000000000292 /* dsp.c */,
+            F00000000000000000000293 /* dsp.h */,
+            F00000000000000000000294 /* encapiwrapper.c */,
+            F00000000000000000000295 /* encode.c */,
+            F00000000000000000000296 /* encoder_huffman.c */,
+            F00000000000000000000297 /* encoder_huffman.h */,
+            F00000000000000000000298 /* encoder_idct.c */,
+            F00000000000000000000299 /* encoder_lookup.h */,
+            F0000000000000000000029A /* encoder_quant.c */,
+            F0000000000000000000029B /* encoder_toplevel.c */,
+            F0000000000000000000029C /* frarray.c */,
+            F0000000000000000000029D /* frinit.c */,
+            F0000000000000000000029E /* hufftables.h */,
+            F0000000000000000000029F /* mcomp.c */,
+            F000000000000000000002A0 /* misc_common.c */,
+            F000000000000000000002A1 /* pb.c */,
+            F000000000000000000002A2 /* pp.c */,
+            F000000000000000000002A3 /* pp.h */,
+            F000000000000000000002A4 /* quant_lookup.h */,
+            F000000000000000000002A5 /* reconstruct.c */,
+            F000000000000000000002A6 /* scan.c */,
+            F000000000000000000002A7 /* toplevel_lookup.h */,
+            A00000000000000000000030 /* x86_32 -- paxorr/lib/lib/enc/x86_32 */,
+			);
+			name = enc;
+			sourceTree = "<group>"; /* paxorr/lib/lib/enc */
+         };
+         
+		A00000000000000000000030 /* x86_32 */ = {
+			isa = PBXGroup;
+			children = (
+            F000000000000000000002A8 /* dct_decode_mmx.c */,
+            F000000000000000000002A9 /* dsp_mmx.c */,
+            F000000000000000000002AA /* dsp_mmxext.c */,
+            F000000000000000000002AB /* fdct_mmx.c */,
+            F000000000000000000002AC /* idct_mmx.c */,
+            F000000000000000000002AD /* recon_mmx.c */,
+			);
+			name = x86_32;
+			sourceTree = "<group>"; /* paxorr/lib/lib/enc/x86_32 */
+         };
+         
+   /* End PBXGroups from project generator */
+   
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+	  D0000000000000000000002C /* libtheora */ = {
+		 isa = PBXNativeTarget;
+		 buildConfigurationList = D27393740CDABF9C006111D4 /* Build configuration list for PBXNativeTarget "libtheora" */;
+		 buildPhases = (
+			D27393300CDABF9C006111D4 /* Sources */,
+		 );
+		 buildRules = (
+		 );
+		 dependencies = (
+		 );
+		 name = libtheora;
+		 productName = liblibtheora;
+		 productReference = F0000000000000000000002B /* liblibtheora.a */;
+		 productType = "com.apple.product-type.library.static";
+	  };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+	  D268347E0C02C5750020EE4F /* Project object */ = {
+		 isa = PBXProject;
+		 buildConfigurationList = D268347F0C02C5750020EE4F /* Build configuration list for PBXProject "libtheora" */;
+		 compatibilityVersion = "Xcode 3.2";
+		 hasScannedForEncodings = 0;
+		 mainGroup = D268347C0C02C5750020EE4F;
+		 productRefGroup = D26834AC0C02C77B0020EE4F /* Products */;
+		 projectDirPath = "";
+		 projectRoot = ../../../..;
+		 targets = (
+			D0000000000000000000002C /* libtheora */,
+		 );
+	  };
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D27393300CDABF9C006111D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+      B00000000000000000000269 /* codec.h in include */,
+      B0000000000000000000026A /* theora.h in include */,
+      B0000000000000000000026B /* theoradec.h in include */,
+      B0000000000000000000026C /* theoraenc.h in include */,
+      B0000000000000000000026D /* cpu.c in lib */,
+      B0000000000000000000026E /* cpu.h in lib */,
+      B0000000000000000000026F /* internal.h in lib */,
+      B00000000000000000000270 /* apiwrapper.c in dec */,
+      B00000000000000000000271 /* apiwrapper.h in dec */,
+      B00000000000000000000272 /* bitpack.c in dec */,
+      B00000000000000000000273 /* bitpack.h in dec */,
+      B00000000000000000000274 /* dct.h in dec */,
+      B00000000000000000000275 /* decapiwrapper.c in dec */,
+      B00000000000000000000276 /* decinfo.c in dec */,
+      B00000000000000000000277 /* decint.h in dec */,
+      B00000000000000000000278 /* decode.c in dec */,
+      B00000000000000000000279 /* dequant.c in dec */,
+      B0000000000000000000027A /* dequant.h in dec */,
+      B0000000000000000000027B /* fragment.c in dec */,
+      B0000000000000000000027C /* huffdec.c in dec */,
+      B0000000000000000000027D /* huffdec.h in dec */,
+      B0000000000000000000027E /* huffman.h in dec */,
+      B0000000000000000000027F /* idct.c in dec */,
+      B00000000000000000000280 /* idct.h in dec */,
+      B00000000000000000000281 /* info.c in dec */,
+      B00000000000000000000282 /* internal.c in dec */,
+      B00000000000000000000283 /* ocintrin.h in dec */,
+      B00000000000000000000284 /* quant.c in dec */,
+      B00000000000000000000285 /* quant.h in dec */,
+      B00000000000000000000286 /* state.c in dec */,
+      B00000000000000000000287 /* mmxfrag.c in x86 */,
+      B00000000000000000000288 /* mmxidct.c in x86 */,
+      B00000000000000000000289 /* mmxstate.c in x86 */,
+      B0000000000000000000028A /* x86int.h in x86 */,
+      B0000000000000000000028B /* x86state.c in x86 */,
+      B0000000000000000000028C /* block_inline.h in enc */,
+      B0000000000000000000028D /* blockmap.c in enc */,
+      B0000000000000000000028E /* codec_internal.h in enc */,
+      B0000000000000000000028F /* dct.c in enc */,
+      B00000000000000000000290 /* dct_decode.c in enc */,
+      B00000000000000000000291 /* dct_encode.c in enc */,
+      B00000000000000000000292 /* dsp.c in enc */,
+      B00000000000000000000293 /* dsp.h in enc */,
+      B00000000000000000000294 /* encapiwrapper.c in enc */,
+      B00000000000000000000295 /* encode.c in enc */,
+      B00000000000000000000296 /* encoder_huffman.c in enc */,
+      B00000000000000000000297 /* encoder_huffman.h in enc */,
+      B00000000000000000000298 /* encoder_idct.c in enc */,
+      B00000000000000000000299 /* encoder_lookup.h in enc */,
+      B0000000000000000000029A /* encoder_quant.c in enc */,
+      B0000000000000000000029B /* encoder_toplevel.c in enc */,
+      B0000000000000000000029C /* frarray.c in enc */,
+      B0000000000000000000029D /* frinit.c in enc */,
+      B0000000000000000000029E /* hufftables.h in enc */,
+      B0000000000000000000029F /* mcomp.c in enc */,
+      B000000000000000000002A0 /* misc_common.c in enc */,
+      B000000000000000000002A1 /* pb.c in enc */,
+      B000000000000000000002A2 /* pp.c in enc */,
+      B000000000000000000002A3 /* pp.h in enc */,
+      B000000000000000000002A4 /* quant_lookup.h in enc */,
+      B000000000000000000002A5 /* reconstruct.c in enc */,
+      B000000000000000000002A6 /* scan.c in enc */,
+      B000000000000000000002A7 /* toplevel_lookup.h in enc */,
+      B000000000000000000002A8 /* dct_decode_mmx.c in x86_32 */,
+      B000000000000000000002A9 /* dsp_mmx.c in x86_32 */,
+      B000000000000000000002AA /* dsp_mmxext.c in x86_32 */,
+      B000000000000000000002AB /* fdct_mmx.c in x86_32 */,
+      B000000000000000000002AC /* idct_mmx.c in x86_32 */,
+      B000000000000000000002AD /* recon_mmx.c in x86_32 */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D26834800C02C5750020EE4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CONFIGURATION_BUILD_DIR = "$(TORQUE_BUILT_LIBS_DIR)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				OTHER_LDFLAGS_i386 = "-framework Accelerate";
+				OTHER_LDFLAGS_ppc = "-framework vecLib";
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+            GCC_VERSION = 4.2;
+				TORQUE_BUILT_LIBS_DIR = ../../../../engine/lib/builtLibs/;
+			};
+			name = Debug;
+		};
+		D26834810C02C5750020EE4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CONFIGURATION_BUILD_DIR = ../../assets/;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				OTHER_LDFLAGS_i386 = "-framework Accelerate";
+				OTHER_LDFLAGS_ppc = "-framework vecLib";
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+            GCC_VERSION = 4.2;
+				TORQUE_BUILT_LIBS_DIR = ../../../../engine/lib/builtLibs/;
+			};
+			name = Release;
+		};
+		D27393750CDABF9C006111D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+			   __MACOSX__,
+			);
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+				"../../../../Engine/lib/libtheora/include",
+				"../../../../Engine/lib/libogg/include",
+				);
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = libtheora;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		D27393760CDABF9C006111D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = "$(TORQUE_BUILT_LIBS_DIR)";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+			   __MACOSX__,
+				);
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+				"../../../../Engine/lib/libtheora/include",
+				"../../../../Engine/lib/libogg/include",
+				);
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = libtheora;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D268347F0C02C5750020EE4F /* Build configuration list for PBXProject "LibTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D26834800C02C5750020EE4F /* Debug */,
+				D26834810C02C5750020EE4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D27393740CDABF9C006111D4 /* Build configuration list for PBXNativeTarget "libtheora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27393750CDABF9C006111D4 /* Debug */,
+				D27393760CDABF9C006111D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D268347E0C02C5750020EE4F /* Project object */;
+}

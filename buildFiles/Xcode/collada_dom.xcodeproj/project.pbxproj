@@ -1,0 +1,1123 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+
+   /* Begin PBXBuildFiles included by project generator */
+      B0000000000000000000011A = /* domAccessor.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000011A /* domAccessor.cpp */; };
+      B0000000000000000000011B = /* domAnimation.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000011B /* domAnimation.cpp */; };
+      B0000000000000000000011C = /* domAnimation_clip.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000011C /* domAnimation_clip.cpp */; };
+      B0000000000000000000011D = /* domAsset.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000011D /* domAsset.cpp */; };
+      B0000000000000000000011E = /* domBind_material.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000011E /* domBind_material.cpp */; };
+      B0000000000000000000011F = /* domBool_array.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000011F /* domBool_array.cpp */; };
+      B00000000000000000000120 = /* domBox.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000120 /* domBox.cpp */; };
+      B00000000000000000000121 = /* domCamera.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000121 /* domCamera.cpp */; };
+      B00000000000000000000122 = /* domCapsule.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000122 /* domCapsule.cpp */; };
+      B00000000000000000000123 = /* domCg_connect_param.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000123 /* domCg_connect_param.cpp */; };
+      B00000000000000000000124 = /* domCg_newarray_type.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000124 /* domCg_newarray_type.cpp */; };
+      B00000000000000000000125 = /* domCg_newparam.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000125 /* domCg_newparam.cpp */; };
+      B00000000000000000000126 = /* domCg_param_type.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000126 /* domCg_param_type.cpp */; };
+      B00000000000000000000127 = /* domCg_sampler1D.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000127 /* domCg_sampler1D.cpp */; };
+      B00000000000000000000128 = /* domCg_sampler2D.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000128 /* domCg_sampler2D.cpp */; };
+      B00000000000000000000129 = /* domCg_sampler3D.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000129 /* domCg_sampler3D.cpp */; };
+      B0000000000000000000012A = /* domCg_samplerCUBE.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000012A /* domCg_samplerCUBE.cpp */; };
+      B0000000000000000000012B = /* domCg_samplerDEPTH.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000012B /* domCg_samplerDEPTH.cpp */; };
+      B0000000000000000000012C = /* domCg_samplerRECT.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000012C /* domCg_samplerRECT.cpp */; };
+      B0000000000000000000012D = /* domCg_setarray_type.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000012D /* domCg_setarray_type.cpp */; };
+      B0000000000000000000012E = /* domCg_setparam.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000012E /* domCg_setparam.cpp */; };
+      B0000000000000000000012F = /* domCg_setparam_simple.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000012F /* domCg_setparam_simple.cpp */; };
+      B00000000000000000000130 = /* domCg_setuser_type.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000130 /* domCg_setuser_type.cpp */; };
+      B00000000000000000000131 = /* domCg_surface_type.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000131 /* domCg_surface_type.cpp */; };
+      B00000000000000000000132 = /* domChannel.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000132 /* domChannel.cpp */; };
+      B00000000000000000000133 = /* domCOLLADA.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000133 /* domCOLLADA.cpp */; };
+      B00000000000000000000134 = /* domCommon_color_or_texture_type.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000134 /* domCommon_color_or_texture_type.cpp */; };
+      B00000000000000000000135 = /* domCommon_float_or_param_type.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000135 /* domCommon_float_or_param_type.cpp */; };
+      B00000000000000000000136 = /* domCommon_newparam_type.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000136 /* domCommon_newparam_type.cpp */; };
+      B00000000000000000000137 = /* domCommon_transparent_type.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000137 /* domCommon_transparent_type.cpp */; };
+      B00000000000000000000138 = /* domConstants.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000138 /* domConstants.cpp */; };
+      B00000000000000000000139 = /* domController.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000139 /* domController.cpp */; };
+      B0000000000000000000013A = /* domConvex_mesh.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000013A /* domConvex_mesh.cpp */; };
+      B0000000000000000000013B = /* domCylinder.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000013B /* domCylinder.cpp */; };
+      B0000000000000000000013C = /* domEffect.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000013C /* domEffect.cpp */; };
+      B0000000000000000000013D = /* domEllipsoid.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000013D /* domEllipsoid.cpp */; };
+      B0000000000000000000013E = /* domExtra.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000013E /* domExtra.cpp */; };
+      B0000000000000000000013F = /* domFloat_array.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000013F /* domFloat_array.cpp */; };
+      B00000000000000000000140 = /* domForce_field.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000140 /* domForce_field.cpp */; };
+      B00000000000000000000141 = /* domFx_annotate_common.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000141 /* domFx_annotate_common.cpp */; };
+      B00000000000000000000142 = /* domFx_annotate_type_common.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000142 /* domFx_annotate_type_common.cpp */; };
+      B00000000000000000000143 = /* domFx_basic_type_common.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000143 /* domFx_basic_type_common.cpp */; };
+      B00000000000000000000144 = /* domFx_clearcolor_common.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000144 /* domFx_clearcolor_common.cpp */; };
+      B00000000000000000000145 = /* domFx_cleardepth_common.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000145 /* domFx_cleardepth_common.cpp */; };
+      B00000000000000000000146 = /* domFx_clearstencil_common.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000146 /* domFx_clearstencil_common.cpp */; };
+      B00000000000000000000147 = /* domFx_code_profile.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000147 /* domFx_code_profile.cpp */; };
+      B00000000000000000000148 = /* domFx_colortarget_common.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000148 /* domFx_colortarget_common.cpp */; };
+      B00000000000000000000149 = /* domFx_depthtarget_common.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000149 /* domFx_depthtarget_common.cpp */; };
+      B0000000000000000000014A = /* domFx_include_common.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000014A /* domFx_include_common.cpp */; };
+      B0000000000000000000014B = /* domFx_newparam_common.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000014B /* domFx_newparam_common.cpp */; };
+      B0000000000000000000014C = /* domFx_profile_abstract.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000014C /* domFx_profile_abstract.cpp */; };
+      B0000000000000000000014D = /* domFx_sampler1D_common.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000014D /* domFx_sampler1D_common.cpp */; };
+      B0000000000000000000014E = /* domFx_sampler2D_common.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000014E /* domFx_sampler2D_common.cpp */; };
+      B0000000000000000000014F = /* domFx_sampler3D_common.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000014F /* domFx_sampler3D_common.cpp */; };
+      B00000000000000000000150 = /* domFx_samplerCUBE_common.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000150 /* domFx_samplerCUBE_common.cpp */; };
+      B00000000000000000000151 = /* domFx_samplerDEPTH_common.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000151 /* domFx_samplerDEPTH_common.cpp */; };
+      B00000000000000000000152 = /* domFx_samplerRECT_common.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000152 /* domFx_samplerRECT_common.cpp */; };
+      B00000000000000000000153 = /* domFx_stenciltarget_common.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000153 /* domFx_stenciltarget_common.cpp */; };
+      B00000000000000000000154 = /* domFx_surface_common.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000154 /* domFx_surface_common.cpp */; };
+      B00000000000000000000155 = /* domFx_surface_format_hint_common.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000155 /* domFx_surface_format_hint_common.cpp */; };
+      B00000000000000000000156 = /* domFx_surface_init_common.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000156 /* domFx_surface_init_common.cpp */; };
+      B00000000000000000000157 = /* domFx_surface_init_cube_common.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000157 /* domFx_surface_init_cube_common.cpp */; };
+      B00000000000000000000158 = /* domFx_surface_init_from_common.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000158 /* domFx_surface_init_from_common.cpp */; };
+      B00000000000000000000159 = /* domFx_surface_init_planar_common.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000159 /* domFx_surface_init_planar_common.cpp */; };
+      B0000000000000000000015A = /* domFx_surface_init_volume_common.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000015A /* domFx_surface_init_volume_common.cpp */; };
+      B0000000000000000000015B = /* domGeometry.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000015B /* domGeometry.cpp */; };
+      B0000000000000000000015C = /* domGl_hook_abstract.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000015C /* domGl_hook_abstract.cpp */; };
+      B0000000000000000000015D = /* domGl_pipeline_settings.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000015D /* domGl_pipeline_settings.cpp */; };
+      B0000000000000000000015E = /* domGl_sampler1D.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000015E /* domGl_sampler1D.cpp */; };
+      B0000000000000000000015F = /* domGl_sampler2D.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000015F /* domGl_sampler2D.cpp */; };
+      B00000000000000000000160 = /* domGl_sampler3D.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000160 /* domGl_sampler3D.cpp */; };
+      B00000000000000000000161 = /* domGl_samplerCUBE.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000161 /* domGl_samplerCUBE.cpp */; };
+      B00000000000000000000162 = /* domGl_samplerDEPTH.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000162 /* domGl_samplerDEPTH.cpp */; };
+      B00000000000000000000163 = /* domGl_samplerRECT.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000163 /* domGl_samplerRECT.cpp */; };
+      B00000000000000000000164 = /* domGles_basic_type_common.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000164 /* domGles_basic_type_common.cpp */; };
+      B00000000000000000000165 = /* domGles_newparam.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000165 /* domGles_newparam.cpp */; };
+      B00000000000000000000166 = /* domGles_pipeline_settings.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000166 /* domGles_pipeline_settings.cpp */; };
+      B00000000000000000000167 = /* domGles_sampler_state.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000167 /* domGles_sampler_state.cpp */; };
+      B00000000000000000000168 = /* domGles_texcombiner_argumentAlpha_type.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000168 /* domGles_texcombiner_argumentAlpha_type.cpp */; };
+      B00000000000000000000169 = /* domGles_texcombiner_argumentRGB_type.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000169 /* domGles_texcombiner_argumentRGB_type.cpp */; };
+      B0000000000000000000016A = /* domGles_texcombiner_command_type.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000016A /* domGles_texcombiner_command_type.cpp */; };
+      B0000000000000000000016B = /* domGles_texcombiner_commandAlpha_type.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000016B /* domGles_texcombiner_commandAlpha_type.cpp */; };
+      B0000000000000000000016C = /* domGles_texcombiner_commandRGB_type.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000016C /* domGles_texcombiner_commandRGB_type.cpp */; };
+      B0000000000000000000016D = /* domGles_texenv_command_type.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000016D /* domGles_texenv_command_type.cpp */; };
+      B0000000000000000000016E = /* domGles_texture_constant_type.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000016E /* domGles_texture_constant_type.cpp */; };
+      B0000000000000000000016F = /* domGles_texture_pipeline.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000016F /* domGles_texture_pipeline.cpp */; };
+      B00000000000000000000170 = /* domGles_texture_unit.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000170 /* domGles_texture_unit.cpp */; };
+      B00000000000000000000171 = /* domGlsl_newarray_type.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000171 /* domGlsl_newarray_type.cpp */; };
+      B00000000000000000000172 = /* domGlsl_newparam.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000172 /* domGlsl_newparam.cpp */; };
+      B00000000000000000000173 = /* domGlsl_param_type.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000173 /* domGlsl_param_type.cpp */; };
+      B00000000000000000000174 = /* domGlsl_setarray_type.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000174 /* domGlsl_setarray_type.cpp */; };
+      B00000000000000000000175 = /* domGlsl_setparam.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000175 /* domGlsl_setparam.cpp */; };
+      B00000000000000000000176 = /* domGlsl_setparam_simple.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000176 /* domGlsl_setparam_simple.cpp */; };
+      B00000000000000000000177 = /* domGlsl_surface_type.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000177 /* domGlsl_surface_type.cpp */; };
+      B00000000000000000000178 = /* domIDREF_array.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000178 /* domIDREF_array.cpp */; };
+      B00000000000000000000179 = /* domImage.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000179 /* domImage.cpp */; };
+      B0000000000000000000017A = /* domInputGlobal.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000017A /* domInputGlobal.cpp */; };
+      B0000000000000000000017B = /* domInputLocal.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000017B /* domInputLocal.cpp */; };
+      B0000000000000000000017C = /* domInputLocalOffset.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000017C /* domInputLocalOffset.cpp */; };
+      B0000000000000000000017D = /* domInstance_camera.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000017D /* domInstance_camera.cpp */; };
+      B0000000000000000000017E = /* domInstance_controller.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000017E /* domInstance_controller.cpp */; };
+      B0000000000000000000017F = /* domInstance_effect.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000017F /* domInstance_effect.cpp */; };
+      B00000000000000000000180 = /* domInstance_force_field.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000180 /* domInstance_force_field.cpp */; };
+      B00000000000000000000181 = /* domInstance_geometry.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000181 /* domInstance_geometry.cpp */; };
+      B00000000000000000000182 = /* domInstance_light.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000182 /* domInstance_light.cpp */; };
+      B00000000000000000000183 = /* domInstance_material.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000183 /* domInstance_material.cpp */; };
+      B00000000000000000000184 = /* domInstance_node.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000184 /* domInstance_node.cpp */; };
+      B00000000000000000000185 = /* domInstance_physics_material.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000185 /* domInstance_physics_material.cpp */; };
+      B00000000000000000000186 = /* domInstance_physics_model.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000186 /* domInstance_physics_model.cpp */; };
+      B00000000000000000000187 = /* domInstance_rigid_body.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000187 /* domInstance_rigid_body.cpp */; };
+      B00000000000000000000188 = /* domInstance_rigid_constraint.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000188 /* domInstance_rigid_constraint.cpp */; };
+      B00000000000000000000189 = /* domInstanceWithExtra.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000189 /* domInstanceWithExtra.cpp */; };
+      B0000000000000000000018A = /* domInt_array.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000018A /* domInt_array.cpp */; };
+      B0000000000000000000018B = /* domLibrary_animation_clips.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000018B /* domLibrary_animation_clips.cpp */; };
+      B0000000000000000000018C = /* domLibrary_animations.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000018C /* domLibrary_animations.cpp */; };
+      B0000000000000000000018D = /* domLibrary_cameras.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000018D /* domLibrary_cameras.cpp */; };
+      B0000000000000000000018E = /* domLibrary_controllers.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000018E /* domLibrary_controllers.cpp */; };
+      B0000000000000000000018F = /* domLibrary_effects.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000018F /* domLibrary_effects.cpp */; };
+      B00000000000000000000190 = /* domLibrary_force_fields.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000190 /* domLibrary_force_fields.cpp */; };
+      B00000000000000000000191 = /* domLibrary_geometries.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000191 /* domLibrary_geometries.cpp */; };
+      B00000000000000000000192 = /* domLibrary_images.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000192 /* domLibrary_images.cpp */; };
+      B00000000000000000000193 = /* domLibrary_lights.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000193 /* domLibrary_lights.cpp */; };
+      B00000000000000000000194 = /* domLibrary_materials.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000194 /* domLibrary_materials.cpp */; };
+      B00000000000000000000195 = /* domLibrary_nodes.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000195 /* domLibrary_nodes.cpp */; };
+      B00000000000000000000196 = /* domLibrary_physics_materials.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000196 /* domLibrary_physics_materials.cpp */; };
+      B00000000000000000000197 = /* domLibrary_physics_models.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000197 /* domLibrary_physics_models.cpp */; };
+      B00000000000000000000198 = /* domLibrary_physics_scenes.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000198 /* domLibrary_physics_scenes.cpp */; };
+      B00000000000000000000199 = /* domLibrary_visual_scenes.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F00000000000000000000199 /* domLibrary_visual_scenes.cpp */; };
+      B0000000000000000000019A = /* domLight.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000019A /* domLight.cpp */; };
+      B0000000000000000000019B = /* domLines.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000019B /* domLines.cpp */; };
+      B0000000000000000000019C = /* domLinestrips.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000019C /* domLinestrips.cpp */; };
+      B0000000000000000000019D = /* domLookat.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000019D /* domLookat.cpp */; };
+      B0000000000000000000019E = /* domMaterial.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000019E /* domMaterial.cpp */; };
+      B0000000000000000000019F = /* domMatrix.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F0000000000000000000019F /* domMatrix.cpp */; };
+      B000000000000000000001A0 = /* domMesh.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F000000000000000000001A0 /* domMesh.cpp */; };
+      B000000000000000000001A1 = /* domMorph.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F000000000000000000001A1 /* domMorph.cpp */; };
+      B000000000000000000001A2 = /* domName_array.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F000000000000000000001A2 /* domName_array.cpp */; };
+      B000000000000000000001A3 = /* domNode.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F000000000000000000001A3 /* domNode.cpp */; };
+      B000000000000000000001A4 = /* domP.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F000000000000000000001A4 /* domP.cpp */; };
+      B000000000000000000001A5 = /* domParam.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F000000000000000000001A5 /* domParam.cpp */; };
+      B000000000000000000001A6 = /* domPhysics_material.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F000000000000000000001A6 /* domPhysics_material.cpp */; };
+      B000000000000000000001A7 = /* domPhysics_model.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F000000000000000000001A7 /* domPhysics_model.cpp */; };
+      B000000000000000000001A8 = /* domPhysics_scene.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F000000000000000000001A8 /* domPhysics_scene.cpp */; };
+      B000000000000000000001A9 = /* domPlane.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F000000000000000000001A9 /* domPlane.cpp */; };
+      B000000000000000000001AA = /* domPolygons.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F000000000000000000001AA /* domPolygons.cpp */; };
+      B000000000000000000001AB = /* domPolylist.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F000000000000000000001AB /* domPolylist.cpp */; };
+      B000000000000000000001AC = /* domProfile_CG.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F000000000000000000001AC /* domProfile_CG.cpp */; };
+      B000000000000000000001AD = /* domProfile_COMMON.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F000000000000000000001AD /* domProfile_COMMON.cpp */; };
+      B000000000000000000001AE = /* domProfile_GLES.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F000000000000000000001AE /* domProfile_GLES.cpp */; };
+      B000000000000000000001AF = /* domProfile_GLSL.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F000000000000000000001AF /* domProfile_GLSL.cpp */; };
+      B000000000000000000001B0 = /* domRigid_body.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F000000000000000000001B0 /* domRigid_body.cpp */; };
+      B000000000000000000001B1 = /* domRigid_constraint.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F000000000000000000001B1 /* domRigid_constraint.cpp */; };
+      B000000000000000000001B2 = /* domRotate.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F000000000000000000001B2 /* domRotate.cpp */; };
+      B000000000000000000001B3 = /* domSampler.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F000000000000000000001B3 /* domSampler.cpp */; };
+      B000000000000000000001B4 = /* domScale.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F000000000000000000001B4 /* domScale.cpp */; };
+      B000000000000000000001B5 = /* domSkew.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F000000000000000000001B5 /* domSkew.cpp */; };
+      B000000000000000000001B6 = /* domSkin.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F000000000000000000001B6 /* domSkin.cpp */; };
+      B000000000000000000001B7 = /* domSource.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F000000000000000000001B7 /* domSource.cpp */; };
+      B000000000000000000001B8 = /* domSphere.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F000000000000000000001B8 /* domSphere.cpp */; };
+      B000000000000000000001B9 = /* domSpline.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F000000000000000000001B9 /* domSpline.cpp */; };
+      B000000000000000000001BA = /* domTapered_capsule.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F000000000000000000001BA /* domTapered_capsule.cpp */; };
+      B000000000000000000001BB = /* domTapered_cylinder.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F000000000000000000001BB /* domTapered_cylinder.cpp */; };
+      B000000000000000000001BC = /* domTargetableFloat.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F000000000000000000001BC /* domTargetableFloat.cpp */; };
+      B000000000000000000001BD = /* domTargetableFloat3.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F000000000000000000001BD /* domTargetableFloat3.cpp */; };
+      B000000000000000000001BE = /* domTechnique.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F000000000000000000001BE /* domTechnique.cpp */; };
+      B000000000000000000001BF = /* domTranslate.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F000000000000000000001BF /* domTranslate.cpp */; };
+      B000000000000000000001C0 = /* domTriangles.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F000000000000000000001C0 /* domTriangles.cpp */; };
+      B000000000000000000001C1 = /* domTrifans.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F000000000000000000001C1 /* domTrifans.cpp */; };
+      B000000000000000000001C2 = /* domTristrips.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F000000000000000000001C2 /* domTristrips.cpp */; };
+      B000000000000000000001C3 = /* domTypes.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F000000000000000000001C3 /* domTypes.cpp */; };
+      B000000000000000000001C4 = /* domVertices.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F000000000000000000001C4 /* domVertices.cpp */; };
+      B000000000000000000001C5 = /* domVisual_scene.cpp in 1.4 */ {isa = PBXBuildFile; fileRef = F000000000000000000001C5 /* domVisual_scene.cpp */; };
+      B000000000000000000001C6 = /* dae.cpp in dae */ {isa = PBXBuildFile; fileRef = F000000000000000000001C6 /* dae.cpp */; };
+      B000000000000000000001C7 = /* daeArray.cpp in dae */ {isa = PBXBuildFile; fileRef = F000000000000000000001C7 /* daeArray.cpp */; };
+      B000000000000000000001C8 = /* daeAtomicType.cpp in dae */ {isa = PBXBuildFile; fileRef = F000000000000000000001C8 /* daeAtomicType.cpp */; };
+      B000000000000000000001C9 = /* daeDatabase.cpp in dae */ {isa = PBXBuildFile; fileRef = F000000000000000000001C9 /* daeDatabase.cpp */; };
+      B000000000000000000001CA = /* daeDocument.cpp in dae */ {isa = PBXBuildFile; fileRef = F000000000000000000001CA /* daeDocument.cpp */; };
+      B000000000000000000001CB = /* daeDom.cpp in dae */ {isa = PBXBuildFile; fileRef = F000000000000000000001CB /* daeDom.cpp */; };
+      B000000000000000000001CC = /* daeElement.cpp in dae */ {isa = PBXBuildFile; fileRef = F000000000000000000001CC /* daeElement.cpp */; };
+      B000000000000000000001CD = /* daeError.cpp in dae */ {isa = PBXBuildFile; fileRef = F000000000000000000001CD /* daeError.cpp */; };
+      B000000000000000000001CE = /* daeErrorHandler.cpp in dae */ {isa = PBXBuildFile; fileRef = F000000000000000000001CE /* daeErrorHandler.cpp */; };
+      B000000000000000000001CF = /* daeIDRef.cpp in dae */ {isa = PBXBuildFile; fileRef = F000000000000000000001CF /* daeIDRef.cpp */; };
+      B000000000000000000001D0 = /* daeIOPluginCommon.cpp in dae */ {isa = PBXBuildFile; fileRef = F000000000000000000001D0 /* daeIOPluginCommon.cpp */; };
+      B000000000000000000001D1 = /* daeMemorySystem.cpp in dae */ {isa = PBXBuildFile; fileRef = F000000000000000000001D1 /* daeMemorySystem.cpp */; };
+      B000000000000000000001D2 = /* daeMetaAny.cpp in dae */ {isa = PBXBuildFile; fileRef = F000000000000000000001D2 /* daeMetaAny.cpp */; };
+      B000000000000000000001D3 = /* daeMetaAttribute.cpp in dae */ {isa = PBXBuildFile; fileRef = F000000000000000000001D3 /* daeMetaAttribute.cpp */; };
+      B000000000000000000001D4 = /* daeMetaChoice.cpp in dae */ {isa = PBXBuildFile; fileRef = F000000000000000000001D4 /* daeMetaChoice.cpp */; };
+      B000000000000000000001D5 = /* daeMetaCMPolicy.cpp in dae */ {isa = PBXBuildFile; fileRef = F000000000000000000001D5 /* daeMetaCMPolicy.cpp */; };
+      B000000000000000000001D6 = /* daeMetaElement.cpp in dae */ {isa = PBXBuildFile; fileRef = F000000000000000000001D6 /* daeMetaElement.cpp */; };
+      B000000000000000000001D7 = /* daeMetaElementAttribute.cpp in dae */ {isa = PBXBuildFile; fileRef = F000000000000000000001D7 /* daeMetaElementAttribute.cpp */; };
+      B000000000000000000001D8 = /* daeMetaGroup.cpp in dae */ {isa = PBXBuildFile; fileRef = F000000000000000000001D8 /* daeMetaGroup.cpp */; };
+      B000000000000000000001D9 = /* daeMetaSequence.cpp in dae */ {isa = PBXBuildFile; fileRef = F000000000000000000001D9 /* daeMetaSequence.cpp */; };
+      B000000000000000000001DA = /* daeRawResolver.cpp in dae */ {isa = PBXBuildFile; fileRef = F000000000000000000001DA /* daeRawResolver.cpp */; };
+      B000000000000000000001DB = /* daeRefCountedObj.cpp in dae */ {isa = PBXBuildFile; fileRef = F000000000000000000001DB /* daeRefCountedObj.cpp */; };
+      B000000000000000000001DC = /* daeSIDResolver.cpp in dae */ {isa = PBXBuildFile; fileRef = F000000000000000000001DC /* daeSIDResolver.cpp */; };
+      B000000000000000000001DD = /* daeStandardURIResolver.cpp in dae */ {isa = PBXBuildFile; fileRef = F000000000000000000001DD /* daeStandardURIResolver.cpp */; };
+      B000000000000000000001DE = /* daeStringRef.cpp in dae */ {isa = PBXBuildFile; fileRef = F000000000000000000001DE /* daeStringRef.cpp */; };
+      B000000000000000000001DF = /* daeStringTable.cpp in dae */ {isa = PBXBuildFile; fileRef = F000000000000000000001DF /* daeStringTable.cpp */; };
+      B000000000000000000001E0 = /* daeTinyXMLPlugin.cpp in dae */ {isa = PBXBuildFile; fileRef = F000000000000000000001E0 /* daeTinyXMLPlugin.cpp */; };
+      B000000000000000000001E1 = /* daeURI.cpp in dae */ {isa = PBXBuildFile; fileRef = F000000000000000000001E1 /* daeURI.cpp */; };
+      B000000000000000000001E2 = /* daeUtils.cpp in dae */ {isa = PBXBuildFile; fileRef = F000000000000000000001E2 /* daeUtils.cpp */; };
+      B000000000000000000001E3 = /* domAny.cpp in dae */ {isa = PBXBuildFile; fileRef = F000000000000000000001E3 /* domAny.cpp */; };
+      B000000000000000000001E4 = /* daeLIBXMLPlugin.cpp in LIBXMLPlugin */ {isa = PBXBuildFile; fileRef = F000000000000000000001E4 /* daeLIBXMLPlugin.cpp */; };
+      B000000000000000000001E5 = /* daeSTLDatabase.cpp in STLDatabase */ {isa = PBXBuildFile; fileRef = F000000000000000000001E5 /* daeSTLDatabase.cpp */; };
+      B000000000000000000001E6 = /* stdErrPlugin.cpp in stdErrPlugin */ {isa = PBXBuildFile; fileRef = F000000000000000000001E6 /* stdErrPlugin.cpp */; };
+   /* End PBXBuildFiles included by project generator */
+
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+	  F00000000000000000000013 /* libcollada_dom.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libcollada_dom.a; sourceTree = BUILT_PRODUCTS_DIR; };
+
+   /* Begin PBXFileReferences included by project generator */
+	        F0000000000000000000011A = /* domAccessor.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domAccessor.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domAccessor.cpp; };
+      F0000000000000000000011B = /* domAnimation.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domAnimation.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domAnimation.cpp; };
+      F0000000000000000000011C = /* domAnimation_clip.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domAnimation_clip.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domAnimation_clip.cpp; };
+      F0000000000000000000011D = /* domAsset.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domAsset.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domAsset.cpp; };
+      F0000000000000000000011E = /* domBind_material.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domBind_material.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domBind_material.cpp; };
+      F0000000000000000000011F = /* domBool_array.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domBool_array.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domBool_array.cpp; };
+      F00000000000000000000120 = /* domBox.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domBox.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domBox.cpp; };
+      F00000000000000000000121 = /* domCamera.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domCamera.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domCamera.cpp; };
+      F00000000000000000000122 = /* domCapsule.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domCapsule.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domCapsule.cpp; };
+      F00000000000000000000123 = /* domCg_connect_param.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domCg_connect_param.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domCg_connect_param.cpp; };
+      F00000000000000000000124 = /* domCg_newarray_type.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domCg_newarray_type.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domCg_newarray_type.cpp; };
+      F00000000000000000000125 = /* domCg_newparam.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domCg_newparam.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domCg_newparam.cpp; };
+      F00000000000000000000126 = /* domCg_param_type.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domCg_param_type.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domCg_param_type.cpp; };
+      F00000000000000000000127 = /* domCg_sampler1D.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domCg_sampler1D.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domCg_sampler1D.cpp; };
+      F00000000000000000000128 = /* domCg_sampler2D.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domCg_sampler2D.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domCg_sampler2D.cpp; };
+      F00000000000000000000129 = /* domCg_sampler3D.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domCg_sampler3D.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domCg_sampler3D.cpp; };
+      F0000000000000000000012A = /* domCg_samplerCUBE.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domCg_samplerCUBE.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domCg_samplerCUBE.cpp; };
+      F0000000000000000000012B = /* domCg_samplerDEPTH.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domCg_samplerDEPTH.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domCg_samplerDEPTH.cpp; };
+      F0000000000000000000012C = /* domCg_samplerRECT.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domCg_samplerRECT.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domCg_samplerRECT.cpp; };
+      F0000000000000000000012D = /* domCg_setarray_type.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domCg_setarray_type.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domCg_setarray_type.cpp; };
+      F0000000000000000000012E = /* domCg_setparam.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domCg_setparam.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domCg_setparam.cpp; };
+      F0000000000000000000012F = /* domCg_setparam_simple.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domCg_setparam_simple.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domCg_setparam_simple.cpp; };
+      F00000000000000000000130 = /* domCg_setuser_type.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domCg_setuser_type.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domCg_setuser_type.cpp; };
+      F00000000000000000000131 = /* domCg_surface_type.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domCg_surface_type.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domCg_surface_type.cpp; };
+      F00000000000000000000132 = /* domChannel.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domChannel.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domChannel.cpp; };
+      F00000000000000000000133 = /* domCOLLADA.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domCOLLADA.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domCOLLADA.cpp; };
+      F00000000000000000000134 = /* domCommon_color_or_texture_type.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domCommon_color_or_texture_type.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domCommon_color_or_texture_type.cpp; };
+      F00000000000000000000135 = /* domCommon_float_or_param_type.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domCommon_float_or_param_type.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domCommon_float_or_param_type.cpp; };
+      F00000000000000000000136 = /* domCommon_newparam_type.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domCommon_newparam_type.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domCommon_newparam_type.cpp; };
+      F00000000000000000000137 = /* domCommon_transparent_type.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domCommon_transparent_type.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domCommon_transparent_type.cpp; };
+      F00000000000000000000138 = /* domConstants.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domConstants.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domConstants.cpp; };
+      F00000000000000000000139 = /* domController.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domController.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domController.cpp; };
+      F0000000000000000000013A = /* domConvex_mesh.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domConvex_mesh.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domConvex_mesh.cpp; };
+      F0000000000000000000013B = /* domCylinder.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domCylinder.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domCylinder.cpp; };
+      F0000000000000000000013C = /* domEffect.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domEffect.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domEffect.cpp; };
+      F0000000000000000000013D = /* domEllipsoid.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domEllipsoid.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domEllipsoid.cpp; };
+      F0000000000000000000013E = /* domExtra.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domExtra.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domExtra.cpp; };
+      F0000000000000000000013F = /* domFloat_array.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domFloat_array.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domFloat_array.cpp; };
+      F00000000000000000000140 = /* domForce_field.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domForce_field.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domForce_field.cpp; };
+      F00000000000000000000141 = /* domFx_annotate_common.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domFx_annotate_common.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domFx_annotate_common.cpp; };
+      F00000000000000000000142 = /* domFx_annotate_type_common.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domFx_annotate_type_common.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domFx_annotate_type_common.cpp; };
+      F00000000000000000000143 = /* domFx_basic_type_common.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domFx_basic_type_common.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domFx_basic_type_common.cpp; };
+      F00000000000000000000144 = /* domFx_clearcolor_common.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domFx_clearcolor_common.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domFx_clearcolor_common.cpp; };
+      F00000000000000000000145 = /* domFx_cleardepth_common.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domFx_cleardepth_common.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domFx_cleardepth_common.cpp; };
+      F00000000000000000000146 = /* domFx_clearstencil_common.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domFx_clearstencil_common.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domFx_clearstencil_common.cpp; };
+      F00000000000000000000147 = /* domFx_code_profile.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domFx_code_profile.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domFx_code_profile.cpp; };
+      F00000000000000000000148 = /* domFx_colortarget_common.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domFx_colortarget_common.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domFx_colortarget_common.cpp; };
+      F00000000000000000000149 = /* domFx_depthtarget_common.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domFx_depthtarget_common.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domFx_depthtarget_common.cpp; };
+      F0000000000000000000014A = /* domFx_include_common.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domFx_include_common.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domFx_include_common.cpp; };
+      F0000000000000000000014B = /* domFx_newparam_common.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domFx_newparam_common.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domFx_newparam_common.cpp; };
+      F0000000000000000000014C = /* domFx_profile_abstract.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domFx_profile_abstract.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domFx_profile_abstract.cpp; };
+      F0000000000000000000014D = /* domFx_sampler1D_common.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domFx_sampler1D_common.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domFx_sampler1D_common.cpp; };
+      F0000000000000000000014E = /* domFx_sampler2D_common.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domFx_sampler2D_common.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domFx_sampler2D_common.cpp; };
+      F0000000000000000000014F = /* domFx_sampler3D_common.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domFx_sampler3D_common.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domFx_sampler3D_common.cpp; };
+      F00000000000000000000150 = /* domFx_samplerCUBE_common.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domFx_samplerCUBE_common.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domFx_samplerCUBE_common.cpp; };
+      F00000000000000000000151 = /* domFx_samplerDEPTH_common.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domFx_samplerDEPTH_common.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domFx_samplerDEPTH_common.cpp; };
+      F00000000000000000000152 = /* domFx_samplerRECT_common.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domFx_samplerRECT_common.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domFx_samplerRECT_common.cpp; };
+      F00000000000000000000153 = /* domFx_stenciltarget_common.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domFx_stenciltarget_common.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domFx_stenciltarget_common.cpp; };
+      F00000000000000000000154 = /* domFx_surface_common.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domFx_surface_common.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domFx_surface_common.cpp; };
+      F00000000000000000000155 = /* domFx_surface_format_hint_common.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domFx_surface_format_hint_common.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domFx_surface_format_hint_common.cpp; };
+      F00000000000000000000156 = /* domFx_surface_init_common.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domFx_surface_init_common.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domFx_surface_init_common.cpp; };
+      F00000000000000000000157 = /* domFx_surface_init_cube_common.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domFx_surface_init_cube_common.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domFx_surface_init_cube_common.cpp; };
+      F00000000000000000000158 = /* domFx_surface_init_from_common.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domFx_surface_init_from_common.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domFx_surface_init_from_common.cpp; };
+      F00000000000000000000159 = /* domFx_surface_init_planar_common.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domFx_surface_init_planar_common.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domFx_surface_init_planar_common.cpp; };
+      F0000000000000000000015A = /* domFx_surface_init_volume_common.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domFx_surface_init_volume_common.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domFx_surface_init_volume_common.cpp; };
+      F0000000000000000000015B = /* domGeometry.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domGeometry.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domGeometry.cpp; };
+      F0000000000000000000015C = /* domGl_hook_abstract.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domGl_hook_abstract.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domGl_hook_abstract.cpp; };
+      F0000000000000000000015D = /* domGl_pipeline_settings.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domGl_pipeline_settings.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domGl_pipeline_settings.cpp; };
+      F0000000000000000000015E = /* domGl_sampler1D.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domGl_sampler1D.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domGl_sampler1D.cpp; };
+      F0000000000000000000015F = /* domGl_sampler2D.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domGl_sampler2D.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domGl_sampler2D.cpp; };
+      F00000000000000000000160 = /* domGl_sampler3D.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domGl_sampler3D.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domGl_sampler3D.cpp; };
+      F00000000000000000000161 = /* domGl_samplerCUBE.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domGl_samplerCUBE.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domGl_samplerCUBE.cpp; };
+      F00000000000000000000162 = /* domGl_samplerDEPTH.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domGl_samplerDEPTH.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domGl_samplerDEPTH.cpp; };
+      F00000000000000000000163 = /* domGl_samplerRECT.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domGl_samplerRECT.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domGl_samplerRECT.cpp; };
+      F00000000000000000000164 = /* domGles_basic_type_common.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domGles_basic_type_common.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domGles_basic_type_common.cpp; };
+      F00000000000000000000165 = /* domGles_newparam.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domGles_newparam.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domGles_newparam.cpp; };
+      F00000000000000000000166 = /* domGles_pipeline_settings.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domGles_pipeline_settings.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domGles_pipeline_settings.cpp; };
+      F00000000000000000000167 = /* domGles_sampler_state.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domGles_sampler_state.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domGles_sampler_state.cpp; };
+      F00000000000000000000168 = /* domGles_texcombiner_argumentAlpha_type.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domGles_texcombiner_argumentAlpha_type.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domGles_texcombiner_argumentAlpha_type.cpp; };
+      F00000000000000000000169 = /* domGles_texcombiner_argumentRGB_type.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domGles_texcombiner_argumentRGB_type.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domGles_texcombiner_argumentRGB_type.cpp; };
+      F0000000000000000000016A = /* domGles_texcombiner_command_type.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domGles_texcombiner_command_type.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domGles_texcombiner_command_type.cpp; };
+      F0000000000000000000016B = /* domGles_texcombiner_commandAlpha_type.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domGles_texcombiner_commandAlpha_type.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domGles_texcombiner_commandAlpha_type.cpp; };
+      F0000000000000000000016C = /* domGles_texcombiner_commandRGB_type.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domGles_texcombiner_commandRGB_type.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domGles_texcombiner_commandRGB_type.cpp; };
+      F0000000000000000000016D = /* domGles_texenv_command_type.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domGles_texenv_command_type.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domGles_texenv_command_type.cpp; };
+      F0000000000000000000016E = /* domGles_texture_constant_type.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domGles_texture_constant_type.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domGles_texture_constant_type.cpp; };
+      F0000000000000000000016F = /* domGles_texture_pipeline.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domGles_texture_pipeline.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domGles_texture_pipeline.cpp; };
+      F00000000000000000000170 = /* domGles_texture_unit.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domGles_texture_unit.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domGles_texture_unit.cpp; };
+      F00000000000000000000171 = /* domGlsl_newarray_type.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domGlsl_newarray_type.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domGlsl_newarray_type.cpp; };
+      F00000000000000000000172 = /* domGlsl_newparam.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domGlsl_newparam.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domGlsl_newparam.cpp; };
+      F00000000000000000000173 = /* domGlsl_param_type.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domGlsl_param_type.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domGlsl_param_type.cpp; };
+      F00000000000000000000174 = /* domGlsl_setarray_type.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domGlsl_setarray_type.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domGlsl_setarray_type.cpp; };
+      F00000000000000000000175 = /* domGlsl_setparam.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domGlsl_setparam.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domGlsl_setparam.cpp; };
+      F00000000000000000000176 = /* domGlsl_setparam_simple.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domGlsl_setparam_simple.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domGlsl_setparam_simple.cpp; };
+      F00000000000000000000177 = /* domGlsl_surface_type.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domGlsl_surface_type.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domGlsl_surface_type.cpp; };
+      F00000000000000000000178 = /* domIDREF_array.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domIDREF_array.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domIDREF_array.cpp; };
+      F00000000000000000000179 = /* domImage.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domImage.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domImage.cpp; };
+      F0000000000000000000017A = /* domInputGlobal.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domInputGlobal.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domInputGlobal.cpp; };
+      F0000000000000000000017B = /* domInputLocal.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domInputLocal.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domInputLocal.cpp; };
+      F0000000000000000000017C = /* domInputLocalOffset.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domInputLocalOffset.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domInputLocalOffset.cpp; };
+      F0000000000000000000017D = /* domInstance_camera.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domInstance_camera.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domInstance_camera.cpp; };
+      F0000000000000000000017E = /* domInstance_controller.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domInstance_controller.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domInstance_controller.cpp; };
+      F0000000000000000000017F = /* domInstance_effect.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domInstance_effect.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domInstance_effect.cpp; };
+      F00000000000000000000180 = /* domInstance_force_field.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domInstance_force_field.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domInstance_force_field.cpp; };
+      F00000000000000000000181 = /* domInstance_geometry.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domInstance_geometry.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domInstance_geometry.cpp; };
+      F00000000000000000000182 = /* domInstance_light.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domInstance_light.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domInstance_light.cpp; };
+      F00000000000000000000183 = /* domInstance_material.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domInstance_material.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domInstance_material.cpp; };
+      F00000000000000000000184 = /* domInstance_node.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domInstance_node.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domInstance_node.cpp; };
+      F00000000000000000000185 = /* domInstance_physics_material.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domInstance_physics_material.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domInstance_physics_material.cpp; };
+      F00000000000000000000186 = /* domInstance_physics_model.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domInstance_physics_model.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domInstance_physics_model.cpp; };
+      F00000000000000000000187 = /* domInstance_rigid_body.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domInstance_rigid_body.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domInstance_rigid_body.cpp; };
+      F00000000000000000000188 = /* domInstance_rigid_constraint.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domInstance_rigid_constraint.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domInstance_rigid_constraint.cpp; };
+      F00000000000000000000189 = /* domInstanceWithExtra.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domInstanceWithExtra.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domInstanceWithExtra.cpp; };
+      F0000000000000000000018A = /* domInt_array.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domInt_array.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domInt_array.cpp; };
+      F0000000000000000000018B = /* domLibrary_animation_clips.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domLibrary_animation_clips.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domLibrary_animation_clips.cpp; };
+      F0000000000000000000018C = /* domLibrary_animations.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domLibrary_animations.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domLibrary_animations.cpp; };
+      F0000000000000000000018D = /* domLibrary_cameras.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domLibrary_cameras.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domLibrary_cameras.cpp; };
+      F0000000000000000000018E = /* domLibrary_controllers.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domLibrary_controllers.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domLibrary_controllers.cpp; };
+      F0000000000000000000018F = /* domLibrary_effects.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domLibrary_effects.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domLibrary_effects.cpp; };
+      F00000000000000000000190 = /* domLibrary_force_fields.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domLibrary_force_fields.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domLibrary_force_fields.cpp; };
+      F00000000000000000000191 = /* domLibrary_geometries.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domLibrary_geometries.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domLibrary_geometries.cpp; };
+      F00000000000000000000192 = /* domLibrary_images.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domLibrary_images.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domLibrary_images.cpp; };
+      F00000000000000000000193 = /* domLibrary_lights.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domLibrary_lights.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domLibrary_lights.cpp; };
+      F00000000000000000000194 = /* domLibrary_materials.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domLibrary_materials.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domLibrary_materials.cpp; };
+      F00000000000000000000195 = /* domLibrary_nodes.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domLibrary_nodes.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domLibrary_nodes.cpp; };
+      F00000000000000000000196 = /* domLibrary_physics_materials.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domLibrary_physics_materials.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domLibrary_physics_materials.cpp; };
+      F00000000000000000000197 = /* domLibrary_physics_models.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domLibrary_physics_models.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domLibrary_physics_models.cpp; };
+      F00000000000000000000198 = /* domLibrary_physics_scenes.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domLibrary_physics_scenes.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domLibrary_physics_scenes.cpp; };
+      F00000000000000000000199 = /* domLibrary_visual_scenes.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domLibrary_visual_scenes.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domLibrary_visual_scenes.cpp; };
+      F0000000000000000000019A = /* domLight.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domLight.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domLight.cpp; };
+      F0000000000000000000019B = /* domLines.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domLines.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domLines.cpp; };
+      F0000000000000000000019C = /* domLinestrips.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domLinestrips.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domLinestrips.cpp; };
+      F0000000000000000000019D = /* domLookat.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domLookat.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domLookat.cpp; };
+      F0000000000000000000019E = /* domMaterial.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domMaterial.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domMaterial.cpp; };
+      F0000000000000000000019F = /* domMatrix.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domMatrix.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domMatrix.cpp; };
+      F000000000000000000001A0 = /* domMesh.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domMesh.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domMesh.cpp; };
+      F000000000000000000001A1 = /* domMorph.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domMorph.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domMorph.cpp; };
+      F000000000000000000001A2 = /* domName_array.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domName_array.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domName_array.cpp; };
+      F000000000000000000001A3 = /* domNode.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domNode.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domNode.cpp; };
+      F000000000000000000001A4 = /* domP.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domP.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domP.cpp; };
+      F000000000000000000001A5 = /* domParam.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domParam.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domParam.cpp; };
+      F000000000000000000001A6 = /* domPhysics_material.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domPhysics_material.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domPhysics_material.cpp; };
+      F000000000000000000001A7 = /* domPhysics_model.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domPhysics_model.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domPhysics_model.cpp; };
+      F000000000000000000001A8 = /* domPhysics_scene.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domPhysics_scene.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domPhysics_scene.cpp; };
+      F000000000000000000001A9 = /* domPlane.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domPlane.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domPlane.cpp; };
+      F000000000000000000001AA = /* domPolygons.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domPolygons.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domPolygons.cpp; };
+      F000000000000000000001AB = /* domPolylist.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domPolylist.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domPolylist.cpp; };
+      F000000000000000000001AC = /* domProfile_CG.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domProfile_CG.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domProfile_CG.cpp; };
+      F000000000000000000001AD = /* domProfile_COMMON.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domProfile_COMMON.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domProfile_COMMON.cpp; };
+      F000000000000000000001AE = /* domProfile_GLES.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domProfile_GLES.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domProfile_GLES.cpp; };
+      F000000000000000000001AF = /* domProfile_GLSL.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domProfile_GLSL.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domProfile_GLSL.cpp; };
+      F000000000000000000001B0 = /* domRigid_body.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domRigid_body.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domRigid_body.cpp; };
+      F000000000000000000001B1 = /* domRigid_constraint.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domRigid_constraint.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domRigid_constraint.cpp; };
+      F000000000000000000001B2 = /* domRotate.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domRotate.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domRotate.cpp; };
+      F000000000000000000001B3 = /* domSampler.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domSampler.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domSampler.cpp; };
+      F000000000000000000001B4 = /* domScale.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domScale.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domScale.cpp; };
+      F000000000000000000001B5 = /* domSkew.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domSkew.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domSkew.cpp; };
+      F000000000000000000001B6 = /* domSkin.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domSkin.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domSkin.cpp; };
+      F000000000000000000001B7 = /* domSource.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domSource.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domSource.cpp; };
+      F000000000000000000001B8 = /* domSphere.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domSphere.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domSphere.cpp; };
+      F000000000000000000001B9 = /* domSpline.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domSpline.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domSpline.cpp; };
+      F000000000000000000001BA = /* domTapered_capsule.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domTapered_capsule.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domTapered_capsule.cpp; };
+      F000000000000000000001BB = /* domTapered_cylinder.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domTapered_cylinder.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domTapered_cylinder.cpp; };
+      F000000000000000000001BC = /* domTargetableFloat.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domTargetableFloat.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domTargetableFloat.cpp; };
+      F000000000000000000001BD = /* domTargetableFloat3.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domTargetableFloat3.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domTargetableFloat3.cpp; };
+      F000000000000000000001BE = /* domTechnique.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domTechnique.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domTechnique.cpp; };
+      F000000000000000000001BF = /* domTranslate.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domTranslate.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domTranslate.cpp; };
+      F000000000000000000001C0 = /* domTriangles.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domTriangles.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domTriangles.cpp; };
+      F000000000000000000001C1 = /* domTrifans.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domTrifans.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domTrifans.cpp; };
+      F000000000000000000001C2 = /* domTristrips.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domTristrips.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domTristrips.cpp; };
+      F000000000000000000001C3 = /* domTypes.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domTypes.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domTypes.cpp; };
+      F000000000000000000001C4 = /* domVertices.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domVertices.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domVertices.cpp; };
+      F000000000000000000001C5 = /* domVisual_scene.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domVisual_scene.cpp; path = ../../../../Engine/lib/collada/src/1.4/dom/domVisual_scene.cpp; };
+      F000000000000000000001C6 = /* dae.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = dae.cpp; path = ../../../../Engine/lib/collada/src/dae/dae.cpp; };
+      F000000000000000000001C7 = /* daeArray.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = daeArray.cpp; path = ../../../../Engine/lib/collada/src/dae/daeArray.cpp; };
+      F000000000000000000001C8 = /* daeAtomicType.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = daeAtomicType.cpp; path = ../../../../Engine/lib/collada/src/dae/daeAtomicType.cpp; };
+      F000000000000000000001C9 = /* daeDatabase.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = daeDatabase.cpp; path = ../../../../Engine/lib/collada/src/dae/daeDatabase.cpp; };
+      F000000000000000000001CA = /* daeDocument.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = daeDocument.cpp; path = ../../../../Engine/lib/collada/src/dae/daeDocument.cpp; };
+      F000000000000000000001CB = /* daeDom.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = daeDom.cpp; path = ../../../../Engine/lib/collada/src/dae/daeDom.cpp; };
+      F000000000000000000001CC = /* daeElement.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = daeElement.cpp; path = ../../../../Engine/lib/collada/src/dae/daeElement.cpp; };
+      F000000000000000000001CD = /* daeError.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = daeError.cpp; path = ../../../../Engine/lib/collada/src/dae/daeError.cpp; };
+      F000000000000000000001CE = /* daeErrorHandler.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = daeErrorHandler.cpp; path = ../../../../Engine/lib/collada/src/dae/daeErrorHandler.cpp; };
+      F000000000000000000001CF = /* daeIDRef.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = daeIDRef.cpp; path = ../../../../Engine/lib/collada/src/dae/daeIDRef.cpp; };
+      F000000000000000000001D0 = /* daeIOPluginCommon.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = daeIOPluginCommon.cpp; path = ../../../../Engine/lib/collada/src/dae/daeIOPluginCommon.cpp; };
+      F000000000000000000001D1 = /* daeMemorySystem.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = daeMemorySystem.cpp; path = ../../../../Engine/lib/collada/src/dae/daeMemorySystem.cpp; };
+      F000000000000000000001D2 = /* daeMetaAny.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = daeMetaAny.cpp; path = ../../../../Engine/lib/collada/src/dae/daeMetaAny.cpp; };
+      F000000000000000000001D3 = /* daeMetaAttribute.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = daeMetaAttribute.cpp; path = ../../../../Engine/lib/collada/src/dae/daeMetaAttribute.cpp; };
+      F000000000000000000001D4 = /* daeMetaChoice.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = daeMetaChoice.cpp; path = ../../../../Engine/lib/collada/src/dae/daeMetaChoice.cpp; };
+      F000000000000000000001D5 = /* daeMetaCMPolicy.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = daeMetaCMPolicy.cpp; path = ../../../../Engine/lib/collada/src/dae/daeMetaCMPolicy.cpp; };
+      F000000000000000000001D6 = /* daeMetaElement.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = daeMetaElement.cpp; path = ../../../../Engine/lib/collada/src/dae/daeMetaElement.cpp; };
+      F000000000000000000001D7 = /* daeMetaElementAttribute.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = daeMetaElementAttribute.cpp; path = ../../../../Engine/lib/collada/src/dae/daeMetaElementAttribute.cpp; };
+      F000000000000000000001D8 = /* daeMetaGroup.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = daeMetaGroup.cpp; path = ../../../../Engine/lib/collada/src/dae/daeMetaGroup.cpp; };
+      F000000000000000000001D9 = /* daeMetaSequence.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = daeMetaSequence.cpp; path = ../../../../Engine/lib/collada/src/dae/daeMetaSequence.cpp; };
+      F000000000000000000001DA = /* daeRawResolver.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = daeRawResolver.cpp; path = ../../../../Engine/lib/collada/src/dae/daeRawResolver.cpp; };
+      F000000000000000000001DB = /* daeRefCountedObj.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = daeRefCountedObj.cpp; path = ../../../../Engine/lib/collada/src/dae/daeRefCountedObj.cpp; };
+      F000000000000000000001DC = /* daeSIDResolver.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = daeSIDResolver.cpp; path = ../../../../Engine/lib/collada/src/dae/daeSIDResolver.cpp; };
+      F000000000000000000001DD = /* daeStandardURIResolver.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = daeStandardURIResolver.cpp; path = ../../../../Engine/lib/collada/src/dae/daeStandardURIResolver.cpp; };
+      F000000000000000000001DE = /* daeStringRef.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = daeStringRef.cpp; path = ../../../../Engine/lib/collada/src/dae/daeStringRef.cpp; };
+      F000000000000000000001DF = /* daeStringTable.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = daeStringTable.cpp; path = ../../../../Engine/lib/collada/src/dae/daeStringTable.cpp; };
+      F000000000000000000001E0 = /* daeTinyXMLPlugin.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = daeTinyXMLPlugin.cpp; path = ../../../../Engine/lib/collada/src/dae/daeTinyXMLPlugin.cpp; };
+      F000000000000000000001E1 = /* daeURI.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = daeURI.cpp; path = ../../../../Engine/lib/collada/src/dae/daeURI.cpp; };
+      F000000000000000000001E2 = /* daeUtils.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = daeUtils.cpp; path = ../../../../Engine/lib/collada/src/dae/daeUtils.cpp; };
+      F000000000000000000001E3 = /* domAny.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = domAny.cpp; path = ../../../../Engine/lib/collada/src/dae/domAny.cpp; };
+      F000000000000000000001E4 = /* daeLIBXMLPlugin.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = daeLIBXMLPlugin.cpp; path = ../../../../Engine/lib/collada/src/modules/LIBXMLPlugin/daeLIBXMLPlugin.cpp; };
+      F000000000000000000001E5 = /* daeSTLDatabase.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = daeSTLDatabase.cpp; path = ../../../../Engine/lib/collada/src/modules/STLDatabase/daeSTLDatabase.cpp; };
+      F000000000000000000001E6 = /* stdErrPlugin.cpp */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = stdErrPlugin.cpp; path = ../../../../Engine/lib/collada/src/modules/stdErrPlugin/stdErrPlugin.cpp; };
+   /* End PBXFileReferences included by project generator */
+
+
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+	  D27393730CDABF9C006111D4 /* Frameworks */ = {
+		 isa = PBXFrameworksBuildPhase;
+		 buildActionMask = 2147483647;
+		 files = (
+		 );
+		 runOnlyForDeploymentPostprocessing = 0;
+	  };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+	  D268347C0C02C5750020EE4F = {
+		 isa = PBXGroup;
+		 children = (
+			A00000000000000000000000 /* Code */,
+			D26834AC0C02C77B0020EE4F /* Products */,
+		 );
+		 sourceTree = "<group>";
+	  };
+	  D26834AC0C02C77B0020EE4F /* Products */ = {
+		 isa = PBXGroup;
+		 children = (
+			F00000000000000000000013 /* libcollada_dom.a */,
+		 );
+		 name = Products;
+		 sourceTree = SOURCE_ROOT;
+	  };
+	  
+   /* Begin PBXGroups from project generator */
+		A00000000000000000000000 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+            A00000000000000000000003 /* lib -- paxorr/lib */,
+			);
+			name = Code;
+			sourceTree = "<group>"; /* paxorr */
+         };
+         
+		A00000000000000000000003 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+            A00000000000000000000015 /* src -- paxorr/lib/src */,
+			);
+			name = lib;
+			sourceTree = "<group>"; /* paxorr/lib */
+         };
+         
+		A00000000000000000000015 /* src */ = {
+			isa = PBXGroup;
+			children = (
+            A00000000000000000000016 /* 1.4 -- paxorr/lib/src/1.4 */,
+            A00000000000000000000017 /* dae -- paxorr/lib/src/dae */,
+            A00000000000000000000018 /* modules -- paxorr/lib/src/modules */,
+			);
+			name = src;
+			sourceTree = "<group>"; /* paxorr/lib/src */
+         };
+         
+		A00000000000000000000016 /* 1.4 */ = {
+			isa = PBXGroup;
+			children = (
+            F0000000000000000000011A /* domAccessor.cpp */,
+            F0000000000000000000011B /* domAnimation.cpp */,
+            F0000000000000000000011C /* domAnimation_clip.cpp */,
+            F0000000000000000000011D /* domAsset.cpp */,
+            F0000000000000000000011E /* domBind_material.cpp */,
+            F0000000000000000000011F /* domBool_array.cpp */,
+            F00000000000000000000120 /* domBox.cpp */,
+            F00000000000000000000121 /* domCamera.cpp */,
+            F00000000000000000000122 /* domCapsule.cpp */,
+            F00000000000000000000123 /* domCg_connect_param.cpp */,
+            F00000000000000000000124 /* domCg_newarray_type.cpp */,
+            F00000000000000000000125 /* domCg_newparam.cpp */,
+            F00000000000000000000126 /* domCg_param_type.cpp */,
+            F00000000000000000000127 /* domCg_sampler1D.cpp */,
+            F00000000000000000000128 /* domCg_sampler2D.cpp */,
+            F00000000000000000000129 /* domCg_sampler3D.cpp */,
+            F0000000000000000000012A /* domCg_samplerCUBE.cpp */,
+            F0000000000000000000012B /* domCg_samplerDEPTH.cpp */,
+            F0000000000000000000012C /* domCg_samplerRECT.cpp */,
+            F0000000000000000000012D /* domCg_setarray_type.cpp */,
+            F0000000000000000000012E /* domCg_setparam.cpp */,
+            F0000000000000000000012F /* domCg_setparam_simple.cpp */,
+            F00000000000000000000130 /* domCg_setuser_type.cpp */,
+            F00000000000000000000131 /* domCg_surface_type.cpp */,
+            F00000000000000000000132 /* domChannel.cpp */,
+            F00000000000000000000133 /* domCOLLADA.cpp */,
+            F00000000000000000000134 /* domCommon_color_or_texture_type.cpp */,
+            F00000000000000000000135 /* domCommon_float_or_param_type.cpp */,
+            F00000000000000000000136 /* domCommon_newparam_type.cpp */,
+            F00000000000000000000137 /* domCommon_transparent_type.cpp */,
+            F00000000000000000000138 /* domConstants.cpp */,
+            F00000000000000000000139 /* domController.cpp */,
+            F0000000000000000000013A /* domConvex_mesh.cpp */,
+            F0000000000000000000013B /* domCylinder.cpp */,
+            F0000000000000000000013C /* domEffect.cpp */,
+            F0000000000000000000013D /* domEllipsoid.cpp */,
+            F0000000000000000000013E /* domExtra.cpp */,
+            F0000000000000000000013F /* domFloat_array.cpp */,
+            F00000000000000000000140 /* domForce_field.cpp */,
+            F00000000000000000000141 /* domFx_annotate_common.cpp */,
+            F00000000000000000000142 /* domFx_annotate_type_common.cpp */,
+            F00000000000000000000143 /* domFx_basic_type_common.cpp */,
+            F00000000000000000000144 /* domFx_clearcolor_common.cpp */,
+            F00000000000000000000145 /* domFx_cleardepth_common.cpp */,
+            F00000000000000000000146 /* domFx_clearstencil_common.cpp */,
+            F00000000000000000000147 /* domFx_code_profile.cpp */,
+            F00000000000000000000148 /* domFx_colortarget_common.cpp */,
+            F00000000000000000000149 /* domFx_depthtarget_common.cpp */,
+            F0000000000000000000014A /* domFx_include_common.cpp */,
+            F0000000000000000000014B /* domFx_newparam_common.cpp */,
+            F0000000000000000000014C /* domFx_profile_abstract.cpp */,
+            F0000000000000000000014D /* domFx_sampler1D_common.cpp */,
+            F0000000000000000000014E /* domFx_sampler2D_common.cpp */,
+            F0000000000000000000014F /* domFx_sampler3D_common.cpp */,
+            F00000000000000000000150 /* domFx_samplerCUBE_common.cpp */,
+            F00000000000000000000151 /* domFx_samplerDEPTH_common.cpp */,
+            F00000000000000000000152 /* domFx_samplerRECT_common.cpp */,
+            F00000000000000000000153 /* domFx_stenciltarget_common.cpp */,
+            F00000000000000000000154 /* domFx_surface_common.cpp */,
+            F00000000000000000000155 /* domFx_surface_format_hint_common.cpp */,
+            F00000000000000000000156 /* domFx_surface_init_common.cpp */,
+            F00000000000000000000157 /* domFx_surface_init_cube_common.cpp */,
+            F00000000000000000000158 /* domFx_surface_init_from_common.cpp */,
+            F00000000000000000000159 /* domFx_surface_init_planar_common.cpp */,
+            F0000000000000000000015A /* domFx_surface_init_volume_common.cpp */,
+            F0000000000000000000015B /* domGeometry.cpp */,
+            F0000000000000000000015C /* domGl_hook_abstract.cpp */,
+            F0000000000000000000015D /* domGl_pipeline_settings.cpp */,
+            F0000000000000000000015E /* domGl_sampler1D.cpp */,
+            F0000000000000000000015F /* domGl_sampler2D.cpp */,
+            F00000000000000000000160 /* domGl_sampler3D.cpp */,
+            F00000000000000000000161 /* domGl_samplerCUBE.cpp */,
+            F00000000000000000000162 /* domGl_samplerDEPTH.cpp */,
+            F00000000000000000000163 /* domGl_samplerRECT.cpp */,
+            F00000000000000000000164 /* domGles_basic_type_common.cpp */,
+            F00000000000000000000165 /* domGles_newparam.cpp */,
+            F00000000000000000000166 /* domGles_pipeline_settings.cpp */,
+            F00000000000000000000167 /* domGles_sampler_state.cpp */,
+            F00000000000000000000168 /* domGles_texcombiner_argumentAlpha_type.cpp */,
+            F00000000000000000000169 /* domGles_texcombiner_argumentRGB_type.cpp */,
+            F0000000000000000000016A /* domGles_texcombiner_command_type.cpp */,
+            F0000000000000000000016B /* domGles_texcombiner_commandAlpha_type.cpp */,
+            F0000000000000000000016C /* domGles_texcombiner_commandRGB_type.cpp */,
+            F0000000000000000000016D /* domGles_texenv_command_type.cpp */,
+            F0000000000000000000016E /* domGles_texture_constant_type.cpp */,
+            F0000000000000000000016F /* domGles_texture_pipeline.cpp */,
+            F00000000000000000000170 /* domGles_texture_unit.cpp */,
+            F00000000000000000000171 /* domGlsl_newarray_type.cpp */,
+            F00000000000000000000172 /* domGlsl_newparam.cpp */,
+            F00000000000000000000173 /* domGlsl_param_type.cpp */,
+            F00000000000000000000174 /* domGlsl_setarray_type.cpp */,
+            F00000000000000000000175 /* domGlsl_setparam.cpp */,
+            F00000000000000000000176 /* domGlsl_setparam_simple.cpp */,
+            F00000000000000000000177 /* domGlsl_surface_type.cpp */,
+            F00000000000000000000178 /* domIDREF_array.cpp */,
+            F00000000000000000000179 /* domImage.cpp */,
+            F0000000000000000000017A /* domInputGlobal.cpp */,
+            F0000000000000000000017B /* domInputLocal.cpp */,
+            F0000000000000000000017C /* domInputLocalOffset.cpp */,
+            F0000000000000000000017D /* domInstance_camera.cpp */,
+            F0000000000000000000017E /* domInstance_controller.cpp */,
+            F0000000000000000000017F /* domInstance_effect.cpp */,
+            F00000000000000000000180 /* domInstance_force_field.cpp */,
+            F00000000000000000000181 /* domInstance_geometry.cpp */,
+            F00000000000000000000182 /* domInstance_light.cpp */,
+            F00000000000000000000183 /* domInstance_material.cpp */,
+            F00000000000000000000184 /* domInstance_node.cpp */,
+            F00000000000000000000185 /* domInstance_physics_material.cpp */,
+            F00000000000000000000186 /* domInstance_physics_model.cpp */,
+            F00000000000000000000187 /* domInstance_rigid_body.cpp */,
+            F00000000000000000000188 /* domInstance_rigid_constraint.cpp */,
+            F00000000000000000000189 /* domInstanceWithExtra.cpp */,
+            F0000000000000000000018A /* domInt_array.cpp */,
+            F0000000000000000000018B /* domLibrary_animation_clips.cpp */,
+            F0000000000000000000018C /* domLibrary_animations.cpp */,
+            F0000000000000000000018D /* domLibrary_cameras.cpp */,
+            F0000000000000000000018E /* domLibrary_controllers.cpp */,
+            F0000000000000000000018F /* domLibrary_effects.cpp */,
+            F00000000000000000000190 /* domLibrary_force_fields.cpp */,
+            F00000000000000000000191 /* domLibrary_geometries.cpp */,
+            F00000000000000000000192 /* domLibrary_images.cpp */,
+            F00000000000000000000193 /* domLibrary_lights.cpp */,
+            F00000000000000000000194 /* domLibrary_materials.cpp */,
+            F00000000000000000000195 /* domLibrary_nodes.cpp */,
+            F00000000000000000000196 /* domLibrary_physics_materials.cpp */,
+            F00000000000000000000197 /* domLibrary_physics_models.cpp */,
+            F00000000000000000000198 /* domLibrary_physics_scenes.cpp */,
+            F00000000000000000000199 /* domLibrary_visual_scenes.cpp */,
+            F0000000000000000000019A /* domLight.cpp */,
+            F0000000000000000000019B /* domLines.cpp */,
+            F0000000000000000000019C /* domLinestrips.cpp */,
+            F0000000000000000000019D /* domLookat.cpp */,
+            F0000000000000000000019E /* domMaterial.cpp */,
+            F0000000000000000000019F /* domMatrix.cpp */,
+            F000000000000000000001A0 /* domMesh.cpp */,
+            F000000000000000000001A1 /* domMorph.cpp */,
+            F000000000000000000001A2 /* domName_array.cpp */,
+            F000000000000000000001A3 /* domNode.cpp */,
+            F000000000000000000001A4 /* domP.cpp */,
+            F000000000000000000001A5 /* domParam.cpp */,
+            F000000000000000000001A6 /* domPhysics_material.cpp */,
+            F000000000000000000001A7 /* domPhysics_model.cpp */,
+            F000000000000000000001A8 /* domPhysics_scene.cpp */,
+            F000000000000000000001A9 /* domPlane.cpp */,
+            F000000000000000000001AA /* domPolygons.cpp */,
+            F000000000000000000001AB /* domPolylist.cpp */,
+            F000000000000000000001AC /* domProfile_CG.cpp */,
+            F000000000000000000001AD /* domProfile_COMMON.cpp */,
+            F000000000000000000001AE /* domProfile_GLES.cpp */,
+            F000000000000000000001AF /* domProfile_GLSL.cpp */,
+            F000000000000000000001B0 /* domRigid_body.cpp */,
+            F000000000000000000001B1 /* domRigid_constraint.cpp */,
+            F000000000000000000001B2 /* domRotate.cpp */,
+            F000000000000000000001B3 /* domSampler.cpp */,
+            F000000000000000000001B4 /* domScale.cpp */,
+            F000000000000000000001B5 /* domSkew.cpp */,
+            F000000000000000000001B6 /* domSkin.cpp */,
+            F000000000000000000001B7 /* domSource.cpp */,
+            F000000000000000000001B8 /* domSphere.cpp */,
+            F000000000000000000001B9 /* domSpline.cpp */,
+            F000000000000000000001BA /* domTapered_capsule.cpp */,
+            F000000000000000000001BB /* domTapered_cylinder.cpp */,
+            F000000000000000000001BC /* domTargetableFloat.cpp */,
+            F000000000000000000001BD /* domTargetableFloat3.cpp */,
+            F000000000000000000001BE /* domTechnique.cpp */,
+            F000000000000000000001BF /* domTranslate.cpp */,
+            F000000000000000000001C0 /* domTriangles.cpp */,
+            F000000000000000000001C1 /* domTrifans.cpp */,
+            F000000000000000000001C2 /* domTristrips.cpp */,
+            F000000000000000000001C3 /* domTypes.cpp */,
+            F000000000000000000001C4 /* domVertices.cpp */,
+            F000000000000000000001C5 /* domVisual_scene.cpp */,
+			);
+			name = 1.4;
+			sourceTree = "<group>"; /* paxorr/lib/src/1.4 */
+         };
+         
+		A00000000000000000000017 /* dae */ = {
+			isa = PBXGroup;
+			children = (
+            F000000000000000000001C6 /* dae.cpp */,
+            F000000000000000000001C7 /* daeArray.cpp */,
+            F000000000000000000001C8 /* daeAtomicType.cpp */,
+            F000000000000000000001C9 /* daeDatabase.cpp */,
+            F000000000000000000001CA /* daeDocument.cpp */,
+            F000000000000000000001CB /* daeDom.cpp */,
+            F000000000000000000001CC /* daeElement.cpp */,
+            F000000000000000000001CD /* daeError.cpp */,
+            F000000000000000000001CE /* daeErrorHandler.cpp */,
+            F000000000000000000001CF /* daeIDRef.cpp */,
+            F000000000000000000001D0 /* daeIOPluginCommon.cpp */,
+            F000000000000000000001D1 /* daeMemorySystem.cpp */,
+            F000000000000000000001D2 /* daeMetaAny.cpp */,
+            F000000000000000000001D3 /* daeMetaAttribute.cpp */,
+            F000000000000000000001D4 /* daeMetaChoice.cpp */,
+            F000000000000000000001D5 /* daeMetaCMPolicy.cpp */,
+            F000000000000000000001D6 /* daeMetaElement.cpp */,
+            F000000000000000000001D7 /* daeMetaElementAttribute.cpp */,
+            F000000000000000000001D8 /* daeMetaGroup.cpp */,
+            F000000000000000000001D9 /* daeMetaSequence.cpp */,
+            F000000000000000000001DA /* daeRawResolver.cpp */,
+            F000000000000000000001DB /* daeRefCountedObj.cpp */,
+            F000000000000000000001DC /* daeSIDResolver.cpp */,
+            F000000000000000000001DD /* daeStandardURIResolver.cpp */,
+            F000000000000000000001DE /* daeStringRef.cpp */,
+            F000000000000000000001DF /* daeStringTable.cpp */,
+            F000000000000000000001E0 /* daeTinyXMLPlugin.cpp */,
+            F000000000000000000001E1 /* daeURI.cpp */,
+            F000000000000000000001E2 /* daeUtils.cpp */,
+            F000000000000000000001E3 /* domAny.cpp */,
+			);
+			name = dae;
+			sourceTree = "<group>"; /* paxorr/lib/src/dae */
+         };
+         
+		A00000000000000000000018 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+            A00000000000000000000019 /* LIBXMLPlugin -- paxorr/lib/src/modules/LIBXMLPlugin */,
+            A0000000000000000000001A /* STLDatabase -- paxorr/lib/src/modules/STLDatabase */,
+            A0000000000000000000001B /* stdErrPlugin -- paxorr/lib/src/modules/stdErrPlugin */,
+			);
+			name = modules;
+			sourceTree = "<group>"; /* paxorr/lib/src/modules */
+         };
+         
+		A00000000000000000000019 /* LIBXMLPlugin */ = {
+			isa = PBXGroup;
+			children = (
+            F000000000000000000001E4 /* daeLIBXMLPlugin.cpp */,
+			);
+			name = LIBXMLPlugin;
+			sourceTree = "<group>"; /* paxorr/lib/src/modules/LIBXMLPlugin */
+         };
+         
+		A0000000000000000000001A /* STLDatabase */ = {
+			isa = PBXGroup;
+			children = (
+            F000000000000000000001E5 /* daeSTLDatabase.cpp */,
+			);
+			name = STLDatabase;
+			sourceTree = "<group>"; /* paxorr/lib/src/modules/STLDatabase */
+         };
+         
+		A0000000000000000000001B /* stdErrPlugin */ = {
+			isa = PBXGroup;
+			children = (
+            F000000000000000000001E6 /* stdErrPlugin.cpp */,
+			);
+			name = stdErrPlugin;
+			sourceTree = "<group>"; /* paxorr/lib/src/modules/stdErrPlugin */
+         };
+         
+   /* End PBXGroups from project generator */
+   
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+	  D00000000000000000000014 /* collada_dom */ = {
+		 isa = PBXNativeTarget;
+		 buildConfigurationList = D27393740CDABF9C006111D4 /* Build configuration list for PBXNativeTarget "collada_dom" */;
+		 buildPhases = (
+			D27393300CDABF9C006111D4 /* Sources */,
+		 );
+		 buildRules = (
+		 );
+		 dependencies = (
+		 );
+		 name = collada_dom;
+		 productName = libcollada_dom;
+		 productReference = F00000000000000000000013 /* libcollada_dom.a */;
+		 productType = "com.apple.product-type.library.static";
+	  };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+	  D268347E0C02C5750020EE4F /* Project object */ = {
+		 isa = PBXProject;
+		 buildConfigurationList = D268347F0C02C5750020EE4F /* Build configuration list for PBXProject "collada_dom" */;
+		 compatibilityVersion = "Xcode 3.2";
+		 hasScannedForEncodings = 0;
+		 mainGroup = D268347C0C02C5750020EE4F;
+		 productRefGroup = D26834AC0C02C77B0020EE4F /* Products */;
+		 projectDirPath = "";
+		 projectRoot = ../../../..;
+		 targets = (
+			D00000000000000000000014 /* collada_dom */,
+		 );
+	  };
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D27393300CDABF9C006111D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+      B0000000000000000000011A /* domAccessor.cpp in 1.4 */,
+      B0000000000000000000011B /* domAnimation.cpp in 1.4 */,
+      B0000000000000000000011C /* domAnimation_clip.cpp in 1.4 */,
+      B0000000000000000000011D /* domAsset.cpp in 1.4 */,
+      B0000000000000000000011E /* domBind_material.cpp in 1.4 */,
+      B0000000000000000000011F /* domBool_array.cpp in 1.4 */,
+      B00000000000000000000120 /* domBox.cpp in 1.4 */,
+      B00000000000000000000121 /* domCamera.cpp in 1.4 */,
+      B00000000000000000000122 /* domCapsule.cpp in 1.4 */,
+      B00000000000000000000123 /* domCg_connect_param.cpp in 1.4 */,
+      B00000000000000000000124 /* domCg_newarray_type.cpp in 1.4 */,
+      B00000000000000000000125 /* domCg_newparam.cpp in 1.4 */,
+      B00000000000000000000126 /* domCg_param_type.cpp in 1.4 */,
+      B00000000000000000000127 /* domCg_sampler1D.cpp in 1.4 */,
+      B00000000000000000000128 /* domCg_sampler2D.cpp in 1.4 */,
+      B00000000000000000000129 /* domCg_sampler3D.cpp in 1.4 */,
+      B0000000000000000000012A /* domCg_samplerCUBE.cpp in 1.4 */,
+      B0000000000000000000012B /* domCg_samplerDEPTH.cpp in 1.4 */,
+      B0000000000000000000012C /* domCg_samplerRECT.cpp in 1.4 */,
+      B0000000000000000000012D /* domCg_setarray_type.cpp in 1.4 */,
+      B0000000000000000000012E /* domCg_setparam.cpp in 1.4 */,
+      B0000000000000000000012F /* domCg_setparam_simple.cpp in 1.4 */,
+      B00000000000000000000130 /* domCg_setuser_type.cpp in 1.4 */,
+      B00000000000000000000131 /* domCg_surface_type.cpp in 1.4 */,
+      B00000000000000000000132 /* domChannel.cpp in 1.4 */,
+      B00000000000000000000133 /* domCOLLADA.cpp in 1.4 */,
+      B00000000000000000000134 /* domCommon_color_or_texture_type.cpp in 1.4 */,
+      B00000000000000000000135 /* domCommon_float_or_param_type.cpp in 1.4 */,
+      B00000000000000000000136 /* domCommon_newparam_type.cpp in 1.4 */,
+      B00000000000000000000137 /* domCommon_transparent_type.cpp in 1.4 */,
+      B00000000000000000000138 /* domConstants.cpp in 1.4 */,
+      B00000000000000000000139 /* domController.cpp in 1.4 */,
+      B0000000000000000000013A /* domConvex_mesh.cpp in 1.4 */,
+      B0000000000000000000013B /* domCylinder.cpp in 1.4 */,
+      B0000000000000000000013C /* domEffect.cpp in 1.4 */,
+      B0000000000000000000013D /* domEllipsoid.cpp in 1.4 */,
+      B0000000000000000000013E /* domExtra.cpp in 1.4 */,
+      B0000000000000000000013F /* domFloat_array.cpp in 1.4 */,
+      B00000000000000000000140 /* domForce_field.cpp in 1.4 */,
+      B00000000000000000000141 /* domFx_annotate_common.cpp in 1.4 */,
+      B00000000000000000000142 /* domFx_annotate_type_common.cpp in 1.4 */,
+      B00000000000000000000143 /* domFx_basic_type_common.cpp in 1.4 */,
+      B00000000000000000000144 /* domFx_clearcolor_common.cpp in 1.4 */,
+      B00000000000000000000145 /* domFx_cleardepth_common.cpp in 1.4 */,
+      B00000000000000000000146 /* domFx_clearstencil_common.cpp in 1.4 */,
+      B00000000000000000000147 /* domFx_code_profile.cpp in 1.4 */,
+      B00000000000000000000148 /* domFx_colortarget_common.cpp in 1.4 */,
+      B00000000000000000000149 /* domFx_depthtarget_common.cpp in 1.4 */,
+      B0000000000000000000014A /* domFx_include_common.cpp in 1.4 */,
+      B0000000000000000000014B /* domFx_newparam_common.cpp in 1.4 */,
+      B0000000000000000000014C /* domFx_profile_abstract.cpp in 1.4 */,
+      B0000000000000000000014D /* domFx_sampler1D_common.cpp in 1.4 */,
+      B0000000000000000000014E /* domFx_sampler2D_common.cpp in 1.4 */,
+      B0000000000000000000014F /* domFx_sampler3D_common.cpp in 1.4 */,
+      B00000000000000000000150 /* domFx_samplerCUBE_common.cpp in 1.4 */,
+      B00000000000000000000151 /* domFx_samplerDEPTH_common.cpp in 1.4 */,
+      B00000000000000000000152 /* domFx_samplerRECT_common.cpp in 1.4 */,
+      B00000000000000000000153 /* domFx_stenciltarget_common.cpp in 1.4 */,
+      B00000000000000000000154 /* domFx_surface_common.cpp in 1.4 */,
+      B00000000000000000000155 /* domFx_surface_format_hint_common.cpp in 1.4 */,
+      B00000000000000000000156 /* domFx_surface_init_common.cpp in 1.4 */,
+      B00000000000000000000157 /* domFx_surface_init_cube_common.cpp in 1.4 */,
+      B00000000000000000000158 /* domFx_surface_init_from_common.cpp in 1.4 */,
+      B00000000000000000000159 /* domFx_surface_init_planar_common.cpp in 1.4 */,
+      B0000000000000000000015A /* domFx_surface_init_volume_common.cpp in 1.4 */,
+      B0000000000000000000015B /* domGeometry.cpp in 1.4 */,
+      B0000000000000000000015C /* domGl_hook_abstract.cpp in 1.4 */,
+      B0000000000000000000015D /* domGl_pipeline_settings.cpp in 1.4 */,
+      B0000000000000000000015E /* domGl_sampler1D.cpp in 1.4 */,
+      B0000000000000000000015F /* domGl_sampler2D.cpp in 1.4 */,
+      B00000000000000000000160 /* domGl_sampler3D.cpp in 1.4 */,
+      B00000000000000000000161 /* domGl_samplerCUBE.cpp in 1.4 */,
+      B00000000000000000000162 /* domGl_samplerDEPTH.cpp in 1.4 */,
+      B00000000000000000000163 /* domGl_samplerRECT.cpp in 1.4 */,
+      B00000000000000000000164 /* domGles_basic_type_common.cpp in 1.4 */,
+      B00000000000000000000165 /* domGles_newparam.cpp in 1.4 */,
+      B00000000000000000000166 /* domGles_pipeline_settings.cpp in 1.4 */,
+      B00000000000000000000167 /* domGles_sampler_state.cpp in 1.4 */,
+      B00000000000000000000168 /* domGles_texcombiner_argumentAlpha_type.cpp in 1.4 */,
+      B00000000000000000000169 /* domGles_texcombiner_argumentRGB_type.cpp in 1.4 */,
+      B0000000000000000000016A /* domGles_texcombiner_command_type.cpp in 1.4 */,
+      B0000000000000000000016B /* domGles_texcombiner_commandAlpha_type.cpp in 1.4 */,
+      B0000000000000000000016C /* domGles_texcombiner_commandRGB_type.cpp in 1.4 */,
+      B0000000000000000000016D /* domGles_texenv_command_type.cpp in 1.4 */,
+      B0000000000000000000016E /* domGles_texture_constant_type.cpp in 1.4 */,
+      B0000000000000000000016F /* domGles_texture_pipeline.cpp in 1.4 */,
+      B00000000000000000000170 /* domGles_texture_unit.cpp in 1.4 */,
+      B00000000000000000000171 /* domGlsl_newarray_type.cpp in 1.4 */,
+      B00000000000000000000172 /* domGlsl_newparam.cpp in 1.4 */,
+      B00000000000000000000173 /* domGlsl_param_type.cpp in 1.4 */,
+      B00000000000000000000174 /* domGlsl_setarray_type.cpp in 1.4 */,
+      B00000000000000000000175 /* domGlsl_setparam.cpp in 1.4 */,
+      B00000000000000000000176 /* domGlsl_setparam_simple.cpp in 1.4 */,
+      B00000000000000000000177 /* domGlsl_surface_type.cpp in 1.4 */,
+      B00000000000000000000178 /* domIDREF_array.cpp in 1.4 */,
+      B00000000000000000000179 /* domImage.cpp in 1.4 */,
+      B0000000000000000000017A /* domInputGlobal.cpp in 1.4 */,
+      B0000000000000000000017B /* domInputLocal.cpp in 1.4 */,
+      B0000000000000000000017C /* domInputLocalOffset.cpp in 1.4 */,
+      B0000000000000000000017D /* domInstance_camera.cpp in 1.4 */,
+      B0000000000000000000017E /* domInstance_controller.cpp in 1.4 */,
+      B0000000000000000000017F /* domInstance_effect.cpp in 1.4 */,
+      B00000000000000000000180 /* domInstance_force_field.cpp in 1.4 */,
+      B00000000000000000000181 /* domInstance_geometry.cpp in 1.4 */,
+      B00000000000000000000182 /* domInstance_light.cpp in 1.4 */,
+      B00000000000000000000183 /* domInstance_material.cpp in 1.4 */,
+      B00000000000000000000184 /* domInstance_node.cpp in 1.4 */,
+      B00000000000000000000185 /* domInstance_physics_material.cpp in 1.4 */,
+      B00000000000000000000186 /* domInstance_physics_model.cpp in 1.4 */,
+      B00000000000000000000187 /* domInstance_rigid_body.cpp in 1.4 */,
+      B00000000000000000000188 /* domInstance_rigid_constraint.cpp in 1.4 */,
+      B00000000000000000000189 /* domInstanceWithExtra.cpp in 1.4 */,
+      B0000000000000000000018A /* domInt_array.cpp in 1.4 */,
+      B0000000000000000000018B /* domLibrary_animation_clips.cpp in 1.4 */,
+      B0000000000000000000018C /* domLibrary_animations.cpp in 1.4 */,
+      B0000000000000000000018D /* domLibrary_cameras.cpp in 1.4 */,
+      B0000000000000000000018E /* domLibrary_controllers.cpp in 1.4 */,
+      B0000000000000000000018F /* domLibrary_effects.cpp in 1.4 */,
+      B00000000000000000000190 /* domLibrary_force_fields.cpp in 1.4 */,
+      B00000000000000000000191 /* domLibrary_geometries.cpp in 1.4 */,
+      B00000000000000000000192 /* domLibrary_images.cpp in 1.4 */,
+      B00000000000000000000193 /* domLibrary_lights.cpp in 1.4 */,
+      B00000000000000000000194 /* domLibrary_materials.cpp in 1.4 */,
+      B00000000000000000000195 /* domLibrary_nodes.cpp in 1.4 */,
+      B00000000000000000000196 /* domLibrary_physics_materials.cpp in 1.4 */,
+      B00000000000000000000197 /* domLibrary_physics_models.cpp in 1.4 */,
+      B00000000000000000000198 /* domLibrary_physics_scenes.cpp in 1.4 */,
+      B00000000000000000000199 /* domLibrary_visual_scenes.cpp in 1.4 */,
+      B0000000000000000000019A /* domLight.cpp in 1.4 */,
+      B0000000000000000000019B /* domLines.cpp in 1.4 */,
+      B0000000000000000000019C /* domLinestrips.cpp in 1.4 */,
+      B0000000000000000000019D /* domLookat.cpp in 1.4 */,
+      B0000000000000000000019E /* domMaterial.cpp in 1.4 */,
+      B0000000000000000000019F /* domMatrix.cpp in 1.4 */,
+      B000000000000000000001A0 /* domMesh.cpp in 1.4 */,
+      B000000000000000000001A1 /* domMorph.cpp in 1.4 */,
+      B000000000000000000001A2 /* domName_array.cpp in 1.4 */,
+      B000000000000000000001A3 /* domNode.cpp in 1.4 */,
+      B000000000000000000001A4 /* domP.cpp in 1.4 */,
+      B000000000000000000001A5 /* domParam.cpp in 1.4 */,
+      B000000000000000000001A6 /* domPhysics_material.cpp in 1.4 */,
+      B000000000000000000001A7 /* domPhysics_model.cpp in 1.4 */,
+      B000000000000000000001A8 /* domPhysics_scene.cpp in 1.4 */,
+      B000000000000000000001A9 /* domPlane.cpp in 1.4 */,
+      B000000000000000000001AA /* domPolygons.cpp in 1.4 */,
+      B000000000000000000001AB /* domPolylist.cpp in 1.4 */,
+      B000000000000000000001AC /* domProfile_CG.cpp in 1.4 */,
+      B000000000000000000001AD /* domProfile_COMMON.cpp in 1.4 */,
+      B000000000000000000001AE /* domProfile_GLES.cpp in 1.4 */,
+      B000000000000000000001AF /* domProfile_GLSL.cpp in 1.4 */,
+      B000000000000000000001B0 /* domRigid_body.cpp in 1.4 */,
+      B000000000000000000001B1 /* domRigid_constraint.cpp in 1.4 */,
+      B000000000000000000001B2 /* domRotate.cpp in 1.4 */,
+      B000000000000000000001B3 /* domSampler.cpp in 1.4 */,
+      B000000000000000000001B4 /* domScale.cpp in 1.4 */,
+      B000000000000000000001B5 /* domSkew.cpp in 1.4 */,
+      B000000000000000000001B6 /* domSkin.cpp in 1.4 */,
+      B000000000000000000001B7 /* domSource.cpp in 1.4 */,
+      B000000000000000000001B8 /* domSphere.cpp in 1.4 */,
+      B000000000000000000001B9 /* domSpline.cpp in 1.4 */,
+      B000000000000000000001BA /* domTapered_capsule.cpp in 1.4 */,
+      B000000000000000000001BB /* domTapered_cylinder.cpp in 1.4 */,
+      B000000000000000000001BC /* domTargetableFloat.cpp in 1.4 */,
+      B000000000000000000001BD /* domTargetableFloat3.cpp in 1.4 */,
+      B000000000000000000001BE /* domTechnique.cpp in 1.4 */,
+      B000000000000000000001BF /* domTranslate.cpp in 1.4 */,
+      B000000000000000000001C0 /* domTriangles.cpp in 1.4 */,
+      B000000000000000000001C1 /* domTrifans.cpp in 1.4 */,
+      B000000000000000000001C2 /* domTristrips.cpp in 1.4 */,
+      B000000000000000000001C3 /* domTypes.cpp in 1.4 */,
+      B000000000000000000001C4 /* domVertices.cpp in 1.4 */,
+      B000000000000000000001C5 /* domVisual_scene.cpp in 1.4 */,
+      B000000000000000000001C6 /* dae.cpp in dae */,
+      B000000000000000000001C7 /* daeArray.cpp in dae */,
+      B000000000000000000001C8 /* daeAtomicType.cpp in dae */,
+      B000000000000000000001C9 /* daeDatabase.cpp in dae */,
+      B000000000000000000001CA /* daeDocument.cpp in dae */,
+      B000000000000000000001CB /* daeDom.cpp in dae */,
+      B000000000000000000001CC /* daeElement.cpp in dae */,
+      B000000000000000000001CD /* daeError.cpp in dae */,
+      B000000000000000000001CE /* daeErrorHandler.cpp in dae */,
+      B000000000000000000001CF /* daeIDRef.cpp in dae */,
+      B000000000000000000001D0 /* daeIOPluginCommon.cpp in dae */,
+      B000000000000000000001D1 /* daeMemorySystem.cpp in dae */,
+      B000000000000000000001D2 /* daeMetaAny.cpp in dae */,
+      B000000000000000000001D3 /* daeMetaAttribute.cpp in dae */,
+      B000000000000000000001D4 /* daeMetaChoice.cpp in dae */,
+      B000000000000000000001D5 /* daeMetaCMPolicy.cpp in dae */,
+      B000000000000000000001D6 /* daeMetaElement.cpp in dae */,
+      B000000000000000000001D7 /* daeMetaElementAttribute.cpp in dae */,
+      B000000000000000000001D8 /* daeMetaGroup.cpp in dae */,
+      B000000000000000000001D9 /* daeMetaSequence.cpp in dae */,
+      B000000000000000000001DA /* daeRawResolver.cpp in dae */,
+      B000000000000000000001DB /* daeRefCountedObj.cpp in dae */,
+      B000000000000000000001DC /* daeSIDResolver.cpp in dae */,
+      B000000000000000000001DD /* daeStandardURIResolver.cpp in dae */,
+      B000000000000000000001DE /* daeStringRef.cpp in dae */,
+      B000000000000000000001DF /* daeStringTable.cpp in dae */,
+      B000000000000000000001E0 /* daeTinyXMLPlugin.cpp in dae */,
+      B000000000000000000001E1 /* daeURI.cpp in dae */,
+      B000000000000000000001E2 /* daeUtils.cpp in dae */,
+      B000000000000000000001E3 /* domAny.cpp in dae */,
+      B000000000000000000001E4 /* daeLIBXMLPlugin.cpp in LIBXMLPlugin */,
+      B000000000000000000001E5 /* daeSTLDatabase.cpp in STLDatabase */,
+      B000000000000000000001E6 /* stdErrPlugin.cpp in stdErrPlugin */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D26834800C02C5750020EE4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CONFIGURATION_BUILD_DIR = "$(TORQUE_BUILT_LIBS_DIR)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				OTHER_LDFLAGS_i386 = "-framework Accelerate";
+				OTHER_LDFLAGS_ppc = "-framework vecLib";
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+            GCC_VERSION = 4.2;
+				TORQUE_BUILT_LIBS_DIR = ../../../../engine/lib/builtLibs/;
+			};
+			name = Debug;
+		};
+		D26834810C02C5750020EE4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CONFIGURATION_BUILD_DIR = ../../assets/;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				OTHER_LDFLAGS_i386 = "-framework Accelerate";
+				OTHER_LDFLAGS_ppc = "-framework vecLib";
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+            GCC_VERSION = 4.2;
+				TORQUE_BUILT_LIBS_DIR = ../../../../engine/lib/builtLibs/;
+			};
+			name = Release;
+		};
+		D27393750CDABF9C006111D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+			   __MACOSX__,
+			   "DOM_INCLUDE_TINYXML",
+			   "PCRE_STATIC",
+			);
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+				"../../../../Engine/lib/collada/include",
+				"../../../../Engine/lib/collada/include/1.4",
+				"../../../../Engine/lib/pcre",
+				"../../../../Engine/lib/tinyxml",
+				);
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = collada_dom;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		D27393760CDABF9C006111D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = "$(TORQUE_BUILT_LIBS_DIR)";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+			   __MACOSX__,
+			   "DOM_INCLUDE_TINYXML",
+			   "PCRE_STATIC",
+				);
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+				"../../../../Engine/lib/collada/include",
+				"../../../../Engine/lib/collada/include/1.4",
+				"../../../../Engine/lib/pcre",
+				"../../../../Engine/lib/tinyxml",
+				);
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = collada_dom;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D268347F0C02C5750020EE4F /* Build configuration list for PBXProject "LibTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D26834800C02C5750020EE4F /* Debug */,
+				D26834810C02C5750020EE4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D27393740CDABF9C006111D4 /* Build configuration list for PBXNativeTarget "collada_dom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27393750CDABF9C006111D4 /* Debug */,
+				D27393760CDABF9C006111D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D268347E0C02C5750020EE4F /* Project object */;
+}

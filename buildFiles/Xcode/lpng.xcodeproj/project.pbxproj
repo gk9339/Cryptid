@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+
+   /* Begin PBXBuildFiles included by project generator */
+      B0000000000000000000002A = /* example.c in lib */ {isa = PBXBuildFile; fileRef = F0000000000000000000002A /* example.c */; };
+      B0000000000000000000002B = /* png.c in lib */ {isa = PBXBuildFile; fileRef = F0000000000000000000002B /* png.c */; };
+      B0000000000000000000002F = /* pngerror.c in lib */ {isa = PBXBuildFile; fileRef = F0000000000000000000002F /* pngerror.c */; };
+      B00000000000000000000030 = /* pngget.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000030 /* pngget.c */; };
+      B00000000000000000000033 = /* pngmem.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000033 /* pngmem.c */; };
+      B00000000000000000000034 = /* pngpread.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000034 /* pngpread.c */; };
+      B00000000000000000000036 = /* pngread.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000036 /* pngread.c */; };
+      B00000000000000000000037 = /* pngrio.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000037 /* pngrio.c */; };
+      B00000000000000000000038 = /* pngrtran.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000038 /* pngrtran.c */; };
+      B00000000000000000000039 = /* pngrutil.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000039 /* pngrutil.c */; };
+      B0000000000000000000003A = /* pngset.c in lib */ {isa = PBXBuildFile; fileRef = F0000000000000000000003A /* pngset.c */; };
+      B0000000000000000000003C = /* pngtest.c in lib */ {isa = PBXBuildFile; fileRef = F0000000000000000000003C /* pngtest.c */; };
+      B0000000000000000000003D = /* pngtrans.c in lib */ {isa = PBXBuildFile; fileRef = F0000000000000000000003D /* pngtrans.c */; };
+      B0000000000000000000003E = /* pngwio.c in lib */ {isa = PBXBuildFile; fileRef = F0000000000000000000003E /* pngwio.c */; };
+      B0000000000000000000003F = /* pngwrite.c in lib */ {isa = PBXBuildFile; fileRef = F0000000000000000000003F /* pngwrite.c */; };
+      B00000000000000000000040 = /* pngwtran.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000040 /* pngwtran.c */; };
+      B00000000000000000000041 = /* pngwutil.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000041 /* pngwutil.c */; };
+   /* End PBXBuildFiles included by project generator */
+
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+	  F00000000000000000000004 /* liblpng.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblpng.a; sourceTree = BUILT_PRODUCTS_DIR; };
+
+   /* Begin PBXFileReferences included by project generator */
+	        F0000000000000000000002A = /* example.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = example.c; path = ../../../../Engine/lib/lpng/example.c; };
+      F0000000000000000000002B = /* png.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = png.c; path = ../../../../Engine/lib/lpng/png.c; };
+      F0000000000000000000002C = /* png.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = png.h; path = ../../../../Engine/lib/lpng/png.h; };
+      F0000000000000000000002D = /* pngconf.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = pngconf.h; path = ../../../../Engine/lib/lpng/pngconf.h; };
+      F0000000000000000000002E = /* pngdebug.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = pngdebug.h; path = ../../../../Engine/lib/lpng/pngdebug.h; };
+      F0000000000000000000002F = /* pngerror.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = pngerror.c; path = ../../../../Engine/lib/lpng/pngerror.c; };
+      F00000000000000000000030 = /* pngget.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = pngget.c; path = ../../../../Engine/lib/lpng/pngget.c; };
+      F00000000000000000000031 = /* pnginfo.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = pnginfo.h; path = ../../../../Engine/lib/lpng/pnginfo.h; };
+      F00000000000000000000032 = /* pnglibconf.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = pnglibconf.h; path = ../../../../Engine/lib/lpng/pnglibconf.h; };
+      F00000000000000000000033 = /* pngmem.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = pngmem.c; path = ../../../../Engine/lib/lpng/pngmem.c; };
+      F00000000000000000000034 = /* pngpread.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = pngpread.c; path = ../../../../Engine/lib/lpng/pngpread.c; };
+      F00000000000000000000035 = /* pngpriv.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = pngpriv.h; path = ../../../../Engine/lib/lpng/pngpriv.h; };
+      F00000000000000000000036 = /* pngread.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = pngread.c; path = ../../../../Engine/lib/lpng/pngread.c; };
+      F00000000000000000000037 = /* pngrio.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = pngrio.c; path = ../../../../Engine/lib/lpng/pngrio.c; };
+      F00000000000000000000038 = /* pngrtran.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = pngrtran.c; path = ../../../../Engine/lib/lpng/pngrtran.c; };
+      F00000000000000000000039 = /* pngrutil.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = pngrutil.c; path = ../../../../Engine/lib/lpng/pngrutil.c; };
+      F0000000000000000000003A = /* pngset.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = pngset.c; path = ../../../../Engine/lib/lpng/pngset.c; };
+      F0000000000000000000003B = /* pngstruct.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = pngstruct.h; path = ../../../../Engine/lib/lpng/pngstruct.h; };
+      F0000000000000000000003C = /* pngtest.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = pngtest.c; path = ../../../../Engine/lib/lpng/pngtest.c; };
+      F0000000000000000000003D = /* pngtrans.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = pngtrans.c; path = ../../../../Engine/lib/lpng/pngtrans.c; };
+      F0000000000000000000003E = /* pngwio.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = pngwio.c; path = ../../../../Engine/lib/lpng/pngwio.c; };
+      F0000000000000000000003F = /* pngwrite.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = pngwrite.c; path = ../../../../Engine/lib/lpng/pngwrite.c; };
+      F00000000000000000000040 = /* pngwtran.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = pngwtran.c; path = ../../../../Engine/lib/lpng/pngwtran.c; };
+      F00000000000000000000041 = /* pngwutil.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = pngwutil.c; path = ../../../../Engine/lib/lpng/pngwutil.c; };
+   /* End PBXFileReferences included by project generator */
+
+
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+	  D27393730CDABF9C006111D4 /* Frameworks */ = {
+		 isa = PBXFrameworksBuildPhase;
+		 buildActionMask = 2147483647;
+		 files = (
+		 );
+		 runOnlyForDeploymentPostprocessing = 0;
+	  };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+	  D268347C0C02C5750020EE4F = {
+		 isa = PBXGroup;
+		 children = (
+			A00000000000000000000000 /* Code */,
+			D26834AC0C02C77B0020EE4F /* Products */,
+		 );
+		 sourceTree = "<group>";
+	  };
+	  D26834AC0C02C77B0020EE4F /* Products */ = {
+		 isa = PBXGroup;
+		 children = (
+			F00000000000000000000004 /* liblpng.a */,
+		 );
+		 name = Products;
+		 sourceTree = SOURCE_ROOT;
+	  };
+	  
+   /* Begin PBXGroups from project generator */
+		A00000000000000000000000 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+            A00000000000000000000003 /* lib -- paxorr/lib */,
+			);
+			name = Code;
+			sourceTree = "<group>"; /* paxorr */
+         };
+         
+		A00000000000000000000003 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+            F0000000000000000000002A /* example.c */,
+            F0000000000000000000002B /* png.c */,
+            F0000000000000000000002C /* png.h */,
+            F0000000000000000000002D /* pngconf.h */,
+            F0000000000000000000002E /* pngdebug.h */,
+            F0000000000000000000002F /* pngerror.c */,
+            F00000000000000000000030 /* pngget.c */,
+            F00000000000000000000031 /* pnginfo.h */,
+            F00000000000000000000032 /* pnglibconf.h */,
+            F00000000000000000000033 /* pngmem.c */,
+            F00000000000000000000034 /* pngpread.c */,
+            F00000000000000000000035 /* pngpriv.h */,
+            F00000000000000000000036 /* pngread.c */,
+            F00000000000000000000037 /* pngrio.c */,
+            F00000000000000000000038 /* pngrtran.c */,
+            F00000000000000000000039 /* pngrutil.c */,
+            F0000000000000000000003A /* pngset.c */,
+            F0000000000000000000003B /* pngstruct.h */,
+            F0000000000000000000003C /* pngtest.c */,
+            F0000000000000000000003D /* pngtrans.c */,
+            F0000000000000000000003E /* pngwio.c */,
+            F0000000000000000000003F /* pngwrite.c */,
+            F00000000000000000000040 /* pngwtran.c */,
+            F00000000000000000000041 /* pngwutil.c */,
+			);
+			name = lib;
+			sourceTree = "<group>"; /* paxorr/lib */
+         };
+         
+   /* End PBXGroups from project generator */
+   
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+	  D00000000000000000000005 /* lpng */ = {
+		 isa = PBXNativeTarget;
+		 buildConfigurationList = D27393740CDABF9C006111D4 /* Build configuration list for PBXNativeTarget "lpng" */;
+		 buildPhases = (
+			D27393300CDABF9C006111D4 /* Sources */,
+		 );
+		 buildRules = (
+		 );
+		 dependencies = (
+		 );
+		 name = lpng;
+		 productName = liblpng;
+		 productReference = F00000000000000000000004 /* liblpng.a */;
+		 productType = "com.apple.product-type.library.static";
+	  };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+	  D268347E0C02C5750020EE4F /* Project object */ = {
+		 isa = PBXProject;
+		 buildConfigurationList = D268347F0C02C5750020EE4F /* Build configuration list for PBXProject "lpng" */;
+		 compatibilityVersion = "Xcode 3.2";
+		 hasScannedForEncodings = 0;
+		 mainGroup = D268347C0C02C5750020EE4F;
+		 productRefGroup = D26834AC0C02C77B0020EE4F /* Products */;
+		 projectDirPath = "";
+		 projectRoot = ../../../..;
+		 targets = (
+			D00000000000000000000005 /* lpng */,
+		 );
+	  };
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D27393300CDABF9C006111D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+      B0000000000000000000002A /* example.c in lib */,
+      B0000000000000000000002B /* png.c in lib */,
+      B0000000000000000000002C /* png.h in lib */,
+      B0000000000000000000002D /* pngconf.h in lib */,
+      B0000000000000000000002E /* pngdebug.h in lib */,
+      B0000000000000000000002F /* pngerror.c in lib */,
+      B00000000000000000000030 /* pngget.c in lib */,
+      B00000000000000000000031 /* pnginfo.h in lib */,
+      B00000000000000000000032 /* pnglibconf.h in lib */,
+      B00000000000000000000033 /* pngmem.c in lib */,
+      B00000000000000000000034 /* pngpread.c in lib */,
+      B00000000000000000000035 /* pngpriv.h in lib */,
+      B00000000000000000000036 /* pngread.c in lib */,
+      B00000000000000000000037 /* pngrio.c in lib */,
+      B00000000000000000000038 /* pngrtran.c in lib */,
+      B00000000000000000000039 /* pngrutil.c in lib */,
+      B0000000000000000000003A /* pngset.c in lib */,
+      B0000000000000000000003B /* pngstruct.h in lib */,
+      B0000000000000000000003C /* pngtest.c in lib */,
+      B0000000000000000000003D /* pngtrans.c in lib */,
+      B0000000000000000000003E /* pngwio.c in lib */,
+      B0000000000000000000003F /* pngwrite.c in lib */,
+      B00000000000000000000040 /* pngwtran.c in lib */,
+      B00000000000000000000041 /* pngwutil.c in lib */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D26834800C02C5750020EE4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CONFIGURATION_BUILD_DIR = "$(TORQUE_BUILT_LIBS_DIR)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				OTHER_LDFLAGS_i386 = "-framework Accelerate";
+				OTHER_LDFLAGS_ppc = "-framework vecLib";
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+            GCC_VERSION = 4.2;
+				TORQUE_BUILT_LIBS_DIR = ../../../../engine/lib/builtLibs/;
+			};
+			name = Debug;
+		};
+		D26834810C02C5750020EE4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CONFIGURATION_BUILD_DIR = ../../assets/;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				OTHER_LDFLAGS_i386 = "-framework Accelerate";
+				OTHER_LDFLAGS_ppc = "-framework vecLib";
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+            GCC_VERSION = 4.2;
+				TORQUE_BUILT_LIBS_DIR = ../../../../engine/lib/builtLibs/;
+			};
+			name = Release;
+		};
+		D27393750CDABF9C006111D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+			   __MACOSX__,
+			);
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+				"../../../../Engine/lib/zlib",
+				"../../../../Engine/lib/lpng",
+				);
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = lpng;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		D27393760CDABF9C006111D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = "$(TORQUE_BUILT_LIBS_DIR)";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+			   __MACOSX__,
+				);
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+				"../../../../Engine/lib/zlib",
+				"../../../../Engine/lib/lpng",
+				);
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = lpng;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D268347F0C02C5750020EE4F /* Build configuration list for PBXProject "LibTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D26834800C02C5750020EE4F /* Debug */,
+				D26834810C02C5750020EE4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D27393740CDABF9C006111D4 /* Build configuration list for PBXNativeTarget "lpng" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27393750CDABF9C006111D4 /* Debug */,
+				D27393760CDABF9C006111D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D268347E0C02C5750020EE4F /* Project object */;
+}

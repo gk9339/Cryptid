@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+
+   /* Begin PBXBuildFiles included by project generator */
+      B00000000000000000000225 = /* analysis.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000225 /* analysis.c */; };
+      B00000000000000000000227 = /* bitrate.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000227 /* bitrate.c */; };
+      B00000000000000000000229 = /* block.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000229 /* block.c */; };
+      B0000000000000000000022A = /* codebook.c in lib */ {isa = PBXBuildFile; fileRef = F0000000000000000000022A /* codebook.c */; };
+      B0000000000000000000022D = /* envelope.c in lib */ {isa = PBXBuildFile; fileRef = F0000000000000000000022D /* envelope.c */; };
+      B0000000000000000000022F = /* floor0.c in lib */ {isa = PBXBuildFile; fileRef = F0000000000000000000022F /* floor0.c */; };
+      B00000000000000000000230 = /* floor1.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000230 /* floor1.c */; };
+      B00000000000000000000232 = /* info.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000232 /* info.c */; };
+      B00000000000000000000233 = /* lookup.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000233 /* lookup.c */; };
+      B00000000000000000000236 = /* lpc.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000236 /* lpc.c */; };
+      B00000000000000000000238 = /* lsp.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000238 /* lsp.c */; };
+      B0000000000000000000023A = /* mapping0.c in lib */ {isa = PBXBuildFile; fileRef = F0000000000000000000023A /* mapping0.c */; };
+      B0000000000000000000023C = /* mdct.c in lib */ {isa = PBXBuildFile; fileRef = F0000000000000000000023C /* mdct.c */; };
+      B00000000000000000000240 = /* psy.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000240 /* psy.c */; };
+      B00000000000000000000242 = /* registry.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000242 /* registry.c */; };
+      B00000000000000000000244 = /* res0.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000244 /* res0.c */; };
+      B00000000000000000000246 = /* sharedbook.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000246 /* sharedbook.c */; };
+      B00000000000000000000247 = /* smallft.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000247 /* smallft.c */; };
+      B00000000000000000000249 = /* synthesis.c in lib */ {isa = PBXBuildFile; fileRef = F00000000000000000000249 /* synthesis.c */; };
+      B0000000000000000000024A = /* vorbisenc.c in lib */ {isa = PBXBuildFile; fileRef = F0000000000000000000024A /* vorbisenc.c */; };
+      B0000000000000000000024B = /* vorbisfile.c in lib */ {isa = PBXBuildFile; fileRef = F0000000000000000000024B /* vorbisfile.c */; };
+      B0000000000000000000024C = /* window.c in lib */ {isa = PBXBuildFile; fileRef = F0000000000000000000024C /* window.c */; };
+   /* End PBXBuildFiles included by project generator */
+
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+	  F00000000000000000000020 /* liblibvorbis.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibvorbis.a; sourceTree = BUILT_PRODUCTS_DIR; };
+
+   /* Begin PBXFileReferences included by project generator */
+	        F00000000000000000000222 = /* codec.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = codec.h; path = ../../../../Engine/lib/libvorbis/include/vorbis/codec.h; };
+      F00000000000000000000223 = /* vorbisenc.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = vorbisenc.h; path = ../../../../Engine/lib/libvorbis/include/vorbis/vorbisenc.h; };
+      F00000000000000000000224 = /* vorbisfile.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = vorbisfile.h; path = ../../../../Engine/lib/libvorbis/include/vorbis/vorbisfile.h; };
+      F00000000000000000000225 = /* analysis.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = analysis.c; path = ../../../../Engine/lib/libvorbis/lib/analysis.c; };
+      F00000000000000000000226 = /* backends.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = backends.h; path = ../../../../Engine/lib/libvorbis/lib/backends.h; };
+      F00000000000000000000227 = /* bitrate.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = bitrate.c; path = ../../../../Engine/lib/libvorbis/lib/bitrate.c; };
+      F00000000000000000000228 = /* bitrate.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = bitrate.h; path = ../../../../Engine/lib/libvorbis/lib/bitrate.h; };
+      F00000000000000000000229 = /* block.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = block.c; path = ../../../../Engine/lib/libvorbis/lib/block.c; };
+      F0000000000000000000022A = /* codebook.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = codebook.c; path = ../../../../Engine/lib/libvorbis/lib/codebook.c; };
+      F0000000000000000000022B = /* codebook.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = codebook.h; path = ../../../../Engine/lib/libvorbis/lib/codebook.h; };
+      F0000000000000000000022C = /* codec_internal.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = codec_internal.h; path = ../../../../Engine/lib/libvorbis/lib/codec_internal.h; };
+      F0000000000000000000022D = /* envelope.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = envelope.c; path = ../../../../Engine/lib/libvorbis/lib/envelope.c; };
+      F0000000000000000000022E = /* envelope.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = envelope.h; path = ../../../../Engine/lib/libvorbis/lib/envelope.h; };
+      F0000000000000000000022F = /* floor0.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = floor0.c; path = ../../../../Engine/lib/libvorbis/lib/floor0.c; };
+      F00000000000000000000230 = /* floor1.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = floor1.c; path = ../../../../Engine/lib/libvorbis/lib/floor1.c; };
+      F00000000000000000000231 = /* highlevel.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = highlevel.h; path = ../../../../Engine/lib/libvorbis/lib/highlevel.h; };
+      F00000000000000000000232 = /* info.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = info.c; path = ../../../../Engine/lib/libvorbis/lib/info.c; };
+      F00000000000000000000233 = /* lookup.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = lookup.c; path = ../../../../Engine/lib/libvorbis/lib/lookup.c; };
+      F00000000000000000000234 = /* lookup.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = lookup.h; path = ../../../../Engine/lib/libvorbis/lib/lookup.h; };
+      F00000000000000000000235 = /* lookup_data.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = lookup_data.h; path = ../../../../Engine/lib/libvorbis/lib/lookup_data.h; };
+      F00000000000000000000236 = /* lpc.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = lpc.c; path = ../../../../Engine/lib/libvorbis/lib/lpc.c; };
+      F00000000000000000000237 = /* lpc.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = lpc.h; path = ../../../../Engine/lib/libvorbis/lib/lpc.h; };
+      F00000000000000000000238 = /* lsp.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = lsp.c; path = ../../../../Engine/lib/libvorbis/lib/lsp.c; };
+      F00000000000000000000239 = /* lsp.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = lsp.h; path = ../../../../Engine/lib/libvorbis/lib/lsp.h; };
+      F0000000000000000000023A = /* mapping0.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = mapping0.c; path = ../../../../Engine/lib/libvorbis/lib/mapping0.c; };
+      F0000000000000000000023B = /* masking.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = masking.h; path = ../../../../Engine/lib/libvorbis/lib/masking.h; };
+      F0000000000000000000023C = /* mdct.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = mdct.c; path = ../../../../Engine/lib/libvorbis/lib/mdct.c; };
+      F0000000000000000000023D = /* mdct.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = mdct.h; path = ../../../../Engine/lib/libvorbis/lib/mdct.h; };
+      F0000000000000000000023E = /* misc.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = misc.h; path = ../../../../Engine/lib/libvorbis/lib/misc.h; };
+      F0000000000000000000023F = /* os.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = os.h; path = ../../../../Engine/lib/libvorbis/lib/os.h; };
+      F00000000000000000000240 = /* psy.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = psy.c; path = ../../../../Engine/lib/libvorbis/lib/psy.c; };
+      F00000000000000000000241 = /* psy.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = psy.h; path = ../../../../Engine/lib/libvorbis/lib/psy.h; };
+      F00000000000000000000242 = /* registry.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = registry.c; path = ../../../../Engine/lib/libvorbis/lib/registry.c; };
+      F00000000000000000000243 = /* registry.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = registry.h; path = ../../../../Engine/lib/libvorbis/lib/registry.h; };
+      F00000000000000000000244 = /* res0.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = res0.c; path = ../../../../Engine/lib/libvorbis/lib/res0.c; };
+      F00000000000000000000245 = /* scales.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = scales.h; path = ../../../../Engine/lib/libvorbis/lib/scales.h; };
+      F00000000000000000000246 = /* sharedbook.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = sharedbook.c; path = ../../../../Engine/lib/libvorbis/lib/sharedbook.c; };
+      F00000000000000000000247 = /* smallft.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = smallft.c; path = ../../../../Engine/lib/libvorbis/lib/smallft.c; };
+      F00000000000000000000248 = /* smallft.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = smallft.h; path = ../../../../Engine/lib/libvorbis/lib/smallft.h; };
+      F00000000000000000000249 = /* synthesis.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = synthesis.c; path = ../../../../Engine/lib/libvorbis/lib/synthesis.c; };
+      F0000000000000000000024A = /* vorbisenc.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = vorbisenc.c; path = ../../../../Engine/lib/libvorbis/lib/vorbisenc.c; };
+      F0000000000000000000024B = /* vorbisfile.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = vorbisfile.c; path = ../../../../Engine/lib/libvorbis/lib/vorbisfile.c; };
+      F0000000000000000000024C = /* window.c */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = window.c; path = ../../../../Engine/lib/libvorbis/lib/window.c; };
+      F0000000000000000000024D = /* window.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = window.h; path = ../../../../Engine/lib/libvorbis/lib/window.h; };
+      F0000000000000000000024E = /* res_books_51.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = res_books_51.h; path = ../../../../Engine/lib/libvorbis/lib/books/coupled/res_books_51.h; };
+      F0000000000000000000024F = /* res_books_stereo.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = res_books_stereo.h; path = ../../../../Engine/lib/libvorbis/lib/books/coupled/res_books_stereo.h; };
+      F00000000000000000000250 = /* floor_books.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = floor_books.h; path = ../../../../Engine/lib/libvorbis/lib/books/floor/floor_books.h; };
+      F00000000000000000000251 = /* res_books_uncoupled.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = res_books_uncoupled.h; path = ../../../../Engine/lib/libvorbis/lib/books/uncoupled/res_books_uncoupled.h; };
+      F00000000000000000000252 = /* floor_all.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = floor_all.h; path = ../../../../Engine/lib/libvorbis/lib/modes/floor_all.h; };
+      F00000000000000000000253 = /* psych_11.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = psych_11.h; path = ../../../../Engine/lib/libvorbis/lib/modes/psych_11.h; };
+      F00000000000000000000254 = /* psych_16.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = psych_16.h; path = ../../../../Engine/lib/libvorbis/lib/modes/psych_16.h; };
+      F00000000000000000000255 = /* psych_44.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = psych_44.h; path = ../../../../Engine/lib/libvorbis/lib/modes/psych_44.h; };
+      F00000000000000000000256 = /* psych_8.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = psych_8.h; path = ../../../../Engine/lib/libvorbis/lib/modes/psych_8.h; };
+      F00000000000000000000257 = /* residue_16.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = residue_16.h; path = ../../../../Engine/lib/libvorbis/lib/modes/residue_16.h; };
+      F00000000000000000000258 = /* residue_44.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = residue_44.h; path = ../../../../Engine/lib/libvorbis/lib/modes/residue_44.h; };
+      F00000000000000000000259 = /* residue_44p51.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = residue_44p51.h; path = ../../../../Engine/lib/libvorbis/lib/modes/residue_44p51.h; };
+      F0000000000000000000025A = /* residue_44u.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = residue_44u.h; path = ../../../../Engine/lib/libvorbis/lib/modes/residue_44u.h; };
+      F0000000000000000000025B = /* residue_8.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = residue_8.h; path = ../../../../Engine/lib/libvorbis/lib/modes/residue_8.h; };
+      F0000000000000000000025C = /* setup_11.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = setup_11.h; path = ../../../../Engine/lib/libvorbis/lib/modes/setup_11.h; };
+      F0000000000000000000025D = /* setup_16.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = setup_16.h; path = ../../../../Engine/lib/libvorbis/lib/modes/setup_16.h; };
+      F0000000000000000000025E = /* setup_22.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = setup_22.h; path = ../../../../Engine/lib/libvorbis/lib/modes/setup_22.h; };
+      F0000000000000000000025F = /* setup_32.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = setup_32.h; path = ../../../../Engine/lib/libvorbis/lib/modes/setup_32.h; };
+      F00000000000000000000260 = /* setup_44.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = setup_44.h; path = ../../../../Engine/lib/libvorbis/lib/modes/setup_44.h; };
+      F00000000000000000000261 = /* setup_44p51.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = setup_44p51.h; path = ../../../../Engine/lib/libvorbis/lib/modes/setup_44p51.h; };
+      F00000000000000000000262 = /* setup_44u.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = setup_44u.h; path = ../../../../Engine/lib/libvorbis/lib/modes/setup_44u.h; };
+      F00000000000000000000263 = /* setup_8.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = setup_8.h; path = ../../../../Engine/lib/libvorbis/lib/modes/setup_8.h; };
+      F00000000000000000000264 = /* setup_X.h */ {isa = PBXFileReference; sourceTree = SOURCE_ROOT; name = setup_X.h; path = ../../../../Engine/lib/libvorbis/lib/modes/setup_X.h; };
+   /* End PBXFileReferences included by project generator */
+
+
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+	  D27393730CDABF9C006111D4 /* Frameworks */ = {
+		 isa = PBXFrameworksBuildPhase;
+		 buildActionMask = 2147483647;
+		 files = (
+		 );
+		 runOnlyForDeploymentPostprocessing = 0;
+	  };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+	  D268347C0C02C5750020EE4F = {
+		 isa = PBXGroup;
+		 children = (
+			A00000000000000000000000 /* Code */,
+			D26834AC0C02C77B0020EE4F /* Products */,
+		 );
+		 sourceTree = "<group>";
+	  };
+	  D26834AC0C02C77B0020EE4F /* Products */ = {
+		 isa = PBXGroup;
+		 children = (
+			F00000000000000000000020 /* liblibvorbis.a */,
+		 );
+		 name = Products;
+		 sourceTree = SOURCE_ROOT;
+	  };
+	  
+   /* Begin PBXGroups from project generator */
+		A00000000000000000000000 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+            A00000000000000000000003 /* lib -- paxorr/lib */,
+			);
+			name = Code;
+			sourceTree = "<group>"; /* paxorr */
+         };
+         
+		A00000000000000000000003 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+            A00000000000000000000022 /* include -- paxorr/lib/include */,
+            A00000000000000000000023 /* lib -- paxorr/lib/lib */,
+			);
+			name = lib;
+			sourceTree = "<group>"; /* paxorr/lib */
+         };
+         
+		A00000000000000000000022 /* include */ = {
+			isa = PBXGroup;
+			children = (
+            F00000000000000000000222 /* codec.h */,
+            F00000000000000000000223 /* vorbisenc.h */,
+            F00000000000000000000224 /* vorbisfile.h */,
+			);
+			name = include;
+			sourceTree = "<group>"; /* paxorr/lib/include */
+         };
+         
+		A00000000000000000000023 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+            F00000000000000000000225 /* analysis.c */,
+            F00000000000000000000226 /* backends.h */,
+            F00000000000000000000227 /* bitrate.c */,
+            F00000000000000000000228 /* bitrate.h */,
+            F00000000000000000000229 /* block.c */,
+            F0000000000000000000022A /* codebook.c */,
+            F0000000000000000000022B /* codebook.h */,
+            F0000000000000000000022C /* codec_internal.h */,
+            F0000000000000000000022D /* envelope.c */,
+            F0000000000000000000022E /* envelope.h */,
+            F0000000000000000000022F /* floor0.c */,
+            F00000000000000000000230 /* floor1.c */,
+            F00000000000000000000231 /* highlevel.h */,
+            F00000000000000000000232 /* info.c */,
+            F00000000000000000000233 /* lookup.c */,
+            F00000000000000000000234 /* lookup.h */,
+            F00000000000000000000235 /* lookup_data.h */,
+            F00000000000000000000236 /* lpc.c */,
+            F00000000000000000000237 /* lpc.h */,
+            F00000000000000000000238 /* lsp.c */,
+            F00000000000000000000239 /* lsp.h */,
+            F0000000000000000000023A /* mapping0.c */,
+            F0000000000000000000023B /* masking.h */,
+            F0000000000000000000023C /* mdct.c */,
+            F0000000000000000000023D /* mdct.h */,
+            F0000000000000000000023E /* misc.h */,
+            F0000000000000000000023F /* os.h */,
+            F00000000000000000000240 /* psy.c */,
+            F00000000000000000000241 /* psy.h */,
+            F00000000000000000000242 /* registry.c */,
+            F00000000000000000000243 /* registry.h */,
+            F00000000000000000000244 /* res0.c */,
+            F00000000000000000000245 /* scales.h */,
+            F00000000000000000000246 /* sharedbook.c */,
+            F00000000000000000000247 /* smallft.c */,
+            F00000000000000000000248 /* smallft.h */,
+            F00000000000000000000249 /* synthesis.c */,
+            F0000000000000000000024A /* vorbisenc.c */,
+            F0000000000000000000024B /* vorbisfile.c */,
+            F0000000000000000000024C /* window.c */,
+            F0000000000000000000024D /* window.h */,
+            A00000000000000000000024 /* books -- paxorr/lib/lib/books */,
+            A00000000000000000000025 /* modes -- paxorr/lib/lib/modes */,
+			);
+			name = lib;
+			sourceTree = "<group>"; /* paxorr/lib/lib */
+         };
+         
+		A00000000000000000000024 /* books */ = {
+			isa = PBXGroup;
+			children = (
+            A00000000000000000000026 /* coupled -- paxorr/lib/lib/books/coupled */,
+            A00000000000000000000027 /* floor -- paxorr/lib/lib/books/floor */,
+            A00000000000000000000028 /* uncoupled -- paxorr/lib/lib/books/uncoupled */,
+			);
+			name = books;
+			sourceTree = "<group>"; /* paxorr/lib/lib/books */
+         };
+         
+		A00000000000000000000026 /* coupled */ = {
+			isa = PBXGroup;
+			children = (
+            F0000000000000000000024E /* res_books_51.h */,
+            F0000000000000000000024F /* res_books_stereo.h */,
+			);
+			name = coupled;
+			sourceTree = "<group>"; /* paxorr/lib/lib/books/coupled */
+         };
+         
+		A00000000000000000000027 /* floor */ = {
+			isa = PBXGroup;
+			children = (
+            F00000000000000000000250 /* floor_books.h */,
+			);
+			name = floor;
+			sourceTree = "<group>"; /* paxorr/lib/lib/books/floor */
+         };
+         
+		A00000000000000000000028 /* uncoupled */ = {
+			isa = PBXGroup;
+			children = (
+            F00000000000000000000251 /* res_books_uncoupled.h */,
+			);
+			name = uncoupled;
+			sourceTree = "<group>"; /* paxorr/lib/lib/books/uncoupled */
+         };
+         
+		A00000000000000000000025 /* modes */ = {
+			isa = PBXGroup;
+			children = (
+            F00000000000000000000252 /* floor_all.h */,
+            F00000000000000000000253 /* psych_11.h */,
+            F00000000000000000000254 /* psych_16.h */,
+            F00000000000000000000255 /* psych_44.h */,
+            F00000000000000000000256 /* psych_8.h */,
+            F00000000000000000000257 /* residue_16.h */,
+            F00000000000000000000258 /* residue_44.h */,
+            F00000000000000000000259 /* residue_44p51.h */,
+            F0000000000000000000025A /* residue_44u.h */,
+            F0000000000000000000025B /* residue_8.h */,
+            F0000000000000000000025C /* setup_11.h */,
+            F0000000000000000000025D /* setup_16.h */,
+            F0000000000000000000025E /* setup_22.h */,
+            F0000000000000000000025F /* setup_32.h */,
+            F00000000000000000000260 /* setup_44.h */,
+            F00000000000000000000261 /* setup_44p51.h */,
+            F00000000000000000000262 /* setup_44u.h */,
+            F00000000000000000000263 /* setup_8.h */,
+            F00000000000000000000264 /* setup_X.h */,
+			);
+			name = modes;
+			sourceTree = "<group>"; /* paxorr/lib/lib/modes */
+         };
+         
+   /* End PBXGroups from project generator */
+   
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+	  D00000000000000000000021 /* libvorbis */ = {
+		 isa = PBXNativeTarget;
+		 buildConfigurationList = D27393740CDABF9C006111D4 /* Build configuration list for PBXNativeTarget "libvorbis" */;
+		 buildPhases = (
+			D27393300CDABF9C006111D4 /* Sources */,
+		 );
+		 buildRules = (
+		 );
+		 dependencies = (
+		 );
+		 name = libvorbis;
+		 productName = liblibvorbis;
+		 productReference = F00000000000000000000020 /* liblibvorbis.a */;
+		 productType = "com.apple.product-type.library.static";
+	  };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+	  D268347E0C02C5750020EE4F /* Project object */ = {
+		 isa = PBXProject;
+		 buildConfigurationList = D268347F0C02C5750020EE4F /* Build configuration list for PBXProject "libvorbis" */;
+		 compatibilityVersion = "Xcode 3.2";
+		 hasScannedForEncodings = 0;
+		 mainGroup = D268347C0C02C5750020EE4F;
+		 productRefGroup = D26834AC0C02C77B0020EE4F /* Products */;
+		 projectDirPath = "";
+		 projectRoot = ../../../..;
+		 targets = (
+			D00000000000000000000021 /* libvorbis */,
+		 );
+	  };
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D27393300CDABF9C006111D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+      B00000000000000000000222 /* codec.h in include */,
+      B00000000000000000000223 /* vorbisenc.h in include */,
+      B00000000000000000000224 /* vorbisfile.h in include */,
+      B00000000000000000000225 /* analysis.c in lib */,
+      B00000000000000000000226 /* backends.h in lib */,
+      B00000000000000000000227 /* bitrate.c in lib */,
+      B00000000000000000000228 /* bitrate.h in lib */,
+      B00000000000000000000229 /* block.c in lib */,
+      B0000000000000000000022A /* codebook.c in lib */,
+      B0000000000000000000022B /* codebook.h in lib */,
+      B0000000000000000000022C /* codec_internal.h in lib */,
+      B0000000000000000000022D /* envelope.c in lib */,
+      B0000000000000000000022E /* envelope.h in lib */,
+      B0000000000000000000022F /* floor0.c in lib */,
+      B00000000000000000000230 /* floor1.c in lib */,
+      B00000000000000000000231 /* highlevel.h in lib */,
+      B00000000000000000000232 /* info.c in lib */,
+      B00000000000000000000233 /* lookup.c in lib */,
+      B00000000000000000000234 /* lookup.h in lib */,
+      B00000000000000000000235 /* lookup_data.h in lib */,
+      B00000000000000000000236 /* lpc.c in lib */,
+      B00000000000000000000237 /* lpc.h in lib */,
+      B00000000000000000000238 /* lsp.c in lib */,
+      B00000000000000000000239 /* lsp.h in lib */,
+      B0000000000000000000023A /* mapping0.c in lib */,
+      B0000000000000000000023B /* masking.h in lib */,
+      B0000000000000000000023C /* mdct.c in lib */,
+      B0000000000000000000023D /* mdct.h in lib */,
+      B0000000000000000000023E /* misc.h in lib */,
+      B0000000000000000000023F /* os.h in lib */,
+      B00000000000000000000240 /* psy.c in lib */,
+      B00000000000000000000241 /* psy.h in lib */,
+      B00000000000000000000242 /* registry.c in lib */,
+      B00000000000000000000243 /* registry.h in lib */,
+      B00000000000000000000244 /* res0.c in lib */,
+      B00000000000000000000245 /* scales.h in lib */,
+      B00000000000000000000246 /* sharedbook.c in lib */,
+      B00000000000000000000247 /* smallft.c in lib */,
+      B00000000000000000000248 /* smallft.h in lib */,
+      B00000000000000000000249 /* synthesis.c in lib */,
+      B0000000000000000000024A /* vorbisenc.c in lib */,
+      B0000000000000000000024B /* vorbisfile.c in lib */,
+      B0000000000000000000024C /* window.c in lib */,
+      B0000000000000000000024D /* window.h in lib */,
+      B0000000000000000000024E /* res_books_51.h in coupled */,
+      B0000000000000000000024F /* res_books_stereo.h in coupled */,
+      B00000000000000000000250 /* floor_books.h in floor */,
+      B00000000000000000000251 /* res_books_uncoupled.h in uncoupled */,
+      B00000000000000000000252 /* floor_all.h in modes */,
+      B00000000000000000000253 /* psych_11.h in modes */,
+      B00000000000000000000254 /* psych_16.h in modes */,
+      B00000000000000000000255 /* psych_44.h in modes */,
+      B00000000000000000000256 /* psych_8.h in modes */,
+      B00000000000000000000257 /* residue_16.h in modes */,
+      B00000000000000000000258 /* residue_44.h in modes */,
+      B00000000000000000000259 /* residue_44p51.h in modes */,
+      B0000000000000000000025A /* residue_44u.h in modes */,
+      B0000000000000000000025B /* residue_8.h in modes */,
+      B0000000000000000000025C /* setup_11.h in modes */,
+      B0000000000000000000025D /* setup_16.h in modes */,
+      B0000000000000000000025E /* setup_22.h in modes */,
+      B0000000000000000000025F /* setup_32.h in modes */,
+      B00000000000000000000260 /* setup_44.h in modes */,
+      B00000000000000000000261 /* setup_44p51.h in modes */,
+      B00000000000000000000262 /* setup_44u.h in modes */,
+      B00000000000000000000263 /* setup_8.h in modes */,
+      B00000000000000000000264 /* setup_X.h in modes */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D26834800C02C5750020EE4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CONFIGURATION_BUILD_DIR = "$(TORQUE_BUILT_LIBS_DIR)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				OTHER_LDFLAGS_i386 = "-framework Accelerate";
+				OTHER_LDFLAGS_ppc = "-framework vecLib";
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+            GCC_VERSION = 4.2;
+				TORQUE_BUILT_LIBS_DIR = ../../../../engine/lib/builtLibs/;
+			};
+			name = Debug;
+		};
+		D26834810C02C5750020EE4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CONFIGURATION_BUILD_DIR = ../../assets/;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				OTHER_LDFLAGS_i386 = "-framework Accelerate";
+				OTHER_LDFLAGS_ppc = "-framework vecLib";
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+            GCC_VERSION = 4.2;
+				TORQUE_BUILT_LIBS_DIR = ../../../../engine/lib/builtLibs/;
+			};
+			name = Release;
+		};
+		D27393750CDABF9C006111D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+			   __MACOSX__,
+			);
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+				"../../../../Engine/lib/libvorbis/lib",
+				"../../../../Engine/lib/libvorbis/include",
+				"../../../../Engine/lib/libogg/include",
+				);
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = libvorbis;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		D27393760CDABF9C006111D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = "$(TORQUE_BUILT_LIBS_DIR)";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+			   __MACOSX__,
+				);
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+				"../../../../Engine/lib/libvorbis/lib",
+				"../../../../Engine/lib/libvorbis/include",
+				"../../../../Engine/lib/libogg/include",
+				);
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = libvorbis;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D268347F0C02C5750020EE4F /* Build configuration list for PBXProject "LibTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D26834800C02C5750020EE4F /* Debug */,
+				D26834810C02C5750020EE4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D27393740CDABF9C006111D4 /* Build configuration list for PBXNativeTarget "libvorbis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27393750CDABF9C006111D4 /* Debug */,
+				D27393760CDABF9C006111D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D268347E0C02C5750020EE4F /* Project object */;
+}
