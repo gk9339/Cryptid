@@ -9,7 +9,7 @@ datablock StaticShapeData (cellarDoor)
 datablock TriggerData(cellarDoorTrigger)
 {
    tickPeriodMS = 1000;
-   echo ("triggerData");
+   //echo ("triggerData");
 };
 
 function addCellarDoor()

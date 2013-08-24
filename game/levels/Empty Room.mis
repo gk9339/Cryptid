@@ -110,7 +110,7 @@ new SimGroup(MissionGroup) {
             canSaveDynamicFields = "1";
          };
          new TSStatic(MainHouse) {
-            shapeName = "art/shapes/Cryptid/ExteriorDUMMY House exterior.dae";
+            shapeName = "art/shapes/Cryptid/ExteriorDUMMYHouseexterior.dae";
             playAmbient = "1";
             meshCulling = "0";
             originSort = "0";
