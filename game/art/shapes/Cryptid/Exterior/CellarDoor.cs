@@ -40,12 +40,12 @@ function closeDoor(%id)
 {
    %id.playThread(0, "ambient");
 }
-function doorTrigger::onEnterTrigger(%trigger, %this, %obj)
+function cellarDoorTrigger::onEnterTrigger(%trigger, %this, %obj)
 {
    echo ("triggered");
    openDoor(%this.doorID);
 }
-function doorTrigger::onLeaveTrigger(%trigger, %this, %obj)
+function cellarDoorTrigger::onLeaveTrigger(%trigger, %this, %obj)
 {
    closeDoor(%this.doorID);
 }
