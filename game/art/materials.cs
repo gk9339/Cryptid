@@ -6,3 +6,9 @@ singleton Material(Material_mat)
    alphaTest = "1";
    alphaRef = "73";
 };
+
+singleton Material(FLOOR)
+{
+   mapTo = "unmapped_mat";
+   diffuseMap[0] = "art/shapes/Cryptid/Cellar/ConcreteFloors0048_7_S.jpg";
+};
