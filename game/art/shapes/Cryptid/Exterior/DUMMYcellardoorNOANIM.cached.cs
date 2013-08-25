@@ -1,15 +1,26 @@
 //-----------------------------------------------------------------------------
 // Copyright (c) 2013 TGL
-//-----------------------------------------------------------------------------
+//----------------------------------------------------------------------------
+singleton TSShapeConstructor(DUMMYcellardoorNOANIM_cachedDts)
+{
+   baseShape = "./DUMMYcellardoorNOANIM.cached.dts";
+};
+
+function DUMMYcellardoorNOANIM_cachedDts::onLoad(%this)
+{
+   %this.addSequence("./DUMMYcellardoor.dae", "Open", "0", "-1", "1", "0");
+   %this.collisionType = visibleMesh;
+}
+
 datablock StaticShapeData (cellarDoor)
 {
    shapeFile = "./DUMMYcellardoorNOANIM.cached.dts";
+   Unopened = true;
 };
 
 datablock TriggerData(cellarDoorTrigger)
 {
    tickPeriodMS = 1000;
-   //echo ("triggerData");
 };
 
 function addCellarDoor()
@@ -20,12 +31,13 @@ function addCellarDoor()
       scale = "1 1 1";
       rotation = "0 0 1 -90";
       dataBlock = cellarDoor;
+      
    };
    %Obj = new Trigger()
    {
-      position = "10.4507 43.9171 8.65399";
-      scale = "2 2 2";
-      rotation = "0 0 0 0";
+      position = "8.85762 47.0466 7.31838";
+      scale = "2.48964 3.17406 2";
+      rotation = "1 0 0 0";
       dataBlock = cellarDoorTrigger;
       polyhedron = "0.0000000 0.0000000 0.0000000 2.0000000 0.0000000 0.0000000 0.0000000 -2.0000000 0.0000000 0.0000000 0.0000000 2.0000000";
       doorID = %doorObj;
@@ -34,18 +46,25 @@ function addCellarDoor()
 
 function openDoor(%id)
 {
-   %id.playThread(0, "open");
+   echo ("openDoor activated");
+   if (cellarDoor.Unopened == true)
+   {
+      echo ("if statement activated");
+      %id.playThread(0, "open");
+      cellarDoor.Unopened = false;
+   }
 }
 function closeDoor(%id)
 {
-   %id.playThread(0, "ambient");
+   //%id.playThread(0, "ambient");
 }
 function cellarDoorTrigger::onEnterTrigger(%trigger, %this, %obj)
 {
-   echo ("triggered");
    openDoor(%this.doorID);
+   echo ("Endtered trigger");
 }
 function cellarDoorTrigger::onLeaveTrigger(%trigger, %this, %obj)
 {
    closeDoor(%this.doorID);
+   echo ("left trigger");
 }

@@ -154,6 +154,22 @@ new SimGroup(MissionGroup) {
             canSave = "1";
             canSaveDynamicFields = "1";
          };
+         new TSStatic() {
+            shapeName = "art/shapes/Cryptid/Exterior/DUMMYHouseexterior.dae";
+            playAmbient = "1";
+            meshCulling = "0";
+            originSort = "0";
+            collisionType = "Visible Mesh";
+            decalType = "Visible Mesh";
+            allowPlayerStep = "1";
+            renderNormals = "0";
+            forceDetail = "-1";
+            position = "-5.45323 40.9324 6.86819";
+            rotation = "1 0 0 0";
+            scale = "0.890541 1 0.827148";
+            canSave = "1";
+            canSaveDynamicFields = "1";
+         };
       };
       new TerrainBlock(Terrain) {
          terrainFile = "art/terrains/Empty Room2.ter";
@@ -467,22 +483,6 @@ new SimGroup(MissionGroup) {
       includeLightmappedGeometryInShadow = "0";
       position = "-7.80054 32.593 14.8422";
       rotation = "1 0 0 0";
-      canSave = "1";
-      canSaveDynamicFields = "1";
-   };
-   new TSStatic() {
-      shapeName = "art/shapes/Cryptid/Exterior/DUMMYHouseexterior.dae";
-      playAmbient = "1";
-      meshCulling = "0";
-      originSort = "0";
-      collisionType = "Visible Mesh";
-      decalType = "Visible Mesh";
-      allowPlayerStep = "1";
-      renderNormals = "0";
-      forceDetail = "-1";
-      position = "-5.45323 40.9324 6.86819";
-      rotation = "1 0 0 0";
-      scale = "0.890541 1 0.827148";
       canSave = "1";
       canSaveDynamicFields = "1";
    };
