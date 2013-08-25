@@ -43,7 +43,10 @@ function addCellarDoor()
       doorID = %doorObj;
    };
 }
-
+function cellarDoor::onMouseClick()
+{
+   echo ("Mouse Clicked");
+}
 function openDoor(%id)
 {
    echo ("openDoor activated");

@@ -70,22 +70,6 @@ new SimGroup(MissionGroup) {
             canSave = "1";
             canSaveDynamicFields = "1";
 
-            new TSStatic(CellarInterior) {
-               shapeName = "art/shapes/Cryptid/Cellar/CellarInteriors.dae";
-               playAmbient = "1";
-               meshCulling = "0";
-               originSort = "0";
-               collisionType = "Visible Mesh";
-               decalType = "Visible Mesh";
-               allowPlayerStep = "1";
-               renderNormals = "0";
-               forceDetail = "-1";
-               position = "13.777 62.4879 -14.6428";
-               rotation = "0 0 1 90";
-               scale = "0.379599 0.379599 0.379599";
-               canSave = "1";
-               canSaveDynamicFields = "1";
-            };
             new SimGroup(lights) {
                canSave = "1";
                canSaveDynamicFields = "1";
@@ -114,7 +98,7 @@ new SimGroup(MissionGroup) {
                   representedInLightmap = "0";
                   shadowDarkenColor = "0 0 0 -1";
                   includeLightmappedGeometryInShadow = "0";
-                  position = "10.5226 53.448 -9.29892";
+                  position = "-5.78922 44.3144 -15.1396";
                   rotation = "1 0 0 0";
                   canSave = "1";
                   canSaveDynamicFields = "1";
@@ -178,6 +162,22 @@ new SimGroup(MissionGroup) {
                   canSaveDynamicFields = "1";
                };
             };
+         };
+         new TSStatic() {
+            shapeName = "art/shapes/Cryptid/Exterior/DUMMYHouseexterior.dae";
+            playAmbient = "1";
+            meshCulling = "0";
+            originSort = "0";
+            collisionType = "Visible Mesh";
+            decalType = "Visible Mesh";
+            allowPlayerStep = "1";
+            renderNormals = "0";
+            forceDetail = "-1";
+            position = "-5.45323 40.9324 6.86819";
+            rotation = "1 0 0 0";
+            scale = "0.890541 1 0.827148";
+            canSave = "1";
+            canSaveDynamicFields = "1";
          };
          new PointLight(RightDoorLight1) {
             radius = "193.437";
@@ -310,22 +310,6 @@ new SimGroup(MissionGroup) {
             includeLightmappedGeometryInShadow = "0";
             position = "-3.1153 32.7529 14.8884";
             rotation = "1 0 0 0";
-            canSave = "1";
-            canSaveDynamicFields = "1";
-         };
-         new TSStatic() {
-            shapeName = "art/shapes/Cryptid/Exterior/DUMMYHouseexterior.dae";
-            playAmbient = "1";
-            meshCulling = "0";
-            originSort = "0";
-            collisionType = "Visible Mesh";
-            decalType = "Visible Mesh";
-            allowPlayerStep = "1";
-            renderNormals = "0";
-            forceDetail = "-1";
-            position = "-5.45323 40.9324 6.86819";
-            rotation = "1 0 0 0";
-            scale = "0.890541 1 0.827148";
             canSave = "1";
             canSaveDynamicFields = "1";
          };
@@ -870,6 +854,22 @@ new SimGroup(MissionGroup) {
       position = "-4.69662 13.5136 25.6991";
       rotation = "1 0 0 0";
       scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new TSStatic() {
+      shapeName = "art/shapes/Cryptid/Cellar/CellarInterior.dae";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      collisionType = "Visible Mesh";
+      decalType = "Visible Mesh";
+      allowPlayerStep = "1";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "-8.08223 46.9517 -18.9731";
+      rotation = "1 0 0 0";
+      scale = "0.292001 0.292001 0.292001";
       canSave = "1";
       canSaveDynamicFields = "1";
    };
