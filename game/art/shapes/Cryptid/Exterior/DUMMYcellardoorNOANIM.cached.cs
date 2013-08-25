@@ -1,6 +1,7 @@
 //-----------------------------------------------------------------------------
 // Copyright (c) 2013 TGL
 //----------------------------------------------------------------------------
+ echo ("Cellar Entrance Door");
 singleton TSShapeConstructor(DUMMYcellardoorNOANIM_cachedDts)
 {
    baseShape = "./DUMMYcellardoorNOANIM.cached.dts";
@@ -9,7 +10,6 @@ singleton TSShapeConstructor(DUMMYcellardoorNOANIM_cachedDts)
 function DUMMYcellardoorNOANIM_cachedDts::onLoad(%this)
 {
    %this.addSequence("./DUMMYcellardoor.dae", "Open", "0", "-1", "1", "0");
-   %this.collisionType = visibleMesh;
 }
 
 datablock StaticShapeData (cellarDoor)
@@ -49,7 +49,7 @@ function openDoor(%id)
    echo ("openDoor activated");
    if (cellarDoor.Unopened == true)
    {
-      echo ("if statement activated");
+      echo ("animation activated");
       %id.playThread(0, "open");
       cellarDoor.Unopened = false;
    }
@@ -61,7 +61,7 @@ function closeDoor(%id)
 function cellarDoorTrigger::onEnterTrigger(%trigger, %this, %obj)
 {
    openDoor(%this.doorID);
-   echo ("Endtered trigger");
+   echo ("Entered trigger");
 }
 function cellarDoorTrigger::onLeaveTrigger(%trigger, %this, %obj)
 {

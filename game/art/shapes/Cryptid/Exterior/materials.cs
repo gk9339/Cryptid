@@ -7,6 +7,7 @@ singleton Material(DUMMYHouseexterior_Material_material)
    specularPower[0] = "50";
    doubleSided = "1";
    translucentBlendOp = "None";
+   diffuseMap[0] = "art/shapes/Cryptid/Cellar/BrickOldRounded0134_2_S.jpg";
 };
 
 singleton Material(dummyfrontdoor_Material_006_material)
