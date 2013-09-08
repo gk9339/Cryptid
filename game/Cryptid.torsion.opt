@@ -6,7 +6,8 @@
 <Breakpoints/>
 <Bookmarks/>
 <OpenFiles>
-<File ScrollX="0" ScrollY="15" Active="true">art\shapes\Cryptid\Cellar\CellarInterior.cs</File>
-<File ScrollX="0" ScrollY="0">art\Doors\doors.cs</File>
+<File ScrollX="0" ScrollY="52">scripts\server\init.cs</File>
+<File ScrollX="0" ScrollY="41">scripts\server\game.cs</File>
+<File ScrollX="0" ScrollY="0" Active="true">scripts\server\scriptExec.cs</File>
 </OpenFiles>
 </TorsionProjectOptions>
