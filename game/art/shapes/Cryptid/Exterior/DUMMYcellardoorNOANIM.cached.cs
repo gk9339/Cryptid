@@ -16,6 +16,7 @@ datablock StaticShapeData (cellarDoor)
 {
    shapeFile = "./DUMMYcellardoorNOANIM.cached.dts";
    Unopened = true;
+   
 };
 
 datablock TriggerData(cellarDoorTrigger)
@@ -31,7 +32,6 @@ function addCellarDoor()
       scale = "1 1 1";
       rotation = "0 0 1 -90";
       dataBlock = cellarDoor;
-      
    };
    %Obj = new Trigger()
    {
@@ -59,7 +59,7 @@ function openDoor(%id)
 }
 function closeDoor(%id)
 {
-   //%id.playThread(0, "ambient");
+   %id.playThread(0, "ambient");
 }
 function cellarDoorTrigger::onEnterTrigger(%trigger, %this, %obj)
 {
