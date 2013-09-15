@@ -24,6 +24,8 @@ datablock TriggerData(cellarDoorTrigger)
    tickPeriodMS = 1000;
 };
 
+moveMap.bind(keyboard, e, openDoor); 
+
 function addCellarDoor()
 {
    %doorObj = new StaticShape()
@@ -42,10 +44,6 @@ function addCellarDoor()
       polyhedron = "0.0000000 0.0000000 0.0000000 2.0000000 0.0000000 0.0000000 0.0000000 -2.0000000 0.0000000 0.0000000 0.0000000 2.0000000";
       doorID = %doorObj;
    };
-}
-function cellarDoor::onMouseClick()
-{
-   echo ("Mouse Clicked");
 }
 function openDoor(%id)
 {
