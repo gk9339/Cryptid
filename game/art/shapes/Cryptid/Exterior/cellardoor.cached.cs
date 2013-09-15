@@ -1,7 +1,9 @@
 //-----------------------------------------------------------------------------
 // Copyright (c) 2013 TGL
 //----------------------------------------------------------------------------
- echo ("Cellar Entrance Door");
+echo ("Cellar Entrance Door");
+moveMap.bind(mouse0, "button0", openDoor);
+
 singleton TSShapeConstructor(DUMMYcellardoorNOANIM_cachedDts)
 {
    baseShape = "./DUMMYcellardoorNOANIM.cached.dts";
@@ -23,8 +25,6 @@ datablock TriggerData(cellarDoorTrigger)
 {
    tickPeriodMS = 1000;
 };
-
-moveMap.bind(mouse0, "button0", openDoor);
 
 function addCellarDoor()
 {
