@@ -39,4 +39,3 @@ exec("./turret.cs");
 exec("./gameCore.cs"); // This is the 'core' of the gametype functionality.
 exec("./gameDM.cs"); // Overrides GameCore with DeathMatch functionality.
 
-exec("art/Doors/doors.cs"); //This execs the door init script to add scripted items
