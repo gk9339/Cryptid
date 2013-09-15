@@ -47,7 +47,7 @@ moveMap.bindCmd(keyboard, "n", "toggleNetGraph();", "");
 moveMap.bindCmd(keyboard, "ctrl z", "carjack();", "");
 moveMap.bind(mouse0, "xaxis", yaw);
 moveMap.bind(mouse0, "yaxis", pitch);
-moveMap.bind(mouse0, "button0", mouseFire);
+//moveMap.bind(mouse0, "button0", mouseFire);*****************************************************************
 moveMap.bind(mouse0, "button1", mouseButtonZoom);
 moveMap.bind(mouse0, "zaxis", mouseWheelWeaponCycle);
 moveMap.bind(gamepad0, "thumbrx", D, "-0.23 0.23", gamepadYaw);

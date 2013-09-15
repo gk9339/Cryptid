@@ -24,7 +24,7 @@ datablock TriggerData(cellarDoorTrigger)
    tickPeriodMS = 1000;
 };
 
-moveMap.bind(keyboard, e, openDoor); 
+moveMap.bind(mouse0, "button0", openDoor);
 
 function addCellarDoor()
 {
