@@ -654,10 +654,43 @@ new SimGroup(MissionGroup) {
                   canSaveDynamicFields = "1";
                };
             };
+            new TSStatic(SmallBarrels) {
+               shapeName = "art/shapes/Cryptid/Cellar/SmallBarrels.dae";
+               playAmbient = "1";
+               meshCulling = "0";
+               originSort = "0";
+               collisionType = "Visible Mesh";
+               decalType = "None";
+               allowPlayerStep = "1";
+               renderNormals = "0";
+               forceDetail = "-1";
+               position = "-28.2532 41.4806 -20.3466";
+               rotation = "1 0 0 0";
+               scale = "1 1 1";
+               canSave = "1";
+               canSaveDynamicFields = "1";
+            };
          };
          new SimGroup(CellarNest) {
             canSave = "1";
             canSaveDynamicFields = "1";
+
+            new TSStatic(CellarNestInterior) {
+               shapeName = "art/shapes/Cryptid/CellarNest/CellarNestInteriors.dae";
+               playAmbient = "1";
+               meshCulling = "0";
+               originSort = "0";
+               collisionType = "Visible Mesh";
+               decalType = "Collision Mesh";
+               allowPlayerStep = "1";
+               renderNormals = "0";
+               forceDetail = "-1";
+               position = "1.1613 81.2736 -18.418";
+               rotation = "0 0 1 90";
+               scale = "0.77213 0.77213 0.77213";
+               canSave = "1";
+               canSaveDynamicFields = "1";
+            };
          };
          new SimGroup(Vents) {
             canSave = "1";
@@ -1128,22 +1161,6 @@ new SimGroup(MissionGroup) {
          canSaveDynamicFields = "1";
       };
    };
-   new TSStatic() {
-      shapeName = "art/shapes/Cryptid/CellarNest/CellarNestInteriors.dae";
-      playAmbient = "1";
-      meshCulling = "0";
-      originSort = "0";
-      collisionType = "Visible Mesh";
-      decalType = "Collision Mesh";
-      allowPlayerStep = "1";
-      renderNormals = "0";
-      forceDetail = "-1";
-      position = "1.1613 81.2736 -18.418";
-      rotation = "0 0 1 90";
-      scale = "0.77213 0.77213 0.77213";
-      canSave = "1";
-      canSaveDynamicFields = "1";
-   };
    new PointLight() {
       radius = "2.40942";
       isEnabled = "1";
@@ -1170,6 +1187,22 @@ new SimGroup(MissionGroup) {
       includeLightmappedGeometryInShadow = "0";
       position = "8.75476 76.1803 -15.4239";
       rotation = "1 0 0 0";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new TSStatic() {
+      shapeName = "art/shapes/Cryptid/Exterior/CarAndGate.dae";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      collisionType = "Bounds";
+      decalType = "Collision Mesh";
+      allowPlayerStep = "1";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "-3.49286 -72.5188 7.34199";
+      rotation = "0 0 1 180";
+      scale = "1.37321 1.37321 1.37321";
       canSave = "1";
       canSaveDynamicFields = "1";
    };
