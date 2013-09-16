@@ -47,25 +47,21 @@ function addCellarDoor()
 }
 function openDoor(%id)
 {
-   echo ("openDoor activated");
    if (cellarDoor.Unopened == true)
    {
-      echo ("animation activated");
       %id.playThread(0, "open");
       cellarDoor.Unopened = false;
    }
 }
 function closeDoor(%id)
 {
-   %id.playThread(0, "ambient");
+   //%id.playThread(0, "ambient");
 }
 function cellarDoorTrigger::onEnterTrigger(%trigger, %this, %obj)
 {
    openDoor(%this.doorID);
-   echo ("Entered trigger");
 }
 function cellarDoorTrigger::onLeaveTrigger(%trigger, %this, %obj)
 {
    closeDoor(%this.doorID);
-   echo ("left trigger");
 }
