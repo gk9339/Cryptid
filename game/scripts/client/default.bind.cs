@@ -1,23 +1,5 @@
 //-----------------------------------------------------------------------------
-// Copyright (c) 2012 GarageGames, LLC
-//
-// Permission is hereby granted, free of charge, to any person obtaining a copy
-// of this software and associated documentation files (the "Software"), to
-// deal in the Software without restriction, including without limitation the
-// rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
-// sell copies of the Software, and to permit persons to whom the Software is
-// furnished to do so, subject to the following conditions:
-//
-// The above copyright notice and this permission notice shall be included in
-// all copies or substantial portions of the Software.
-//
-// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-// FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
-// IN THE SOFTWARE.
+// Copyright (c) 2013 TGL
 //-----------------------------------------------------------------------------
 
 if ( isObject( moveMap ) )
@@ -302,24 +284,24 @@ function doSprint(%val)
 moveMap.bind(keyboard, lshift, doSprint);
 
 //------------------------------------------------------------------------------
-// Mouse Trigger
+// Mouse Trigger - DISABLED
 //------------------------------------------------------------------------------
 
-function mouseFire(%val)
-{
-   $mvTriggerCount0++;
-}
+//function mouseFire(%val)
+//{
+//   $mvTriggerCount0++;
+//}
 
 //function altTrigger(%val)
 //{
    //$mvTriggerCount1++;
 //}
 
-moveMap.bind( mouse, button0, mouseFire );
+//moveMap.bind( mouse, button0, mouseFire );
 //moveMap.bind( mouse, button1, altTrigger );
 
 //------------------------------------------------------------------------------
-// Gamepad Trigger
+// Gamepad Trigger - DISABLED
 //------------------------------------------------------------------------------
 
 function gamepadFire(%val)
@@ -350,8 +332,8 @@ function gamepadAltTrigger(%val)
    }
 }
 
-moveMap.bind(gamepad, triggerr, gamepadFire);
-moveMap.bind(gamepad, triggerl, gamepadAltTrigger);
+//moveMap.bind(gamepad, triggerr, gamepadFire);
+//moveMap.bind(gamepad, triggerl, gamepadAltTrigger);
 
 //------------------------------------------------------------------------------
 // Zoom and FOV functions
@@ -734,3 +716,8 @@ vehicleMap.bindCmd(keyboard, "escape", "", "handleEscape();");
 vehicleMap.bind( keyboard, v, toggleFreeLook ); // v for vanity
 //vehicleMap.bind(keyboard, tab, toggleFirstPerson );
 vehicleMap.bind(keyboard, "alt c", toggleCamera);
+
+// ----------------------------------------------------------------------------
+// Cryptid
+// ----------------------------------------------------------------------------
+moveMap.bind(mouse0, "button0", openDoor);
