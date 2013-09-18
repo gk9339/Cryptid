@@ -2,7 +2,7 @@ function LoadDoors()
 {
    echo ("Loading doors:");
    exec ("art/shapes/Cryptid/Exterior/cellardoor.cached.cs"); addCellarDoor();
-   //exec ("art/shapes/Cryptis/Cellar/CellarInterior.cs"); addCellarInterior();
+   exec ("art/shapes/Cryptid/Cellar/CellarInterior.cs"); addCellarInterior();
    echo ("All doors Loaded");
 }
 LoadDoors();
