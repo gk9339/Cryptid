@@ -1,7 +1,7 @@
 //-----------------------------------------------------------------------------
 // Copyright (c) 2013 TGL
 //----------------------------------------------------------------------------
-import"../../../datablocks/cellardoor.cs";
+import"../../../datablocks/cryptid/cellardoor.cs";
 echo ("Cellar Entrance Door");
 
 //This is a method called by t3d which makes baseShape for the cellardoor
