@@ -45,4 +45,5 @@ exec("./aiPlayer.cs");
 // Load the vehicle datablocks
 exec("./vehicles/cheetahCar.cs");
 
-exec("./cellardoor.cs");
+exec("./cryptid/cellardoor.cs");
+exec("./cryptid/CellarInterior.cs");
