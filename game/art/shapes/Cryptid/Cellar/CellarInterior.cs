@@ -1,3 +1,6 @@
+//-----------------------------------------------------------------------------
+// Copyright (c) 2013 TGL
+//-----------------------------------------------------------------------------
 
 singleton TSShapeConstructor(CellarInteriorDae)
 {
@@ -12,6 +15,7 @@ function CellarInteriorDae::onLoad(%this)
    %this.setSequenceCyclic("ambient", "0");
    %this.removeSequence("__backup__ambient_1");
 }
+
 datablock StaticShapeData (cellarInterior)
 {
    shapeFile = "./CellarInterior.dae";
@@ -43,6 +47,7 @@ function addCellarInterior()
       doorID = %doorObj;
    };
 }
+
 function openDoor(%id)
 {
    echo ("Stair Fall activated");
@@ -53,6 +58,7 @@ function openDoor(%id)
       cellarDoor.Unopened = false;
    }
 }
+
 function closeDoor(%id)
 {
    //%id.playThread(0, "ambient");
@@ -62,6 +68,7 @@ function cellarStairsTrigger::onEnterTrigger(%trigger, %this, %obj)
    openDoor(%this.doorID);
    echo ("Entered trigger");
 }
+
 function cellarStairsTrigger::onLeaveTrigger(%trigger, %this, %obj)
 {
    closeDoor(%this.doorID);
