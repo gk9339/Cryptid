@@ -1,3 +1,7 @@
+//-----------------------------------------------------------------------------
+// Copyright (c) 2013 TGL
+//-----------------------------------------------------------------------------
+
 //--- OBJECT WRITE BEGIN ---
 %guiContent = new GuiChunkedBitmapCtrl(EndGameGui) {
    profile = "GuiContentProfile";
